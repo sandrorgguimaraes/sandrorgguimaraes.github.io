@@ -1,0 +1,13 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {},
+  "name": "sandrorgguimaraes.github.io",
+  "version": "0.1.0"
+}

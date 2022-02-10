@@ -1,0 +1,11 @@
+<aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+    {{ partial "toc.html" . }}
+    {{ partial "taxonomy_terms_clouds.html" . }}
+    {{ $gh_repo := ($.Param "github_repo") -}}
+    {{ if $gh_repo -}}
+        <div class="taxonomy taxonomy-terms-cloud">
+            <h5 class="taxonomy-title">Colabore</h5>
+        </div> 
+    {{ end -}}
+    {{ partial "page-meta-links.html" . }}
+</aside>

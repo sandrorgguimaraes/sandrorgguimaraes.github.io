@@ -1,0 +1,10 @@
+{{ if not .Params.notoc }}
+{{ with .TableOfContents }}
+{{ if ge (len .) 200 }}
+<div class="taxonomy taxonomy-terms-cloud">
+    <h5 class="taxonomy-title">Tabela de Conteudo</h5>
+</div> 
+<div class="td-toc">{{ . }}</div>
+{{ end }}
+{{ end }}
+{{ end }}

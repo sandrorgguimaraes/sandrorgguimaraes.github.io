@@ -6,8 +6,24 @@ defaultContentLanguageInSubdir = false
 title = 'Diário de Bordo'
 theme = "docsy"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+autor = "autores"
+
+[params.taxonomy]
+# set taxonomyCloud = [] to hide taxonomy clouds
+taxonomyCloud = ["tags", "categories", "autores"] 
+# If used, must have same lang as taxonomyCloud
+taxonomyCloudTitle = ["Tags", "Categorias", "Autores"] 
+# set taxonomyPageHeader = [] to hide taxonomies on the page headers
+taxonomyPageHeader = ["tags", "categories", "autores"] 
+
+[permalinks]
+blog = "/:section/:year/:month/:day/:slug/"
+
 [params]
-time_format_default = "2 de January de 2006"
+time_format_default = "2 de Jan de 2006"
 time_format_blog = "2 de Jan de 2006"
 copyright = "Sandro Rogério Galvão Guimarães"
 #privacy_policy = "https://policies.google.com/privacy"
@@ -17,8 +33,10 @@ copyright = "Sandro Rogério Galvão Guimarães"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
-# Google Custom Search Engine ID. Remove or comment out to disable search.
-#gcs_engine_id = "d72aa9b2712488cc3"
+# <script async src="https://cse.google.com/cse.js?cx=00d233acb080f4e82">
+# </script>
+# <div class="gcse-search"></div>
+gcs_engine_id = "00d233acb080f4e82"
 # Enable Algolia DocSearch
 algolia_docsearch = false
 # Enable Lunr.js offline search
@@ -27,7 +45,17 @@ offlineSearch = false
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+# id = "UA-00000000-0"
+
+[params.ui]
+# Enable to show the side bar menu in its compact state.
+sidebar_menu_compact = true
+#  Set to true to disable breadcrumb navigation.
+breadcrumb_disable = false
+# Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
+sidebar_search_disable = false
+# Set menu foldable
+sidebar_menu_foldable = true
 
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
@@ -48,20 +76,11 @@ enable = true
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/sandrorgguimaraes/"
   icon = "fab fa-linkedin"
-  desc = "Discussion and help from your fellow users"
 [[params.links.user]]
   name = "Twitter"
   url = "https://www.twitter.com/sandrorogerio/"
   icon = "fab fa-twitter-square"
-  desc = "Discussion and help from your fellow users"
-
-[permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
-
-[params.ui]
-# Enable to show the side bar menu in its compact state.
-sidebar_menu_compact = true
-#  Set to true to disable breadcrumb navigation.
-breadcrumb_disable = false
-# Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
-sidebar_search_disable = false
+[[params.links.user]]
+  name = "GitHub"
+  url = "https://github.com/sandrorgguimaraes/"
+  icon = "fab fa-github-square"

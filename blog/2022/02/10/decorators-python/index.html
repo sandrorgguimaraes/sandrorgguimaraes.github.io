@@ -14,21 +14,21 @@
 <link rel=icon type=image/png href=/favicons/android-96x96.png sizes=96x96>
 <link rel=icon type=image/png href=/favicons/android-144x144.png sizes=144x144>
 <link rel=icon type=image/png href=/favicons/android-192x192.png sizes=192x192>
-<title>6 Padrões Avançados de Decorator Python | Diário de Bordo</title>
-<meta name=description content="Exemplos de código que explicam o funcionamento dos Decorator Python através do desenvolvimento de templates.">
-<meta property="og:title" content="6 Padrões Avançados de Decorator Python">
-<meta property="og:description" content="Exemplos de código que explicam o funcionamento dos Decorator Python através do desenvolvimento de templates.">
+<title>Decorators Python | Diário de Bordo</title>
+<meta name=description content="Entenda o funcionamento do design pattern (padrão de design) Decorators em Python.">
+<meta property="og:title" content="Decorators Python">
+<meta property="og:description" content="Entenda o funcionamento do design pattern (padrão de design) Decorators em Python.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://sandrorgguimaraes.github.io/blog/2021/06/01/6-padroes-avancados-de-decorator-python/"><meta property="article:section" content="blog">
-<meta property="article:published_time" content="2021-06-01T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-06-01T00:00:00+00:00">
-<meta itemprop=name content="6 Padrões Avançados de Decorator Python">
-<meta itemprop=description content="Exemplos de código que explicam o funcionamento dos Decorator Python através do desenvolvimento de templates."><meta itemprop=datePublished content="2021-06-01T00:00:00+00:00">
-<meta itemprop=dateModified content="2021-06-01T00:00:00+00:00">
-<meta itemprop=wordCount content="42">
-<meta itemprop=keywords content="decorator,"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="6 Padrões Avançados de Decorator Python">
-<meta name=twitter:description content="Exemplos de código que explicam o funcionamento dos Decorator Python através do desenvolvimento de templates.">
+<meta property="og:url" content="https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2022-02-10T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-02-10T00:00:00+00:00">
+<meta itemprop=name content="Decorators Python">
+<meta itemprop=description content="Entenda o funcionamento do design pattern (padrão de design) Decorators em Python."><meta itemprop=datePublished content="2022-02-10T00:00:00+00:00">
+<meta itemprop=dateModified content="2022-02-10T00:00:00+00:00">
+<meta itemprop=wordCount content="106">
+<meta itemprop=keywords content="decorators,"><meta name=twitter:card content="summary">
+<meta name=twitter:title content="Decorators Python">
+<meta name=twitter:description content="Entenda o funcionamento do design pattern (padrão de design) Decorators em Python.">
 <link rel=preload href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css as=style>
 <link href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script>
@@ -72,12 +72,9 @@
 <input type=checkbox id=m-blogpython-check checked>
 <label for=m-blogpython-check><a href=/blog/python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogpython><span>Python</span></a></label>
 <ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-blog202106016-padroes-avancados-de-decorator-python-li>
-<input type=checkbox id=m-blog202106016-padroes-avancados-de-decorator-python-check checked>
-<label for=m-blog202106016-padroes-avancados-de-decorator-python-check><a href=/blog/2021/06/01/6-padroes-avancados-de-decorator-python/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-blog202106016-padroes-avancados-de-decorator-python><span class=td-sidebar-nav-active-item>6 Padrões Avançados de Decorator Python</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog202101137-niveis-de-uso-de-decorator-python-li>
-<input type=checkbox id=m-blog202101137-niveis-de-uso-de-decorator-python-check>
-<label for=m-blog202101137-niveis-de-uso-de-decorator-python-check><a href=/blog/2021/01/13/7-niveis-de-uso-de-decorator-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog202101137-niveis-de-uso-de-decorator-python><span>7 níveis de uso de Decorator Python</span></a></label>
+<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-blog20220210decorators-python-li>
+<input type=checkbox id=m-blog20220210decorators-python-check checked>
+<label for=m-blog20220210decorators-python-check><a href=/blog/2022/02/10/decorators-python/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-blog20220210decorators-python><span class=td-sidebar-nav-active-item>Decorators Python</span></a></label>
 </li>
 </ul>
 </li>
@@ -88,16 +85,25 @@
 </div>
 </aside>
 <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+<div class="taxonomy taxonomy-terms-cloud">
+<h5 class=taxonomy-title>Tabela de Conteudo</h5>
+</div>
+<div class=td-toc><nav id=TableOfContents>
+<ul>
+<li><a href=#7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76><a href=https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76>7 Levels of Using Decorators in Python</a></a></li>
+<li><a href=#6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691><a href=https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691>6 Advanced Python Decorator Patterns</a></a></li>
+</ul>
+</nav></div>
 <div class="taxonomy taxonomy-terms-cloud taxo-tags">
 <h5 class=taxonomy-title>Tags</h5>
 <ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/decorator/ data-taxonomy-term=decorator><span class=taxonomy-label>decorator</span><span class=taxonomy-count>2</span></a></li>
+<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/decorators/ data-taxonomy-term=decorators><span class=taxonomy-label>decorators</span><span class=taxonomy-count>1</span></a></li>
 </ul>
 </div>
 <div class="taxonomy taxonomy-terms-cloud taxo-categories">
 <h5 class=taxonomy-title>Categorias</h5>
 <ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/categories/python/ data-taxonomy-term=python><span class=taxonomy-label>python</span><span class=taxonomy-count>2</span></a></li>
+<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/categories/python/ data-taxonomy-term=python><span class=taxonomy-label>python</span><span class=taxonomy-count>1</span></a></li>
 </ul>
 </div>
 <div class="taxonomy taxonomy-terms-cloud taxo-autores">
@@ -115,16 +121,16 @@
 RSS <i class="fa fa-rss ml-2"></i>
 </a>
 <div class=td-content>
-<h1>6 Padrões Avançados de Decorator Python</h1>
-<div class=lead>Exemplos de código que explicam o funcionamento dos Decorator Python através do desenvolvimento de templates.</div>
+<h1>Decorators Python</h1>
+<div class=lead>Entenda o funcionamento do design pattern (padrão de design) Decorators em Python.</div>
 <div class="td-byline mb-4">
-<time datetime=2021-06-01 class=text-muted>1 de Jun de 2021</time>
+<time datetime=2022-02-10 class=text-muted>10 de Feb de 2022</time>
 </div>
 <header class=article-meta>
 <div class="taxonomy taxonomy-terms-article taxo-tags">
 <h5 class=taxonomy-title>Tags:</h5>
 <ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/decorator/ data-taxonomy-term=decorator><span class=taxonomy-label>decorator</span></a></li>
+<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/decorators/ data-taxonomy-term=decorators><span class=taxonomy-label>decorators</span></a></li>
 </ul>
 </div>
 <div class="taxonomy taxonomy-terms-article taxo-categories">
@@ -137,17 +143,30 @@ RSS <i class="fa fa-rss ml-2"></i>
 <h5 class=taxonomy-title>Autores:</h5>
 <ul class=taxonomy-terms>
 <li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/ data-taxonomy-term=bruce-h.-cottman><span class=taxonomy-label>Bruce H. Cottman</span></a></li>
+<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/yang-zhou/ data-taxonomy-term=yang-zhou><span class=taxonomy-label>Yang Zhou</span></a></li>
 </ul>
 </div>
 <p class=reading-time><i class="fa fa-clock" aria-hidden=true></i>&nbsp; less than a minute &nbsp;</p>
 </header>
 <div class="pageinfo pageinfo-primary">
-<p>Decorator é um padrão de design em Python que permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.</p>
+<p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.</p>
 </div>
-<p><a href=https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691>Neste artigo</a> o <a href=/autores/bruce-h.-cottman/>Bruce H. Cottam</a> explica com exemplos de código o seu funcionamento através do desenvolvimento de templates.</p>
+<h2 id=7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76><a href=https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76>7 Levels of Using Decorators in Python</a></h2>
+<p>por <a href=/autores/yang-zhou/><strong>Yang Zhou</strong></a></p>
+<hr>
+<p>Este artigo apresenta de forma simples e objetiva os principais conceitos, técnicas e usos dos decorators Python ao longo de 7 níveis.</p>
+<p>Segundo as palavras do autor:</p>
+<blockquote>
+<p>Se você entender metade desses níveis, será fácil ler programas Python contendo decorators.</p>
+<p>Se você entender todos eles, projetar e escrever decorators em Python será muito fácil.</p>
+</blockquote>
+<h2 id=6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691><a href=https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691>6 Advanced Python Decorator Patterns</a></h2>
+<p>por <a href=/autores/bruce-h.-cottman/><strong>Bruce H. Cottam</strong></a></p>
+<hr>
+<p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.</p>
 <ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
 <li>
-<a href=/blog/2021/01/13/7-niveis-de-uso-de-decorator-python/ aria-label="Anterior - 7 níveis de uso de Decorator Python" class="btn btn-primary"><span class=mr-1>←</span>Anterior</a>
+<a class="btn btn-primary disabled"><span class=mr-1>←</span>Anterior</a>
 </li>
 <a class="btn btn-primary disabled">Próximo<span class=ml-1>→</span></a>
 </li>

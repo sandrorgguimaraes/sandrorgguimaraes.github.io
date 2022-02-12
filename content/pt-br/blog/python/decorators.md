@@ -2,8 +2,10 @@
 title: Decorators Python
 date: 2022-02-10T00:00:00.000Z
 categories:
-    - python
+    - design pattern
+    - linguagem de programação
 tags:
+    - python
     - decorators
 autores:
     - Bruce H. Cottman
@@ -19,24 +21,26 @@ slug: decorators-python
 Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.
 {{% /pageinfo %}}
 
+---
+
 ## [7 Levels of Using Decorators in Python](https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76)
 
-por [**Yang Zhou**](/autores/yang-zhou/)
-
----
+por [**Yang Zhou**](/autores/yang-zhou/) em 13/01/2021.
 
 Este artigo apresenta de forma simples e objetiva os principais conceitos, técnicas e usos dos decorators Python ao longo de 7 níveis.
 
-Segundo as palavras do autor:
+Palavras do autor:
 
 > Se você entender metade desses níveis, será fácil ler programas Python contendo decorators.
 >
 > Se você entender todos eles, projetar e escrever decorators em Python será muito fácil.
 
-## [6 Advanced Python Decorator Patterns](https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691)
-
-por [**Bruce H. Cottam**](/autores/bruce-h.-cottman/)
-
 ---
 
+## [6 Advanced Python Decorator Patterns](https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691)
+
+por [**Bruce H. Cottam**](/autores/bruce-h.-cottman/) em 01/06/2021.
+
 Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.
+
+---

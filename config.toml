@@ -13,11 +13,11 @@ autor = "autores"
 
 [params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloud = ["tags", "categories", "autores"] 
+taxonomyCloud = ["categories", "tags", "autores"] 
 # If used, must have same lang as taxonomyCloud
-taxonomyCloudTitle = ["Tags", "Categorias", "Autores"] 
+taxonomyCloudTitle = ["Categorias", "Tags", "Autores"] 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = ["tags", "categories", "autores"] 
+taxonomyPageHeader = ["categories", "tags", "autores"] 
 
 [permalinks]
 blog = "/:section/:year/:month/:day/:slug/"

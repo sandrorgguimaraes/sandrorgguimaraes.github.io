@@ -1,17 +1,60 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Diário de Bordo</title><link>https://sandrorgguimaraes.github.io/</link><description>Recent content on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Decorators Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Diário de Bordo</title><link>https://sandrorgguimaraes.github.io/</link><description>Recent content on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
+&lt;hr>
+&lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">My Flutter app made US$140 in the first week, with no advertising&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a> em 23/03/2021.&lt;/p>
+&lt;p>Neste artigo o autor conta um pouco da sua trajetória como desenvolvedor Flutter.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Se alguém me dissesse há dois anos que eu iria dormir cedo regularmente na sexta à noite, para que eu pudesse acordar cedo para codificar, eu não teria acreditado.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Clean Architecture</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Clean Architecture é uma arquitetura de software proposta por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">Robert Cecil Martin (ou Uncle Bob, como é mais conhecido)&lt;/a> que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/">https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="the-clean-architecturehttpsblogcleancodercomuncle-bob20120813the-clean-architecturehtml">&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">&lt;strong>Robert C. Martin (Uncle Bob)&lt;/strong>&lt;/a> em 13/08/2012.&lt;/p>
+&lt;hr>
+&lt;h2 id="clean-architecture-descubra-o-que-é-e-onde-aplicar-arquitetura-limpahttpswwwzupcombrblogclean-architecture-arquitetura-limpa">&lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/">Clean Architecture: descubra o que é e onde aplicar Arquitetura Limpa&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/danilo-masotti/">&lt;strong>Danilo Masotti&lt;/strong>&lt;/a> em 14/10/2021.&lt;/p>
+&lt;p>Este artigo se propõe a apresentar as vantagens e desafios das principais arquiteturas, assim é possível aumentar consideravelmente a qualidade e escalabilidade de um software.&lt;/p>
+&lt;hr>
+&lt;h2 id="clean-api-architecturehttpsmediumcomperry-street-software-engineeringclean-api-architecture-2b57074084d5">&lt;a href="https://medium.com/perry-street-software-engineering/clean-api-architecture-2b57074084d5">Clean API Architecture&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eric-silverberg/">&lt;strong>Eric Silverberg&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
+&lt;p>Baseando-se na proposta da &lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a> o autor apresenta como aplicar o conceito &lt;code>Clean&lt;/code> aos endpoint&amp;rsquo;s de uma API.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-code/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
+&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
+&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Decorators Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>
-&lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76">7 Levels of Using Decorators in Python&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yang-zhou/">&lt;strong>Yang Zhou&lt;/strong>&lt;/a>&lt;/p>
 &lt;hr>
+&lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76">7 Levels of Using Decorators in Python&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yang-zhou/">&lt;strong>Yang Zhou&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
 &lt;p>Este artigo apresenta de forma simples e objetiva os principais conceitos, técnicas e usos dos decorators Python ao longo de 7 níveis.&lt;/p>
-&lt;p>Segundo as palavras do autor:&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Se você entender metade desses níveis, será fácil ler programas Python contendo decorators.&lt;/p>
 &lt;p>Se você entender todos eles, projetar e escrever decorators em Python será muito fácil.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691">6 Advanced Python Decorator Patterns&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a>&lt;/p>
 &lt;hr>
-&lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p></description></item></channel></rss>
+&lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691">6 Advanced Python Decorator Patterns&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
+&lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p>
+&lt;hr></description></item></channel></rss>

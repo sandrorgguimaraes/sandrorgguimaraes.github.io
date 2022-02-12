@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – clean code</title><link>https://sandrorgguimaraes.github.io/tags/clean-code/</link><description>Recent content in clean code on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/clean-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-code/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
+&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
+&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item></channel></rss>

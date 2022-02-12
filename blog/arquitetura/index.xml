@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Arquitetura de Sistemas</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/</link><description>Recent content in Arquitetura de Sistemas on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/blog/arquitetura/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Clean Architecture</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Clean Architecture é uma arquitetura de software proposta por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">Robert Cecil Martin (ou Uncle Bob, como é mais conhecido)&lt;/a> que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/">https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="the-clean-architecturehttpsblogcleancodercomuncle-bob20120813the-clean-architecturehtml">&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">&lt;strong>Robert C. Martin (Uncle Bob)&lt;/strong>&lt;/a> em 13/08/2012.&lt;/p>
+&lt;hr>
+&lt;h2 id="clean-architecture-descubra-o-que-é-e-onde-aplicar-arquitetura-limpahttpswwwzupcombrblogclean-architecture-arquitetura-limpa">&lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/">Clean Architecture: descubra o que é e onde aplicar Arquitetura Limpa&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/danilo-masotti/">&lt;strong>Danilo Masotti&lt;/strong>&lt;/a> em 14/10/2021.&lt;/p>
+&lt;p>Este artigo se propõe a apresentar as vantagens e desafios das principais arquiteturas, assim é possível aumentar consideravelmente a qualidade e escalabilidade de um software.&lt;/p>
+&lt;hr>
+&lt;h2 id="clean-api-architecturehttpsmediumcomperry-street-software-engineeringclean-api-architecture-2b57074084d5">&lt;a href="https://medium.com/perry-street-software-engineering/clean-api-architecture-2b57074084d5">Clean API Architecture&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eric-silverberg/">&lt;strong>Eric Silverberg&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
+&lt;p>Baseando-se na proposta da &lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a> o autor apresenta como aplicar o conceito &lt;code>Clean&lt;/code> aos endpoint&amp;rsquo;s de uma API.&lt;/p>
+&lt;hr></description></item></channel></rss>

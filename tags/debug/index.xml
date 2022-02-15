@@ -1,0 +1,10 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – debug</title><link>https://sandrorgguimaraes.github.io/tags/debug/</link><description>Recent content in debug on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/debug/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Debug in Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Na programação de computadores e desenvolvimento de software, debugging ou depuração em portugues, é o processo de encontrar e resolver bugs (defeitos ou problemas que impedem a operação correta) em programas de computador, software ou sistemas.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Debugging/">https://en.wikipedia.org/wiki/Debugging/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">Debugging your code in Python — pdb vs. rpdb&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
+&lt;p>Veja a diferença entre o &lt;code>pdb&lt;/code> e o &lt;code>rpdb&lt;/code> e como usa-los na prática.&lt;/p>
+&lt;hr></description></item></channel></rss>

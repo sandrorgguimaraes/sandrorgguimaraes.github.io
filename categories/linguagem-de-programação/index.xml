@@ -1,4 +1,32 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – linguagem de programação</title><link>https://sandrorgguimaraes.github.io/categories/linguagem-de-programa%C3%A7%C3%A3o/</link><description>Recent content in linguagem de programação on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/linguagem-de-programa%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – linguagem de programação</title><link>https://sandrorgguimaraes.github.io/categories/linguagem-de-programa%C3%A7%C3%A3o/</link><description>Recent content in linguagem de programação on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/linguagem-de-programa%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Debug in Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Na programação de computadores e desenvolvimento de software, debugging ou depuração em portugues, é o processo de encontrar e resolver bugs (defeitos ou problemas que impedem a operação correta) em programas de computador, software ou sistemas.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Debugging/">https://en.wikipedia.org/wiki/Debugging/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">Debugging your code in Python — pdb vs. rpdb&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
+&lt;p>Veja a diferença entre o &lt;code>pdb&lt;/code> e o &lt;code>rpdb&lt;/code> e como usa-los na prática.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/dicas-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/dicas-python/</guid><description>
+&lt;hr>
+&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
+&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
+&lt;ul>
+&lt;li>JMESPath&lt;/li>
+&lt;li>Inflection&lt;/li>
+&lt;li>more-itertools&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>O modulo Secrets é usado para gerar números aleatórios criptograficamente fortes adequados para gerenciar dados como senhas, autenticação de conta, tokens de segurança e segredos relacionados.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://docs.python.org/3/library/secrets.html/">https://docs.python.org/3/library/secrets.html/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="the-secrets-module-of-pythonhttpsmediumcompythoneersthe-secrets-module-of-python-150af4c9f300">&lt;a href="https://medium.com/pythoneers/the-secrets-module-of-python-150af4c9f300">The Secrets Module of Python&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/swathi-arun/">&lt;strong>Swathi Arun&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
+&lt;p>Veja através de alguns exemplos como utilizar este módulo.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
 &lt;hr>
 &lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">My Flutter app made US$140 in the first week, with no advertising&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a> em 23/03/2021.&lt;/p>
@@ -7,7 +35,7 @@
 &lt;blockquote>
 &lt;p>Se alguém me dissesse há dois anos que eu iria dormir cedo regularmente na sexta à noite, para que eu pudesse acordar cedo para codificar, eu não teria acreditado.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Decorators Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>

@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/">How to set up a serious Kubernetes terminal&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-cooney/">&lt;strong>Chris Cooney&lt;/strong>&lt;/a> em 22/05/2019.&lt;/p>
+&lt;p>Veja as ferramentas que serão abordados neste artigo:&lt;/p>
+&lt;ul>
+&lt;li>k9s&lt;/li>
+&lt;li>kubectx&lt;/li>
+&lt;li>kubens&lt;/li>
+&lt;li>kube-ps1&lt;/li>
+&lt;li>popeye&lt;/li>
+&lt;li>stern&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - 2FA) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/">A Kubernetes engineer’s guide to mTLS&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a> da &lt;a href="https://buoyant.io/">Buoyant&lt;/a>.&lt;/p>
+&lt;p>Segue alguns tópicos que serão abordados neste guia:&lt;/p>
+&lt;ul>
+&lt;li>O que é mTLS?&lt;/li>
+&lt;li>Que tipo de segurança o TLS oferece?&lt;/li>
+&lt;li>Quando o mTLS é útil?&lt;/li>
+&lt;li>Usando mTLS para proteger microsserviços;&lt;/li>
+&lt;li>A parte difícil do TLS: gerenciamento de certificados&lt;/li>
+&lt;li>Kubernetes, mTLS e a malha de serviço&lt;/li>
+&lt;/ul>
+&lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
+&lt;hr></description></item></channel></rss>

@@ -1,5 +1,5 @@
 ---
-title: Decorators Python
+title: Decorators
 date: 2022-02-10T00:00:00.000Z
 categories:
     - design pattern

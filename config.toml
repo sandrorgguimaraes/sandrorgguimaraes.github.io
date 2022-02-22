@@ -11,13 +11,16 @@ tag = "tags"
 category = "categories"
 autor = "autores"
 
-[params.taxonomy]
+# [params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloud = ["categories", "tags", "autores"] 
+# taxonomyCloud = []
+# taxonomyCloud = ["categories", "tags", "autores"] 
 # If used, must have same lang as taxonomyCloud
-taxonomyCloudTitle = ["Categorias", "Tags", "Autores"] 
+# taxonomyCloudTitle = []
+# taxonomyCloudTitle = ["Categorias", "Tags", "Autores"] 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = ["categories", "tags", "autores"] 
+# taxonomyPageHeader = []
+# taxonomyPageHeader = ["categories", "tags", "autores"] 
 
 [permalinks]
 blog = "/:section/:year/:month/:day/:slug/"
@@ -29,13 +32,13 @@ copyright = "Sandro Rogério Galvão Guimarães"
 #privacy_policy = "https://policies.google.com/privacy"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-#github_repo = "https://github.com/google/docsy-example"
-# An optional link to a related project repo. For example, the sibling repository where your product code lives.
-#github_project_repo = "https://github.com/google/docsy"
+github_repo = "https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io"
+# Documentação dos campos abaixo: https://www.docsy.dev/docs/adding-content/repository-links/
+# github_subdir = "userguide"
+# github_project_repo = "https://github.com/google/docsy"
+# github_branch = "release"
 
-# <script async src="https://cse.google.com/cse.js?cx=00d233acb080f4e82">
-# </script>
-# <div class="gcse-search"></div>
+
 gcs_engine_id = "00d233acb080f4e82"
 # Enable Algolia DocSearch
 algolia_docsearch = false

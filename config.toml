@@ -19,7 +19,7 @@ taxonomyCloud = [""]
 # taxonomyCloudTitle = [""]
 # taxonomyCloudTitle = ["Categorias", "Tags", "Autores"] 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = [""]
+taxonomyPageHeader = []
 # taxonomyPageHeader = ["categories", "tags", "autores"] 
 
 [permalinks]
@@ -33,10 +33,10 @@ copyright = "Sandro Rogério Galvão Guimarães"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io"
+github_branch = "main"
 # Documentação dos campos abaixo: https://www.docsy.dev/docs/adding-content/repository-links/
 # github_subdir = "userguide"
 # github_project_repo = "https://github.com/google/docsy"
-# github_branch = "release"
 
 
 gcs_engine_id = "00d233acb080f4e82"

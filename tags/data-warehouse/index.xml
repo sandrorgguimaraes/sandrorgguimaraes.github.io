@@ -1,0 +1,12 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – data warehouse</title><link>https://sandrorgguimaraes.github.io/tags/data-warehouse/</link><description>Recent content in data warehouse on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/data-warehouse/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Data Warehouse</title><link>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/data-warehouse/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/data-warehouse/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Em resumo um &lt;strong>DW&lt;/strong> (&lt;em>Data Warehouse&lt;/em>) pode ser definido como um banco de dados especializado, que integra e gerencia o fluxo de informações a partir de bancos de dados corporativos e fonte de dados externas à organização.&lt;/p>
+&lt;/div>
+&lt;p>Por trás de uma solução de DW existe uma série de ferramentas / tecnologias / conceitos (peças) que precisam ser combinadas para atingir um objetivo específico. E para não sair do padrão temos a tradicional sopa de letrinhas: SAD, OLAP, OLTP, ETL, ODS além de alguns termos como Data Mart, Data Mining, Metadados, etc&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;p>Fontes:&lt;/p>
+&lt;ul>
+&lt;li>MARTINS, C. E. W.; SILVA, E. L. da.; MUSSI, E. A. S. Implantação de um ODS no Banco do Brasil visando um DATA WAREHOUSE - Estudo de Caso. 1999. 51 f. Tese (MBA em Tecnologia) - Escola Politécnica, Universidade de São Paulo, Brasília. 1999.&lt;/li>
+&lt;li>HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 362 p.&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item></channel></rss>

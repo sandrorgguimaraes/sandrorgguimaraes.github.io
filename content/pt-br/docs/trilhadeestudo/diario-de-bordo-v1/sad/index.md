@@ -1,10 +1,12 @@
 ---
-title: SAD
+title: Sistema de Apoio à Decisão
+linkTitle: SAD
 date: 2022-02-23T00:00:00.000Z
 categories:
     - data warehouse
 tags:
     - sad
+    - sistema apoio decisao
 autores:
     - Sandro Rogério
 description: O que é um SAD (Sistema de Apoio à Decisão)?
@@ -12,6 +14,7 @@ keywords:
     - sad
     - sistema apoio decisao
 slug: sad-sistema-apoio-decisao
+weight: 10
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
@@ -39,8 +42,7 @@ Com a utilização de um SAD as organizações tem melhores condições de, por 
 
 Ou seja, com este sistema os gestores têm condições de tomar decisões não apenas na intuição.
 
-{{< imgproc sad Fill "400x286" >}}
-{{< /imgproc >}}
+{{< imgproc sad Fill "400x286" >}} {{< /imgproc >}}
 
 > Fonte:
 >

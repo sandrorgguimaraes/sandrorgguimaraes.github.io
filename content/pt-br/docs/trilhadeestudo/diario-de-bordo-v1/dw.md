@@ -1,5 +1,6 @@
 ---
 title: Data Warehouse
+linkTitle: DW
 date: 2022-02-23T00:00:00.000Z
 categories:
     - data warehouse
@@ -7,10 +8,11 @@ tags:
     - data warehouse
 autores:
     - Sandro Rogério
-description: Em linhas gerais o que é Data Warehouse?
+description: O que é um DW (Data Warehouse)?
 keywords:
     - data warehouse
 slug: data-warehouse
+weight: 05
 ---
 
 {{% pageinfo %}}

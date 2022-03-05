@@ -1,0 +1,284 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – olap</title><link>https://sandrorgguimaraes.github.io/tags/olap/</link><description>Recent content in olap on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/olap/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Visão geral</title><link>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Em resumo um &lt;strong>DW&lt;/strong> (&lt;em>Data Warehouse&lt;/em>) pode ser definido como um banco de dados especializado, que integra e gerencia o fluxo de informações a partir de bancos de dados corporativos e fonte de dados externas à organização.&lt;/p>
+&lt;/div>
+&lt;p>Por trás de uma solução de DW existe uma série de ferramentas / tecnologias / conceitos (peças) que precisam ser combinadas para atingir um objetivo específico.&lt;/p>
+&lt;p>E para não sair do padrão temos a tradicional sopa de letrinhas: SAD, OLAP, OLTP, ETL, ODS além de alguns termos como Data Mart, Data Mining, Metadados, etc&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;p>Fontes:&lt;/p>
+&lt;ul>
+&lt;li>MARTINS, C. E. W.; SILVA, E. L. da.; MUSSI, E. A. S. Implantação de um ODS no Banco do Brasil visando um DATA WAREHOUSE - Estudo de Caso. 1999. 51 f. Tese (MBA em Tecnologia) - Escola Politécnica, Universidade de São Paulo, Brasília. 1999.&lt;/li>
+&lt;li>HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 362 p.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="sad-sistema-de-apoio-à-decisão">SAD (Sistema de Apoio à Decisão)&lt;/h2>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>A definição do termo &lt;strong>SAD&lt;/strong> (&lt;em>Sistema de Apoio à Decisão&lt;/em>) ainda provoca divergência entre vários autores, mas sinteticamente pode-se definir como: &amp;ldquo;Conjunto de ferramentas que visa auxiliar os gestores na tomada de decisões&amp;rdquo;.&lt;/p>
+&lt;/div>
+&lt;p>Um SAD se diferencia de outros sistemas existentes nas organizações basicamente por:&lt;/p>
+&lt;ul>
+&lt;li>Manipular grandes volumes de dados;&lt;/li>
+&lt;li>Obter dados de fontes diferentes (internas e externas);&lt;/li>
+&lt;li>Flexibilidade de relatórios gerenciais;&lt;/li>
+&lt;li>Execução de rotinas de otimização e heurística;&lt;/li>
+&lt;li>Execução de análises de simulação;&lt;/li>
+&lt;li>Suporte para diversos níveis na tomada de decisão;&lt;/li>
+&lt;/ul>
+&lt;p>Com a utilização de um SAD as organizações tem melhores condições de, por exemplo:&lt;/p>
+&lt;ul>
+&lt;li>Decidir sobre fazer ou não uma promoção, de qual produto e quando;&lt;/li>
+&lt;li>Projetar o risco ou o sucesso do investimento em determinado empreendimento ou do lançamento de um produto;&lt;/li>
+&lt;li>Decidir se deve contratar ou não novos funcionários no próximo mês;&lt;/li>
+&lt;/ul>
+&lt;p>Ou seja, com este sistema os gestores têm condições de tomar decisões não apenas na intuição.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/sad_hu19d7a0a3c2d049f58696b53bf7272272_31439_400x286_fill_box_smart1_3.png" width="400" height="286">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>Fonte:&lt;/p>
+&lt;ul>
+&lt;li>FALSARELLA, Orandi M.; CHAVES, Eduardo O. C. Sistemas de Informação e Sistemas de Apoio à Decisão. Disponivel em: &lt;a href="http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm">http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm&lt;/a> Acesso em: 13 de mar. 2012.&lt;/li>
+&lt;li>BORTOLIN, Sérgio A. M. Sistema de Apoio à Decisão. Disponível em: &lt;a href="http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf">http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf&lt;/a> Acesso em: 13 de mar. 2012.&lt;/li>
+&lt;li>PRIMAK, Fabio Vinicius. Decisões com B.I. Business Intelligence. Brasil. 1a edição. Ciência Moderna. 2008. 168 p. ISBN 8573937149.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="bi-business-intelligence">BI (Business Intelligence)&lt;/h2>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>O termo &lt;strong>Business Intelligence&lt;/strong> ou Inteligência Empresarial foi utilizado pela primeira vez na década de 80 pelo Gartner Group, porém o conceito remonta desde a antiguidade onde, por exemplo, se observavam a posição dos astros, os períodos de sol / chuva e as marés para a tomada de decisões.&lt;/p>
+&lt;/div>
+&lt;p>Com o desenvolvimento dos sistemas computacionais ao longo das últimas décadas, observa-se também o desenvolvimento do BI, impulsionado pela permanente necessidade das organizações de manterem a competitividade.&lt;/p>
+&lt;p>Atualmente, pode-se sintetizar &lt;strong>BI&lt;/strong> como um conjunto de ferramentas, conceitos e metodologias que se utiliza da Tecnologia da Informação (TI) para coletar &lt;em>&lt;strong>dados&lt;/strong>&lt;/em>, analisá-los e transformá-los em &lt;em>&lt;strong>informação&lt;/strong>&lt;/em>.&lt;/p>
+&lt;p>Com isso, os sistemas de BI concedem às organizações &lt;em>&lt;strong>conhecimento&lt;/strong>&lt;/em> sobre seus negócios, contribuindo para que os gestores optem pela &lt;em>&lt;strong>decisão&lt;/strong>&lt;/em> mais acertada.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/bi_hu1048601311bcd4210662b61a5e7dacc8_39851_400x306_fill_box_smart1_3.png" width="400" height="306">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>Os componentes de uma estrutura de BI são basicamente:&lt;/p>
+&lt;ul>
+&lt;li>Dados operacionais;
+&lt;ul>
+&lt;li>É a matéria prima do BI, são os dados originados das aplicações utilizadas no dia-a-dia da organização, por exemplo o ERP.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ODS (&lt;em>Operacional Data Store&lt;/em>);
+&lt;ul>
+&lt;li>Armazena os dados operacionais de forma consolidada, porém não possuem características dimensionais (como o DW e DM).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Ferramentas de ETL (Extração, Transformação e Carga);
+&lt;ul>
+&lt;li>Veremos com mais detalhes posteriormente.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Data Warehouse (DW) e Data Marts (DM);
+&lt;ul>
+&lt;li>Veja postagem.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Data Mining (Mineração de Dados);
+&lt;ul>
+&lt;li>Veremos com mais detalhes posteriormente.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Visualização dos resultados;
+&lt;ul>
+&lt;li>Ferramentas que permitem ao usuário final visualizar de forma amigável as informações para auxiliar na tomada das decisões.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Este é um breve resumo sobre BI, persistindo alguma dúvida ou necessitando de maiores esclarecimentos, registre seu comentário e vamos aprender juntos.&lt;/p>
+&lt;blockquote>
+&lt;p>Fonte:
+ANTONELLI, Ricardo A. Conhecendo o Business Intelligence (BI) - Uma Ferramenta de Auxílio à Tomada de Decisão. Revista TECAP. v. 3, n. 3, 2009. Disponível em: &lt;a href="http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544">http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544&lt;/a> acesso em: 14 de mar. 2012.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="datawarehouse-dw--data-mart-dm">DataWarehouse (DW) &amp;amp; Data Mart (DM)&lt;/h2>
+&lt;p>Um DW (&lt;em>Data Warehouse&lt;/em> ou Armazém de Dados) é uma coleção de dados orientada por assunto, integrada, variante no tempo e não volátil que tem por objetivo dar suporte aos processos de tomada de decisão.&lt;/p>
+&lt;p>É um repositório central que armazena dados de várias fontes, transformando-os em um modelo comum, multidimensional, para a realização de consultas e análises mais eficientes.&lt;/p>
+&lt;p>A diferença entre um DW e um DM basicamente consiste no volume de dados, abrangência e foco. Enquanto o DW foca na organização como um todo os DM´s focam em um determinado departamento ou conjunto especifíco de usuário, por exemplo.&lt;/p>
+&lt;p>A construção deste armazém pode acontecer de duas formas, cada abordagem têm seus prós e contras. As circunstâncias e particularidades de cada projeto é que determinarão qual utilizar.&lt;/p>
+&lt;p>Na abordagem &lt;em>Top-Down&lt;/em> primeiro se monta o DW (corporativo) para num segundo momento criar os DM (departamentais).&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-top-down_hu88d4ce438ecc4d795768fc220673a3fb_46682_400x212_fill_box_smart1_3.png" width="400" height="212">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fonte: http://www.dataprix.net/pt-pt/24-data-mart
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>Ou utilizar a abordagem &lt;em>Bottom-UP&lt;/em> onde primeiro é criado os DM´s para em seguida montar o DW da organização.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-bottom-up_hu3c1d801b1926d9fc92083ca09c0c89b9_50750_400x213_fill_box_smart1_3.png" width="400" height="213">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fonte: http://www.dataprix.net/pt-pt/24-data-mart
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="oltp--olap">OLTP &amp;amp; OLAP&lt;/h2>
+&lt;p>&lt;strong>OLTP&lt;/strong> (&lt;em>Online Transaction Processing&lt;/em> ou Processamento de Transações em Tempo Real) caracteriza-se por um grande número de transações (&lt;em>INSERT, UPDATE e DELETE&lt;/em>) envolvendo uma pequena quantidade de dados em um ambiente multi-acesso, mantendo a integridade referencial.&lt;/p>
+&lt;p>No planejamento do banco de dados busca-se reduzir o tamanho e a redundância dos dados e normalmente se aplica a &lt;a href="https://www.google.com/search?q=3FN+(terceira+Forma+Normal)">3FN (terceira Forma Normal)&lt;/a> na modelagem, são os dados primitivos ou dados operacionais segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>OLAP&lt;/strong> (&lt;em>Online Analytical Processing&lt;/em> ou Processamento Analítico em Tempo Real) caracteriza-se por poucas transações (&lt;em>INSERT e SELECT&lt;/em>) envolvendo um volume muito grande de dados.&lt;/p>
+&lt;p>Na busca por eficiência das consultas, os dados armazenados no DW ou DM´s, normalmente são desnormalizados e utilizam esquemas multi dimensionais, são os dados derivados ou dados &lt;strong>SAD&lt;/strong> segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a>.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/olap-oltp_hu70183390894a2306c83d4ad889956479_31862_400x213_fill_box_smart1_3.png" width="400" height="213">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>Juntamente com o OLAP surgiram novos termos como &lt;em>DOLAP&lt;/em>, &lt;em>ROLAP&lt;/em>, &lt;em>MOLAP&lt;/em>, &lt;em>HOLAP&lt;/em>, &lt;em>slice and dice&lt;/em>, &lt;em>pivot table&lt;/em>, &lt;em>drill down/up&lt;/em> que ampliaremos posteriormente.&lt;/p>
+&lt;p>A tabela abaixo extraída do livro &amp;ldquo;Como construir o Data Warehouse&amp;rdquo; de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a> apresenta algumas diferenças conceituais entre os dados primitivos e os dados derivados, vejamos:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>DADOS PRIMITIVOS ou DADOS OPERACIONAIS&lt;/th>
+&lt;th>DADOS DERIVADOS ou DADOS SAD&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Baseados em aplicações&lt;/td>
+&lt;td>Baseados em assuntos ou negócios&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Detalhados&lt;/td>
+&lt;td>Resumidos ou refinados&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Exatos em relação ao momento do acesso&lt;/td>
+&lt;td>Representam valores de momentos já decorridos ou instantâneos&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Atendem à comunidade funcional&lt;/td>
+&lt;td>Atendem à comunidade gerencial&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Podem ser atualizados&lt;/td>
+&lt;td>Não são atualizados&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>São processados repetitivamente&lt;/td>
+&lt;td>Processados de forma heurística&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Requisitos de processamento conhecidos com antecedência&lt;/td>
+&lt;td>Requisitos de processamento não são conhecidos com antecedência&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Compatíveis com o SDLC&lt;/td>
+&lt;td>Ciclo de vida completamente diferente&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Performance é fundamental&lt;/td>
+&lt;td>Performance atenuada&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Acessados uma unidade por vez&lt;/td>
+&lt;td>Acessados um conjunto por vez&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Voltados para transações&lt;/td>
+&lt;td>Voltados para análises&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>O controle de atualizações é atribuição de quem tem a posse&lt;/td>
+&lt;td>O controle de atualizações não é problema&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alta disponibilidade&lt;/td>
+&lt;td>Disponibilidade atenuada&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Gerenciados em sua totalidade&lt;/td>
+&lt;td>Gerenciados por subconjuntos&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Não contemplam a redundância&lt;/td>
+&lt;td>A redundância não pode ser ignorada&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Estrutura fixa; conteúdos variáveis&lt;/td>
+&lt;td>Estrutura flexível&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pequena quantidade de dados usada em um processo&lt;/td>
+&lt;td>Grande quantidade de dados usada em um processo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Atendem às necessidades cotidianas&lt;/td>
+&lt;td>Atendem às necessidades gerenciais&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alta probabilidade de acesso&lt;/td>
+&lt;td>Baixa ou modesta probabilidade de acesso&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="o-ambiente-do-dw">O ambiente do DW&lt;/h2>
+&lt;p>Devido às diferenças existentes entre os dados primitivos e os dados derivados como vimos em &lt;a href="#oltp--olap">&lt;em>OLTP &amp;amp; OLAP&lt;/em>&lt;/a>, outros aspectos por consequencia necessitam de nova abordagem segundo Inmon.&lt;/p>
+&lt;h3 id="os-níveis-dos-dados">Os níveis dos dados&lt;/h3>
+&lt;p>Estas diferenças acabam por gerar 4 (quatro) níveis de dados na organização, como segue:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Operacional&lt;/strong> ==&amp;gt; Contém os dados primitivos que atende às transações &lt;strong>OLTP&lt;/strong>, refletindo o valor atual dos registros;&lt;/li>
+&lt;li>&lt;strong>Atômico / Data Warehouse&lt;/strong> ==&amp;gt; Contém dados primitivos que não são atualizados e alguns dados derivados, não existe a sobreposição de valores, mantendo um histórico dos registros através da utilização de um elemento tempo associado a chave de cada registro;&lt;/li>
+&lt;li>&lt;strong>Departamental&lt;/strong> ==&amp;gt; Contém apenas dados derivados e agrupados por departamento, tem-se uma base de dados para o Marketing, outro para o RH, outro para o Financeiro e assim por diante. Também existe neste nível o elemento tempo associado a chave de cada registro;&lt;/li>
+&lt;li>&lt;strong>Individual&lt;/strong> ==&amp;gt; Contém dados que serão utilizados nas análises heurísticas, normalmente são dados temporários de pequenas proporçoes e utilizados pelos Sitemas de Informações Executivas (EIS).&lt;/li>
+&lt;/ul>
+&lt;h3 id="ciclo-de-vida-do-desenvolvimento-de-sistemas">Ciclo de vida do desenvolvimento de sistemas&lt;/h3>
+&lt;p>As diferenças entre os sistemas tradicionais e um &lt;strong>DW&lt;/strong> não termina na forma de armazenar / modelar os dados, o desenvolvimento de sistemas para um ambiente de &lt;strong>DW&lt;/strong> é praticamente o oposto ao tradicional &lt;strong>SDLC&lt;/strong> (&lt;em>Systems Development Life Cycle&lt;/em>), conforme abaixo:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>SDLC Clássico&lt;/th>
+&lt;th>SDLC de um DW&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Ciclo de vida baseado em requisitos&lt;/td>
+&lt;td>Ciclo de vida baseado em dados&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Levantamento de necessidades&lt;/td>
+&lt;td>Implementar o warehouse&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Análise&lt;/td>
+&lt;td>Integrar os dados&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Projeto&lt;/td>
+&lt;td>Procurar distorções&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programação&lt;/td>
+&lt;td>Programas para os dados&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Teste&lt;/td>
+&lt;td>Projetar sistemas SAD&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Integração&lt;/td>
+&lt;td>Analisar os resultados&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Implementação&lt;/td>
+&lt;td>Entender necessidades&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="utilização-de-hardware">Utilização de Hardware&lt;/h3>
+&lt;p>Em um sistema &lt;strong>OLTP&lt;/strong> o consumo do hardware mantém um certo padrão / média de utilização durante o tempo. É possível planejar o crescimento / upgrade do sistema.&lt;/p>
+&lt;p>É possível prever os picos de utilização por conta da sazonalidade, por exemplo, no natal o sistema das operadoras de cartão de crédito têm um pico de utilização.&lt;/p>
+&lt;p>Em contrapartida um sistema &lt;strong>DW / SAD&lt;/strong> terá picos de utilização do hardware apenas quando houver solicitações de &lt;strong>ETL&lt;/strong> e / ou consultas &lt;strong>OLAP&lt;/strong> dos usuários e logo em seguida o hardware voltará a ficar ocioso.&lt;/p>
+&lt;p>Neste cenário consegue-se prever o ritmo de crescimento da base de dados, porém o consumo de CPU / memória RAM e espaço para dados temporários já fica mais complicado.&lt;/p>
+&lt;p>Ou seja, a configuração / ajuste fino do hardware que vai atender às demandas dos sistemas legados (&lt;strong>OLTP&lt;/strong>) é totalmente diferente das necessidades / especificações dos sistemas que irão atender às demandas dos sistemas &lt;strong>DW / OLAP&lt;/strong>.&lt;/p></description></item></channel></rss>

@@ -100,9 +100,9 @@ Se serviu pra mim, …">
 <h2 class=feedback--title>Feedback</h2><p class=feedback--question>Gostou desta página?</p><button class="btn btn-primary mb-4 feedback--answer feedback--answer-yes">Sim</button>
 <button class="btn btn-primary mb-4 feedback--answer feedback--answer-no">Não</button>
 <p class="feedback--response feedback--response-yes">
-Que bom, que gostou! Por favor, <a href=https://github.com/USERNAME/REPOSITORY/issues/new>tem algo que podemos melhorar</a>?
+Que bom, que gostou! Por favor, <a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/issues/new?title=Sugestoes">tem algo que podemos melhorar</a>?
 </p><p class="feedback--response feedback--response-no">
-Que pena! Por favor, <a href=https://github.com/USERNAME/REPOSITORY/issues/new>me diga o que podemos fazer pra melhorar</a>. Obrigado!
+Que pena! Por favor, <a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/issues/new?title=Melhorias">me diga o que podemos fazer pra melhorar</a>. Obrigado!
 </p></div><script>const yesButton=document.querySelector(".feedback--answer-yes"),noButton=document.querySelector(".feedback--answer-no"),yesResponse=document.querySelector(".feedback--response-yes"),noResponse=document.querySelector(".feedback--response-no"),disableButtons=()=>{yesButton.disabled=!0,noButton.disabled=!0},sendFeedback=t=>{if(typeof ga!="function")return;const e={command:"send",hitType:"event",category:"Helpful",action:"click",label:window.location.pathname,value:t};ga(e.command,e.hitType,e.category,e.action,e.label,e.value)};yesButton.addEventListener("click",()=>{yesResponse.classList.add("feedback--response__visible"),disableButtons(),sendFeedback(1)}),noButton.addEventListener("click",()=>{noResponse.classList.add("feedback--response__visible"),disableButtons(),sendFeedback(0)})</script>
 <br>
 </div></main></div></div><footer class="bg-dark py-5 row d-print-none">

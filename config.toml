@@ -38,7 +38,6 @@ github_branch = "main"
 # github_subdir = "userguide"
 # github_project_repo = "https://github.com/google/docsy"
 
-
 gcs_engine_id = "00d233acb080f4e82"
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -67,10 +66,10 @@ sidebar_menu_foldable = true
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = false
+enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Fico feliz em ouvi-lo! Por favor, <a href="https://github.com/USERNAME/REPOSITORY/issues/new">diga-nos como podemos melhorar</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Que bom, que gostou! Por favor, <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tem algo que podemos melhorar</a>?'
+no = 'Que pena! Por favor, <a href="https://github.com/USERNAME/REPOSITORY/issues/new">me diga o que podemos fazer pra melhorar</a>. Obrigado!'
 
 [params.ui.readingtime]
 enable = true

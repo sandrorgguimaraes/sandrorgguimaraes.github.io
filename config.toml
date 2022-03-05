@@ -68,8 +68,8 @@ sidebar_menu_foldable = true
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Que bom, que gostou! Por favor, <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tem algo que podemos melhorar</a>?'
-no = 'Que pena! Por favor, <a href="https://github.com/USERNAME/REPOSITORY/issues/new">me diga o que podemos fazer pra melhorar</a>. Obrigado!'
+yes = 'Que bom, que gostou! Por favor, <a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/issues/new?title=Sugestoes">tem algo que podemos melhorar</a>?'
+no = 'Que pena! Por favor, <a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/issues/new?title=Melhorias">me diga o que podemos fazer pra melhorar</a>. Obrigado!'
 
 [params.ui.readingtime]
 enable = true

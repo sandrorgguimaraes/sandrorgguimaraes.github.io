@@ -8,6 +8,17 @@
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets">Tracing the path of network traffic in Kubernetes&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a> em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/cli-with-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/cli-with-python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Uma Interface de Linha de Comandos (ILC), em inglês &lt;em>Command-Line Interface&lt;/em> (CLI), é um meio de interagir com um programa de computador, onde o utilizador emite comandos para o programa sob a forma de sucessivas linhas de texto (linhas de comando).&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="make-your-python-cli-tools-pop-with-richhttpshackadaycom20220119make-your-python-cli-tools-pop-with-rich">&lt;a href="https://hackaday.com/2022/01/19/make-your-python-cli-tools-pop-with-rich/">Make Your Python CLI Tools Pop With Rich&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/matthew-carlson/">&lt;strong>Matthew Carlson&lt;/strong>&lt;/a> em 19/01/2022.&lt;/p>
+&lt;p>Apresentação da biblioteca &lt;code>Rich&lt;/code> para dar um &amp;lsquo;up&amp;rsquo; nas ferramentas de linha de comando.&lt;/p>
+&lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md">Repositório do projeto Rich&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#">Documentação da biblioteca Rich&lt;/a>&lt;/p>
 &lt;hr></description></item><item><title>Blog: Container Networking</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</guid><description>
 &lt;hr>
 &lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/">Container Networking Is Simple!&lt;/a>&lt;/h2>

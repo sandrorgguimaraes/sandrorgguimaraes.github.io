@@ -24,7 +24,7 @@
 <meta itemprop=name content="Clean Code">
 <meta itemprop=description content="Clean Code, ou Código Limpo, é um conjunto de técnicas simples que facilitam a escrita e a leitura de um código."><meta itemprop=datePublished content="2022-02-11T00:00:00+00:00">
 <meta itemprop=dateModified content="2022-02-11T00:00:00+00:00">
-<meta itemprop=wordCount content="111">
+<meta itemprop=wordCount content="154">
 <meta itemprop=keywords content="clean code,"><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Clean Code">
 <meta name=twitter:description content="Clean Code, ou Código Limpo, é um conjunto de técnicas simples que facilitam a escrita e a leitura de um código.">
@@ -88,11 +88,21 @@
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220218comandos-git-li>
 <input type=checkbox id=m-blog20220218comandos-git-check>
 <label for=m-blog20220218comandos-git-check><a href=/blog/2022/02/18/comandos-git/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220218comandos-git><span>Comandos Git</span></a></label>
+</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogcontainer-li>
+<input type=checkbox id=m-blogcontainer-check>
+<label for=m-blogcontainer-check><a href=/blog/container/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogcontainer><span>Containers</span></a></label>
+<ul class="ul-2 foldable">
+<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog10101containers-ferramentas-li>
+<input type=checkbox id=m-blog10101containers-ferramentas-check>
+<label for=m-blog10101containers-ferramentas-check><a href=/blog/1/01/01/containers-ferramentas/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog10101containers-ferramentas><span>Ferramentas</span></a></label>
 </li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogkubernetes-li>
 <input type=checkbox id=m-blogkubernetes-check>
 <label for=m-blogkubernetes-check><a href=/blog/kubernetes/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogkubernetes><span>Kubernetes</span></a></label>
 <ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220218kubernetes-network-li>
+<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307kubernetes-arquitetura-li>
+<input type=checkbox id=m-blog20220307kubernetes-arquitetura-check>
+<label for=m-blog20220307kubernetes-arquitetura-check><a href=/blog/2022/03/07/kubernetes-arquitetura/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307kubernetes-arquitetura><span>Arquitetura</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220218kubernetes-network-li>
 <input type=checkbox id=m-blog20220218kubernetes-network-check>
 <label for=m-blog20220218kubernetes-network-check><a href=/blog/2022/02/18/kubernetes-network/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220218kubernetes-network><span>Network</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214kubernetes-tools-terminal-li>
@@ -109,9 +119,9 @@
 <input type=checkbox id=m-blogdesenvolvimentopython-check>
 <label for=m-blogdesenvolvimentopython-check><a href=/blog/desenvolvimento/python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentopython><span>Python</span></a></label>
 <ul class="ul-3 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214cli-with-python-li>
-<input type=checkbox id=m-blog20220214cli-with-python-check>
-<label for=m-blog20220214cli-with-python-check><a href=/blog/2022/02/14/cli-with-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214cli-with-python><span>CLI com Python</span></a></label>
+<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307cli-with-python-li>
+<input type=checkbox id=m-blog20220307cli-with-python-check>
+<label for=m-blog20220307cli-with-python-check><a href=/blog/2022/03/07/cli-with-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307cli-with-python><span>CLI com Python</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214debug-in-python-li>
 <input type=checkbox id=m-blog20220214debug-in-python-check>
 <label for=m-blog20220214debug-in-python-check><a href=/blog/2022/02/14/debug-in-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214debug-in-python><span>Debug in Python</span></a></label>
@@ -138,7 +148,7 @@
 <div class="taxonomy taxonomy-terms-cloud">
 <h5 class=taxonomy-title>Tabela de Conteudo</h5></div><div class=td-toc><nav id=TableOfContents>
 <ul>
-<li><a href=#conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e><a href=https://www.hostgator.com.br/blog/clean-code-o-que-e/>Conheça os 7 princípios do Clean Code</a></a></li><li><a href=#12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a><a href=https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a>12 Conventions for Writing Clean Code</a></a></li></ul></nav></div><div class="taxonomy taxonomy-terms-cloud">
+<li><a href=#conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e><a href=https://www.hostgator.com.br/blog/clean-code-o-que-e/>Conheça os 7 princípios do Clean Code</a></a></li><li><a href=#12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a><a href=https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a>12 Conventions for Writing Clean Code</a></a></li><li><a href=#in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4><a href=https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4>In Defense of Clean Code</a></a></li></ul></nav></div><div class="taxonomy taxonomy-terms-cloud">
 <h5 class=taxonomy-title>Colabore</h5></div><div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
 <a href=https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/tree/main/content/pt-br/blog/desenvolvimento/clean-code.md class=td-page-meta--view target=_blank rel=noopener><i class="fa fa-file-alt fa-fw"></i> Ver código da página</a>
 <a href=https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/edit/main/content/pt-br/blog/desenvolvimento/clean-code.md class=td-page-meta--edit target=_blank rel=noopener><i class="fa fa-edit fa-fw"></i> Editar essa página</a>
@@ -154,7 +164,7 @@ RSS <i class="fa fa-rss ml-2"></i>
 </div><header class=article-meta>
 <div class="taxonomy taxonomy-terms-article taxo-autores">
 <h5 class=taxonomy-title>Autores:</h5><ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/ data-taxonomy-term=shoaib-mehedi><span class=taxonomy-label>Shoaib Mehedi</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/hostgator/ data-taxonomy-term=hostgator><span class=taxonomy-label>HostGator</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-categories">
+<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/ data-taxonomy-term=shoaib-mehedi><span class=taxonomy-label>Shoaib Mehedi</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/hostgator/ data-taxonomy-term=hostgator><span class=taxonomy-label>HostGator</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/tyler-hawkins/ data-taxonomy-term=tyler-hawkins><span class=taxonomy-label>Tyler Hawkins</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-categories">
 <h5 class=taxonomy-title>Categories:</h5><ul class=taxonomy-terms>
 <li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/categories/desenvolvimento/ data-taxonomy-term=desenvolvimento><span class=taxonomy-label>desenvolvimento</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-tags">
 <h5 class=taxonomy-title>Tags:</h5><ul class=taxonomy-terms>
@@ -163,7 +173,7 @@ RSS <i class="fa fa-rss ml-2"></i>
 <h2 id=conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e><a href=https://www.hostgator.com.br/blog/clean-code-o-que-e/>Conheça os 7 princípios do Clean Code</a></h2><p>por <a href=https://www.hostgator.com.br/blog/author/hostgator/><strong>HostGator</strong></a> em 08/04/2020.</p><p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.</p><hr>
 <h2 id=12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a><a href=https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a>12 Conventions for Writing Clean Code</a></h2><p>por <a href=/autores/shoaib-mehedi/><strong>Shoaib Mehedi</strong></a> em 26/04/2021</p><p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.</p><p>Palavras do autor:</p><blockquote>
 <p>Seus colegas vão agradecer mais tarde</p></blockquote><hr>
-<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
+<h2 id=in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4><a href=https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4>In Defense of Clean Code</a></h2><p>por <a href=/autores/tyler-hawkins/><strong>Tyler Hawkins</strong></a> em 29/11/2021</p><p>Após uma análise, capitulo por capitulo, do livro &lsquo;Clean Code&rsquo; de <a href=https://en.wikipedia.org/wiki/Robert_C._Martin>Robert C. Martin</a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &lsquo;bom&rsquo; engenheiro de software.</p><ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
 <li>
 <a class="btn btn-primary disabled"><span class=mr-1>←</span>Anterior</a>
 </li><a class="btn btn-primary disabled">Próximo<span class=ml-1>→</span></a>

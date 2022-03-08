@@ -8,6 +8,7 @@ tags:
 autores:
     - Shoaib Mehedi
     - HostGator
+    - Tyler Hawkins
 description: Clean Code, ou Código Limpo, é um conjunto de técnicas simples que facilitam a escrita e a leitura de um código.
 keywords:
     - clean code
@@ -41,3 +42,9 @@ Palavras do autor:
 > Seus colegas vão agradecer mais tarde
 
 ---
+
+## [In Defense of Clean Code](https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4)
+
+por [**Tyler Hawkins**](/autores/tyler-hawkins/) em 29/11/2021
+
+Após uma análise, capitulo por capitulo, do livro 'Clean Code' de [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um 'bom' engenheiro de software.

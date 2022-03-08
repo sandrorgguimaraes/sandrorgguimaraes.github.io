@@ -1,6 +1,6 @@
 ---
 title: CLI com Python
-date: 2022-02-14T00:00:00.000Z
+date: 2022-03-07T00:00:00.000Z
 categories:
     - linguagem de programação
 tags:
@@ -9,7 +9,7 @@ tags:
     - command line interface
 autores:
     - Matthew Carlson
-description: Entenda como efetuar o debugging de um código Python.
+description: Entenda como criar / melhorar as saídas das suas CLI desenvolvidas em Python.
 keywords:
     - python
     - cli

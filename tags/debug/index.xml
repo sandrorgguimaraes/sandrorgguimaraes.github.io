@@ -7,4 +7,8 @@
 &lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">Debugging your code in Python — pdb vs. rpdb&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
 &lt;p>Veja a diferença entre o &lt;code>pdb&lt;/code> e o &lt;code>rpdb&lt;/code> e como usa-los na prática.&lt;/p>
+&lt;hr>
+&lt;h2 id="stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">&lt;a href="https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">Stop Using Print to Debug in Python. Use Icecream Instead&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
+&lt;p>&lt;a href="https://github.com/gruns/icecream">Icecream&lt;/a> é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
 &lt;hr></description></item></channel></rss>

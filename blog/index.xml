@@ -1,4 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</guid><description>
+&lt;hr>
+&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
+&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py">JMESPath&lt;/a> permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jpvanhal/inflection">Inflection&lt;/a> é uma biblioteca de transformação de string.&lt;/li>
+&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#">more-itertools&lt;/a> é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f">Simulate Real-life Events in Python Using SimPy&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 16/05/2021.&lt;/p>
+&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html">SimPy&lt;/a> é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a> em 25/01/2022.&lt;/p>
@@ -14,6 +28,11 @@
 &lt;p>Apresentação da biblioteca &lt;code>Rich&lt;/code> para dar um &amp;lsquo;up&amp;rsquo; nas ferramentas de linha de comando.&lt;/p>
 &lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md">Repositório do projeto Rich&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#">Documentação da biblioteca Rich&lt;/a>&lt;/p>
+&lt;hr></description></item><item><title>Blog: Ferramentas</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/containers-ferramentas/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/containers-ferramentas/</guid><description>
+&lt;hr>
+&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#">Reduce the size of container images with DockerSlim&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a> em 17/01/2022.&lt;/p>
+&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/comandos-git/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/comandos-git/</guid><description>
 &lt;hr>
 &lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/">GIT PURR! Git Commands Explained with Cats!&lt;/a>&lt;/h2>
@@ -24,6 +43,36 @@
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets">Tracing the path of network traffic in Kubernetes&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a> em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/clean-code/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/clean-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
+&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
+&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4">In Defense of Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a> em 29/11/2021&lt;/p>
+&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin&lt;/a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
+&lt;hr>
+&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 20/01/2021&lt;/p>
+&lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
+&lt;blockquote>
+&lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>
+&lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
+&lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
+&lt;/blockquote>
 &lt;hr></description></item><item><title>Blog: Container Networking</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</guid><description>
 &lt;hr>
 &lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/">Container Networking Is Simple!&lt;/a>&lt;/h2>
@@ -42,16 +91,10 @@
 &lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">Debugging your code in Python — pdb vs. rpdb&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
 &lt;p>Veja a diferença entre o &lt;code>pdb&lt;/code> e o &lt;code>rpdb&lt;/code> e como usa-los na prática.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/dicas-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/dicas-python/</guid><description>
 &lt;hr>
-&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
-&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
-&lt;ul>
-&lt;li>JMESPath&lt;/li>
-&lt;li>Inflection&lt;/li>
-&lt;li>more-itertools&lt;/li>
-&lt;/ul>
+&lt;h2 id="stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">&lt;a href="https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">Stop Using Print to Debug in Python. Use Icecream Instead&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
+&lt;p>&lt;a href="https://github.com/gruns/icecream">Icecream&lt;/a> é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/">How to set up a serious Kubernetes terminal&lt;/a>&lt;/h2>
@@ -122,27 +165,7 @@
 &lt;h2 id="clean-api-architecturehttpsmediumcomperry-street-software-engineeringclean-api-architecture-2b57074084d5">&lt;a href="https://medium.com/perry-street-software-engineering/clean-api-architecture-2b57074084d5">Clean API Architecture&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eric-silverberg/">&lt;strong>Eric Silverberg&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
 &lt;p>Baseando-se na proposta da &lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a> o autor apresenta como aplicar o conceito &lt;code>Clean&lt;/code> aos endpoint&amp;rsquo;s de uma API.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-code/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-code/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
-&lt;/div>
-&lt;hr>
-&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
-&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
-&lt;hr>
-&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
-&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
-&lt;p>Palavras do autor:&lt;/p>
-&lt;blockquote>
-&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4">In Defense of Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a> em 29/11/2021&lt;/p>
-&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin&lt;/a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>
@@ -159,9 +182,4 @@
 &lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691">6 Advanced Python Decorator Patterns&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
 &lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Ferramentas</title><link>https://sandrorgguimaraes.github.io/blog/1/01/01/containers-ferramentas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/1/01/01/containers-ferramentas/</guid><description>
-&lt;hr>
-&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#">Reduce the size of container images with DockerSlim&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a> em 17/01/2022.&lt;/p>
-&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
 &lt;hr></description></item></channel></rss>

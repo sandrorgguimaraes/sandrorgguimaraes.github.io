@@ -1,4 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</link><description>Recent content in Python on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</link><description>Recent content in Python on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</guid><description>
+&lt;hr>
+&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
+&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py">JMESPath&lt;/a> permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jpvanhal/inflection">Inflection&lt;/a> é uma biblioteca de transformação de string.&lt;/li>
+&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#">more-itertools&lt;/a> é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f">Simulate Real-life Events in Python Using SimPy&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 16/05/2021.&lt;/p>
+&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html">SimPy&lt;/a> é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma Interface de Linha de Comandos (ILC), em inglês &lt;em>Command-Line Interface&lt;/em> (CLI), é um meio de interagir com um programa de computador, onde o utilizador emite comandos para o programa sob a forma de sucessivas linhas de texto (linhas de comando).&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>&lt;/p>
@@ -18,16 +32,10 @@
 &lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">Debugging your code in Python — pdb vs. rpdb&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
 &lt;p>Veja a diferença entre o &lt;code>pdb&lt;/code> e o &lt;code>rpdb&lt;/code> e como usa-los na prática.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/dicas-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/dicas-python/</guid><description>
 &lt;hr>
-&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
-&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
-&lt;ul>
-&lt;li>JMESPath&lt;/li>
-&lt;li>Inflection&lt;/li>
-&lt;li>more-itertools&lt;/li>
-&lt;/ul>
+&lt;h2 id="stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">&lt;a href="https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">Stop Using Print to Debug in Python. Use Icecream Instead&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
+&lt;p>&lt;a href="https://github.com/gruns/icecream">Icecream&lt;/a> é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O modulo Secrets é usado para gerar números aleatórios criptograficamente fortes adequados para gerenciar dados como senhas, autenticação de conta, tokens de segurança e segredos relacionados.&lt;/p>
@@ -37,7 +45,7 @@
 &lt;h2 id="the-secrets-module-of-pythonhttpsmediumcompythoneersthe-secrets-module-of-python-150af4c9f300">&lt;a href="https://medium.com/pythoneers/the-secrets-module-of-python-150af4c9f300">The Secrets Module of Python&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/swathi-arun/">&lt;strong>Swathi Arun&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
 &lt;p>Veja através de alguns exemplos como utilizar este módulo.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/10/decorators-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>

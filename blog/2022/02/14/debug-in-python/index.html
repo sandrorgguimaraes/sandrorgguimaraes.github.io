@@ -2,7 +2,7 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.93.2">
+<meta name=generator content="Hugo 0.93.3">
 <meta name=robots content="index, follow">
 <link rel="shortcut icon" href=/favicons/favicon.ico>
 <link rel=apple-touch-icon href=/favicons/apple-touch-icon-180x180.png sizes=180x180>
@@ -14,20 +14,20 @@
 <link rel=icon type=image/png href=/favicons/android-96x96.png sizes=96x96>
 <link rel=icon type=image/png href=/favicons/android-144x144.png sizes=144x144>
 <link rel=icon type=image/png href=/favicons/android-192x192.png sizes=192x192>
-<title>Debug in Python | Diário de Bordo</title><meta name=description content="Entenda como efetuar o debugging de um código Python.">
+<title>Debug in Python | Diário de Bordo</title><meta name=description content="Veja algumas formas de efetuar o debugging de um código Python.">
 <meta property="og:title" content="Debug in Python">
-<meta property="og:description" content="Entenda como efetuar o debugging de um código Python.">
+<meta property="og:description" content="Veja algumas formas de efetuar o debugging de um código Python.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2022-02-14T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-02-14T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-03-10T14:05:21+00:00">
 <meta itemprop=name content="Debug in Python">
-<meta itemprop=description content="Entenda como efetuar o debugging de um código Python."><meta itemprop=datePublished content="2022-02-14T00:00:00+00:00">
-<meta itemprop=dateModified content="2022-02-14T00:00:00+00:00">
-<meta itemprop=wordCount content="66">
+<meta itemprop=description content="Veja algumas formas de efetuar o debugging de um código Python."><meta itemprop=datePublished content="2022-02-14T00:00:00+00:00">
+<meta itemprop=dateModified content="2022-03-10T14:05:21+00:00">
+<meta itemprop=wordCount content="99">
 <meta itemprop=keywords content="python,debug,"><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Debug in Python">
-<meta name=twitter:description content="Entenda como efetuar o debugging de um código Python.">
+<meta name=twitter:description content="Veja algumas formas de efetuar o debugging de um código Python.">
 <link rel=preload href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css as=style>
 <link href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script>
@@ -92,9 +92,9 @@
 <input type=checkbox id=m-blogcontainer-check>
 <label for=m-blogcontainer-check><a href=/blog/container/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogcontainer><span>Containers</span></a></label>
 <ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog10101containers-ferramentas-li>
-<input type=checkbox id=m-blog10101containers-ferramentas-check>
-<label for=m-blog10101containers-ferramentas-check><a href=/blog/1/01/01/containers-ferramentas/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog10101containers-ferramentas><span>Ferramentas</span></a></label>
+<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307containers-ferramentas-li>
+<input type=checkbox id=m-blog20220307containers-ferramentas-check>
+<label for=m-blog20220307containers-ferramentas-check><a href=/blog/2022/03/07/containers-ferramentas/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307containers-ferramentas><span>Ferramentas</span></a></label>
 </li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogkubernetes-li>
 <input type=checkbox id=m-blogkubernetes-check>
 <label for=m-blogkubernetes-check><a href=/blog/kubernetes/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogkubernetes><span>Kubernetes</span></a></label>
@@ -115,40 +115,40 @@
 <input type=checkbox id=m-blogdesenvolvimento-check checked>
 <label for=m-blogdesenvolvimento-check><a href=/blog/desenvolvimento/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimento><span>Desenvolvimento</span></a></label>
 <ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-blogdesenvolvimentopython-li>
-<input type=checkbox id=m-blogdesenvolvimentopython-check checked>
-<label for=m-blogdesenvolvimentopython-check><a href=/blog/desenvolvimento/python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentopython><span>Python</span></a></label>
-<ul class="ul-3 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307cli-with-python-li>
-<input type=checkbox id=m-blog20220307cli-with-python-check>
-<label for=m-blog20220307cli-with-python-check><a href=/blog/2022/03/07/cli-with-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307cli-with-python><span>CLI com Python</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-blog20220214debug-in-python-li>
-<input type=checkbox id=m-blog20220214debug-in-python-check checked>
-<label for=m-blog20220214debug-in-python-check><a href=/blog/2022/02/14/debug-in-python/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-blog20220214debug-in-python><span class=td-sidebar-nav-active-item>Debug in Python</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214dicas-python-li>
-<input type=checkbox id=m-blog20220214dicas-python-check>
-<label for=m-blog20220214dicas-python-check><a href=/blog/2022/02/14/dicas-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214dicas-python><span>Dicas Python</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214secrets-module-python-li>
-<input type=checkbox id=m-blog20220214secrets-module-python-check>
-<label for=m-blog20220214secrets-module-python-check><a href=/blog/2022/02/14/secrets-module-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214secrets-module-python><span>Secrets Module</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220210decorators-python-li>
-<input type=checkbox id=m-blog20220210decorators-python-check>
-<label for=m-blog20220210decorators-python-check><a href=/blog/2022/02/10/decorators-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220210decorators-python><span>Decorators</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimentoflutter-li>
+<li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimentoflutter-li>
 <input type=checkbox id=m-blogdesenvolvimentoflutter-check>
 <label for=m-blogdesenvolvimentoflutter-check><a href=/blog/desenvolvimento/flutter/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentoflutter><span>Flutter</span></a></label>
 <ul class="ul-3 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220211casos-de-uso-do-flutter-li>
 <input type=checkbox id=m-blog20220211casos-de-uso-do-flutter-check>
 <label for=m-blog20220211casos-de-uso-do-flutter-check><a href=/blog/2022/02/11/casos-de-uso-do-flutter/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220211casos-de-uso-do-flutter><span>Casos de uso</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220211clean-code-li>
-<input type=checkbox id=m-blog20220211clean-code-check>
-<label for=m-blog20220211clean-code-check><a href=/blog/2022/02/11/clean-code/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220211clean-code><span>Clean Code</span></a></label>
+</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-blogdesenvolvimentopython-li>
+<input type=checkbox id=m-blogdesenvolvimentopython-check checked>
+<label for=m-blogdesenvolvimentopython-check><a href=/blog/desenvolvimento/python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentopython><span>Python</span></a></label>
+<ul class="ul-3 foldable">
+<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220309dicas-python-li>
+<input type=checkbox id=m-blog20220309dicas-python-check>
+<label for=m-blog20220309dicas-python-check><a href=/blog/2022/03/09/dicas-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220309dicas-python><span>Dicas Python</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307cli-with-python-li>
+<input type=checkbox id=m-blog20220307cli-with-python-check>
+<label for=m-blog20220307cli-with-python-check><a href=/blog/2022/03/07/cli-with-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307cli-with-python><span>CLI com Python</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-blog20220214debug-in-python-li>
+<input type=checkbox id=m-blog20220214debug-in-python-check checked>
+<label for=m-blog20220214debug-in-python-check><a href=/blog/2022/02/14/debug-in-python/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-blog20220214debug-in-python><span class=td-sidebar-nav-active-item>Debug in Python</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214secrets-module-python-li>
+<input type=checkbox id=m-blog20220214secrets-module-python-check>
+<label for=m-blog20220214secrets-module-python-check><a href=/blog/2022/02/14/secrets-module-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214secrets-module-python><span>Secrets Module</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog10101decorators-python-li>
+<input type=checkbox id=m-blog10101decorators-python-check>
+<label for=m-blog10101decorators-python-check><a href=/blog/1/01/01/decorators-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog10101decorators-python><span>Decorators</span></a></label>
+</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214clean-code-li>
+<input type=checkbox id=m-blog20220214clean-code-check>
+<label for=m-blog20220214clean-code-check><a href=/blog/2022/02/14/clean-code/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214clean-code><span>Clean Code</span></a></label>
 </li></ul></li></ul></li></ul></nav></div></aside><aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
 <div class="taxonomy taxonomy-terms-cloud">
-<h5 class=taxonomy-title>Tabela de Conteudo</h5></div><div class=td-toc><nav id=TableOfContents>
+<h5 class=taxonomy-title>O que há nesta página</h5></div><div class=td-toc><nav id=TableOfContents>
 <ul>
-<li><a href=#debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3><a href=https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3>Debugging your code in Python — pdb vs. rpdb</a></a></li></ul></nav></div><div class="taxonomy taxonomy-terms-cloud">
+<li><a href=#debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3><a href=https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3>Debugging your code in Python — pdb vs. rpdb</a></a></li><li><a href=#stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc><a href=https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc>Stop Using Print to Debug in Python. Use Icecream Instead</a></a></li></ul></nav></div><div class="taxonomy taxonomy-terms-cloud">
 <h5 class=taxonomy-title>Colabore</h5></div><div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
 <a href=https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/tree/main/content/pt-br/blog/desenvolvimento/python/debug.md class=td-page-meta--view target=_blank rel=noopener><i class="fa fa-file-alt fa-fw"></i> Ver código da página</a>
 <a href=https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/edit/main/content/pt-br/blog/desenvolvimento/python/debug.md class=td-page-meta--edit target=_blank rel=noopener><i class="fa fa-edit fa-fw"></i> Editar essa página</a>
@@ -159,21 +159,22 @@
 RSS <i class="fa fa-rss ml-2"></i>
 </a>
 <div class=td-content>
-<h1>Debug in Python</h1><div class=lead>Entenda como efetuar o debugging de um código Python.</div><div class="td-byline mb-4">
+<h1>Debug in Python</h1><div class=lead>Veja algumas formas de efetuar o debugging de um código Python.</div><div class="td-byline mb-4">
 <time datetime=2022-02-14 class=text-muted>14 de Feb de 2022</time>
 </div><header class=article-meta>
 <div class="taxonomy taxonomy-terms-article taxo-autores">
 <h5 class=taxonomy-title>Autores:</h5><ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/fernando-diaz/ data-taxonomy-term=fernando-diaz><span class=taxonomy-label>Fernando Diaz</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-categories">
+<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/fernando-diaz/ data-taxonomy-term=fernando-diaz><span class=taxonomy-label>Fernando Diaz</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/khuyen-tran/ data-taxonomy-term=khuyen-tran><span class=taxonomy-label>Khuyen Tran</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-categories">
 <h5 class=taxonomy-title>Categories:</h5><ul class=taxonomy-terms>
 <li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/categories/linguagem-de-programa%C3%A7%C3%A3o/ data-taxonomy-term=linguagem-de-programa%C3%A7%C3%A3o><span class=taxonomy-label>linguagem de programação</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-tags">
 <h5 class=taxonomy-title>Tags:</h5><ul class=taxonomy-terms>
 <li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/python/ data-taxonomy-term=python><span class=taxonomy-label>python</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/debug/ data-taxonomy-term=debug><span class=taxonomy-label>debug</span></a></li></ul></div><p class=reading-time><i class="fa fa-clock" aria-hidden=true></i>&nbsp; less than a minute &nbsp;</p></header><div class="pageinfo pageinfo-primary">
 <p>Na programação de computadores e desenvolvimento de software, debugging ou depuração em portugues, é o processo de encontrar e resolver bugs (defeitos ou problemas que impedem a operação correta) em programas de computador, software ou sistemas.</p><p>Fonte.: <a href=https://en.wikipedia.org/wiki/Debugging/>https://en.wikipedia.org/wiki/Debugging/</a></p></div><hr>
 <h2 id=debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3><a href=https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3>Debugging your code in Python — pdb vs. rpdb</a></h2><p>por <a href=/autores/fernando-diaz/><strong>Fernando Diaz</strong></a> em 08/09/2021.</p><p>Veja a diferença entre o <code>pdb</code> e o <code>rpdb</code> e como usa-los na prática.</p><hr>
+<h2 id=stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc><a href=https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc>Stop Using Print to Debug in Python. Use Icecream Instead</a></h2><p>por <a href=/autores/khuyen-tran/><strong>Khuyen Tran</strong></a> em 13/01/2021.</p><p><a href=https://github.com/gruns/icecream>Icecream</a> é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.</p><hr>
 <ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
 <li>
-<a href=/blog/2022/02/14/dicas-python/ aria-label="Anterior - Dicas Python" class="btn btn-primary"><span class=mr-1>←</span>Anterior</a>
+<a href=/blog/2022/02/14/secrets-module-python/ aria-label="Anterior - Secrets Module" class="btn btn-primary"><span class=mr-1>←</span>Anterior</a>
 </li><a href=/blog/2022/03/07/cli-with-python/ aria-label="Próximo - CLI com Python" class="btn btn-primary">Próximo<span class=ml-1>→</span></a>
 </li></ul></div></main></div></div><footer class="bg-dark py-5 row d-print-none">
 <div class="container-fluid mx-sm-5">

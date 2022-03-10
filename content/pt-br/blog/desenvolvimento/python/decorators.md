@@ -1,6 +1,6 @@
 ---
 title: Decorators
-date: 2022-02-10T00:00:00.000Z
+lastmod: .Lastmod
 categories:
     - design pattern
     - linguagem de programação

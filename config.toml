@@ -96,5 +96,6 @@ enable = true
 [frontmatter]
   date = ['date', 'publishDate', 'lastmod']
   expiryDate = ['expiryDate']
-  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  lastmod = ['lastmod', ':fileModTime', ':default']
+  # lastmod = [':git', 'lastmod', 'date', 'publishDate']
   publishDate = ['publishDate', 'date']

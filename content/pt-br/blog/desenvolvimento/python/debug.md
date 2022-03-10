@@ -8,7 +8,8 @@ tags:
     - debug
 autores:
     - Fernando Diaz
-description: Entenda como efetuar o debugging de um código Python.
+    - Khuyen Tran
+description: Veja algumas formas de efetuar o debugging de um código Python.
 keywords:
     - debug
     - python
@@ -28,5 +29,13 @@ Fonte.: <https://en.wikipedia.org/wiki/Debugging/>
 por [**Fernando Diaz**](/autores/fernando-diaz/) em 08/09/2021.
 
 Veja a diferença entre o `pdb` e o `rpdb` e como usa-los na prática.
+
+---
+
+## [Stop Using Print to Debug in Python. Use Icecream Instead](https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc)
+
+por [**Khuyen Tran**](/autores/khuyen-tran/) em 13/01/2021.
+
+[Icecream](https://github.com/gruns/icecream) é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.
 
 ---

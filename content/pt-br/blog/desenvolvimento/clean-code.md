@@ -1,17 +1,20 @@
 ---
 title: Clean Code
-date: 2022-02-11T00:00:00.000Z
+date: 2022-03-09T00:00:00.000Z
 categories:
     - desenvolvimento
 tags:
     - clean code
+    - python
 autores:
     - Shoaib Mehedi
     - HostGator
     - Tyler Hawkins
+    - Khuyen Tran
 description: Clean Code, ou Código Limpo, é um conjunto de técnicas simples que facilitam a escrita e a leitura de um código.
 keywords:
     - clean code
+    - python
 slug: clean-code
 ---
 
@@ -48,3 +51,19 @@ Palavras do autor:
 por [**Tyler Hawkins**](/autores/tyler-hawkins/) em 29/11/2021
 
 Após uma análise, capitulo por capitulo, do livro 'Clean Code' de [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um 'bom' engenheiro de software.
+
+---
+
+## [Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60)
+
+por [**Khuyen Tran**](/autores/khuyen-tran/) em 20/01/2021
+
+Pare de escrever funções Python que levam mais de três minutos para entender.
+
+> Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?
+>
+> Se for esse o caso, é hora de refatorar seu código.
+>
+> Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.
+
+---

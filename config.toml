@@ -6,25 +6,6 @@ defaultContentLanguageInSubdir = false
 title = 'Diário de Bordo'
 theme = "docsy"
 
-[taxonomies]
-tag = "tags"
-category = "categories"
-autor = "autores"
-
-[params.taxonomy]
-# set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloud = [""]
-# taxonomyCloud = ["categories", "tags", "autores"] 
-# If used, must have same lang as taxonomyCloud
-# taxonomyCloudTitle = [""]
-# taxonomyCloudTitle = ["Categorias", "Tags", "Autores"] 
-# set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = []
-# taxonomyPageHeader = ["categories", "tags", "autores"] 
-
-[permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
-
 [params]
 time_format_default = "2 de Jan de 2006"
 time_format_blog = "2 de Jan de 2006"
@@ -44,6 +25,29 @@ algolia_docsearch = false
 # Enable Lunr.js offline search
 offlineSearch = false
 
+# Enable .GitInfo object for each page (if the Hugo site is versioned by Git). This will then update
+# the Lastmod parameter for each page using the last git commit date for that content file.
+enableGitInfo = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+autor = "autores"
+
+[params.taxonomy]
+# set taxonomyCloud = [] to hide taxonomy clouds
+taxonomyCloud = [""]
+# taxonomyCloud = ["categories", "tags", "autores"] 
+# If used, must have same lang as taxonomyCloud
+# taxonomyCloudTitle = [""]
+# taxonomyCloudTitle = ["Categorias", "Tags", "Autores"] 
+# set taxonomyPageHeader = [] to hide taxonomies on the page headers
+taxonomyPageHeader = []
+# taxonomyPageHeader = ["categories", "tags", "autores"] 
+
+[permalinks]
+blog = "/:section/:year/:month/:day/:slug/"
+
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
@@ -61,11 +65,11 @@ sidebar_menu_foldable = true
 # set a desired menu depth to always be visible
 # ul_show = 2
 
+[params.ui.feedback]
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
-[params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Que bom, que gostou! Por favor, <a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/issues/new?title=Sugestoes">tem algo que podemos melhorar</a>?'
@@ -88,3 +92,9 @@ enable = true
   name = "GitHub"
   url = "https://github.com/sandrorgguimaraes/"
   icon = "fab fa-github-square"
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']

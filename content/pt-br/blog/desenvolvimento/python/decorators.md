@@ -44,3 +44,4 @@ por [**Bruce H. Cottam**](/autores/bruce-h.-cottman/) em 01/06/2021.
 Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.
 
 ---
+

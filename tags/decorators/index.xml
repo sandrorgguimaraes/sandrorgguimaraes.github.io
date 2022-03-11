@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – decorators</title><link>https://sandrorgguimaraes.github.io/tags/decorators/</link><description>Recent content in decorators on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/tags/decorators/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – decorators</title><link>https://sandrorgguimaraes.github.io/tags/decorators/</link><description>Recent content in decorators on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/decorators/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>
@@ -15,4 +15,7 @@
 &lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691">6 Advanced Python Decorator Patterns&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
 &lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p>
+&lt;hr>
+&lt;h2 id="the-single-most-useful-python-decorator-cachehttpsmediumcomdev-todaythe-single-most-useful-python-decorator-cache-88086c07417e">&lt;a href="https://medium.com/dev-today/the-single-most-useful-python-decorator-cache-88086c07417e">The single most useful Python Decorator @cache&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/felipe-florencio-garcia/">&lt;strong>Felipe Florencio Garcia&lt;/strong>&lt;/a> em 10/11/2021.&lt;/p>
 &lt;hr></description></item></channel></rss>

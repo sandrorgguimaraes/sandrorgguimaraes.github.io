@@ -1,6 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – git</title><link>https://sandrorgguimaraes.github.io/tags/git/</link><description>Recent content in git on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/comandos-git/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/comandos-git/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – git</title><link>https://sandrorgguimaraes.github.io/tags/git/</link><description>Recent content in git on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</guid><description>
 &lt;hr>
 &lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/">GIT PURR! Git Commands Explained with Cats!&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a> em 26/12/2017.&lt;/p>
 &lt;p>Uma maneira descontraída, através de ilustrações &amp;lsquo;bem coloridas&amp;rsquo; com gatos, de apresentar os principais comandos do Git.&lt;/p>
+&lt;hr>
+&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/">GitFichas&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>Aprenda os comandos do Git com fichas em um texto simples e claro.&lt;/p>
+&lt;hr>
+&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">5 new Git commands and 1 tip you’ll use every day&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a> em 23/09/2021.&lt;/p>
+&lt;p>Aprenda a criar seus próprios subcomandos ao git.&lt;/p>
 &lt;hr></description></item></channel></rss>

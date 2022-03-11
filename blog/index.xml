@@ -1,4 +1,86 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Autenticação</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</guid><description>
+&lt;hr>
+&lt;h2 id="you-dont-need-jwt-anymorehttpsmediumcombytesbayyou-dont-need-jwt-anymore-974aa6196976">&lt;a href="https://medium.com/@bytesbay/you-dont-need-jwt-anymore-974aa6196976">You don’t need JWT anymore&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/miroslaw-shpak/">&lt;strong>Miroslaw Shpak&lt;/strong>&lt;/a> em 02/10/2021.&lt;/p>
+&lt;p>Uma maneira mais simples de autenticar usuários com &lt;a href="https://www.bbc.com/portuguese/geral-59951952">WEB3&lt;/a> usando mensagens assinadas, utilizando o módulo &lt;a href="https://github.com/bytesbay/web3-token">web3-token&lt;/a> baseado no login do &lt;a href="https://pt.wikipedia.org/wiki/Ethereum">Ethereum&lt;/a>.&lt;/p>
+&lt;hr></description></item><item><title>Blog: CI / CD</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/ci-cd/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/ci-cd/</guid><description>
+&lt;hr>
+&lt;h2 id="basics-of-cicdhttpslevelupgitconnectedcombasics-of-ci-cd-a98340c60b04">&lt;a href="https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04">Basics of CI/CD&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/semyon-kirekov/">&lt;strong>Semyon Kirekov&lt;/strong>&lt;/a> em 24/10/2021.&lt;/p>
+&lt;p>Uma explicação simples e direta sobre CI (Continuous Integration) e CD (Continuous Delivery).&lt;/p>
+&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
+&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
+&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4">In Defense of Clean Code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a> em 29/11/2021&lt;/p>
+&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin&lt;/a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
+&lt;hr>
+&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 20/01/2021&lt;/p>
+&lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
+&lt;blockquote>
+&lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>
+&lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
+&lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</guid><description>
+&lt;hr>
+&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/">GIT PURR! Git Commands Explained with Cats!&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a> em 26/12/2017.&lt;/p>
+&lt;p>Uma maneira descontraída, através de ilustrações &amp;lsquo;bem coloridas&amp;rsquo; com gatos, de apresentar os principais comandos do Git.&lt;/p>
+&lt;hr>
+&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/">GitFichas&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>Aprenda os comandos do Git com fichas em um texto simples e claro.&lt;/p>
+&lt;hr>
+&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">5 new Git commands and 1 tip you’ll use every day&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a> em 23/09/2021.&lt;/p>
+&lt;p>Aprenda a criar seus próprios subcomandos ao git.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76">7 Levels of Using Decorators in Python&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yang-zhou/">&lt;strong>Yang Zhou&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
+&lt;p>Este artigo apresenta de forma simples e objetiva os principais conceitos, técnicas e usos dos decorators Python ao longo de 7 níveis.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Se você entender metade desses níveis, será fácil ler programas Python contendo decorators.&lt;/p>
+&lt;p>Se você entender todos eles, projetar e escrever decorators em Python será muito fácil.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691">6 Advanced Python Decorator Patterns&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
+&lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p>
+&lt;hr>
+&lt;h2 id="the-single-most-useful-python-decorator-cachehttpsmediumcomdev-todaythe-single-most-useful-python-decorator-cache-88086c07417e">&lt;a href="https://medium.com/dev-today/the-single-most-useful-python-decorator-cache-88086c07417e">The single most useful Python Decorator @cache&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/felipe-florencio-garcia/">&lt;strong>Felipe Florencio Garcia&lt;/strong>&lt;/a> em 10/11/2021.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Graphical User Interface</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/gui-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/gui-python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Interface Gráfica do Usuário mais conhecida como GUI (&lt;em>Graphical User Interface&lt;/em>) é um tipo de interface que permite a interação com dispositivos digitais por meio de elementos gráficos como ícones e outros indicadores visuais.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Graphical_user_interface">https://en.wikipedia.org/wiki/Graphical_user_interface&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="this-new-python-package-builds-awesome-guishttpspreetthemanmediumcomthis-new-python-package-builds-awesome-guis-150defda7915">&lt;a href="https://preettheman.medium.com/this-new-python-package-builds-awesome-guis-150defda7915">This new Python package builds awesome GUI’s!&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/manpreet-singh/">&lt;strong>Manpreet Singh&lt;/strong>&lt;/a> em 13/10/2021.&lt;/p>
+&lt;p>Conheça o pacote &lt;a href="https://github.com/hoffstadt/DearPyGui">Dear PyGui&lt;/a> e alguns &lt;a href="https://github.com/hoffstadt/DearPyGui/wiki/Dear-PyGui-Showcase">exemplos de uso&lt;/a>.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</guid><description>
 &lt;hr>
 &lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
@@ -33,46 +115,11 @@
 &lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#">Reduce the size of container images with DockerSlim&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a> em 17/01/2022.&lt;/p>
 &lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/comandos-git/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/comandos-git/</guid><description>
-&lt;hr>
-&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/">GIT PURR! Git Commands Explained with Cats!&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a> em 26/12/2017.&lt;/p>
-&lt;p>Uma maneira descontraída, através de ilustrações &amp;lsquo;bem coloridas&amp;rsquo; com gatos, de apresentar os principais comandos do Git.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</guid><description>
 &lt;hr>
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets">Tracing the path of network traffic in Kubernetes&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a> em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/clean-code/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/clean-code/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
-&lt;/div>
-&lt;hr>
-&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
-&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
-&lt;hr>
-&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
-&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
-&lt;p>Palavras do autor:&lt;/p>
-&lt;blockquote>
-&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4">In Defense of Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a> em 29/11/2021&lt;/p>
-&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin&lt;/a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
-&lt;hr>
-&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 20/01/2021&lt;/p>
-&lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
-&lt;blockquote>
-&lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>
-&lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
-&lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
-&lt;/blockquote>
 &lt;hr></description></item><item><title>Blog: Container Networking</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</guid><description>
 &lt;hr>
 &lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/">Container Networking Is Simple!&lt;/a>&lt;/h2>
@@ -165,21 +212,4 @@
 &lt;h2 id="clean-api-architecturehttpsmediumcomperry-street-software-engineeringclean-api-architecture-2b57074084d5">&lt;a href="https://medium.com/perry-street-software-engineering/clean-api-architecture-2b57074084d5">Clean API Architecture&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eric-silverberg/">&lt;strong>Eric Silverberg&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
 &lt;p>Baseando-se na proposta da &lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a> o autor apresenta como aplicar o conceito &lt;code>Clean&lt;/code> aos endpoint&amp;rsquo;s de uma API.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/1/01/01/decorators-python/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
-&lt;/div>
-&lt;hr>
-&lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76">7 Levels of Using Decorators in Python&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yang-zhou/">&lt;strong>Yang Zhou&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
-&lt;p>Este artigo apresenta de forma simples e objetiva os principais conceitos, técnicas e usos dos decorators Python ao longo de 7 níveis.&lt;/p>
-&lt;p>Palavras do autor:&lt;/p>
-&lt;blockquote>
-&lt;p>Se você entender metade desses níveis, será fácil ler programas Python contendo decorators.&lt;/p>
-&lt;p>Se você entender todos eles, projetar e escrever decorators em Python será muito fácil.&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691">6 Advanced Python Decorator Patterns&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
-&lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p>
 &lt;hr></description></item></channel></rss>

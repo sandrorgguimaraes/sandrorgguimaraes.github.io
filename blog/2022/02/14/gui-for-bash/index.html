@@ -1,201 +1,39 @@
-<!doctype html><html lang=pt-br class=no-js>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.93.3">
-<meta name=robots content="index, follow">
-<link rel="shortcut icon" href=/favicons/favicon.ico>
-<link rel=apple-touch-icon href=/favicons/apple-touch-icon-180x180.png sizes=180x180>
-<link rel=icon type=image/png href=/favicons/favicon-16x16.png sizes=16x16>
-<link rel=icon type=image/png href=/favicons/favicon-32x32.png sizes=32x32>
-<link rel=icon type=image/png href=/favicons/android-36x36.png sizes=36x36>
-<link rel=icon type=image/png href=/favicons/android-48x48.png sizes=48x48>
-<link rel=icon type=image/png href=/favicons/android-72x72.png sizes=72x72>
-<link rel=icon type=image/png href=/favicons/android-96x96.png sizes=96x96>
-<link rel=icon type=image/png href=/favicons/android-144x144.png sizes=144x144>
-<link rel=icon type=image/png href=/favicons/android-192x192.png sizes=192x192>
-<title>GUI for Bash | Diário de Bordo</title><meta name=description content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash.">
-<meta property="og:title" content="GUI for Bash">
-<meta property="og:description" content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://sandrorgguimaraes.github.io/blog/2022/02/14/gui-for-bash/"><meta property="article:section" content="blog">
-<meta property="article:published_time" content="2022-02-14T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-03-10T14:05:21+00:00">
-<meta itemprop=name content="GUI for Bash">
-<meta itemprop=description content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash."><meta itemprop=datePublished content="2022-02-14T00:00:00+00:00">
-<meta itemprop=dateModified content="2022-03-10T14:05:21+00:00">
-<meta itemprop=wordCount content="30">
-<meta itemprop=keywords content="gui bash,zenity,notify-send,"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="GUI for Bash">
-<meta name=twitter:description content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash.">
-<link rel=preload href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css as=style>
-<link href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css rel=stylesheet integrity>
-<script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script>
+<!doctype html><html lang=pt-br class=no-js><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.94.0"><meta name=robots content="index, follow"><link rel="shortcut icon" href=/favicons/favicon.ico><link rel=apple-touch-icon href=/favicons/apple-touch-icon-180x180.png sizes=180x180><link rel=icon type=image/png href=/favicons/favicon-16x16.png sizes=16x16><link rel=icon type=image/png href=/favicons/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/favicons/android-36x36.png sizes=36x36><link rel=icon type=image/png href=/favicons/android-48x48.png sizes=48x48><link rel=icon type=image/png href=/favicons/android-72x72.png sizes=72x72><link rel=icon type=image/png href=/favicons/android-96x96.png sizes=96x96><link rel=icon type=image/png href=/favicons/android-144x144.png sizes=144x144><link rel=icon type=image/png href=/favicons/android-192x192.png sizes=192x192><title>GUI for Bash | Diário de Bordo</title><meta name=description content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash."><meta property="og:title" content="GUI for Bash"><meta property="og:description" content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash."><meta property="og:type" content="article"><meta property="og:url" content="https://sandrorgguimaraes.github.io/blog/2022/02/14/gui-for-bash/"><meta property="article:section" content="blog"><meta property="article:published_time" content="2022-02-14T00:00:00+00:00"><meta property="article:modified_time" content="2022-03-11T02:31:26+00:00"><meta itemprop=name content="GUI for Bash"><meta itemprop=description content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash."><meta itemprop=datePublished content="2022-02-14T00:00:00+00:00"><meta itemprop=dateModified content="2022-03-11T02:31:26+00:00"><meta itemprop=wordCount content="30"><meta itemprop=keywords content="gui bash,zenity,notify-send,"><meta name=twitter:card content="summary"><meta name=twitter:title content="GUI for Bash"><meta name=twitter:description content="Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script's em Bash."><link rel=preload href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css as=style><link href=/scss/main.min.c58ce5d45149df8e10859c3eb1022295682982407b61dc69aa80c9ba066ffb49.css rel=stylesheet integrity><script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPCHWKW6D6"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-MPCHWKW6D6",{anonymize_ip:!1})}</script>
-</head><body class="td-page td-blog">
-<header>
-<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
-<a class=navbar-brand href=/>
-<span class=navbar-logo></span><span class=font-weight-bold>Diário de Bordo</span>
-</a>
-<div class="td-navbar-nav-scroll ml-md-auto" id=main_navbar>
-<ul class="navbar-nav mt-2 mt-lg-0">
-<li class="nav-item mr-4 mb-2 mb-lg-0">
-<a class="nav-link active" href=/blog/><i class="fas fa-blog"></i><span class=active>Vivendo & Aprendendo</span></a>
-</li><li class="nav-item mr-4 mb-2 mb-lg-0">
-<a class=nav-link href=/docs/><i class="fas fa-book"></i><span>Colocando em prática</span></a>
-</li></ul></div><div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Buscar no site…" aria-label="Buscar no site…" autocomplete=off>
-</div></nav></header><div class="container-fluid td-outer">
-<div class=td-main>
-<div class="row flex-xl-nowrap">
-<aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
-<div id=td-sidebar-menu class=td-sidebar__inner>
-<form class="td-sidebar__search d-flex align-items-center">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Buscar no site…" aria-label="Buscar no site…" autocomplete=off>
-<button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
-</button>
-</form><nav class="collapse td-sidebar-nav foldable-nav" id=td-section-nav>
-<ul class="td-sidebar-nav__section pr-md-3 ul-0">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-blog-li>
-<a href=/blog/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id=m-blog><span>Vivendo & Aprendendo</span></a>
-<ul class=ul-1>
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogarquitetura-li>
-<input type=checkbox id=m-blogarquitetura-check>
-<label for=m-blogarquitetura-check><a href=/blog/arquitetura/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogarquitetura><span>Arquitetura de Sistemas</span></a></label>
-<ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220211clean-architecture-li>
-<input type=checkbox id=m-blog20220211clean-architecture-check>
-<label for=m-blog20220211clean-architecture-check><a href=/blog/2022/02/11/clean-architecture/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220211clean-architecture><span>Clean Architecture</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-bloglinux-li>
-<input type=checkbox id=m-bloglinux-check checked>
-<label for=m-bloglinux-check><a href=/blog/linux/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-bloglinux><span>Linux</span></a></label>
-<ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-bloglinuxbash-li>
-<input type=checkbox id=m-bloglinuxbash-check checked>
-<label for=m-bloglinuxbash-check><a href=/blog/linux/bash/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-bloglinuxbash><span>Bash</span></a></label>
-<ul class="ul-3 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-blog20220214gui-for-bash-li>
-<input type=checkbox id=m-blog20220214gui-for-bash-check checked>
-<label for=m-blog20220214gui-for-bash-check><a href=/blog/2022/02/14/gui-for-bash/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-blog20220214gui-for-bash><span class=td-sidebar-nav-active-item>GUI for Bash</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214container-networking-li>
-<input type=checkbox id=m-blog20220214container-networking-check>
-<label for=m-blog20220214container-networking-check><a href=/blog/2022/02/14/container-networking/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214container-networking><span>Container Networking</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-bloggit-li>
-<input type=checkbox id=m-bloggit-check>
-<label for=m-bloggit-check><a href=/blog/git/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-bloggit><span>Git</span></a></label>
-<ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220218comandos-git-li>
-<input type=checkbox id=m-blog20220218comandos-git-check>
-<label for=m-blog20220218comandos-git-check><a href=/blog/2022/02/18/comandos-git/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220218comandos-git><span>Comandos Git</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogcontainer-li>
-<input type=checkbox id=m-blogcontainer-check>
-<label for=m-blogcontainer-check><a href=/blog/container/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogcontainer><span>Containers</span></a></label>
-<ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307containers-ferramentas-li>
-<input type=checkbox id=m-blog20220307containers-ferramentas-check>
-<label for=m-blog20220307containers-ferramentas-check><a href=/blog/2022/03/07/containers-ferramentas/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307containers-ferramentas><span>Ferramentas</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogkubernetes-li>
-<input type=checkbox id=m-blogkubernetes-check>
-<label for=m-blogkubernetes-check><a href=/blog/kubernetes/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogkubernetes><span>Kubernetes</span></a></label>
-<ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307kubernetes-arquitetura-li>
-<input type=checkbox id=m-blog20220307kubernetes-arquitetura-check>
-<label for=m-blog20220307kubernetes-arquitetura-check><a href=/blog/2022/03/07/kubernetes-arquitetura/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307kubernetes-arquitetura><span>Arquitetura</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220218kubernetes-network-li>
-<input type=checkbox id=m-blog20220218kubernetes-network-check>
-<label for=m-blog20220218kubernetes-network-check><a href=/blog/2022/02/18/kubernetes-network/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220218kubernetes-network><span>Network</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214kubernetes-tools-terminal-li>
-<input type=checkbox id=m-blog20220214kubernetes-tools-terminal-check>
-<label for=m-blog20220214kubernetes-tools-terminal-check><a href=/blog/2022/02/14/kubernetes-tools-terminal/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214kubernetes-tools-terminal><span>Ferramentas pro terminal</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214kubernetes-engineers-guide-mtls-li>
-<input type=checkbox id=m-blog20220214kubernetes-engineers-guide-mtls-check>
-<label for=m-blog20220214kubernetes-engineers-guide-mtls-check><a href=/blog/2022/02/14/kubernetes-engineers-guide-mtls/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214kubernetes-engineers-guide-mtls><span>Um guia para mTLS</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimento-li>
-<input type=checkbox id=m-blogdesenvolvimento-check>
-<label for=m-blogdesenvolvimento-check><a href=/blog/desenvolvimento/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimento><span>Desenvolvimento</span></a></label>
-<ul class="ul-2 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimentoflutter-li>
-<input type=checkbox id=m-blogdesenvolvimentoflutter-check>
-<label for=m-blogdesenvolvimentoflutter-check><a href=/blog/desenvolvimento/flutter/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentoflutter><span>Flutter</span></a></label>
-<ul class="ul-3 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220211casos-de-uso-do-flutter-li>
-<input type=checkbox id=m-blog20220211casos-de-uso-do-flutter-check>
-<label for=m-blog20220211casos-de-uso-do-flutter-check><a href=/blog/2022/02/11/casos-de-uso-do-flutter/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220211casos-de-uso-do-flutter><span>Casos de uso</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimentopython-li>
-<input type=checkbox id=m-blogdesenvolvimentopython-check>
-<label for=m-blogdesenvolvimentopython-check><a href=/blog/desenvolvimento/python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentopython><span>Python</span></a></label>
-<ul class="ul-3 foldable">
-<li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220309dicas-python-li>
-<input type=checkbox id=m-blog20220309dicas-python-check>
-<label for=m-blog20220309dicas-python-check><a href=/blog/2022/03/09/dicas-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220309dicas-python><span>Dicas Python</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307cli-with-python-li>
-<input type=checkbox id=m-blog20220307cli-with-python-check>
-<label for=m-blog20220307cli-with-python-check><a href=/blog/2022/03/07/cli-with-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307cli-with-python><span>CLI com Python</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214debug-in-python-li>
-<input type=checkbox id=m-blog20220214debug-in-python-check>
-<label for=m-blog20220214debug-in-python-check><a href=/blog/2022/02/14/debug-in-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214debug-in-python><span>Debug in Python</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214secrets-module-python-li>
-<input type=checkbox id=m-blog20220214secrets-module-python-check>
-<label for=m-blog20220214secrets-module-python-check><a href=/blog/2022/02/14/secrets-module-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214secrets-module-python><span>Secrets Module</span></a></label>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog10101decorators-python-li>
-<input type=checkbox id=m-blog10101decorators-python-check>
-<label for=m-blog10101decorators-python-check><a href=/blog/1/01/01/decorators-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog10101decorators-python><span>Decorators</span></a></label>
-</li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214clean-code-li>
-<input type=checkbox id=m-blog20220214clean-code-check>
-<label for=m-blog20220214clean-code-check><a href=/blog/2022/02/14/clean-code/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214clean-code><span>Clean Code</span></a></label>
-</li></ul></li></ul></li></ul></nav></div></aside><aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
-<div class="taxonomy taxonomy-terms-cloud">
-<h5 class=taxonomy-title>O que há nesta página</h5></div><div class=td-toc><nav id=TableOfContents>
-<ul>
-<li><a href=#how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7><a href=https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7>How to Modernize Your Bash Scripts By Adding GUI</a></a></li></ul></nav></div><div class="taxonomy taxonomy-terms-cloud">
-<h5 class=taxonomy-title>Colabore</h5></div><div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-<a href=https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/tree/main/content/pt-br/blog/linux/bash/gui.md class=td-page-meta--view target=_blank rel=noopener><i class="fa fa-file-alt fa-fw"></i> Ver código da página</a>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-MPCHWKW6D6",{anonymize_ip:!1})}</script></head><body class="td-page td-blog"><header><nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar"><a class=navbar-brand href=/><span class=navbar-logo></span><span class=font-weight-bold>Diário de Bordo</span></a><div class="td-navbar-nav-scroll ml-md-auto" id=main_navbar><ul class="navbar-nav mt-2 mt-lg-0"><li class="nav-item mr-4 mb-2 mb-lg-0"><a class="nav-link active" href=/blog/><i class="fas fa-blog"></i><span class=active>Vivendo & Aprendendo</span></a></li><li class="nav-item mr-4 mb-2 mb-lg-0"><a class=nav-link href=/docs/><i class="fas fa-book"></i><span>Colocando em prática</span></a></li></ul></div><div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Buscar no site…" aria-label="Buscar no site…" autocomplete=off></div></nav></header><div class="container-fluid td-outer"><div class=td-main><div class="row flex-xl-nowrap"><aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none"><div id=td-sidebar-menu class=td-sidebar__inner><form class="td-sidebar__search d-flex align-items-center"><input type=search class="form-control td-search-input" placeholder="&#xf002; Buscar no site…" aria-label="Buscar no site…" autocomplete=off>
+<button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation"></button></form><nav class="collapse td-sidebar-nav foldable-nav" id=td-section-nav><ul class="td-sidebar-nav__section pr-md-3 ul-0"><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-blog-li><a href=/blog/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id=m-blog><span>Vivendo & Aprendendo</span></a><ul class=ul-1><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogarquitetura-li><input type=checkbox id=m-blogarquitetura-check>
+<label for=m-blogarquitetura-check><a href=/blog/arquitetura/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogarquitetura><span>Arquitetura de Sistemas</span></a></label><ul class="ul-2 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220310autenticacao-li><input type=checkbox id=m-blog20220310autenticacao-check>
+<label for=m-blog20220310autenticacao-check><a href=/blog/2022/03/10/autenticacao/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220310autenticacao><span>Autenticação</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220211clean-architecture-li><input type=checkbox id=m-blog20220211clean-architecture-check>
+<label for=m-blog20220211clean-architecture-check><a href=/blog/2022/02/11/clean-architecture/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220211clean-architecture><span>Clean Architecture</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-bloglinux-li><input type=checkbox id=m-bloglinux-check checked>
+<label for=m-bloglinux-check><a href=/blog/linux/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-bloglinux><span>Linux</span></a></label><ul class="ul-2 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-bloglinuxbash-li><input type=checkbox id=m-bloglinuxbash-check checked>
+<label for=m-bloglinuxbash-check><a href=/blog/linux/bash/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-bloglinuxbash><span>Bash</span></a></label><ul class="ul-3 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-blog20220214gui-for-bash-li><input type=checkbox id=m-blog20220214gui-for-bash-check checked>
+<label for=m-blog20220214gui-for-bash-check><a href=/blog/2022/02/14/gui-for-bash/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-blog20220214gui-for-bash><span class=td-sidebar-nav-active-item>GUI for Bash</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214container-networking-li><input type=checkbox id=m-blog20220214container-networking-check>
+<label for=m-blog20220214container-networking-check><a href=/blog/2022/02/14/container-networking/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214container-networking><span>Container Networking</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogcontainer-li><input type=checkbox id=m-blogcontainer-check>
+<label for=m-blogcontainer-check><a href=/blog/container/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogcontainer><span>Containers</span></a></label><ul class="ul-2 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307containers-ferramentas-li><input type=checkbox id=m-blog20220307containers-ferramentas-check>
+<label for=m-blog20220307containers-ferramentas-check><a href=/blog/2022/03/07/containers-ferramentas/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307containers-ferramentas><span>Ferramentas</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-bloggit-li><input type=checkbox id=m-bloggit-check>
+<label for=m-bloggit-check><a href=/blog/git/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-bloggit><span>Git</span></a></label><ul class="ul-2 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220310comandos-git-li><input type=checkbox id=m-blog20220310comandos-git-check>
+<label for=m-blog20220310comandos-git-check><a href=/blog/2022/03/10/comandos-git/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220310comandos-git><span>Comandos Git</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdevops-li><input type=checkbox id=m-blogdevops-check>
+<label for=m-blogdevops-check><a href=/blog/devops/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdevops><span>DevOps</span></a></label><ul class="ul-2 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220310ci-cd-li><input type=checkbox id=m-blog20220310ci-cd-check>
+<label for=m-blog20220310ci-cd-check><a href=/blog/2022/03/10/ci-cd/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220310ci-cd><span>CI / CD</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogkubernetes-li><input type=checkbox id=m-blogkubernetes-check>
+<label for=m-blogkubernetes-check><a href=/blog/kubernetes/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogkubernetes><span>Kubernetes</span></a></label><ul class="ul-2 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307kubernetes-arquitetura-li><input type=checkbox id=m-blog20220307kubernetes-arquitetura-check>
+<label for=m-blog20220307kubernetes-arquitetura-check><a href=/blog/2022/03/07/kubernetes-arquitetura/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307kubernetes-arquitetura><span>Arquitetura</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220218kubernetes-network-li><input type=checkbox id=m-blog20220218kubernetes-network-check>
+<label for=m-blog20220218kubernetes-network-check><a href=/blog/2022/02/18/kubernetes-network/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220218kubernetes-network><span>Network</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214kubernetes-tools-terminal-li><input type=checkbox id=m-blog20220214kubernetes-tools-terminal-check>
+<label for=m-blog20220214kubernetes-tools-terminal-check><a href=/blog/2022/02/14/kubernetes-tools-terminal/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214kubernetes-tools-terminal><span>Ferramentas pro terminal</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214kubernetes-engineers-guide-mtls-li><input type=checkbox id=m-blog20220214kubernetes-engineers-guide-mtls-check>
+<label for=m-blog20220214kubernetes-engineers-guide-mtls-check><a href=/blog/2022/02/14/kubernetes-engineers-guide-mtls/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214kubernetes-engineers-guide-mtls><span>Um guia para mTLS</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimento-li><input type=checkbox id=m-blogdesenvolvimento-check>
+<label for=m-blogdesenvolvimento-check><a href=/blog/desenvolvimento/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimento><span>Desenvolvimento</span></a></label><ul class="ul-2 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimentoflutter-li><input type=checkbox id=m-blogdesenvolvimentoflutter-check>
+<label for=m-blogdesenvolvimentoflutter-check><a href=/blog/desenvolvimento/flutter/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentoflutter><span>Flutter</span></a></label><ul class="ul-3 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220211casos-de-uso-do-flutter-li><input type=checkbox id=m-blog20220211casos-de-uso-do-flutter-check>
+<label for=m-blog20220211casos-de-uso-do-flutter-check><a href=/blog/2022/02/11/casos-de-uso-do-flutter/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220211casos-de-uso-do-flutter><span>Casos de uso</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-blogdesenvolvimentopython-li><input type=checkbox id=m-blogdesenvolvimentopython-check>
+<label for=m-blogdesenvolvimentopython-check><a href=/blog/desenvolvimento/python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-blogdesenvolvimentopython><span>Python</span></a></label><ul class="ul-3 foldable"><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220310decorators-python-li><input type=checkbox id=m-blog20220310decorators-python-check>
+<label for=m-blog20220310decorators-python-check><a href=/blog/2022/03/10/decorators-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220310decorators-python><span>Decorators</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220310gui-python-li><input type=checkbox id=m-blog20220310gui-python-check>
+<label for=m-blog20220310gui-python-check><a href=/blog/2022/03/10/gui-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220310gui-python><span>Graphical User Interface</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220309dicas-python-li><input type=checkbox id=m-blog20220309dicas-python-check>
+<label for=m-blog20220309dicas-python-check><a href=/blog/2022/03/09/dicas-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220309dicas-python><span>Dicas Python</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220307cli-with-python-li><input type=checkbox id=m-blog20220307cli-with-python-check>
+<label for=m-blog20220307cli-with-python-check><a href=/blog/2022/03/07/cli-with-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220307cli-with-python><span>CLI com Python</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214debug-in-python-li><input type=checkbox id=m-blog20220214debug-in-python-check>
+<label for=m-blog20220214debug-in-python-check><a href=/blog/2022/02/14/debug-in-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214debug-in-python><span>Debug in Python</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220214secrets-module-python-li><input type=checkbox id=m-blog20220214secrets-module-python-check>
+<label for=m-blog20220214secrets-module-python-check><a href=/blog/2022/02/14/secrets-module-python/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220214secrets-module-python><span>Secrets Module</span></a></label></li></ul></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-blog20220310clean-code-li><input type=checkbox id=m-blog20220310clean-code-check>
+<label for=m-blog20220310clean-code-check><a href=/blog/2022/03/10/clean-code/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-blog20220310clean-code><span>Clean Code</span></a></label></li></ul></li></ul></li></ul></nav></div></aside><aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none"><div class="taxonomy taxonomy-terms-cloud"><h5 class=taxonomy-title>O que há nesta página</h5></div><div class=td-toc><nav id=TableOfContents><ul><li><a href=#how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7><a href=https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7>How to Modernize Your Bash Scripts By Adding GUI</a></a></li></ul></nav></div><div class="taxonomy taxonomy-terms-cloud"><h5 class=taxonomy-title>Colabore</h5></div><div class="td-page-meta ml-2 pb-1 pt-2 mb-0"><a href=https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/tree/main/content/pt-br/blog/linux/bash/gui.md class=td-page-meta--view target=_blank rel=noopener><i class="fa fa-file-alt fa-fw"></i> Ver código da página</a>
 <a href=https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/edit/main/content/pt-br/blog/linux/bash/gui.md class=td-page-meta--edit target=_blank rel=noopener><i class="fa fa-edit fa-fw"></i> Editar essa página</a>
 <a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/new/main/content/pt-br/blog/linux/bash/gui.md?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%22%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A+%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%23+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Give+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60%0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%28%3C80+characters%3B+use+the+extended+description+field+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%0A" class=td-page-meta--child target=_blank rel=noopener><i class="fa fa-edit fa-fw"></i> Criar uma subpágina</a>
-<a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/issues/new?title=GUI%20for%20Bash" class=td-page-meta--issue target=_blank rel=noopener><i class="fab fa-github fa-fw"></i> Relatar um problema de documentação</a>
-</div></aside><main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role=main>
-<a class="btn btn-sm -bg-orange td-rss-button d-none d-lg-block" href=https://sandrorgguimaraes.github.io/blog/linux/bash/index.xml target=_blank>
-RSS <i class="fa fa-rss ml-2"></i>
-</a>
-<div class=td-content>
-<h1>GUI for Bash</h1><div class=lead>Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script&rsquo;s em Bash.</div><div class="td-byline mb-4">
-<time datetime=2022-02-14 class=text-muted>14 de Feb de 2022</time>
-</div><header class=article-meta>
-<div class="taxonomy taxonomy-terms-article taxo-autores">
-<h5 class=taxonomy-title>Autores:</h5><ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/shalitha-suranga/ data-taxonomy-term=shalitha-suranga><span class=taxonomy-label>Shalitha Suranga</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-categories">
-<h5 class=taxonomy-title>Categories:</h5><ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/categories/bash/ data-taxonomy-term=bash><span class=taxonomy-label>bash</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-tags">
-<h5 class=taxonomy-title>Tags:</h5><ul class=taxonomy-terms>
-<li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/gui-bash/ data-taxonomy-term=gui-bash><span class=taxonomy-label>gui bash</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/zenity/ data-taxonomy-term=zenity><span class=taxonomy-label>zenity</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/notify-send/ data-taxonomy-term=notify-send><span class=taxonomy-label>notify-send</span></a></li></ul></div><p class=reading-time><i class="fa fa-clock" aria-hidden=true></i>&nbsp; less than a minute &nbsp;</p></header><hr>
-<h2 id=how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7><a href=https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7>How to Modernize Your Bash Scripts By Adding GUI</a></h2><p>por <a href=/autores/shalitha-suranga/><strong>Shalitha Suranga</strong></a> em 27/09/2020.</p><p>Implemente componentes de entrada/saída nos script&rsquo;s Bash usando a <code>Zenity</code> e envie notificações com o <code>notify-send</code>.</p><hr>
-<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
-<li>
-<a class="btn btn-primary disabled"><span class=mr-1>←</span>Anterior</a>
-</li><a class="btn btn-primary disabled">Próximo<span class=ml-1>→</span></a>
-</li></ul></div></main></div></div><footer class="bg-dark py-5 row d-print-none">
-<div class="container-fluid mx-sm-5">
-<div class=row>
-<div class="col-6 col-sm-4 text-xs-center order-sm-2">
-<ul class="list-inline mb-0">
-<li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=LinkedIn aria-label=LinkedIn>
-<a class=text-white target=_blank rel=noopener href=https://www.linkedin.com/in/sandrorgguimaraes/ aria-label=LinkedIn>
-<i class="fab fa-linkedin"></i>
-</a>
-</li><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=Twitter aria-label=Twitter>
-<a class=text-white target=_blank rel=noopener href=https://www.twitter.com/sandrorogerio/ aria-label=Twitter>
-<i class="fab fa-twitter-square"></i>
-</a>
-</li><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=GitHub aria-label=GitHub>
-<a class=text-white target=_blank rel=noopener href=https://github.com/sandrorgguimaraes/ aria-label=GitHub>
-<i class="fab fa-github-square"></i>
-</a>
-</li></ul></div><div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
-</div><div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-<small class=text-white>&copy; 2022 Sandro Rogério Galvão Guimarães Todos os direitos reservados</small>
-</div></div></div></footer></div><script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js integrity=sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN crossorigin=anonymous></script>
+<a href="https://github.com/sandrorgguimaraes/sandrorgguimaraes.github.io/issues/new?title=GUI%20for%20Bash" class=td-page-meta--issue target=_blank rel=noopener><i class="fab fa-github fa-fw"></i> Relatar um problema de documentação</a></div></aside><main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role=main><a class="btn btn-sm -bg-orange td-rss-button d-none d-lg-block" href=https://sandrorgguimaraes.github.io/blog/linux/bash/index.xml target=_blank>RSS <i class="fa fa-rss ml-2"></i></a><div class=td-content><h1>GUI for Bash</h1><div class=lead>Como criar uma GUI - Graphical User Interface (Interface Gráfica do Usuário) para os script&rsquo;s em Bash.</div><div class="td-byline mb-4"><time datetime=2022-02-14 class=text-muted>14 de Feb de 2022</time></div><header class=article-meta><div class="taxonomy taxonomy-terms-article taxo-autores"><h5 class=taxonomy-title>Autores:</h5><ul class=taxonomy-terms><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/autores/shalitha-suranga/ data-taxonomy-term=shalitha-suranga><span class=taxonomy-label>Shalitha Suranga</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-categories"><h5 class=taxonomy-title>Categories:</h5><ul class=taxonomy-terms><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/categories/bash/ data-taxonomy-term=bash><span class=taxonomy-label>bash</span></a></li></ul></div><div class="taxonomy taxonomy-terms-article taxo-tags"><h5 class=taxonomy-title>Tags:</h5><ul class=taxonomy-terms><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/gui-bash/ data-taxonomy-term=gui-bash><span class=taxonomy-label>gui bash</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/zenity/ data-taxonomy-term=zenity><span class=taxonomy-label>zenity</span></a></li><li><a class=taxonomy-term href=https://sandrorgguimaraes.github.io/tags/notify-send/ data-taxonomy-term=notify-send><span class=taxonomy-label>notify-send</span></a></li></ul></div><p class=reading-time><i class="fa fa-clock" aria-hidden=true></i>&nbsp; less than a minute &nbsp;</p></header><hr><h2 id=how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7><a href=https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7>How to Modernize Your Bash Scripts By Adding GUI</a></h2><p>por <a href=/autores/shalitha-suranga/><strong>Shalitha Suranga</strong></a> em 27/09/2020.</p><p>Implemente componentes de entrada/saída nos script&rsquo;s Bash usando a <code>Zenity</code> e envie notificações com o <code>notify-send</code>.</p><hr><ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5"><li><a class="btn btn-primary disabled"><span class=mr-1>←</span>Anterior</a></li><a class="btn btn-primary disabled">Próximo<span class=ml-1>→</span></a></li></ul></div></main></div></div><footer class="bg-dark py-5 row d-print-none"><div class="container-fluid mx-sm-5"><div class=row><div class="col-6 col-sm-4 text-xs-center order-sm-2"><ul class="list-inline mb-0"><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=LinkedIn aria-label=LinkedIn><a class=text-white target=_blank rel=noopener href=https://www.linkedin.com/in/sandrorgguimaraes/ aria-label=LinkedIn><i class="fab fa-linkedin"></i></a></li><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=Twitter aria-label=Twitter><a class=text-white target=_blank rel=noopener href=https://www.twitter.com/sandrorogerio/ aria-label=Twitter><i class="fab fa-twitter-square"></i></a></li><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=GitHub aria-label=GitHub><a class=text-white target=_blank rel=noopener href=https://github.com/sandrorgguimaraes/ aria-label=GitHub><i class="fab fa-github-square"></i></a></li></ul></div><div class="col-6 col-sm-4 text-right text-xs-center order-sm-3"></div><div class="col-12 col-sm-4 text-center py-2 order-sm-2"><small class=text-white>&copy; 2022 Sandro Rogério Galvão Guimarães Todos os direitos reservados</small></div></div></div></footer></div><script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js integrity=sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin=anonymous></script>
 <script src=/js/tabpane-persist.js></script>
-<script src=/js/main.min.c716e975646dcb53564714bd3e6aecacb626ed78a78024abdd2abc4cdd2ab89b.js integrity="sha256-xxbpdWRty1NWRxS9PmrsrLYm7XingCSr3Sq8TN0quJs=" crossorigin=anonymous></script>
-</body></html>
+<script src=/js/main.min.c716e975646dcb53564714bd3e6aecacb626ed78a78024abdd2abc4cdd2ab89b.js integrity="sha256-xxbpdWRty1NWRxS9PmrsrLYm7XingCSr3Sq8TN0quJs=" crossorigin=anonymous></script></body></html>

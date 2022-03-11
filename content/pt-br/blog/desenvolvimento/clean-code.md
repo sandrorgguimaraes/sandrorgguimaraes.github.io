@@ -1,7 +1,6 @@
 ---
 title: Clean Code
-date: 2022-02-14T00:00:00.000Z
-lastmod: 2022-03-10T00:00:00.000Z
+date: 2022-03-10
 categories:
     - desenvolvimento
 tags:

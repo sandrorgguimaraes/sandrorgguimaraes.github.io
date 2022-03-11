@@ -1,4 +1,4 @@
 ---
 title: "Linux"
-weight: 30
+weight: 20
 ---

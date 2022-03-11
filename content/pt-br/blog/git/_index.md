@@ -1,4 +1,4 @@
 ---
 title: "Git"
-weight: 50
+weight: 40
 ---

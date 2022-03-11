@@ -10,6 +10,7 @@ tags:
     - inflection
     - more_itertools
     - sympy
+    - simulacoes
 autores:
     - Sam Vidovich
     - Khuyen Tran
@@ -20,6 +21,7 @@ keywords:
     - inflection
     - more_itertools
     - sympy
+    - simulacoes
 slug: dicas-python
 ---
 

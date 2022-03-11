@@ -1,6 +1,6 @@
 ---
 title: Decorators
-lastmod: .Lastmod
+date: 2022-03-10
 categories:
     - design pattern
     - linguagem de programação
@@ -10,6 +10,7 @@ tags:
 autores:
     - Bruce H. Cottman
     - Yang Zhou
+    - Felipe Florencio Garcia
 description: Entenda o funcionamento do design pattern (padrão de design) Decorators em Python.
 keywords:
     - decorators
@@ -45,3 +46,8 @@ Neste artigo o autor explica com exemplos de código o funcionamento dos decorat
 
 ---
 
+## [The single most useful Python Decorator @cache](https://medium.com/dev-today/the-single-most-useful-python-decorator-cache-88086c07417e)
+
+por [**Felipe Florencio Garcia**](/autores/felipe-florencio-garcia/) em 10/11/2021.
+
+---

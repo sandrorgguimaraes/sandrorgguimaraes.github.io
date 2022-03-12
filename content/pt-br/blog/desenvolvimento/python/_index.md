@@ -1,4 +1,4 @@
 ---
 title: "Python"
-weight: 71
+weight: 60
 ---

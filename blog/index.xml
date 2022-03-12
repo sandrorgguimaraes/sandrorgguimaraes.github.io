@@ -1,4 +1,27 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Autenticação</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: API Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/11/api/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/11/api/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Uma API (&lt;em>Application Programming Interface&lt;/em>) ou Interface de Programação de Aplicativos é uma conexão entre computadores ou entre programas de computador. É um tipo de interface de software, oferecendo um serviço a outros softwares.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/API">https://en.wikipedia.org/wiki/API&lt;/a>&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="api-architecture---design-best-practices-for-rest-apishttpsabdulrwahabmediumcomapi-architecture-best-practices-for-designing-rest-apis-bf907025f5f">&lt;a href="https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f">API Architecture - Design Best Practices for REST APIs&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/">&lt;strong>Abdul Wahab&lt;/strong>&lt;/a> em 31/10/2021.&lt;/p>
+&lt;p>Veja com uma linguagem clara e direta algumas dicas de boas práticas no projeto e desenvolvimento de API&amp;rsquo;s REST.&lt;/p>
+&lt;hr>
+&lt;h2 id="api-architecture---performance-best-practices-for-rest-apishttpsabdulrwahabmediumcomapi-architecture-performance-best-practices-for-rest-apis-1d4a5922dae1">&lt;a href="https://abdulrwahab.medium.com/api-architecture-performance-best-practices-for-rest-apis-1d4a5922dae1">API Architecture - Performance Best Practices for REST APIs&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/">&lt;strong>Abdul Wahab&lt;/strong>&lt;/a> em 07/11/2021.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Um design bem pensado também deve levar em conta os aspectos de desempenho de uma API. Um bom design significa pouco se a API não tiver o desempenho desejado em resposta a solicitações crescentes e requisitos de negócios e/ou clientes em evolução.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Grafana</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/11/grafana/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/11/grafana/</guid><description>
+&lt;hr>
+&lt;h2 id="grafana-as-codehttpsmediumcomtarantoolgrafana-as-code-b642cac9ae75">&lt;a href="https://medium.com/@tarantool/grafana-as-code-b642cac9ae75">Grafana as code&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/georgy-moiseev/">&lt;strong>Georgy Moiseev&lt;/strong>&lt;/a> em 03/11/2021.&lt;/p>
+&lt;p>Veja como um problema para configurar o monitoramento de um projeto, foi resolvido com o &lt;a href="https://grafana.github.io/grafonnet-lib/">Grafonnet&lt;/a>, uma biblioteca que permite escrever dashboards &lt;a href="https://grafana.com/">Grafana&lt;/a> em uma linguagem chamada &lt;a href="https://jsonnet.org/">Jsonnet&lt;/a>.&lt;/p>
+&lt;p>Na primeira parte, será explicado como começaram com o &lt;a href="https://grafana.github.io/grafonnet-lib/">Grafonnet&lt;/a>, por que escolheram essa ferramenta e quais problemas ela resolveu.&lt;/p>
+&lt;p>A segunda parte é um tutorial sobre como escrever um painel simples do &lt;a href="https://prometheus.io/">Prometheus&lt;/a> com &lt;a href="https://grafana.github.io/grafonnet-lib/">Grafonnet&lt;/a>.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Autenticação</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</guid><description>
 &lt;hr>
 &lt;h2 id="you-dont-need-jwt-anymorehttpsmediumcombytesbayyou-dont-need-jwt-anymore-974aa6196976">&lt;a href="https://medium.com/@bytesbay/you-dont-need-jwt-anymore-974aa6196976">You don’t need JWT anymore&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/miroslaw-shpak/">&lt;strong>Miroslaw Shpak&lt;/strong>&lt;/a> em 02/10/2021.&lt;/p>

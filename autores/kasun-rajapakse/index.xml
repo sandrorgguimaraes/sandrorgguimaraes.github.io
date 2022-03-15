@@ -3,4 +3,8 @@
 &lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3">Best Practices for Writing a Dockerfile&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a> em 17/12/2020.&lt;/p>
 &lt;p>Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#">Reduce the size of container images with DockerSlim&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a> em 17/01/2022.&lt;/p>
+&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
 &lt;hr></description></item></channel></rss>

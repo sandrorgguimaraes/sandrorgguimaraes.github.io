@@ -1,4 +1,48 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Aprenda a programar</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</guid><description>
+&lt;hr>
+&lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://codecombat.com/">Code Combat&lt;/a> &amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
+No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um sorriso no rosto.&lt;/li>
+&lt;li>&lt;a href="https://www.codemonkey.com/">Code Monkey&lt;/a> é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
+&lt;li>&lt;a href="https://www.codewars.com/">Code Wars&lt;/a> é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
+&lt;li>&lt;a href="https://checkio.org/">CheckIo&lt;/a> é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
+&lt;li>&lt;a href="https://www.codingame.com/">Coding Game&lt;/a> permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/dicas-python/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/dicas-python/</guid><description>
+&lt;hr>
+&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
+&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py">JMESPath&lt;/a> permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jpvanhal/inflection">Inflection&lt;/a> é uma biblioteca de transformação de string.&lt;/li>
+&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#">more-itertools&lt;/a> é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f">Simulate Real-life Events in Python Using SimPy&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 16/05/2021.&lt;/p>
+&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html">SimPy&lt;/a> é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
+&lt;hr>
+&lt;h2 id="3-chaotic-python-features-to-avoidhttpsbetterprogrammingpub3-chaotic-python-features-to-avoid-9c609908bc13">&lt;a href="https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13">3 Chaotic Python Features To Avoid&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yong-cui/">&lt;strong>Yong Cui&lt;/strong>&lt;/a> em 19/07/2021.&lt;/p>
+&lt;p>Neste artigo, é discutido alguns recursos do Python que podem ser confusos — principalmente para iniciantes.&lt;/p>
+&lt;ul>
+&lt;li>A cláusula &lt;code>else&lt;/code> em loops &lt;code>for/while&lt;/code>;&lt;/li>
+&lt;li>Use um valor padrão com &lt;code>setdefault&lt;/code>;&lt;/li>
+&lt;li>Passos negativos com &lt;code>Slicing&lt;/code>;&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Blog: Paralelismo</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">How to choose the right Gunicorn Worker Type for production&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/luis-sena/">&lt;strong>Luis Sena&lt;/strong>&lt;/a> em 25/01/2021.&lt;/p>
+&lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a> para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/">Gunicorn&lt;/a> tem a oferecer.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a> em 04/08/2021.&lt;/p>
+&lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
+&lt;hr></description></item><item><title>Blog: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</guid><description>
 &lt;hr>
 &lt;h2 id="abstract-base-classes-in-python-fundamentals-for-data-scientistshttpstowardsdatasciencecomabstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">&lt;a href="https://towardsdatascience.com/abstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">Abstract Base Classes in Python: Fundamentals for Data Scientists&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erdem-isbilen/">&lt;strong>Erdem Isbilen&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
@@ -10,6 +54,10 @@
 &lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3">Best Practices for Writing a Dockerfile&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a> em 17/12/2020.&lt;/p>
 &lt;p>Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#">Reduce the size of container images with DockerSlim&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a> em 17/01/2022.&lt;/p>
+&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Markdown &amp; Mermaid</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</guid><description>
 &lt;hr>
 &lt;h2 id="one-simple-tip-to-make-your-readmes-stand-outhttpstowardsdatasciencecomone-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">&lt;a href="https://towardsdatascience.com/one-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">One simple tip to make your READMEs stand out&lt;/a>&lt;/h2>
@@ -120,20 +168,6 @@
 &lt;h2 id="this-new-python-package-builds-awesome-guishttpspreetthemanmediumcomthis-new-python-package-builds-awesome-guis-150defda7915">&lt;a href="https://preettheman.medium.com/this-new-python-package-builds-awesome-guis-150defda7915">This new Python package builds awesome GUI’s!&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/manpreet-singh/">&lt;strong>Manpreet Singh&lt;/strong>&lt;/a> em 13/10/2021.&lt;/p>
 &lt;p>Conheça o pacote &lt;a href="https://github.com/hoffstadt/DearPyGui">Dear PyGui&lt;/a> e alguns &lt;a href="https://github.com/hoffstadt/DearPyGui/wiki/Dear-PyGui-Showcase">exemplos de uso&lt;/a>.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/09/dicas-python/</guid><description>
-&lt;hr>
-&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
-&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py">JMESPath&lt;/a> permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
-&lt;li>&lt;a href="https://github.com/jpvanhal/inflection">Inflection&lt;/a> é uma biblioteca de transformação de string.&lt;/li>
-&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#">more-itertools&lt;/a> é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f">Simulate Real-life Events in Python Using SimPy&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 16/05/2021.&lt;/p>
-&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html">SimPy&lt;/a> é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>&lt;/h2>
@@ -150,11 +184,6 @@
 &lt;p>Apresentação da biblioteca &lt;code>Rich&lt;/code> para dar um &amp;lsquo;up&amp;rsquo; nas ferramentas de linha de comando.&lt;/p>
 &lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md">Repositório do projeto Rich&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#">Documentação da biblioteca Rich&lt;/a>&lt;/p>
-&lt;hr></description></item><item><title>Blog: Ferramentas</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/containers-ferramentas/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/containers-ferramentas/</guid><description>
-&lt;hr>
-&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#">Reduce the size of container images with DockerSlim&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a> em 17/01/2022.&lt;/p>
-&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</guid><description>
 &lt;hr>
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets">Tracing the path of network traffic in Kubernetes&lt;/a>&lt;/h2>

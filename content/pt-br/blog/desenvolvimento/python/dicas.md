@@ -1,6 +1,6 @@
 ---
 title: Dicas Python
-date: 2022-03-09T00:00:00.000Z
+date: 2022-03-14
 categories:
     - linguagem de programação
 tags:
@@ -14,6 +14,7 @@ tags:
 autores:
     - Sam Vidovich
     - Khuyen Tran
+    - Yong Cui
 description: Conjunto de dicas de bibliotecas para facilitar nossa vida com o Python.
 keywords:
     - python
@@ -44,5 +45,17 @@ Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o au
 por [**Khuyen Tran**](/autores/khuyen-tran/) em 16/05/2021.
 
 Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. [SimPy](https://simpy.readthedocs.io/en/latest/contents.html) é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.
+
+---
+
+## [3 Chaotic Python Features To Avoid](https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13)
+
+por [**Yong Cui**](/autores/yong-cui/) em 19/07/2021.
+
+Neste artigo, é discutido alguns recursos do Python que podem ser confusos — principalmente para iniciantes.
+
+- A cláusula `else` em loops `for/while`;
+- Use um valor padrão com `setdefault`;
+- Passos negativos com `Slicing`;
 
 ---

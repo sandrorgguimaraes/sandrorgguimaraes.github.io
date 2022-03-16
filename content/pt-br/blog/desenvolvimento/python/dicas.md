@@ -15,6 +15,9 @@ autores:
     - Sam Vidovich
     - Khuyen Tran
     - Yong Cui
+    - Haider Imtiaz
+    - Louis de Bruijn
+    - Jerry Ng
 description: Conjunto de dicas de bibliotecas para facilitar nossa vida com o Python.
 keywords:
     - python
@@ -57,5 +60,51 @@ Neste artigo, é discutido alguns recursos do Python que podem ser confusos — 
 - A cláusula `else` em loops `for/while`;
 - Use um valor padrão com `setdefault`;
 - Passos negativos com `Slicing`;
+
+---
+
+## [Python Hidden Features That You Probably Never Heard Of](https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2)
+
+por [**Haider Imtiaz**](/autores/haider-imtiaz/) em 24/06/2021.
+
+Neste artigo, é apresentado alguns recursos interessantes do Python.
+
+- Get() Method;
+- List Step;
+- Value Swapping (the short way);
+- Ellipsis;
+- Reverse (the short way);
+- String slicing;
+- The Zen of Python;
+- Easter Eggs in Python;
+
+---
+
+## [Seven Tips To Clean Code With Python](https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f)
+
+por [**Louis de Bruijn**](/autores/louis-de-bruijn/) em 27/01/2021.
+
+Neste artigo, é apresentado alguns recursos interessantes do Python.
+
+- String formatting with f-strings;
+- Platform-independent directory delimiters;
+- Variable unpacking;
+- `.get` instead of `[key]` for dictionary iterations;
+- Loop two iterators with the zip function;
+- List comprehensions;
+- Multiple assignment with `*` and `**`;
+- Putting it all together;
+
+---
+
+## [3 Useful Python f-string Tricks You Probably Don’t Know](https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5)
+
+por [**Jerry Ng**](/autores/jerry-ng/) em 06/07/2021.
+
+Coisas que você precisa saber sobre formatação de String do Python usando [f-string](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals).
+
+- Usando `f-string` para melhor depuração;
+- Formate casas decimais com `float`, moedas, objetos `datetime` e preenchimento com `f-string`;
+- Usando `f-string` para conversões (ASCII e `repr()`);
 
 ---

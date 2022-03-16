@@ -21,6 +21,43 @@
 &lt;li>Use um valor padrão com &lt;code>setdefault&lt;/code>;&lt;/li>
 &lt;li>Passos negativos com &lt;code>Slicing&lt;/code>;&lt;/li>
 &lt;/ul>
+&lt;hr>
+&lt;h2 id="python-hidden-features-that-you-probably-never-heard-ofhttpspythonplainenglishiohidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">&lt;a href="https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">Python Hidden Features That You Probably Never Heard Of&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/haider-imtiaz/">&lt;strong>Haider Imtiaz&lt;/strong>&lt;/a> em 24/06/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>Get() Method;&lt;/li>
+&lt;li>List Step;&lt;/li>
+&lt;li>Value Swapping (the short way);&lt;/li>
+&lt;li>Ellipsis;&lt;/li>
+&lt;li>Reverse (the short way);&lt;/li>
+&lt;li>String slicing;&lt;/li>
+&lt;li>The Zen of Python;&lt;/li>
+&lt;li>Easter Eggs in Python;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f">Seven Tips To Clean Code With Python&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a> em 27/01/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>String formatting with f-strings;&lt;/li>
+&lt;li>Platform-independent directory delimiters;&lt;/li>
+&lt;li>Variable unpacking;&lt;/li>
+&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
+&lt;li>Loop two iterators with the zip function;&lt;/li>
+&lt;li>List comprehensions;&lt;/li>
+&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
+&lt;li>Putting it all together;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jerry-ng/">&lt;strong>Jerry Ng&lt;/strong>&lt;/a> em 06/07/2021.&lt;/p>
+&lt;p>Coisas que você precisa saber sobre formatação de String do Python usando &lt;a href="https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals">f-string&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Usando &lt;code>f-string&lt;/code> para melhor depuração;&lt;/li>
+&lt;li>Formate casas decimais com &lt;code>float&lt;/code>, moedas, objetos &lt;code>datetime&lt;/code> e preenchimento com &lt;code>f-string&lt;/code>;&lt;/li>
+&lt;li>Usando &lt;code>f-string&lt;/code> para conversões (ASCII e &lt;code>repr()&lt;/code>);&lt;/li>
+&lt;/ul>
 &lt;hr></description></item><item><title>Blog: Paralelismo</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">How to choose the right Gunicorn Worker Type for production&lt;/a>&lt;/h2>

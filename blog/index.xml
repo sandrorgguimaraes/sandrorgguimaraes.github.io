@@ -1,4 +1,15 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Aprenda a programar</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Observabilidade</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</guid><description>
+&lt;hr>
+&lt;h2 id="monitoring-microservices---part-1-observabilityhttpsmediumcomgeekculturemonitoring-microservices-part-1-observability-b2b44fa3e67e">&lt;a href="https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e">Monitoring Microservices - Part 1: Observability&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/anderson-carvalho/">&lt;strong>Anderson Carvalho&lt;/strong>&lt;/a> em 10/08/2021.&lt;/p>
+&lt;p>A dor é um indicador claro de que algo não está bem. Às vezes, as doenças silenciosas vem muito antes da dor. É por isso que visitamos um médico de vez em quando: para conhecer nosso estado de saúde.&lt;/p>
+&lt;ul>
+&lt;li>Mas como sabemos se nosso aplicativo está saudável?&lt;/li>
+&lt;li>Como podemos ter certeza de que está funcionando conforme o esperado, fazendo o que deveria ser feito e não desperdiçando recursos?&lt;/li>
+&lt;li>Como podemos evitar possíveis incidentes antes que eles aconteçam?&lt;/li>
+&lt;/ul>
+&lt;p>Neste post, o autor explorará um conceito fundamental quando se trata de monitoramento: &lt;code>Observabilidade&lt;/code>.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Aprenda a programar</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</guid><description>
 &lt;hr>
 &lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
 &lt;ul>
@@ -31,6 +42,43 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;li>A cláusula &lt;code>else&lt;/code> em loops &lt;code>for/while&lt;/code>;&lt;/li>
 &lt;li>Use um valor padrão com &lt;code>setdefault&lt;/code>;&lt;/li>
 &lt;li>Passos negativos com &lt;code>Slicing&lt;/code>;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="python-hidden-features-that-you-probably-never-heard-ofhttpspythonplainenglishiohidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">&lt;a href="https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">Python Hidden Features That You Probably Never Heard Of&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/haider-imtiaz/">&lt;strong>Haider Imtiaz&lt;/strong>&lt;/a> em 24/06/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>Get() Method;&lt;/li>
+&lt;li>List Step;&lt;/li>
+&lt;li>Value Swapping (the short way);&lt;/li>
+&lt;li>Ellipsis;&lt;/li>
+&lt;li>Reverse (the short way);&lt;/li>
+&lt;li>String slicing;&lt;/li>
+&lt;li>The Zen of Python;&lt;/li>
+&lt;li>Easter Eggs in Python;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f">Seven Tips To Clean Code With Python&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a> em 27/01/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>String formatting with f-strings;&lt;/li>
+&lt;li>Platform-independent directory delimiters;&lt;/li>
+&lt;li>Variable unpacking;&lt;/li>
+&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
+&lt;li>Loop two iterators with the zip function;&lt;/li>
+&lt;li>List comprehensions;&lt;/li>
+&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
+&lt;li>Putting it all together;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jerry-ng/">&lt;strong>Jerry Ng&lt;/strong>&lt;/a> em 06/07/2021.&lt;/p>
+&lt;p>Coisas que você precisa saber sobre formatação de String do Python usando &lt;a href="https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals">f-string&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Usando &lt;code>f-string&lt;/code> para melhor depuração;&lt;/li>
+&lt;li>Formate casas decimais com &lt;code>float&lt;/code>, moedas, objetos &lt;code>datetime&lt;/code> e preenchimento com &lt;code>f-string&lt;/code>;&lt;/li>
+&lt;li>Usando &lt;code>f-string&lt;/code> para conversões (ASCII e &lt;code>repr()&lt;/code>);&lt;/li>
 &lt;/ul>
 &lt;hr></description></item><item><title>Blog: Paralelismo</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</guid><description>
 &lt;hr>
@@ -257,6 +305,25 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;/ul>
 &lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb">How to Architect a Production-Level App in Flutter&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 25/07/2021.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Quando você escreve um código que resolve problemas que você não tem, você está fazendo engenharia excessiva.&lt;/p>
+&lt;p>Escrever código com engenharia excessiva é tão prejudicial quanto código espaguete, pois interrompe a produtividade.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-1httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">How to Architect a Production-Level App in Flutter: Phone Number Authentication - Part 1&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 29/08/2021.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Acreditando que nenhum desenvolvedor Flutter deveria se sentir sozinho ao longo dessa jornada, decidi compartilhar minhas experiências na construção de um aplicativo em nível de produção.&lt;/p>
+&lt;p>Então, eu abri o recurso de login do número de telefone do &lt;a href="https://sponty.app/#/">Sponty&lt;/a> junto com sua arquitetura limpa no nível de produção.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-2httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">How To Architect A Production-Level App In Flutter: Phone Number Authentication - Part 2&lt;/a>&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 05/09/2021.&lt;/p>
 &lt;hr>
 &lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">My Flutter app made US$140 in the first week, with no advertising&lt;/a>&lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a> em 23/03/2021.&lt;/p>

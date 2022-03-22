@@ -1,12 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – cli</title><link>https://sandrorgguimaraes.github.io/tags/cli/</link><description>Recent content in cli on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma Interface de Linha de Comandos (ILC), em inglês &lt;em>Command-Line Interface&lt;/em> (CLI), é um meio de interagir com um programa de computador, onde o utilizador emite comandos para o programa sob a forma de sucessivas linhas de texto (linhas de comando).&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="make-your-python-cli-tools-pop-with-richhttpshackadaycom20220119make-your-python-cli-tools-pop-with-rich">&lt;a href="https://hackaday.com/2022/01/19/make-your-python-cli-tools-pop-with-rich/">Make Your Python CLI Tools Pop With Rich&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/matthew-carlson/">&lt;strong>Matthew Carlson&lt;/strong>&lt;/a> em 19/01/2022.&lt;/p>
+&lt;h2 id="make-your-python-cli-tools-pop-with-richhttpshackadaycom20220119make-your-python-cli-tools-pop-with-rich">&lt;a href="https://hackaday.com/2022/01/19/make-your-python-cli-tools-pop-with-rich/" target="_blank" rel="noopener">Make Your Python CLI Tools Pop With Rich&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/matthew-carlson/">&lt;strong>Matthew Carlson&lt;/strong>&lt;/a>
+em 19/01/2022.&lt;/p>
 &lt;p>Apresentação da biblioteca &lt;code>Rich&lt;/code> para dar um &amp;lsquo;up&amp;rsquo; nas ferramentas de linha de comando.&lt;/p>
-&lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md">Repositório do projeto Rich&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#">Documentação da biblioteca Rich&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md" target="_blank" rel="noopener">Repositório do projeto Rich&lt;/a>
+&lt;/p>
+&lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#" target="_blank" rel="noopener">Documentação da biblioteca Rich&lt;/a>
+&lt;/p>
 &lt;hr></description></item></channel></rss>

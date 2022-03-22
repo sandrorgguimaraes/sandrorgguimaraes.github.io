@@ -1,10 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – network linux</title><link>https://sandrorgguimaraes.github.io/tags/network-linux/</link><description>Recent content in network linux on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/network-linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Container Networking</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</guid><description>
 &lt;hr>
-&lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/">Container Networking Is Simple!&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a> em 04/08/2021.&lt;/p>
+&lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/" target="_blank" rel="noopener">Container Networking Is Simple!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
+em 04/08/2021.&lt;/p>
 &lt;p>Configure uma rede de container do zero com ferramentas padrão do Linux entendendo como elas funcionam.&lt;/p>
 &lt;hr>
-&lt;h2 id="introduction-to-linux-interfaces-for-virtual-networkinghttpsdevelopersredhatcomblog20181022introduction-to-linux-interfaces-for-virtual-networking">&lt;a href="https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#">Introduction to Linux interfaces for virtual networking&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/hangbin-liu/">&lt;strong>Hangbin Liu&lt;/strong>&lt;/a> em 22/10/2018.&lt;/p>
+&lt;h2 id="introduction-to-linux-interfaces-for-virtual-networkinghttpsdevelopersredhatcomblog20181022introduction-to-linux-interfaces-for-virtual-networking">&lt;a href="https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#" target="_blank" rel="noopener">Introduction to Linux interfaces for virtual networking&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/hangbin-liu/">&lt;strong>Hangbin Liu&lt;/strong>&lt;/a>
+em 22/10/2018.&lt;/p>
 &lt;p>Confira uma breve introdução a todos os tipos de interface de rede virtual comumente usados no Linux (Bridge, bonded interface, team device, VLAN - Virtual LAN, VXLAN - Virtual eXtensible LAN, VETH - Virtual Ethernet, etc.).&lt;/p>
 &lt;hr></description></item></channel></rss>

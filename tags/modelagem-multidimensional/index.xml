@@ -1,6 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – modelagem multidimensional</title><link>https://sandrorgguimaraes.github.io/tags/modelagem-multidimensional/</link><description>Recent content in modelagem multidimensional on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/modelagem-multidimensional/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Modelagem Multidimensional</title><link>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/</guid><description>
 &lt;h2 id="cubo-de-dados">Cubo de Dados&lt;/h2>
-&lt;p>Um &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#datawarehouse-dw--data-mart-dm">&lt;strong>DW&lt;/strong>&lt;/a> tem como principal objetivo servir de repositório para a analise de grandes massas de dados através de consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>, neste cenário observa-se dados centrais (os fatos ou métricas) que serão consultados sob diversas perspectivas (as dimensões ou parâmetros) criando a abstração do cubo de dados, conforme figura abaixo:&lt;/p>
+&lt;p>Um &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#datawarehouse-dw--data-mart-dm">&lt;strong>DW&lt;/strong>&lt;/a>
+tem como principal objetivo servir de repositório para a analise de grandes massas de dados através de consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>
+, neste cenário observa-se dados centrais (os fatos ou métricas) que serão consultados sob diversas perspectivas (as dimensões ou parâmetros) criando a abstração do cubo de dados, conforme figura abaixo:&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 515px">
 &lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/cubo_huca529dfab1b93f0e98f87087bbaf60a9_18075_505x317_fill_q75_box_smart1.jpg" width="505" height="317">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -29,14 +31,18 @@ Fonte: http://www.ime.usp.br/~jef/apostila.pdf
 &lt;/ul>
 &lt;p>Por último deve-se definir o esquema que será utilizado: Estrela ou Floco de neve.&lt;/p>
 &lt;h3 id="escopo">Escopo&lt;/h3>
-&lt;p>A experiência e o conhecimento do analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%C3%A0-decis%C3%A3o">&lt;strong>SAD&lt;/strong>&lt;/a> sobre o negócio é fundamental para a correta definição do escopo de um projeto de &lt;strong>DW&lt;/strong>.&lt;/p>
+&lt;p>A experiência e o conhecimento do analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%c3%a0-decis%c3%a3o">&lt;strong>SAD&lt;/strong>&lt;/a>
+sobre o negócio é fundamental para a correta definição do escopo de um projeto de &lt;strong>DW&lt;/strong>.&lt;/p>
 &lt;p>É imprescindível ter uma visão do que é importante para o negócio, ou melhor, saber que &lt;strong>informação&lt;/strong> será necessária extrair dos &lt;strong>dados&lt;/strong> armazenados no &lt;strong>DW&lt;/strong> para que a organização obtenha algum &lt;strong>conhecimento&lt;/strong> novo e a partir deste ponto os gestores possam tomar as &lt;strong>decisões&lt;/strong> mais acertadas.&lt;/p>
 &lt;p>Vale lembrar que cada projeto é único e portanto deve ser analisado individualmente e que muitas variáveis influenciam as decisões, por exemplo: tempo para implantação, custo, capital humano e recursos tecnológicos disponíveis, etc.&lt;/p>
-&lt;p>Estes dentre outros fatores influenciarão na escolha de um dos dois paradigmas que envolvem os projetos de &lt;strong>DW&lt;/strong> que são as propostas de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">&lt;em>Inmon&lt;/em>&lt;/a> e &lt;a href="https://pt.wikipedia.org/wiki/Ralph_Kimball">&lt;em>Kimball&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>Estes dentre outros fatores influenciarão na escolha de um dos dois paradigmas que envolvem os projetos de &lt;strong>DW&lt;/strong> que são as propostas de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">&lt;em>Inmon&lt;/em>&lt;/a>
+e &lt;a href="https://pt.wikipedia.org/wiki/Ralph_Kimball" target="_blank" rel="noopener">&lt;em>Kimball&lt;/em>&lt;/a>
+.&lt;/p>
 &lt;p>&lt;em>Inmon&lt;/em> propõe que o projeto do &lt;strong>DW&lt;/strong> deve partir do &lt;strong>DW corporativo&lt;/strong> para depois desmembrar nos &lt;strong>DM departamentais&lt;/strong> com isto ganha-se na consistência dos dados armazenados mas o tempo para a obtenção de resultados práticos aumenta, em contrapartida &lt;em>Kimball&lt;/em> propõe o caminho inverso, partir de &lt;strong>DM departamentais&lt;/strong> para o &lt;strong>DW corporativo&lt;/strong> buscando observar à consistência das informações, neste processo os resultados aparecem mais rapidamente porém o risco de inconsistência aumenta.&lt;/p>
 &lt;p>O bom senso entre as pessoas envolvidas sempre deve ser levado em conta no momento da decisão do projeto, para se buscar um equilibrio entre o melhor dos dois mundos.&lt;/p>
 &lt;h3 id="granularidade">Granularidade&lt;/h3>
-&lt;p>Durante o desenho da solução o analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%C3%A0-decis%C3%A3o">&lt;strong>SAD&lt;/strong>&lt;/a> define quais métricas serão armazenadas nas tabelas fatos e quais parametros serão armazenados nas tabelas dimensões, observe a figura abaixo.&lt;/p>
+&lt;p>Durante o desenho da solução o analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%c3%a0-decis%c3%a3o">&lt;strong>SAD&lt;/strong>&lt;/a>
+define quais métricas serão armazenadas nas tabelas fatos e quais parametros serão armazenados nas tabelas dimensões, observe a figura abaixo.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 446px">
 &lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/modelo-dimensional_hufaf8da8b85f00f88d81b9b1912e5c77f_33611_436x217_fill_box_smart1_3.png" width="436" height="217">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -45,7 +51,8 @@ Fonte: http://hub05.neogrid.com.br/Docs/help/pt_BR/release_notes.htm
 &lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>A definição correta da granularidade de uma tabela fato implica no desempenho das consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>, tomando como base o modelo proposto imagine os seguintes cenários:&lt;/p>
+&lt;p>A definição correta da granularidade de uma tabela fato implica no desempenho das consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>
+, tomando como base o modelo proposto imagine os seguintes cenários:&lt;/p>
 &lt;ul>
 &lt;li>Poucas lojas e pouca abrangência (poucos CEP´s);&lt;/li>
 &lt;li>Muitas lojas e pouca abrangência (poucos CEP´s);&lt;/li>

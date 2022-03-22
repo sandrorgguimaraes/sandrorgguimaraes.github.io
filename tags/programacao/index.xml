@@ -2,11 +2,16 @@
 &lt;hr>
 &lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://codecombat.com/">Code Combat&lt;/a> &amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
+&lt;li>&lt;a href="https://codecombat.com/" target="_blank" rel="noopener">Code Combat&lt;/a>
+&amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
 No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um sorriso no rosto.&lt;/li>
-&lt;li>&lt;a href="https://www.codemonkey.com/">Code Monkey&lt;/a> é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
-&lt;li>&lt;a href="https://www.codewars.com/">Code Wars&lt;/a> é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
-&lt;li>&lt;a href="https://checkio.org/">CheckIo&lt;/a> é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
-&lt;li>&lt;a href="https://www.codingame.com/">Coding Game&lt;/a> permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
+&lt;li>&lt;a href="https://www.codemonkey.com/" target="_blank" rel="noopener">Code Monkey&lt;/a>
+é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
+&lt;li>&lt;a href="https://www.codewars.com/" target="_blank" rel="noopener">Code Wars&lt;/a>
+é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
+&lt;li>&lt;a href="https://checkio.org/" target="_blank" rel="noopener">CheckIo&lt;/a>
+é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
+&lt;li>&lt;a href="https://www.codingame.com/" target="_blank" rel="noopener">Coding Game&lt;/a>
+permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
 &lt;/ul>
 &lt;hr></description></item></channel></rss>

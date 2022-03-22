@@ -1,6 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – gunicorn</title><link>https://sandrorgguimaraes.github.io/tags/gunicorn/</link><description>Recent content in gunicorn on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/gunicorn/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Paralelismo</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</guid><description>
 &lt;hr>
-&lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">How to choose the right Gunicorn Worker Type for production&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/luis-sena/">&lt;strong>Luis Sena&lt;/strong>&lt;/a> em 25/01/2021.&lt;/p>
-&lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a> para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/">Gunicorn&lt;/a> tem a oferecer.&lt;/p>
+&lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594" target="_blank" rel="noopener">How to choose the right Gunicorn Worker Type for production&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/luis-sena/">&lt;strong>Luis Sena&lt;/strong>&lt;/a>
+em 25/01/2021.&lt;/p>
+&lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface" target="_blank" rel="noopener">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a>
+para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/" target="_blank" rel="noopener">Gunicorn&lt;/a>
+tem a oferecer.&lt;/p>
 &lt;hr></description></item></channel></rss>

@@ -41,8 +41,10 @@
 &lt;blockquote>
 &lt;p>Fonte:&lt;/p>
 &lt;ul>
-&lt;li>FALSARELLA, Orandi M.; CHAVES, Eduardo O. C. Sistemas de Informação e Sistemas de Apoio à Decisão. Disponivel em: &lt;a href="http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm">http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm&lt;/a> Acesso em: 13 de mar. 2012.&lt;/li>
-&lt;li>BORTOLIN, Sérgio A. M. Sistema de Apoio à Decisão. Disponível em: &lt;a href="http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf">http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf&lt;/a> Acesso em: 13 de mar. 2012.&lt;/li>
+&lt;li>FALSARELLA, Orandi M.; CHAVES, Eduardo O. C. Sistemas de Informação e Sistemas de Apoio à Decisão. Disponivel em: &lt;a href="http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm" target="_blank" rel="noopener">http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm&lt;/a>
+Acesso em: 13 de mar. 2012.&lt;/li>
+&lt;li>BORTOLIN, Sérgio A. M. Sistema de Apoio à Decisão. Disponível em: &lt;a href="http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf" target="_blank" rel="noopener">http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf&lt;/a>
+Acesso em: 13 de mar. 2012.&lt;/li>
 &lt;li>PRIMAK, Fabio Vinicius. Decisões com B.I. Business Intelligence. Brasil. 1a edição. Ciência Moderna. 2008. 168 p. ISBN 8573937149.&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -96,7 +98,8 @@
 &lt;p>Este é um breve resumo sobre BI, persistindo alguma dúvida ou necessitando de maiores esclarecimentos, registre seu comentário e vamos aprender juntos.&lt;/p>
 &lt;blockquote>
 &lt;p>Fonte:
-ANTONELLI, Ricardo A. Conhecendo o Business Intelligence (BI) - Uma Ferramenta de Auxílio à Tomada de Decisão. Revista TECAP. v. 3, n. 3, 2009. Disponível em: &lt;a href="http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544">http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544&lt;/a> acesso em: 14 de mar. 2012.&lt;/p>
+ANTONELLI, Ricardo A. Conhecendo o Business Intelligence (BI) - Uma Ferramenta de Auxílio à Tomada de Decisão. Revista TECAP. v. 3, n. 3, 2009. Disponível em: &lt;a href="http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544" target="_blank" rel="noopener">http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544&lt;/a>
+acesso em: 14 de mar. 2012.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="datawarehouse-dw--data-mart-dm">DataWarehouse (DW) &amp;amp; Data Mart (DM)&lt;/h2>
 &lt;p>Um DW (&lt;em>Data Warehouse&lt;/em> ou Armazém de Dados) é uma coleção de dados orientada por assunto, integrada, variante no tempo e não volátil que tem por objetivo dar suporte aos processos de tomada de decisão.&lt;/p>
@@ -123,9 +126,12 @@ Fonte: http://www.dataprix.net/pt-pt/24-data-mart
 &lt;/div>
 &lt;h2 id="oltp--olap">OLTP &amp;amp; OLAP&lt;/h2>
 &lt;p>&lt;strong>OLTP&lt;/strong> (&lt;em>Online Transaction Processing&lt;/em> ou Processamento de Transações em Tempo Real) caracteriza-se por um grande número de transações (&lt;em>INSERT, UPDATE e DELETE&lt;/em>) envolvendo uma pequena quantidade de dados em um ambiente multi-acesso, mantendo a integridade referencial.&lt;/p>
-&lt;p>No planejamento do banco de dados busca-se reduzir o tamanho e a redundância dos dados e normalmente se aplica a &lt;a href="https://www.google.com/search?q=3FN+(terceira+Forma+Normal)">3FN (terceira Forma Normal)&lt;/a> na modelagem, são os dados primitivos ou dados operacionais segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a>.&lt;/p>
+&lt;p>No planejamento do banco de dados busca-se reduzir o tamanho e a redundância dos dados e normalmente se aplica a &lt;a href="https://www.google.com/search?q=3FN&amp;#43;%28terceira&amp;#43;Forma&amp;#43;Normal%29" target="_blank" rel="noopener">3FN (terceira Forma Normal)&lt;/a>
+na modelagem, são os dados primitivos ou dados operacionais segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
+.&lt;/p>
 &lt;p>&lt;strong>OLAP&lt;/strong> (&lt;em>Online Analytical Processing&lt;/em> ou Processamento Analítico em Tempo Real) caracteriza-se por poucas transações (&lt;em>INSERT e SELECT&lt;/em>) envolvendo um volume muito grande de dados.&lt;/p>
-&lt;p>Na busca por eficiência das consultas, os dados armazenados no DW ou DM´s, normalmente são desnormalizados e utilizam esquemas multi dimensionais, são os dados derivados ou dados &lt;strong>SAD&lt;/strong> segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a>.&lt;/p>
+&lt;p>Na busca por eficiência das consultas, os dados armazenados no DW ou DM´s, normalmente são desnormalizados e utilizam esquemas multi dimensionais, são os dados derivados ou dados &lt;strong>SAD&lt;/strong> segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
+.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
 &lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/olap-oltp_hu70183390894a2306c83d4ad889956479_31862_400x213_fill_box_smart1_3.png" width="400" height="213">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -135,7 +141,8 @@ Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html
 &lt;/div>
 &lt;/div>
 &lt;p>Juntamente com o OLAP surgiram novos termos como &lt;em>DOLAP&lt;/em>, &lt;em>ROLAP&lt;/em>, &lt;em>MOLAP&lt;/em>, &lt;em>HOLAP&lt;/em>, &lt;em>slice and dice&lt;/em>, &lt;em>pivot table&lt;/em>, &lt;em>drill down/up&lt;/em> que ampliaremos posteriormente.&lt;/p>
-&lt;p>A tabela abaixo extraída do livro &amp;ldquo;Como construir o Data Warehouse&amp;rdquo; de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a> apresenta algumas diferenças conceituais entre os dados primitivos e os dados derivados, vejamos:&lt;/p>
+&lt;p>A tabela abaixo extraída do livro &amp;ldquo;Como construir o Data Warehouse&amp;rdquo; de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
+apresenta algumas diferenças conceituais entre os dados primitivos e os dados derivados, vejamos:&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -223,7 +230,8 @@ Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="o-ambiente-do-dw">O ambiente do DW&lt;/h2>
-&lt;p>Devido às diferenças existentes entre os dados primitivos e os dados derivados como vimos em &lt;a href="#oltp--olap">&lt;em>OLTP &amp;amp; OLAP&lt;/em>&lt;/a>, outros aspectos por consequencia necessitam de nova abordagem segundo Inmon.&lt;/p>
+&lt;p>Devido às diferenças existentes entre os dados primitivos e os dados derivados como vimos em &lt;a href="#oltp--olap">&lt;em>OLTP &amp;amp; OLAP&lt;/em>&lt;/a>
+, outros aspectos por consequencia necessitam de nova abordagem segundo Inmon.&lt;/p>
 &lt;h3 id="os-níveis-dos-dados">Os níveis dos dados&lt;/h3>
 &lt;p>Estas diferenças acabam por gerar 4 (quatro) níveis de dados na organização, como segue:&lt;/p>
 &lt;ul>
@@ -283,7 +291,9 @@ Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html
 &lt;p>Neste cenário consegue-se prever o ritmo de crescimento da base de dados, porém o consumo de CPU / memória RAM e espaço para dados temporários já fica mais complicado.&lt;/p>
 &lt;p>Ou seja, a configuração / ajuste fino do hardware que vai atender às demandas dos sistemas legados (&lt;strong>OLTP&lt;/strong>) é totalmente diferente das necessidades / especificações dos sistemas que irão atender às demandas dos sistemas &lt;strong>DW / OLAP&lt;/strong>.&lt;/p></description></item><item><title>Docs: Modelagem Multidimensional</title><link>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/</guid><description>
 &lt;h2 id="cubo-de-dados">Cubo de Dados&lt;/h2>
-&lt;p>Um &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#datawarehouse-dw--data-mart-dm">&lt;strong>DW&lt;/strong>&lt;/a> tem como principal objetivo servir de repositório para a analise de grandes massas de dados através de consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>, neste cenário observa-se dados centrais (os fatos ou métricas) que serão consultados sob diversas perspectivas (as dimensões ou parâmetros) criando a abstração do cubo de dados, conforme figura abaixo:&lt;/p>
+&lt;p>Um &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#datawarehouse-dw--data-mart-dm">&lt;strong>DW&lt;/strong>&lt;/a>
+tem como principal objetivo servir de repositório para a analise de grandes massas de dados através de consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>
+, neste cenário observa-se dados centrais (os fatos ou métricas) que serão consultados sob diversas perspectivas (as dimensões ou parâmetros) criando a abstração do cubo de dados, conforme figura abaixo:&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 515px">
 &lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/cubo_huca529dfab1b93f0e98f87087bbaf60a9_18075_505x317_fill_q75_box_smart1.jpg" width="505" height="317">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -312,14 +322,18 @@ Fonte: http://www.ime.usp.br/~jef/apostila.pdf
 &lt;/ul>
 &lt;p>Por último deve-se definir o esquema que será utilizado: Estrela ou Floco de neve.&lt;/p>
 &lt;h3 id="escopo">Escopo&lt;/h3>
-&lt;p>A experiência e o conhecimento do analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%C3%A0-decis%C3%A3o">&lt;strong>SAD&lt;/strong>&lt;/a> sobre o negócio é fundamental para a correta definição do escopo de um projeto de &lt;strong>DW&lt;/strong>.&lt;/p>
+&lt;p>A experiência e o conhecimento do analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%c3%a0-decis%c3%a3o">&lt;strong>SAD&lt;/strong>&lt;/a>
+sobre o negócio é fundamental para a correta definição do escopo de um projeto de &lt;strong>DW&lt;/strong>.&lt;/p>
 &lt;p>É imprescindível ter uma visão do que é importante para o negócio, ou melhor, saber que &lt;strong>informação&lt;/strong> será necessária extrair dos &lt;strong>dados&lt;/strong> armazenados no &lt;strong>DW&lt;/strong> para que a organização obtenha algum &lt;strong>conhecimento&lt;/strong> novo e a partir deste ponto os gestores possam tomar as &lt;strong>decisões&lt;/strong> mais acertadas.&lt;/p>
 &lt;p>Vale lembrar que cada projeto é único e portanto deve ser analisado individualmente e que muitas variáveis influenciam as decisões, por exemplo: tempo para implantação, custo, capital humano e recursos tecnológicos disponíveis, etc.&lt;/p>
-&lt;p>Estes dentre outros fatores influenciarão na escolha de um dos dois paradigmas que envolvem os projetos de &lt;strong>DW&lt;/strong> que são as propostas de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">&lt;em>Inmon&lt;/em>&lt;/a> e &lt;a href="https://pt.wikipedia.org/wiki/Ralph_Kimball">&lt;em>Kimball&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>Estes dentre outros fatores influenciarão na escolha de um dos dois paradigmas que envolvem os projetos de &lt;strong>DW&lt;/strong> que são as propostas de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">&lt;em>Inmon&lt;/em>&lt;/a>
+e &lt;a href="https://pt.wikipedia.org/wiki/Ralph_Kimball" target="_blank" rel="noopener">&lt;em>Kimball&lt;/em>&lt;/a>
+.&lt;/p>
 &lt;p>&lt;em>Inmon&lt;/em> propõe que o projeto do &lt;strong>DW&lt;/strong> deve partir do &lt;strong>DW corporativo&lt;/strong> para depois desmembrar nos &lt;strong>DM departamentais&lt;/strong> com isto ganha-se na consistência dos dados armazenados mas o tempo para a obtenção de resultados práticos aumenta, em contrapartida &lt;em>Kimball&lt;/em> propõe o caminho inverso, partir de &lt;strong>DM departamentais&lt;/strong> para o &lt;strong>DW corporativo&lt;/strong> buscando observar à consistência das informações, neste processo os resultados aparecem mais rapidamente porém o risco de inconsistência aumenta.&lt;/p>
 &lt;p>O bom senso entre as pessoas envolvidas sempre deve ser levado em conta no momento da decisão do projeto, para se buscar um equilibrio entre o melhor dos dois mundos.&lt;/p>
 &lt;h3 id="granularidade">Granularidade&lt;/h3>
-&lt;p>Durante o desenho da solução o analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%C3%A0-decis%C3%A3o">&lt;strong>SAD&lt;/strong>&lt;/a> define quais métricas serão armazenadas nas tabelas fatos e quais parametros serão armazenados nas tabelas dimensões, observe a figura abaixo.&lt;/p>
+&lt;p>Durante o desenho da solução o analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%c3%a0-decis%c3%a3o">&lt;strong>SAD&lt;/strong>&lt;/a>
+define quais métricas serão armazenadas nas tabelas fatos e quais parametros serão armazenados nas tabelas dimensões, observe a figura abaixo.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 446px">
 &lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/modelo-dimensional_hufaf8da8b85f00f88d81b9b1912e5c77f_33611_436x217_fill_box_smart1_3.png" width="436" height="217">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -328,7 +342,8 @@ Fonte: http://hub05.neogrid.com.br/Docs/help/pt_BR/release_notes.htm
 &lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>A definição correta da granularidade de uma tabela fato implica no desempenho das consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>, tomando como base o modelo proposto imagine os seguintes cenários:&lt;/p>
+&lt;p>A definição correta da granularidade de uma tabela fato implica no desempenho das consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>
+, tomando como base o modelo proposto imagine os seguintes cenários:&lt;/p>
 &lt;ul>
 &lt;li>Poucas lojas e pouca abrangência (poucos CEP´s);&lt;/li>
 &lt;li>Muitas lojas e pouca abrangência (poucos CEP´s);&lt;/li>

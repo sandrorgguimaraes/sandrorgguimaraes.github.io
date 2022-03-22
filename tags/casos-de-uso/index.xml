@@ -1,26 +1,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – casos de uso</title><link>https://sandrorgguimaraes.github.io/tags/casos-de-uso/</link><description>Recent content in casos de uso on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/casos-de-uso/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb">How to Architect a Production-Level App in Flutter&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 25/07/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 25/07/2021.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Quando você escreve um código que resolve problemas que você não tem, você está fazendo engenharia excessiva.&lt;/p>
 &lt;p>Escrever código com engenharia excessiva é tão prejudicial quanto código espaguete, pois interrompe a produtividade.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-1httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">How to Architect a Production-Level App in Flutter: Phone Number Authentication - Part 1&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 29/08/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-1httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter: Phone Number Authentication - Part 1&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 29/08/2021.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Acreditando que nenhum desenvolvedor Flutter deveria se sentir sozinho ao longo dessa jornada, decidi compartilhar minhas experiências na construção de um aplicativo em nível de produção.&lt;/p>
-&lt;p>Então, eu abri o recurso de login do número de telefone do &lt;a href="https://sponty.app/#/">Sponty&lt;/a> junto com sua arquitetura limpa no nível de produção.&lt;/p>
+&lt;p>Então, eu abri o recurso de login do número de telefone do &lt;a href="https://sponty.app/#/" target="_blank" rel="noopener">Sponty&lt;/a>
+junto com sua arquitetura limpa no nível de produção.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-2httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">How To Architect A Production-Level App In Flutter: Phone Number Authentication - Part 2&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 05/09/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-2httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1" target="_blank" rel="noopener">How To Architect A Production-Level App In Flutter: Phone Number Authentication - Part 2&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 05/09/2021.&lt;/p>
 &lt;hr>
-&lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">My Flutter app made US$140 in the first week, with no advertising&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a> em 23/03/2021.&lt;/p>
+&lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5" target="_blank" rel="noopener">My Flutter app made US$140 in the first week, with no advertising&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a>
+em 23/03/2021.&lt;/p>
 &lt;p>Neste artigo o autor conta um pouco da sua trajetória como desenvolvedor Flutter.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>

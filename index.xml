@@ -1,7 +1,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Diário de Bordo</title><link>https://sandrorgguimaraes.github.io/</link><description>Recent content on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Observabilidade</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</guid><description>
 &lt;hr>
-&lt;h2 id="monitoring-microservices---part-1-observabilityhttpsmediumcomgeekculturemonitoring-microservices-part-1-observability-b2b44fa3e67e">&lt;a href="https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e">Monitoring Microservices - Part 1: Observability&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/anderson-carvalho/">&lt;strong>Anderson Carvalho&lt;/strong>&lt;/a> em 10/08/2021.&lt;/p>
+&lt;h2 id="monitoring-microservices---part-1-observabilityhttpsmediumcomgeekculturemonitoring-microservices-part-1-observability-b2b44fa3e67e">&lt;a href="https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e" target="_blank" rel="noopener">Monitoring Microservices - Part 1: Observability&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/anderson-carvalho/">&lt;strong>Anderson Carvalho&lt;/strong>&lt;/a>
+em 10/08/2021.&lt;/p>
 &lt;p>A dor é um indicador claro de que algo não está bem. Às vezes, as doenças silenciosas vem muito antes da dor. É por isso que visitamos um médico de vez em quando: para conhecer nosso estado de saúde.&lt;/p>
 &lt;ul>
 &lt;li>Mas como sabemos se nosso aplicativo está saudável?&lt;/li>
@@ -13,30 +15,45 @@
 &lt;hr>
 &lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://codecombat.com/">Code Combat&lt;/a> &amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
+&lt;li>&lt;a href="https://codecombat.com/" target="_blank" rel="noopener">Code Combat&lt;/a>
+&amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
 No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um sorriso no rosto.&lt;/li>
-&lt;li>&lt;a href="https://www.codemonkey.com/">Code Monkey&lt;/a> é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
-&lt;li>&lt;a href="https://www.codewars.com/">Code Wars&lt;/a> é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
-&lt;li>&lt;a href="https://checkio.org/">CheckIo&lt;/a> é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
-&lt;li>&lt;a href="https://www.codingame.com/">Coding Game&lt;/a> permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
+&lt;li>&lt;a href="https://www.codemonkey.com/" target="_blank" rel="noopener">Code Monkey&lt;/a>
+é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
+&lt;li>&lt;a href="https://www.codewars.com/" target="_blank" rel="noopener">Code Wars&lt;/a>
+é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
+&lt;li>&lt;a href="https://checkio.org/" target="_blank" rel="noopener">CheckIo&lt;/a>
+é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
+&lt;li>&lt;a href="https://www.codingame.com/" target="_blank" rel="noopener">Coding Game&lt;/a>
+permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
 &lt;/ul>
 &lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/dicas-python/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/dicas-python/</guid><description>
 &lt;hr>
-&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a> em 30/08/2021.&lt;/p>
+&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5" target="_blank" rel="noopener">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a>
+em 30/08/2021.&lt;/p>
 &lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py">JMESPath&lt;/a> permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
-&lt;li>&lt;a href="https://github.com/jpvanhal/inflection">Inflection&lt;/a> é uma biblioteca de transformação de string.&lt;/li>
-&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#">more-itertools&lt;/a> é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py" target="_blank" rel="noopener">JMESPath&lt;/a>
+permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jpvanhal/inflection" target="_blank" rel="noopener">Inflection&lt;/a>
+é uma biblioteca de transformação de string.&lt;/li>
+&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#" target="_blank" rel="noopener">more-itertools&lt;/a>
+é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f">Simulate Real-life Events in Python Using SimPy&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 16/05/2021.&lt;/p>
-&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html">SimPy&lt;/a> é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
+&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f" target="_blank" rel="noopener">Simulate Real-life Events in Python Using SimPy&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 16/05/2021.&lt;/p>
+&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html" target="_blank" rel="noopener">SimPy&lt;/a>
+é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
 &lt;hr>
-&lt;h2 id="3-chaotic-python-features-to-avoidhttpsbetterprogrammingpub3-chaotic-python-features-to-avoid-9c609908bc13">&lt;a href="https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13">3 Chaotic Python Features To Avoid&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yong-cui/">&lt;strong>Yong Cui&lt;/strong>&lt;/a> em 19/07/2021.&lt;/p>
+&lt;h2 id="3-chaotic-python-features-to-avoidhttpsbetterprogrammingpub3-chaotic-python-features-to-avoid-9c609908bc13">&lt;a href="https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13" target="_blank" rel="noopener">3 Chaotic Python Features To Avoid&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yong-cui/">&lt;strong>Yong Cui&lt;/strong>&lt;/a>
+em 19/07/2021.&lt;/p>
 &lt;p>Neste artigo, é discutido alguns recursos do Python que podem ser confusos — principalmente para iniciantes.&lt;/p>
 &lt;ul>
 &lt;li>A cláusula &lt;code>else&lt;/code> em loops &lt;code>for/while&lt;/code>;&lt;/li>
@@ -44,8 +61,10 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;li>Passos negativos com &lt;code>Slicing&lt;/code>;&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="python-hidden-features-that-you-probably-never-heard-ofhttpspythonplainenglishiohidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">&lt;a href="https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">Python Hidden Features That You Probably Never Heard Of&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/haider-imtiaz/">&lt;strong>Haider Imtiaz&lt;/strong>&lt;/a> em 24/06/2021.&lt;/p>
+&lt;h2 id="python-hidden-features-that-you-probably-never-heard-ofhttpspythonplainenglishiohidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">&lt;a href="https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2" target="_blank" rel="noopener">Python Hidden Features That You Probably Never Heard Of&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/haider-imtiaz/">&lt;strong>Haider Imtiaz&lt;/strong>&lt;/a>
+em 24/06/2021.&lt;/p>
 &lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
 &lt;ul>
 &lt;li>Get() Method;&lt;/li>
@@ -58,8 +77,10 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;li>Easter Eggs in Python;&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f">Seven Tips To Clean Code With Python&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a> em 27/01/2021.&lt;/p>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f" target="_blank" rel="noopener">Seven Tips To Clean Code With Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a>
+em 27/01/2021.&lt;/p>
 &lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
 &lt;ul>
 &lt;li>String formatting with f-strings;&lt;/li>
@@ -72,9 +93,12 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;li>Putting it all together;&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jerry-ng/">&lt;strong>Jerry Ng&lt;/strong>&lt;/a> em 06/07/2021.&lt;/p>
-&lt;p>Coisas que você precisa saber sobre formatação de String do Python usando &lt;a href="https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals">f-string&lt;/a>.&lt;/p>
+&lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5" target="_blank" rel="noopener">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jerry-ng/">&lt;strong>Jerry Ng&lt;/strong>&lt;/a>
+em 06/07/2021.&lt;/p>
+&lt;p>Coisas que você precisa saber sobre formatação de String do Python usando &lt;a href="https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals" target="_blank" rel="noopener">f-string&lt;/a>
+.&lt;/p>
 &lt;ul>
 &lt;li>Usando &lt;code>f-string&lt;/code> para melhor depuração;&lt;/li>
 &lt;li>Formate casas decimais com &lt;code>float&lt;/code>, moedas, objetos &lt;code>datetime&lt;/code> e preenchimento com &lt;code>f-string&lt;/code>;&lt;/li>
@@ -82,92 +106,139 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;/ul>
 &lt;hr></description></item><item><title>Blog: Paralelismo</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</guid><description>
 &lt;hr>
-&lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">How to choose the right Gunicorn Worker Type for production&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/luis-sena/">&lt;strong>Luis Sena&lt;/strong>&lt;/a> em 25/01/2021.&lt;/p>
-&lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a> para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/">Gunicorn&lt;/a> tem a oferecer.&lt;/p>
+&lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594" target="_blank" rel="noopener">How to choose the right Gunicorn Worker Type for production&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/luis-sena/">&lt;strong>Luis Sena&lt;/strong>&lt;/a>
+em 25/01/2021.&lt;/p>
+&lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface" target="_blank" rel="noopener">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a>
+para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/" target="_blank" rel="noopener">Gunicorn&lt;/a>
+tem a oferecer.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</guid><description>
 &lt;hr>
-&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a> em 04/08/2021.&lt;/p>
+&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
+em 04/08/2021.&lt;/p>
 &lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
 &lt;hr></description></item><item><title>Blog: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</guid><description>
 &lt;hr>
-&lt;h2 id="abstract-base-classes-in-python-fundamentals-for-data-scientistshttpstowardsdatasciencecomabstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">&lt;a href="https://towardsdatascience.com/abstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">Abstract Base Classes in Python: Fundamentals for Data Scientists&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erdem-isbilen/">&lt;strong>Erdem Isbilen&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
+&lt;h2 id="abstract-base-classes-in-python-fundamentals-for-data-scientistshttpstowardsdatasciencecomabstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">&lt;a href="https://towardsdatascience.com/abstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b" target="_blank" rel="noopener">Abstract Base Classes in Python: Fundamentals for Data Scientists&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erdem-isbilen/">&lt;strong>Erdem Isbilen&lt;/strong>&lt;/a>
+em 08/09/2021.&lt;/p>
 &lt;hr>
-&lt;h2 id="abc-in-python-abstract-base-classhttpsrnijanthanmechmediumcomabc-in-python-abstract-base-class-6a74972a0119">&lt;a href="https://rnijanthanmech.medium.com/abc-in-python-abstract-base-class-6a74972a0119">ABC in Python (Abstract Base Class)&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/nijanthan/">&lt;strong>nijanthan&lt;/strong>&lt;/a> em 19/02/2021.&lt;/p>
+&lt;h2 id="abc-in-python-abstract-base-classhttpsrnijanthanmechmediumcomabc-in-python-abstract-base-class-6a74972a0119">&lt;a href="https://rnijanthanmech.medium.com/abc-in-python-abstract-base-class-6a74972a0119" target="_blank" rel="noopener">ABC in Python (Abstract Base Class)&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/nijanthan/">&lt;strong>nijanthan&lt;/strong>&lt;/a>
+em 19/02/2021.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/containers-docker/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/containers-docker/</guid><description>
 &lt;hr>
-&lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3">Best Practices for Writing a Dockerfile&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a> em 17/12/2020.&lt;/p>
+&lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a>
+em 17/12/2020.&lt;/p>
 &lt;p>Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.&lt;/p>
 &lt;hr>
-&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#">Reduce the size of container images with DockerSlim&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a> em 17/01/2022.&lt;/p>
+&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#" target="_blank" rel="noopener">Reduce the size of container images with DockerSlim&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a>
+em 17/01/2022.&lt;/p>
 &lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Markdown &amp; Mermaid</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</guid><description>
 &lt;hr>
-&lt;h2 id="one-simple-tip-to-make-your-readmes-stand-outhttpstowardsdatasciencecomone-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">&lt;a href="https://towardsdatascience.com/one-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">One simple tip to make your READMEs stand out&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eryk-lewinson/">&lt;strong>Eryk Lewinson&lt;/strong>&lt;/a> em 21/07/2021.&lt;/p>
-&lt;p>Leve sua documentação para o próximo nível com gráficos projetados usando &lt;a href="https://mermaid-js.github.io/mermaid/#/">Mermaid&lt;/a> - um script &lt;em>markdown-like&lt;/em>!.&lt;/p>
+&lt;h2 id="one-simple-tip-to-make-your-readmes-stand-outhttpstowardsdatasciencecomone-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">&lt;a href="https://towardsdatascience.com/one-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b" target="_blank" rel="noopener">One simple tip to make your READMEs stand out&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eryk-lewinson/">&lt;strong>Eryk Lewinson&lt;/strong>&lt;/a>
+em 21/07/2021.&lt;/p>
+&lt;p>Leve sua documentação para o próximo nível com gráficos projetados usando &lt;a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">Mermaid&lt;/a>
+- um script &lt;em>markdown-like&lt;/em>!.&lt;/p>
 &lt;hr></description></item><item><title>Blog: API Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/11/api/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/11/api/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma API (&lt;em>Application Programming Interface&lt;/em>) ou Interface de Programação de Aplicativos é uma conexão entre computadores ou entre programas de computador. É um tipo de interface de software, oferecendo um serviço a outros softwares.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/API">https://en.wikipedia.org/wiki/API&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/API" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/API&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="api-architecture---design-best-practices-for-rest-apishttpsabdulrwahabmediumcomapi-architecture-best-practices-for-designing-rest-apis-bf907025f5f">&lt;a href="https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f">API Architecture - Design Best Practices for REST APIs&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/">&lt;strong>Abdul Wahab&lt;/strong>&lt;/a> em 31/10/2021.&lt;/p>
+&lt;h2 id="api-architecture---design-best-practices-for-rest-apishttpsabdulrwahabmediumcomapi-architecture-best-practices-for-designing-rest-apis-bf907025f5f">&lt;a href="https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f" target="_blank" rel="noopener">API Architecture - Design Best Practices for REST APIs&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/">&lt;strong>Abdul Wahab&lt;/strong>&lt;/a>
+em 31/10/2021.&lt;/p>
 &lt;p>Veja com uma linguagem clara e direta algumas dicas de boas práticas no projeto e desenvolvimento de API&amp;rsquo;s REST.&lt;/p>
 &lt;hr>
-&lt;h2 id="api-architecture---performance-best-practices-for-rest-apishttpsabdulrwahabmediumcomapi-architecture-performance-best-practices-for-rest-apis-1d4a5922dae1">&lt;a href="https://abdulrwahab.medium.com/api-architecture-performance-best-practices-for-rest-apis-1d4a5922dae1">API Architecture - Performance Best Practices for REST APIs&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/">&lt;strong>Abdul Wahab&lt;/strong>&lt;/a> em 07/11/2021.&lt;/p>
+&lt;h2 id="api-architecture---performance-best-practices-for-rest-apishttpsabdulrwahabmediumcomapi-architecture-performance-best-practices-for-rest-apis-1d4a5922dae1">&lt;a href="https://abdulrwahab.medium.com/api-architecture-performance-best-practices-for-rest-apis-1d4a5922dae1" target="_blank" rel="noopener">API Architecture - Performance Best Practices for REST APIs&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/">&lt;strong>Abdul Wahab&lt;/strong>&lt;/a>
+em 07/11/2021.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Um design bem pensado também deve levar em conta os aspectos de desempenho de uma API. Um bom design significa pouco se a API não tiver o desempenho desejado em resposta a solicitações crescentes e requisitos de negócios e/ou clientes em evolução.&lt;/p>
 &lt;/blockquote>
 &lt;hr></description></item><item><title>Blog: Grafana</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/11/grafana/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/11/grafana/</guid><description>
 &lt;hr>
-&lt;h2 id="grafana-as-codehttpsmediumcomtarantoolgrafana-as-code-b642cac9ae75">&lt;a href="https://medium.com/@tarantool/grafana-as-code-b642cac9ae75">Grafana as code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/georgy-moiseev/">&lt;strong>Georgy Moiseev&lt;/strong>&lt;/a> em 03/11/2021.&lt;/p>
-&lt;p>Veja como um problema para configurar o monitoramento de um projeto, foi resolvido com o &lt;a href="https://grafana.github.io/grafonnet-lib/">Grafonnet&lt;/a>, uma biblioteca que permite escrever dashboards &lt;a href="https://grafana.com/">Grafana&lt;/a> em uma linguagem chamada &lt;a href="https://jsonnet.org/">Jsonnet&lt;/a>.&lt;/p>
-&lt;p>Na primeira parte, será explicado como começaram com o &lt;a href="https://grafana.github.io/grafonnet-lib/">Grafonnet&lt;/a>, por que escolheram essa ferramenta e quais problemas ela resolveu.&lt;/p>
-&lt;p>A segunda parte é um tutorial sobre como escrever um painel simples do &lt;a href="https://prometheus.io/">Prometheus&lt;/a> com &lt;a href="https://grafana.github.io/grafonnet-lib/">Grafonnet&lt;/a>.&lt;/p>
+&lt;h2 id="grafana-as-codehttpsmediumcomtarantoolgrafana-as-code-b642cac9ae75">&lt;a href="https://medium.com/@tarantool/grafana-as-code-b642cac9ae75" target="_blank" rel="noopener">Grafana as code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/georgy-moiseev/">&lt;strong>Georgy Moiseev&lt;/strong>&lt;/a>
+em 03/11/2021.&lt;/p>
+&lt;p>Veja como um problema para configurar o monitoramento de um projeto, foi resolvido com o &lt;a href="https://grafana.github.io/grafonnet-lib/" target="_blank" rel="noopener">Grafonnet&lt;/a>
+, uma biblioteca que permite escrever dashboards &lt;a href="https://grafana.com/" target="_blank" rel="noopener">Grafana&lt;/a>
+em uma linguagem chamada &lt;a href="https://jsonnet.org/" target="_blank" rel="noopener">Jsonnet&lt;/a>
+.&lt;/p>
+&lt;p>Na primeira parte, será explicado como começaram com o &lt;a href="https://grafana.github.io/grafonnet-lib/" target="_blank" rel="noopener">Grafonnet&lt;/a>
+, por que escolheram essa ferramenta e quais problemas ela resolveu.&lt;/p>
+&lt;p>A segunda parte é um tutorial sobre como escrever um painel simples do &lt;a href="https://prometheus.io/" target="_blank" rel="noopener">Prometheus&lt;/a>
+com &lt;a href="https://grafana.github.io/grafonnet-lib/" target="_blank" rel="noopener">Grafonnet&lt;/a>
+.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Autenticação</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</guid><description>
 &lt;hr>
-&lt;h2 id="you-dont-need-jwt-anymorehttpsmediumcombytesbayyou-dont-need-jwt-anymore-974aa6196976">&lt;a href="https://medium.com/@bytesbay/you-dont-need-jwt-anymore-974aa6196976">You don’t need JWT anymore&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/miroslaw-shpak/">&lt;strong>Miroslaw Shpak&lt;/strong>&lt;/a> em 02/10/2021.&lt;/p>
-&lt;p>Uma maneira mais simples de autenticar usuários com &lt;a href="https://www.bbc.com/portuguese/geral-59951952">WEB3&lt;/a> usando mensagens assinadas, utilizando o módulo &lt;a href="https://github.com/bytesbay/web3-token">web3-token&lt;/a> baseado no login do &lt;a href="https://pt.wikipedia.org/wiki/Ethereum">Ethereum&lt;/a>.&lt;/p>
+&lt;h2 id="you-dont-need-jwt-anymorehttpsmediumcombytesbayyou-dont-need-jwt-anymore-974aa6196976">&lt;a href="https://medium.com/@bytesbay/you-dont-need-jwt-anymore-974aa6196976" target="_blank" rel="noopener">You don’t need JWT anymore&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/miroslaw-shpak/">&lt;strong>Miroslaw Shpak&lt;/strong>&lt;/a>
+em 02/10/2021.&lt;/p>
+&lt;p>Uma maneira mais simples de autenticar usuários com &lt;a href="https://www.bbc.com/portuguese/geral-59951952" target="_blank" rel="noopener">WEB3&lt;/a>
+usando mensagens assinadas, utilizando o módulo &lt;a href="https://github.com/bytesbay/web3-token" target="_blank" rel="noopener">web3-token&lt;/a>
+baseado no login do &lt;a href="https://pt.wikipedia.org/wiki/Ethereum" target="_blank" rel="noopener">Ethereum&lt;/a>
+.&lt;/p>
 &lt;hr></description></item><item><title>Blog: CI / CD</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/ci-cd/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/ci-cd/</guid><description>
 &lt;hr>
-&lt;h2 id="basics-of-cicdhttpslevelupgitconnectedcombasics-of-ci-cd-a98340c60b04">&lt;a href="https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04">Basics of CI/CD&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/semyon-kirekov/">&lt;strong>Semyon Kirekov&lt;/strong>&lt;/a> em 24/10/2021.&lt;/p>
+&lt;h2 id="basics-of-cicdhttpslevelupgitconnectedcombasics-of-ci-cd-a98340c60b04">&lt;a href="https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04" target="_blank" rel="noopener">Basics of CI/CD&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/semyon-kirekov/">&lt;strong>Semyon Kirekov&lt;/strong>&lt;/a>
+em 24/10/2021.&lt;/p>
 &lt;p>Uma explicação simples e direta sobre CI (Continuous Integration) e CD (Continuous Delivery).&lt;/p>
 &lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">Conheça os 7 princípios do Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/" target="_blank" rel="noopener">&lt;strong>HostGator&lt;/strong>&lt;/a>
+em 08/04/2020.&lt;/p>
 &lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
 &lt;hr>
-&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a" target="_blank" rel="noopener">12 Conventions for Writing Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a>
+em 26/04/2021&lt;/p>
 &lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4">In Defense of Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a> em 29/11/2021&lt;/p>
-&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin&lt;/a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
+&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4" target="_blank" rel="noopener">In Defense of Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a>
+em 29/11/2021&lt;/p>
+&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="_blank" rel="noopener">Robert C. Martin&lt;/a>
+o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
 &lt;hr>
-&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 20/01/2021&lt;/p>
+&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60" target="_blank" rel="noopener">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 20/01/2021&lt;/p>
 &lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
 &lt;blockquote>
 &lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>
@@ -176,24 +247,32 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;/blockquote>
 &lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</guid><description>
 &lt;hr>
-&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/">GIT PURR! Git Commands Explained with Cats!&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a> em 26/12/2017.&lt;/p>
+&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/" target="_blank" rel="noopener">GIT PURR! Git Commands Explained with Cats!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a>
+em 26/12/2017.&lt;/p>
 &lt;p>Uma maneira descontraída, através de ilustrações &amp;lsquo;bem coloridas&amp;rsquo; com gatos, de apresentar os principais comandos do Git.&lt;/p>
 &lt;hr>
-&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/">GitFichas&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>.&lt;/p>
+&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/" target="_blank" rel="noopener">GitFichas&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>
+.&lt;/p>
 &lt;p>Aprenda os comandos do Git com fichas em um texto simples e claro.&lt;/p>
 &lt;hr>
-&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">5 new Git commands and 1 tip you’ll use every day&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a> em 23/09/2021.&lt;/p>
+&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321" target="_blank" rel="noopener">5 new Git commands and 1 tip you’ll use every day&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a>
+em 23/09/2021.&lt;/p>
 &lt;p>Aprenda a criar seus próprios subcomandos ao git.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76">7 Levels of Using Decorators in Python&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yang-zhou/">&lt;strong>Yang Zhou&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
+&lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76" target="_blank" rel="noopener">7 Levels of Using Decorators in Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yang-zhou/">&lt;strong>Yang Zhou&lt;/strong>&lt;/a>
+em 13/01/2021.&lt;/p>
 &lt;p>Este artigo apresenta de forma simples e objetiva os principais conceitos, técnicas e usos dos decorators Python ao longo de 7 níveis.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
@@ -201,68 +280,98 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;p>Se você entender todos eles, projetar e escrever decorators em Python será muito fácil.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691">6 Advanced Python Decorator Patterns&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
+&lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691" target="_blank" rel="noopener">6 Advanced Python Decorator Patterns&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a>
+em 01/06/2021.&lt;/p>
 &lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p>
 &lt;hr>
-&lt;h2 id="the-single-most-useful-python-decorator-cachehttpsmediumcomdev-todaythe-single-most-useful-python-decorator-cache-88086c07417e">&lt;a href="https://medium.com/dev-today/the-single-most-useful-python-decorator-cache-88086c07417e">The single most useful Python Decorator @cache&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/felipe-florencio-garcia/">&lt;strong>Felipe Florencio Garcia&lt;/strong>&lt;/a> em 10/11/2021.&lt;/p>
+&lt;h2 id="the-single-most-useful-python-decorator-cachehttpsmediumcomdev-todaythe-single-most-useful-python-decorator-cache-88086c07417e">&lt;a href="https://medium.com/dev-today/the-single-most-useful-python-decorator-cache-88086c07417e" target="_blank" rel="noopener">The single most useful Python Decorator @cache&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/felipe-florencio-garcia/">&lt;strong>Felipe Florencio Garcia&lt;/strong>&lt;/a>
+em 10/11/2021.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Graphical User Interface</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/gui-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/gui-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Interface Gráfica do Usuário mais conhecida como GUI (&lt;em>Graphical User Interface&lt;/em>) é um tipo de interface que permite a interação com dispositivos digitais por meio de elementos gráficos como ícones e outros indicadores visuais.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Graphical_user_interface">https://en.wikipedia.org/wiki/Graphical_user_interface&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Graphical_user_interface&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="this-new-python-package-builds-awesome-guishttpspreetthemanmediumcomthis-new-python-package-builds-awesome-guis-150defda7915">&lt;a href="https://preettheman.medium.com/this-new-python-package-builds-awesome-guis-150defda7915">This new Python package builds awesome GUI’s!&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/manpreet-singh/">&lt;strong>Manpreet Singh&lt;/strong>&lt;/a> em 13/10/2021.&lt;/p>
-&lt;p>Conheça o pacote &lt;a href="https://github.com/hoffstadt/DearPyGui">Dear PyGui&lt;/a> e alguns &lt;a href="https://github.com/hoffstadt/DearPyGui/wiki/Dear-PyGui-Showcase">exemplos de uso&lt;/a>.&lt;/p>
+&lt;h2 id="this-new-python-package-builds-awesome-guishttpspreetthemanmediumcomthis-new-python-package-builds-awesome-guis-150defda7915">&lt;a href="https://preettheman.medium.com/this-new-python-package-builds-awesome-guis-150defda7915" target="_blank" rel="noopener">This new Python package builds awesome GUI’s!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/manpreet-singh/">&lt;strong>Manpreet Singh&lt;/strong>&lt;/a>
+em 13/10/2021.&lt;/p>
+&lt;p>Conheça o pacote &lt;a href="https://github.com/hoffstadt/DearPyGui" target="_blank" rel="noopener">Dear PyGui&lt;/a>
+e alguns &lt;a href="https://github.com/hoffstadt/DearPyGui/wiki/Dear-PyGui-Showcase" target="_blank" rel="noopener">exemplos de uso&lt;/a>
+.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</guid><description>
 &lt;hr>
-&lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a> em 25/01/2022.&lt;/p>
+&lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
+em 25/01/2022.&lt;/p>
 &lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
 &lt;hr></description></item><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma Interface de Linha de Comandos (ILC), em inglês &lt;em>Command-Line Interface&lt;/em> (CLI), é um meio de interagir com um programa de computador, onde o utilizador emite comandos para o programa sob a forma de sucessivas linhas de texto (linhas de comando).&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="make-your-python-cli-tools-pop-with-richhttpshackadaycom20220119make-your-python-cli-tools-pop-with-rich">&lt;a href="https://hackaday.com/2022/01/19/make-your-python-cli-tools-pop-with-rich/">Make Your Python CLI Tools Pop With Rich&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/matthew-carlson/">&lt;strong>Matthew Carlson&lt;/strong>&lt;/a> em 19/01/2022.&lt;/p>
+&lt;h2 id="make-your-python-cli-tools-pop-with-richhttpshackadaycom20220119make-your-python-cli-tools-pop-with-rich">&lt;a href="https://hackaday.com/2022/01/19/make-your-python-cli-tools-pop-with-rich/" target="_blank" rel="noopener">Make Your Python CLI Tools Pop With Rich&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/matthew-carlson/">&lt;strong>Matthew Carlson&lt;/strong>&lt;/a>
+em 19/01/2022.&lt;/p>
 &lt;p>Apresentação da biblioteca &lt;code>Rich&lt;/code> para dar um &amp;lsquo;up&amp;rsquo; nas ferramentas de linha de comando.&lt;/p>
-&lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md">Repositório do projeto Rich&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#">Documentação da biblioteca Rich&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md" target="_blank" rel="noopener">Repositório do projeto Rich&lt;/a>
+&lt;/p>
+&lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#" target="_blank" rel="noopener">Documentação da biblioteca Rich&lt;/a>
+&lt;/p>
 &lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</guid><description>
 &lt;hr>
-&lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets">Tracing the path of network traffic in Kubernetes&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a> em 01/2022.&lt;/p>
+&lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">Tracing the path of network traffic in Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
+em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Container Networking</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</guid><description>
 &lt;hr>
-&lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/">Container Networking Is Simple!&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a> em 04/08/2021.&lt;/p>
+&lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/" target="_blank" rel="noopener">Container Networking Is Simple!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
+em 04/08/2021.&lt;/p>
 &lt;p>Configure uma rede de container do zero com ferramentas padrão do Linux entendendo como elas funcionam.&lt;/p>
 &lt;hr>
-&lt;h2 id="introduction-to-linux-interfaces-for-virtual-networkinghttpsdevelopersredhatcomblog20181022introduction-to-linux-interfaces-for-virtual-networking">&lt;a href="https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#">Introduction to Linux interfaces for virtual networking&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/hangbin-liu/">&lt;strong>Hangbin Liu&lt;/strong>&lt;/a> em 22/10/2018.&lt;/p>
+&lt;h2 id="introduction-to-linux-interfaces-for-virtual-networkinghttpsdevelopersredhatcomblog20181022introduction-to-linux-interfaces-for-virtual-networking">&lt;a href="https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#" target="_blank" rel="noopener">Introduction to Linux interfaces for virtual networking&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/hangbin-liu/">&lt;strong>Hangbin Liu&lt;/strong>&lt;/a>
+em 22/10/2018.&lt;/p>
 &lt;p>Confira uma breve introdução a todos os tipos de interface de rede virtual comumente usados no Linux (Bridge, bonded interface, team device, VLAN - Virtual LAN, VXLAN - Virtual eXtensible LAN, VETH - Virtual Ethernet, etc.).&lt;/p>
 &lt;hr></description></item><item><title>Blog: Debug in Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Na programação de computadores e desenvolvimento de software, debugging ou depuração em portugues, é o processo de encontrar e resolver bugs (defeitos ou problemas que impedem a operação correta) em programas de computador, software ou sistemas.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Debugging/">https://en.wikipedia.org/wiki/Debugging/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Debugging/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Debugging/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">Debugging your code in Python — pdb vs. rpdb&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
+&lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3" target="_blank" rel="noopener">Debugging your code in Python — pdb vs. rpdb&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a>
+em 08/09/2021.&lt;/p>
 &lt;p>Veja a diferença entre o &lt;code>pdb&lt;/code> e o &lt;code>rpdb&lt;/code> e como usa-los na prática.&lt;/p>
 &lt;hr>
-&lt;h2 id="stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">&lt;a href="https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">Stop Using Print to Debug in Python. Use Icecream Instead&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 13/01/2021.&lt;/p>
-&lt;p>&lt;a href="https://github.com/gruns/icecream">Icecream&lt;/a> é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
+&lt;h2 id="stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">&lt;a href="https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc" target="_blank" rel="noopener">Stop Using Print to Debug in Python. Use Icecream Instead&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 13/01/2021.&lt;/p>
+&lt;p>&lt;a href="https://github.com/gruns/icecream" target="_blank" rel="noopener">Icecream&lt;/a>
+é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</guid><description>
 &lt;hr>
-&lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/">How to set up a serious Kubernetes terminal&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-cooney/">&lt;strong>Chris Cooney&lt;/strong>&lt;/a> em 22/05/2019.&lt;/p>
+&lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-cooney/">&lt;strong>Chris Cooney&lt;/strong>&lt;/a>
+em 22/05/2019.&lt;/p>
 &lt;p>Veja as ferramentas que serão abordados neste artigo:&lt;/p>
 &lt;ul>
 &lt;li>k9s&lt;/li>
@@ -274,26 +383,35 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;/ul>
 &lt;hr></description></item><item><title>Blog: GUI for Bash</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/gui-for-bash/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/gui-for-bash/</guid><description>
 &lt;hr>
-&lt;h2 id="how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">&lt;a href="https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">How to Modernize Your Bash Scripts By Adding GUI&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shalitha-suranga/">&lt;strong>Shalitha Suranga&lt;/strong>&lt;/a> em 27/09/2020.&lt;/p>
+&lt;h2 id="how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">&lt;a href="https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7" target="_blank" rel="noopener">How to Modernize Your Bash Scripts By Adding GUI&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shalitha-suranga/">&lt;strong>Shalitha Suranga&lt;/strong>&lt;/a>
+em 27/09/2020.&lt;/p>
 &lt;p>Implemente componentes de entrada/saída nos script&amp;rsquo;s Bash usando a &lt;code>Zenity&lt;/code> e envie notificações com o &lt;code>notify-send&lt;/code>.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O modulo Secrets é usado para gerar números aleatórios criptograficamente fortes adequados para gerenciar dados como senhas, autenticação de conta, tokens de segurança e segredos relacionados.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://docs.python.org/3/library/secrets.html/">https://docs.python.org/3/library/secrets.html/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://docs.python.org/3/library/secrets.html/" target="_blank" rel="noopener">https://docs.python.org/3/library/secrets.html/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="the-secrets-module-of-pythonhttpsmediumcompythoneersthe-secrets-module-of-python-150af4c9f300">&lt;a href="https://medium.com/pythoneers/the-secrets-module-of-python-150af4c9f300">The Secrets Module of Python&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/swathi-arun/">&lt;strong>Swathi Arun&lt;/strong>&lt;/a> em 08/09/2021.&lt;/p>
+&lt;h2 id="the-secrets-module-of-pythonhttpsmediumcompythoneersthe-secrets-module-of-python-150af4c9f300">&lt;a href="https://medium.com/pythoneers/the-secrets-module-of-python-150af4c9f300" target="_blank" rel="noopener">The Secrets Module of Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/swathi-arun/">&lt;strong>Swathi Arun&lt;/strong>&lt;/a>
+em 08/09/2021.&lt;/p>
 &lt;p>Veja através de alguns exemplos como utilizar este módulo.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - 2FA) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/">A Kubernetes engineer’s guide to mTLS&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a> da &lt;a href="https://buoyant.io/">Buoyant&lt;/a>.&lt;/p>
+&lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/" target="_blank" rel="noopener">A Kubernetes engineer’s guide to mTLS&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a>
+da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a>
+.&lt;/p>
 &lt;p>Segue alguns tópicos que serão abordados neste guia:&lt;/p>
 &lt;ul>
 &lt;li>O que é mTLS?&lt;/li>
@@ -306,27 +424,36 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb">How to Architect a Production-Level App in Flutter&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 25/07/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 25/07/2021.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Quando você escreve um código que resolve problemas que você não tem, você está fazendo engenharia excessiva.&lt;/p>
 &lt;p>Escrever código com engenharia excessiva é tão prejudicial quanto código espaguete, pois interrompe a produtividade.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-1httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">How to Architect a Production-Level App in Flutter: Phone Number Authentication - Part 1&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 29/08/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-1httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter: Phone Number Authentication - Part 1&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 29/08/2021.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Acreditando que nenhum desenvolvedor Flutter deveria se sentir sozinho ao longo dessa jornada, decidi compartilhar minhas experiências na construção de um aplicativo em nível de produção.&lt;/p>
-&lt;p>Então, eu abri o recurso de login do número de telefone do &lt;a href="https://sponty.app/#/">Sponty&lt;/a> junto com sua arquitetura limpa no nível de produção.&lt;/p>
+&lt;p>Então, eu abri o recurso de login do número de telefone do &lt;a href="https://sponty.app/#/" target="_blank" rel="noopener">Sponty&lt;/a>
+junto com sua arquitetura limpa no nível de produção.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-2httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">How To Architect A Production-Level App In Flutter: Phone Number Authentication - Part 2&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 05/09/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-2httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1" target="_blank" rel="noopener">How To Architect A Production-Level App In Flutter: Phone Number Authentication - Part 2&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 05/09/2021.&lt;/p>
 &lt;hr>
-&lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">My Flutter app made US$140 in the first week, with no advertising&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a> em 23/03/2021.&lt;/p>
+&lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5" target="_blank" rel="noopener">My Flutter app made US$140 in the first week, with no advertising&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a>
+em 23/03/2021.&lt;/p>
 &lt;p>Neste artigo o autor conta um pouco da sua trajetória como desenvolvedor Flutter.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
@@ -334,18 +461,27 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;/blockquote>
 &lt;hr></description></item><item><title>Blog: Clean Architecture</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
-&lt;p>Clean Architecture é uma arquitetura de software proposta por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">Robert Cecil Martin (ou Uncle Bob, como é mais conhecido)&lt;/a> que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/">https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/&lt;/a>&lt;/p>
+&lt;p>Clean Architecture é uma arquitetura de software proposta por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">Robert Cecil Martin (ou Uncle Bob, como é mais conhecido)&lt;/a>
+que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/" target="_blank" rel="noopener">https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="the-clean-architecturehttpsblogcleancodercomuncle-bob20120813the-clean-architecturehtml">&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">&lt;strong>Robert C. Martin (Uncle Bob)&lt;/strong>&lt;/a> em 13/08/2012.&lt;/p>
+&lt;h2 id="the-clean-architecturehttpsblogcleancodercomuncle-bob20120813the-clean-architecturehtml">&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html" target="_blank" rel="noopener">The Clean Architecture&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">&lt;strong>Robert C. Martin (Uncle Bob)&lt;/strong>&lt;/a>
+em 13/08/2012.&lt;/p>
 &lt;hr>
-&lt;h2 id="clean-architecture-descubra-o-que-é-e-onde-aplicar-arquitetura-limpahttpswwwzupcombrblogclean-architecture-arquitetura-limpa">&lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/">Clean Architecture: descubra o que é e onde aplicar Arquitetura Limpa&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/danilo-masotti/">&lt;strong>Danilo Masotti&lt;/strong>&lt;/a> em 14/10/2021.&lt;/p>
+&lt;h2 id="clean-architecture-descubra-o-que-é-e-onde-aplicar-arquitetura-limpahttpswwwzupcombrblogclean-architecture-arquitetura-limpa">&lt;a href="https://www.zup.com.br/blog/clean-architecture-arquitetura-limpa/" target="_blank" rel="noopener">Clean Architecture: descubra o que é e onde aplicar Arquitetura Limpa&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/danilo-masotti/">&lt;strong>Danilo Masotti&lt;/strong>&lt;/a>
+em 14/10/2021.&lt;/p>
 &lt;p>Este artigo se propõe a apresentar as vantagens e desafios das principais arquiteturas, assim é possível aumentar consideravelmente a qualidade e escalabilidade de um software.&lt;/p>
 &lt;hr>
-&lt;h2 id="clean-api-architecturehttpsmediumcomperry-street-software-engineeringclean-api-architecture-2b57074084d5">&lt;a href="https://medium.com/perry-street-software-engineering/clean-api-architecture-2b57074084d5">Clean API Architecture&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eric-silverberg/">&lt;strong>Eric Silverberg&lt;/strong>&lt;/a> em 01/06/2021.&lt;/p>
-&lt;p>Baseando-se na proposta da &lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a> o autor apresenta como aplicar o conceito &lt;code>Clean&lt;/code> aos endpoint&amp;rsquo;s de uma API.&lt;/p>
+&lt;h2 id="clean-api-architecturehttpsmediumcomperry-street-software-engineeringclean-api-architecture-2b57074084d5">&lt;a href="https://medium.com/perry-street-software-engineering/clean-api-architecture-2b57074084d5" target="_blank" rel="noopener">Clean API Architecture&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eric-silverberg/">&lt;strong>Eric Silverberg&lt;/strong>&lt;/a>
+em 01/06/2021.&lt;/p>
+&lt;p>Baseando-se na proposta da &lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html" target="_blank" rel="noopener">The Clean Architecture&lt;/a>
+o autor apresenta como aplicar o conceito &lt;code>Clean&lt;/code> aos endpoint&amp;rsquo;s de uma API.&lt;/p>
 &lt;hr></description></item></channel></rss>

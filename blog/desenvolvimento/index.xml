@@ -2,37 +2,52 @@
 &lt;hr>
 &lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://codecombat.com/">Code Combat&lt;/a> &amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
+&lt;li>&lt;a href="https://codecombat.com/" target="_blank" rel="noopener">Code Combat&lt;/a>
+&amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
 No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um sorriso no rosto.&lt;/li>
-&lt;li>&lt;a href="https://www.codemonkey.com/">Code Monkey&lt;/a> é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
-&lt;li>&lt;a href="https://www.codewars.com/">Code Wars&lt;/a> é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
-&lt;li>&lt;a href="https://checkio.org/">CheckIo&lt;/a> é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
-&lt;li>&lt;a href="https://www.codingame.com/">Coding Game&lt;/a> permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
+&lt;li>&lt;a href="https://www.codemonkey.com/" target="_blank" rel="noopener">Code Monkey&lt;/a>
+é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
+&lt;li>&lt;a href="https://www.codewars.com/" target="_blank" rel="noopener">Code Wars&lt;/a>
+é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
+&lt;li>&lt;a href="https://checkio.org/" target="_blank" rel="noopener">CheckIo&lt;/a>
+é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
+&lt;li>&lt;a href="https://www.codingame.com/" target="_blank" rel="noopener">Coding Game&lt;/a>
+permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
 &lt;/ul>
 &lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">Conheça os 7 princípios do Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/" target="_blank" rel="noopener">&lt;strong>HostGator&lt;/strong>&lt;/a>
+em 08/04/2020.&lt;/p>
 &lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
 &lt;hr>
-&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a" target="_blank" rel="noopener">12 Conventions for Writing Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a>
+em 26/04/2021&lt;/p>
 &lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4">In Defense of Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a> em 29/11/2021&lt;/p>
-&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin&lt;/a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
+&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4" target="_blank" rel="noopener">In Defense of Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a>
+em 29/11/2021&lt;/p>
+&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="_blank" rel="noopener">Robert C. Martin&lt;/a>
+o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
 &lt;hr>
-&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 20/01/2021&lt;/p>
+&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60" target="_blank" rel="noopener">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 20/01/2021&lt;/p>
 &lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
 &lt;blockquote>
 &lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>

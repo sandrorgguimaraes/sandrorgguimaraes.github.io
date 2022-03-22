@@ -1,7 +1,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – probes</title><link>https://sandrorgguimaraes.github.io/tags/probes/</link><description>Recent content in probes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/probes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Observabilidade</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</guid><description>
 &lt;hr>
-&lt;h2 id="monitoring-microservices---part-1-observabilityhttpsmediumcomgeekculturemonitoring-microservices-part-1-observability-b2b44fa3e67e">&lt;a href="https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e">Monitoring Microservices - Part 1: Observability&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/anderson-carvalho/">&lt;strong>Anderson Carvalho&lt;/strong>&lt;/a> em 10/08/2021.&lt;/p>
+&lt;h2 id="monitoring-microservices---part-1-observabilityhttpsmediumcomgeekculturemonitoring-microservices-part-1-observability-b2b44fa3e67e">&lt;a href="https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e" target="_blank" rel="noopener">Monitoring Microservices - Part 1: Observability&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/anderson-carvalho/">&lt;strong>Anderson Carvalho&lt;/strong>&lt;/a>
+em 10/08/2021.&lt;/p>
 &lt;p>A dor é um indicador claro de que algo não está bem. Às vezes, as doenças silenciosas vem muito antes da dor. É por isso que visitamos um médico de vez em quando: para conhecer nosso estado de saúde.&lt;/p>
 &lt;ul>
 &lt;li>Mas como sabemos se nosso aplicativo está saudável?&lt;/li>

@@ -2,42 +2,60 @@
 &lt;hr>
 &lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://codecombat.com/">Code Combat&lt;/a> &amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
+&lt;li>&lt;a href="https://codecombat.com/" target="_blank" rel="noopener">Code Combat&lt;/a>
+&amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
 No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um sorriso no rosto.&lt;/li>
-&lt;li>&lt;a href="https://www.codemonkey.com/">Code Monkey&lt;/a> é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
-&lt;li>&lt;a href="https://www.codewars.com/">Code Wars&lt;/a> é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
-&lt;li>&lt;a href="https://checkio.org/">CheckIo&lt;/a> é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
-&lt;li>&lt;a href="https://www.codingame.com/">Coding Game&lt;/a> permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
+&lt;li>&lt;a href="https://www.codemonkey.com/" target="_blank" rel="noopener">Code Monkey&lt;/a>
+é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
+&lt;li>&lt;a href="https://www.codewars.com/" target="_blank" rel="noopener">Code Wars&lt;/a>
+é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
+&lt;li>&lt;a href="https://checkio.org/" target="_blank" rel="noopener">CheckIo&lt;/a>
+é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
+&lt;li>&lt;a href="https://www.codingame.com/" target="_blank" rel="noopener">Coding Game&lt;/a>
+permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
 &lt;/ul>
 &lt;hr></description></item><item><title>Blog: Markdown &amp; Mermaid</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</guid><description>
 &lt;hr>
-&lt;h2 id="one-simple-tip-to-make-your-readmes-stand-outhttpstowardsdatasciencecomone-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">&lt;a href="https://towardsdatascience.com/one-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">One simple tip to make your READMEs stand out&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eryk-lewinson/">&lt;strong>Eryk Lewinson&lt;/strong>&lt;/a> em 21/07/2021.&lt;/p>
-&lt;p>Leve sua documentação para o próximo nível com gráficos projetados usando &lt;a href="https://mermaid-js.github.io/mermaid/#/">Mermaid&lt;/a> - um script &lt;em>markdown-like&lt;/em>!.&lt;/p>
+&lt;h2 id="one-simple-tip-to-make-your-readmes-stand-outhttpstowardsdatasciencecomone-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">&lt;a href="https://towardsdatascience.com/one-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b" target="_blank" rel="noopener">One simple tip to make your READMEs stand out&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/eryk-lewinson/">&lt;strong>Eryk Lewinson&lt;/strong>&lt;/a>
+em 21/07/2021.&lt;/p>
+&lt;p>Leve sua documentação para o próximo nível com gráficos projetados usando &lt;a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">Mermaid&lt;/a>
+- um script &lt;em>markdown-like&lt;/em>!.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
+&lt;/p>
 &lt;/div>
 &lt;hr>
-&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/">Conheça os 7 princípios do Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/">&lt;strong>HostGator&lt;/strong>&lt;/a> em 08/04/2020.&lt;/p>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">Conheça os 7 princípios do Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/" target="_blank" rel="noopener">&lt;strong>HostGator&lt;/strong>&lt;/a>
+em 08/04/2020.&lt;/p>
 &lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
 &lt;hr>
-&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a">12 Conventions for Writing Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a> em 26/04/2021&lt;/p>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a" target="_blank" rel="noopener">12 Conventions for Writing Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a>
+em 26/04/2021&lt;/p>
 &lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4">In Defense of Clean Code&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a> em 29/11/2021&lt;/p>
-&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin&lt;/a> o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
+&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4" target="_blank" rel="noopener">In Defense of Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a>
+em 29/11/2021&lt;/p>
+&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="_blank" rel="noopener">Robert C. Martin&lt;/a>
+o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
 &lt;hr>
-&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a> em 20/01/2021&lt;/p>
+&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60" target="_blank" rel="noopener">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 20/01/2021&lt;/p>
 &lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
 &lt;blockquote>
 &lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>
@@ -46,40 +64,55 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;/blockquote>
 &lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</guid><description>
 &lt;hr>
-&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/">GIT PURR! Git Commands Explained with Cats!&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a> em 26/12/2017.&lt;/p>
+&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/" target="_blank" rel="noopener">GIT PURR! Git Commands Explained with Cats!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a>
+em 26/12/2017.&lt;/p>
 &lt;p>Uma maneira descontraída, através de ilustrações &amp;lsquo;bem coloridas&amp;rsquo; com gatos, de apresentar os principais comandos do Git.&lt;/p>
 &lt;hr>
-&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/">GitFichas&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>.&lt;/p>
+&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/" target="_blank" rel="noopener">GitFichas&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>
+.&lt;/p>
 &lt;p>Aprenda os comandos do Git com fichas em um texto simples e claro.&lt;/p>
 &lt;hr>
-&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">5 new Git commands and 1 tip you’ll use every day&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a> em 23/09/2021.&lt;/p>
+&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321" target="_blank" rel="noopener">5 new Git commands and 1 tip you’ll use every day&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a>
+em 23/09/2021.&lt;/p>
 &lt;p>Aprenda a criar seus próprios subcomandos ao git.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb">How to Architect a Production-Level App in Flutter&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 25/07/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 25/07/2021.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Quando você escreve um código que resolve problemas que você não tem, você está fazendo engenharia excessiva.&lt;/p>
 &lt;p>Escrever código com engenharia excessiva é tão prejudicial quanto código espaguete, pois interrompe a produtividade.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-1httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">How to Architect a Production-Level App in Flutter: Phone Number Authentication - Part 1&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 29/08/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-1httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-263628e1872c" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter: Phone Number Authentication - Part 1&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 29/08/2021.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>
 &lt;p>Acreditando que nenhum desenvolvedor Flutter deveria se sentir sozinho ao longo dessa jornada, decidi compartilhar minhas experiências na construção de um aplicativo em nível de produção.&lt;/p>
-&lt;p>Então, eu abri o recurso de login do número de telefone do &lt;a href="https://sponty.app/#/">Sponty&lt;/a> junto com sua arquitetura limpa no nível de produção.&lt;/p>
+&lt;p>Então, eu abri o recurso de login do número de telefone do &lt;a href="https://sponty.app/#/" target="_blank" rel="noopener">Sponty&lt;/a>
+junto com sua arquitetura limpa no nível de produção.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-2httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">How To Architect A Production-Level App In Flutter: Phone Number Authentication - Part 2&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a> em 05/09/2021.&lt;/p>
+&lt;h2 id="how-to-architect-a-production-level-app-in-flutter-phone-number-authentication---part-2httpsitnextiohow-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-phone-number-sign-in-part-2-63fff0bb79b1" target="_blank" rel="noopener">How To Architect A Production-Level App In Flutter: Phone Number Authentication - Part 2&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erkan-sahin/">&lt;strong>Erkan Sahin&lt;/strong>&lt;/a>
+em 05/09/2021.&lt;/p>
 &lt;hr>
-&lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">My Flutter app made US$140 in the first week, with no advertising&lt;/a>&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a> em 23/03/2021.&lt;/p>
+&lt;h2 id="my-flutter-app-made-us140-in-the-first-week-with-no-advertisinghttpschrismodonnellmediumcommy-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5">&lt;a href="https://chrismodonnell.medium.com/my-flutter-app-made-us-140-in-the-first-week-with-no-advertising-6152d1b083e5" target="_blank" rel="noopener">My Flutter app made US$140 in the first week, with no advertising&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-odonnell/">&lt;strong>Chris O&amp;rsquo;Donnell&lt;/strong>&lt;/a>
+em 23/03/2021.&lt;/p>
 &lt;p>Neste artigo o autor conta um pouco da sua trajetória como desenvolvedor Flutter.&lt;/p>
 &lt;p>Palavras do autor:&lt;/p>
 &lt;blockquote>

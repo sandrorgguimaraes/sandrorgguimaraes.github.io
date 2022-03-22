@@ -41,8 +41,10 @@
 &lt;blockquote>
 &lt;p>Fonte:&lt;/p>
 &lt;ul>
-&lt;li>FALSARELLA, Orandi M.; CHAVES, Eduardo O. C. Sistemas de Informação e Sistemas de Apoio à Decisão. Disponivel em: &lt;a href="http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm">http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm&lt;/a> Acesso em: 13 de mar. 2012.&lt;/li>
-&lt;li>BORTOLIN, Sérgio A. M. Sistema de Apoio à Decisão. Disponível em: &lt;a href="http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf">http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf&lt;/a> Acesso em: 13 de mar. 2012.&lt;/li>
+&lt;li>FALSARELLA, Orandi M.; CHAVES, Eduardo O. C. Sistemas de Informação e Sistemas de Apoio à Decisão. Disponivel em: &lt;a href="http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm" target="_blank" rel="noopener">http://www.chaves.com.br/TEXTSELF/COMPUT/sad.htm&lt;/a>
+Acesso em: 13 de mar. 2012.&lt;/li>
+&lt;li>BORTOLIN, Sérgio A. M. Sistema de Apoio à Decisão. Disponível em: &lt;a href="http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf" target="_blank" rel="noopener">http://www.al.urcamp.tche.br/infocamp/edicoes/nov05/Apoio%20a%20Decisao.pdf&lt;/a>
+Acesso em: 13 de mar. 2012.&lt;/li>
 &lt;li>PRIMAK, Fabio Vinicius. Decisões com B.I. Business Intelligence. Brasil. 1a edição. Ciência Moderna. 2008. 168 p. ISBN 8573937149.&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -96,7 +98,8 @@
 &lt;p>Este é um breve resumo sobre BI, persistindo alguma dúvida ou necessitando de maiores esclarecimentos, registre seu comentário e vamos aprender juntos.&lt;/p>
 &lt;blockquote>
 &lt;p>Fonte:
-ANTONELLI, Ricardo A. Conhecendo o Business Intelligence (BI) - Uma Ferramenta de Auxílio à Tomada de Decisão. Revista TECAP. v. 3, n. 3, 2009. Disponível em: &lt;a href="http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544">http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544&lt;/a> acesso em: 14 de mar. 2012.&lt;/p>
+ANTONELLI, Ricardo A. Conhecendo o Business Intelligence (BI) - Uma Ferramenta de Auxílio à Tomada de Decisão. Revista TECAP. v. 3, n. 3, 2009. Disponível em: &lt;a href="http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544" target="_blank" rel="noopener">http://revistas.utfpr.edu.br/pb/index.php/CAP/article/viewFile/933/544&lt;/a>
+acesso em: 14 de mar. 2012.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="datawarehouse-dw--data-mart-dm">DataWarehouse (DW) &amp;amp; Data Mart (DM)&lt;/h2>
 &lt;p>Um DW (&lt;em>Data Warehouse&lt;/em> ou Armazém de Dados) é uma coleção de dados orientada por assunto, integrada, variante no tempo e não volátil que tem por objetivo dar suporte aos processos de tomada de decisão.&lt;/p>
@@ -123,9 +126,12 @@ Fonte: http://www.dataprix.net/pt-pt/24-data-mart
 &lt;/div>
 &lt;h2 id="oltp--olap">OLTP &amp;amp; OLAP&lt;/h2>
 &lt;p>&lt;strong>OLTP&lt;/strong> (&lt;em>Online Transaction Processing&lt;/em> ou Processamento de Transações em Tempo Real) caracteriza-se por um grande número de transações (&lt;em>INSERT, UPDATE e DELETE&lt;/em>) envolvendo uma pequena quantidade de dados em um ambiente multi-acesso, mantendo a integridade referencial.&lt;/p>
-&lt;p>No planejamento do banco de dados busca-se reduzir o tamanho e a redundância dos dados e normalmente se aplica a &lt;a href="https://www.google.com/search?q=3FN+(terceira+Forma+Normal)">3FN (terceira Forma Normal)&lt;/a> na modelagem, são os dados primitivos ou dados operacionais segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a>.&lt;/p>
+&lt;p>No planejamento do banco de dados busca-se reduzir o tamanho e a redundância dos dados e normalmente se aplica a &lt;a href="https://www.google.com/search?q=3FN&amp;#43;%28terceira&amp;#43;Forma&amp;#43;Normal%29" target="_blank" rel="noopener">3FN (terceira Forma Normal)&lt;/a>
+na modelagem, são os dados primitivos ou dados operacionais segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
+.&lt;/p>
 &lt;p>&lt;strong>OLAP&lt;/strong> (&lt;em>Online Analytical Processing&lt;/em> ou Processamento Analítico em Tempo Real) caracteriza-se por poucas transações (&lt;em>INSERT e SELECT&lt;/em>) envolvendo um volume muito grande de dados.&lt;/p>
-&lt;p>Na busca por eficiência das consultas, os dados armazenados no DW ou DM´s, normalmente são desnormalizados e utilizam esquemas multi dimensionais, são os dados derivados ou dados &lt;strong>SAD&lt;/strong> segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a>.&lt;/p>
+&lt;p>Na busca por eficiência das consultas, os dados armazenados no DW ou DM´s, normalmente são desnormalizados e utilizam esquemas multi dimensionais, são os dados derivados ou dados &lt;strong>SAD&lt;/strong> segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
+.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
 &lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/olap-oltp_hu70183390894a2306c83d4ad889956479_31862_400x213_fill_box_smart1_3.png" width="400" height="213">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -135,7 +141,8 @@ Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html
 &lt;/div>
 &lt;/div>
 &lt;p>Juntamente com o OLAP surgiram novos termos como &lt;em>DOLAP&lt;/em>, &lt;em>ROLAP&lt;/em>, &lt;em>MOLAP&lt;/em>, &lt;em>HOLAP&lt;/em>, &lt;em>slice and dice&lt;/em>, &lt;em>pivot table&lt;/em>, &lt;em>drill down/up&lt;/em> que ampliaremos posteriormente.&lt;/p>
-&lt;p>A tabela abaixo extraída do livro &amp;ldquo;Como construir o Data Warehouse&amp;rdquo; de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon">W. H. Inmon&lt;/a> apresenta algumas diferenças conceituais entre os dados primitivos e os dados derivados, vejamos:&lt;/p>
+&lt;p>A tabela abaixo extraída do livro &amp;ldquo;Como construir o Data Warehouse&amp;rdquo; de &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
+apresenta algumas diferenças conceituais entre os dados primitivos e os dados derivados, vejamos:&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -223,7 +230,8 @@ Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="o-ambiente-do-dw">O ambiente do DW&lt;/h2>
-&lt;p>Devido às diferenças existentes entre os dados primitivos e os dados derivados como vimos em &lt;a href="#oltp--olap">&lt;em>OLTP &amp;amp; OLAP&lt;/em>&lt;/a>, outros aspectos por consequencia necessitam de nova abordagem segundo Inmon.&lt;/p>
+&lt;p>Devido às diferenças existentes entre os dados primitivos e os dados derivados como vimos em &lt;a href="#oltp--olap">&lt;em>OLTP &amp;amp; OLAP&lt;/em>&lt;/a>
+, outros aspectos por consequencia necessitam de nova abordagem segundo Inmon.&lt;/p>
 &lt;h3 id="os-níveis-dos-dados">Os níveis dos dados&lt;/h3>
 &lt;p>Estas diferenças acabam por gerar 4 (quatro) níveis de dados na organização, como segue:&lt;/p>
 &lt;ul>

@@ -1,1 +1,8 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – #FicaaDica</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/</link><description>Recent content in #FicaaDica on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/ficaadica/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – #FicaaDica</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/</link><description>Recent content in #FicaaDica on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/ficaadica/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Geradores de Conteúdo</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/geradores-conteudo/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/geradores-conteudo/</guid><description>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;a href="https://piotrminkowski.com/" target="_blank" rel="noopener">Piotr&amp;rsquo;s TechBlog&lt;/a>
+por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+-&amp;gt; Java, Spring, Kotlin, microservices, Kubernetes, containers.&lt;/li>
+&lt;/ul>
+&lt;hr></description></item></channel></rss>

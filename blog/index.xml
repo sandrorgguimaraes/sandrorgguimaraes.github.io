@@ -1,4 +1,56 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Observabilidade</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/15/observabilidade/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Vivendo &amp; Aprendendo</title><link>https://sandrorgguimaraes.github.io/blog/</link><description>Recent content in Vivendo &amp; Aprendendo on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-argocd/</guid><description>
+&lt;hr>
+&lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 03/12/2021.&lt;/p>
+&lt;p>Aprenda como criar e gerenciar vários clusters do Kubernetes usando a &lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener">API de cluster do Kubernetes&lt;/a>
+e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noopener">ArgoCD&lt;/a>
+. Criando um único cluster local com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+, e a partir deste cluster, provisionar o processo de criação de outros clusters Kubernetes, de forma automática a partir de um repositório Git.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Geradores de Conteúdo</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/geradores-conteudo/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/geradores-conteudo/</guid><description>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;a href="https://piotrminkowski.com/" target="_blank" rel="noopener">Piotr&amp;rsquo;s TechBlog&lt;/a>
+por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+-&amp;gt; Java, Spring, Kotlin, microservices, Kubernetes, containers.&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Blog: Multi Cluster</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Kind (&lt;em>&lt;strong>K&lt;/strong>ubernetes &lt;strong>in&lt;/strong> &lt;strong>D&lt;/strong>ocker&lt;/em>) é uma ferramenta para executar clusters locais do Kubernetes usando contêineres do Docker como nodes do Kubernetes, foi projetado principalmente para testar o próprio Kubernetes, mas pode ser usado para desenvolvimento local ou &lt;a href="https://sandrorgguimaraes.github.io/blog/devops/ci-cd/">CI (&lt;em>Continuous Integration&lt;/em>)&lt;/a>
+.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="kubernetes-multicluster-with-kind-and-ciliumhttpspiotrminkowskicom20211025kubernetes-multicluster-with-kind-and-cilium">&lt;a href="https://piotrminkowski.com/2021/10/25/kubernetes-multicluster-with-kind-and-cilium/" target="_blank" rel="noopener">Kubernetes Multicluster with Kind and Cilium&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 25/10/2021.&lt;/p>
+&lt;p>Aprenda como configurar um multicluster Kubernetes localmente com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+e &lt;a href="https://cilium.io/" target="_blank" rel="noopener">Cilium&lt;/a>
+.&lt;/p>
+&lt;blockquote>
+&lt;p>Cilium é um software de código aberto para fornecer, proteger e observar a conectividade de rede entre cargas de trabalho de contêiner - nativo da nuvem e alimentado pela revolucionária tecnologia Kernel eBPF.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="multicluster-traffic-mirroring-with-istio-and-kindhttpspiotrminkowskicom20210712multicluster-traffic-mirroring-with-istio-and-kind">&lt;a href="https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind/" target="_blank" rel="noopener">Multicluster Traffic Mirroring with Istio and Kind&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 12/07/2021.&lt;/p>
+&lt;p>Aprenda como criar uma malha do &lt;a href="https://istio.io/" target="_blank" rel="noopener">Istio&lt;/a>
+com espelhamento entre vários clusters Kubernetes em execução no &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+. Implante o mesmo aplicativo nos dois clusters Kubernetes e, em seguida, espelhe o tráfego entre eles&lt;/p>
+&lt;blockquote>
+&lt;p>O Istio estende o Kubernetes para estabelecer uma rede programável e com reconhecimento de aplicativos usando o poderoso proxy de serviço Envoy. Trabalhando com Kubernetes e cargas de trabalho tradicionais, o Istio traz gerenciamento de tráfego padrão e universal, telemetria e segurança para implantações complexas.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="kubernetes-multicluster-with-kind-and-submarinerhttpspiotrminkowskicom20210708kubernetes-multicluster-with-kind-and-submariner">&lt;a href="https://piotrminkowski.com/2021/07/08/kubernetes-multicluster-with-kind-and-submariner/" target="_blank" rel="noopener">Kubernetes Multicluster with Kind and Submariner&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 08/07/2021.&lt;/p>
+&lt;p>Aprenda como criar vários clusters Kubernetes localmente e estabelecer comunicação direta entre eles com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&lt;/a>
+. O objetivo deste artigo é estabelecer comunicação direta entre pods executados em dois clusters Kubernetes diferentes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Observabilidade</title><link>https://sandrorgguimaraes.github.io/blog/monitoracao/observabilidade/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/monitoracao/observabilidade/</guid><description>
 &lt;hr>
 &lt;h2 id="monitoring-microservices---part-1-observabilityhttpsmediumcomgeekculturemonitoring-microservices-part-1-observability-b2b44fa3e67e">&lt;a href="https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e" target="_blank" rel="noopener">Monitoring Microservices - Part 1: Observability&lt;/a>
 &lt;/h2>
@@ -11,7 +63,7 @@ em 10/08/2021.&lt;/p>
 &lt;li>Como podemos evitar possíveis incidentes antes que eles aconteçam?&lt;/li>
 &lt;/ul>
 &lt;p>Neste post, o autor explorará um conceito fundamental quando se trata de monitoramento: &lt;code>Observabilidade&lt;/code>.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Aprenda a programar</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/aprenda-a-programar/</guid><description>
+&lt;hr></description></item><item><title>Blog: Aprenda a programar</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/aprenda-a-programar/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/aprenda-a-programar/</guid><description>
 &lt;hr>
 &lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
 &lt;ul>
@@ -27,7 +79,7 @@ No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um s
 &lt;li>&lt;a href="https://www.codingame.com/" target="_blank" rel="noopener">Coding Game&lt;/a>
 permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/dicas-python/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/dicas-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</guid><description>
 &lt;hr>
 &lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5" target="_blank" rel="noopener">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>
 &lt;/h2>
@@ -104,7 +156,7 @@ em 06/07/2021.&lt;/p>
 &lt;li>Formate casas decimais com &lt;code>float&lt;/code>, moedas, objetos &lt;code>datetime&lt;/code> e preenchimento com &lt;code>f-string&lt;/code>;&lt;/li>
 &lt;li>Usando &lt;code>f-string&lt;/code> para conversões (ASCII e &lt;code>repr()&lt;/code>);&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: Paralelismo</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/paralelismo/</guid><description>
+&lt;hr></description></item><item><title>Blog: Paralelismo</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/paralelismo/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594" target="_blank" rel="noopener">How to choose the right Gunicorn Worker Type for production&lt;/a>
 &lt;/h2>
@@ -113,14 +165,14 @@ em 25/01/2021.&lt;/p>
 &lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface" target="_blank" rel="noopener">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a>
 para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/" target="_blank" rel="noopener">Gunicorn&lt;/a>
 tem a oferecer.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</guid><description>
+&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-security/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-security/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
 em 04/08/2021.&lt;/p>
 &lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
-&lt;hr></description></item><item><title>Blog: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/abstract-class-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/abstract-class-python/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/abstract-class-python/</guid><description>
 &lt;hr>
 &lt;h2 id="abstract-base-classes-in-python-fundamentals-for-data-scientistshttpstowardsdatasciencecomabstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">&lt;a href="https://towardsdatascience.com/abstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b" target="_blank" rel="noopener">Abstract Base Classes in Python: Fundamentals for Data Scientists&lt;/a>
 &lt;/h2>
@@ -131,7 +183,7 @@ em 08/09/2021.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/nijanthan/">&lt;strong>nijanthan&lt;/strong>&lt;/a>
 em 19/02/2021.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/containers-docker/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/containers-docker/</guid><description>
+&lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
 &lt;hr>
 &lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
 &lt;/h2>
@@ -144,7 +196,7 @@ em 17/12/2020.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a>
 em 17/01/2022.&lt;/p>
 &lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Markdown &amp; Mermaid</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/12/markdown-mermaid/</guid><description>
+&lt;hr></description></item><item><title>Blog: Markdown &amp; Mermaid</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/markdown/markdown-mermaid/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/markdown/markdown-mermaid/</guid><description>
 &lt;hr>
 &lt;h2 id="one-simple-tip-to-make-your-readmes-stand-outhttpstowardsdatasciencecomone-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b">&lt;a href="https://towardsdatascience.com/one-simple-tip-to-make-your-readmes-stand-out-9f06ccdd76b" target="_blank" rel="noopener">One simple tip to make your READMEs stand out&lt;/a>
 &lt;/h2>
@@ -152,7 +204,7 @@ em 17/01/2022.&lt;/p>
 em 21/07/2021.&lt;/p>
 &lt;p>Leve sua documentação para o próximo nível com gráficos projetados usando &lt;a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">Mermaid&lt;/a>
 - um script &lt;em>markdown-like&lt;/em>!.&lt;/p>
-&lt;hr></description></item><item><title>Blog: API Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/11/api/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/11/api/</guid><description>
+&lt;hr></description></item><item><title>Blog: API Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma API (&lt;em>Application Programming Interface&lt;/em>) ou Interface de Programação de Aplicativos é uma conexão entre computadores ou entre programas de computador. É um tipo de interface de software, oferecendo um serviço a outros softwares.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/API" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/API&lt;/a>
@@ -173,7 +225,7 @@ em 07/11/2021.&lt;/p>
 &lt;blockquote>
 &lt;p>Um design bem pensado também deve levar em conta os aspectos de desempenho de uma API. Um bom design significa pouco se a API não tiver o desempenho desejado em resposta a solicitações crescentes e requisitos de negócios e/ou clientes em evolução.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Grafana</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/11/grafana/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/11/grafana/</guid><description>
+&lt;hr></description></item><item><title>Blog: Grafana</title><link>https://sandrorgguimaraes.github.io/blog/monitoracao/grafana/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/monitoracao/grafana/</guid><description>
 &lt;hr>
 &lt;h2 id="grafana-as-codehttpsmediumcomtarantoolgrafana-as-code-b642cac9ae75">&lt;a href="https://medium.com/@tarantool/grafana-as-code-b642cac9ae75" target="_blank" rel="noopener">Grafana as code&lt;/a>
 &lt;/h2>
@@ -188,7 +240,7 @@ em uma linguagem chamada &lt;a href="https://jsonnet.org/" target="_blank" rel="
 &lt;p>A segunda parte é um tutorial sobre como escrever um painel simples do &lt;a href="https://prometheus.io/" target="_blank" rel="noopener">Prometheus&lt;/a>
 com &lt;a href="https://grafana.github.io/grafonnet-lib/" target="_blank" rel="noopener">Grafonnet&lt;/a>
 .&lt;/p>
-&lt;hr></description></item><item><title>Blog: Autenticação</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/autenticacao/</guid><description>
+&lt;hr></description></item><item><title>Blog: Autenticação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/autenticacao/</guid><description>
 &lt;hr>
 &lt;h2 id="you-dont-need-jwt-anymorehttpsmediumcombytesbayyou-dont-need-jwt-anymore-974aa6196976">&lt;a href="https://medium.com/@bytesbay/you-dont-need-jwt-anymore-974aa6196976" target="_blank" rel="noopener">You don’t need JWT anymore&lt;/a>
 &lt;/h2>
@@ -198,14 +250,14 @@ em 02/10/2021.&lt;/p>
 usando mensagens assinadas, utilizando o módulo &lt;a href="https://github.com/bytesbay/web3-token" target="_blank" rel="noopener">web3-token&lt;/a>
 baseado no login do &lt;a href="https://pt.wikipedia.org/wiki/Ethereum" target="_blank" rel="noopener">Ethereum&lt;/a>
 .&lt;/p>
-&lt;hr></description></item><item><title>Blog: CI / CD</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/ci-cd/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/ci-cd/</guid><description>
+&lt;hr></description></item><item><title>Blog: CI / CD</title><link>https://sandrorgguimaraes.github.io/blog/devops/ci-cd/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/devops/ci-cd/</guid><description>
 &lt;hr>
 &lt;h2 id="basics-of-cicdhttpslevelupgitconnectedcombasics-of-ci-cd-a98340c60b04">&lt;a href="https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04" target="_blank" rel="noopener">Basics of CI/CD&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/semyon-kirekov/">&lt;strong>Semyon Kirekov&lt;/strong>&lt;/a>
 em 24/10/2021.&lt;/p>
 &lt;p>Uma explicação simples e direta sobre CI (Continuous Integration) e CD (Continuous Delivery).&lt;/p>
-&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/clean-code/</guid><description>
+&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
@@ -245,7 +297,7 @@ em 20/01/2021&lt;/p>
 &lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
 &lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/comandos-git/</guid><description>
+&lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</guid><description>
 &lt;hr>
 &lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/" target="_blank" rel="noopener">GIT PURR! Git Commands Explained with Cats!&lt;/a>
 &lt;/h2>
@@ -264,7 +316,7 @@ em 26/12/2017.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a>
 em 23/09/2021.&lt;/p>
 &lt;p>Aprenda a criar seus próprios subcomandos ao git.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/decorators-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>
@@ -290,7 +342,7 @@ em 01/06/2021.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/felipe-florencio-garcia/">&lt;strong>Felipe Florencio Garcia&lt;/strong>&lt;/a>
 em 10/11/2021.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Graphical User Interface</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/10/gui-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/10/gui-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Graphical User Interface</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/gui-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/gui-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Interface Gráfica do Usuário mais conhecida como GUI (&lt;em>Graphical User Interface&lt;/em>) é um tipo de interface que permite a interação com dispositivos digitais por meio de elementos gráficos como ícones e outros indicadores visuais.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Graphical_user_interface&lt;/a>
@@ -304,14 +356,14 @@ em 13/10/2021.&lt;/p>
 &lt;p>Conheça o pacote &lt;a href="https://github.com/hoffstadt/DearPyGui" target="_blank" rel="noopener">Dear PyGui&lt;/a>
 e alguns &lt;a href="https://github.com/hoffstadt/DearPyGui/wiki/Dear-PyGui-Showcase" target="_blank" rel="noopener">exemplos de uso&lt;/a>
 .&lt;/p>
-&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</guid><description>
+&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-arquitetura/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
 em 25/01/2022.&lt;/p>
 &lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
-&lt;hr></description></item><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/cli-with-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/cli-with-python/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/cli-with-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma Interface de Linha de Comandos (ILC), em inglês &lt;em>Command-Line Interface&lt;/em> (CLI), é um meio de interagir com um programa de computador, onde o utilizador emite comandos para o programa sob a forma de sucessivas linhas de texto (linhas de comando).&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>
@@ -327,14 +379,14 @@ em 19/01/2022.&lt;/p>
 &lt;/p>
 &lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#" target="_blank" rel="noopener">Documentação da biblioteca Rich&lt;/a>
 &lt;/p>
-&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</guid><description>
+&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-network/</guid><description>
 &lt;hr>
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">Tracing the path of network traffic in Kubernetes&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
 em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Container Networking</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/container-networking/</guid><description>
+&lt;hr></description></item><item><title>Blog: Container Networking</title><link>https://sandrorgguimaraes.github.io/blog/linux/container-networking/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/container-networking/</guid><description>
 &lt;hr>
 &lt;h2 id="container-networking-is-simplehttpsiximiuzcomenpostscontainer-networking-is-simple">&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/" target="_blank" rel="noopener">Container Networking Is Simple!&lt;/a>
 &lt;/h2>
@@ -347,7 +399,7 @@ em 04/08/2021.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/hangbin-liu/">&lt;strong>Hangbin Liu&lt;/strong>&lt;/a>
 em 22/10/2018.&lt;/p>
 &lt;p>Confira uma breve introdução a todos os tipos de interface de rede virtual comumente usados no Linux (Bridge, bonded interface, team device, VLAN - Virtual LAN, VXLAN - Virtual eXtensible LAN, VETH - Virtual Ethernet, etc.).&lt;/p>
-&lt;hr></description></item><item><title>Blog: Debug in Python</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/debug-in-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Debug in Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/debug-in-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/debug-in-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Na programação de computadores e desenvolvimento de software, debugging ou depuração em portugues, é o processo de encontrar e resolver bugs (defeitos ou problemas que impedem a operação correta) em programas de computador, software ou sistemas.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Debugging/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Debugging/&lt;/a>
@@ -366,7 +418,7 @@ em 08/09/2021.&lt;/p>
 em 13/01/2021.&lt;/p>
 &lt;p>&lt;a href="https://github.com/gruns/icecream" target="_blank" rel="noopener">Icecream&lt;/a>
 é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</guid><description>
+&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-tools-terminal/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
 &lt;/h2>
@@ -381,14 +433,14 @@ em 22/05/2019.&lt;/p>
 &lt;li>popeye&lt;/li>
 &lt;li>stern&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: GUI for Bash</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/gui-for-bash/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/gui-for-bash/</guid><description>
+&lt;hr></description></item><item><title>Blog: GUI for Bash</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/gui-for-bash/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/gui-for-bash/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">&lt;a href="https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7" target="_blank" rel="noopener">How to Modernize Your Bash Scripts By Adding GUI&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shalitha-suranga/">&lt;strong>Shalitha Suranga&lt;/strong>&lt;/a>
 em 27/09/2020.&lt;/p>
 &lt;p>Implemente componentes de entrada/saída nos script&amp;rsquo;s Bash usando a &lt;code>Zenity&lt;/code> e envie notificações com o &lt;code>notify-send&lt;/code>.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/secrets-module-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O modulo Secrets é usado para gerar números aleatórios criptograficamente fortes adequados para gerenciar dados como senhas, autenticação de conta, tokens de segurança e segredos relacionados.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://docs.python.org/3/library/secrets.html/" target="_blank" rel="noopener">https://docs.python.org/3/library/secrets.html/&lt;/a>
@@ -400,7 +452,7 @@ em 27/09/2020.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/swathi-arun/">&lt;strong>Swathi Arun&lt;/strong>&lt;/a>
 em 08/09/2021.&lt;/p>
 &lt;p>Veja através de alguns exemplos como utilizar este módulo.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</guid><description>
+&lt;hr></description></item><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - 2FA) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
@@ -422,7 +474,7 @@ da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a
 &lt;li>Kubernetes, mTLS e a malha de serviço&lt;/li>
 &lt;/ul>
 &lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/casos-de-uso-do-flutter/</guid><description>
+&lt;hr></description></item><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/casos-de-uso-do-flutter/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter&lt;/a>
 &lt;/h2>
@@ -459,7 +511,7 @@ em 23/03/2021.&lt;/p>
 &lt;blockquote>
 &lt;p>Se alguém me dissesse há dois anos que eu iria dormir cedo regularmente na sexta à noite, para que eu pudesse acordar cedo para codificar, eu não teria acreditado.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Clean Architecture</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/11/clean-architecture/</guid><description>
+&lt;hr></description></item><item><title>Blog: Clean Architecture</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/clean-architecture/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/clean-architecture/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Architecture é uma arquitetura de software proposta por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">Robert Cecil Martin (ou Uncle Bob, como é mais conhecido)&lt;/a>
 que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.&lt;/p>

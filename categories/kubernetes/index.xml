@@ -1,25 +1,70 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/14/kubernetes-security/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-argocd/</guid><description>
+&lt;hr>
+&lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 03/12/2021.&lt;/p>
+&lt;p>Aprenda como criar e gerenciar vários clusters do Kubernetes usando a &lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener">API de cluster do Kubernetes&lt;/a>
+e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noopener">ArgoCD&lt;/a>
+. Criando um único cluster local com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+, e a partir deste cluster, provisionar o processo de criação de outros clusters Kubernetes, de forma automática a partir de um repositório Git.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Multi Cluster</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Kind (&lt;em>&lt;strong>K&lt;/strong>ubernetes &lt;strong>in&lt;/strong> &lt;strong>D&lt;/strong>ocker&lt;/em>) é uma ferramenta para executar clusters locais do Kubernetes usando contêineres do Docker como nodes do Kubernetes, foi projetado principalmente para testar o próprio Kubernetes, mas pode ser usado para desenvolvimento local ou &lt;a href="https://sandrorgguimaraes.github.io/blog/devops/ci-cd/">CI (&lt;em>Continuous Integration&lt;/em>)&lt;/a>
+.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="kubernetes-multicluster-with-kind-and-ciliumhttpspiotrminkowskicom20211025kubernetes-multicluster-with-kind-and-cilium">&lt;a href="https://piotrminkowski.com/2021/10/25/kubernetes-multicluster-with-kind-and-cilium/" target="_blank" rel="noopener">Kubernetes Multicluster with Kind and Cilium&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 25/10/2021.&lt;/p>
+&lt;p>Aprenda como configurar um multicluster Kubernetes localmente com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+e &lt;a href="https://cilium.io/" target="_blank" rel="noopener">Cilium&lt;/a>
+.&lt;/p>
+&lt;blockquote>
+&lt;p>Cilium é um software de código aberto para fornecer, proteger e observar a conectividade de rede entre cargas de trabalho de contêiner - nativo da nuvem e alimentado pela revolucionária tecnologia Kernel eBPF.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="multicluster-traffic-mirroring-with-istio-and-kindhttpspiotrminkowskicom20210712multicluster-traffic-mirroring-with-istio-and-kind">&lt;a href="https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind/" target="_blank" rel="noopener">Multicluster Traffic Mirroring with Istio and Kind&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 12/07/2021.&lt;/p>
+&lt;p>Aprenda como criar uma malha do &lt;a href="https://istio.io/" target="_blank" rel="noopener">Istio&lt;/a>
+com espelhamento entre vários clusters Kubernetes em execução no &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+. Implante o mesmo aplicativo nos dois clusters Kubernetes e, em seguida, espelhe o tráfego entre eles&lt;/p>
+&lt;blockquote>
+&lt;p>O Istio estende o Kubernetes para estabelecer uma rede programável e com reconhecimento de aplicativos usando o poderoso proxy de serviço Envoy. Trabalhando com Kubernetes e cargas de trabalho tradicionais, o Istio traz gerenciamento de tráfego padrão e universal, telemetria e segurança para implantações complexas.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="kubernetes-multicluster-with-kind-and-submarinerhttpspiotrminkowskicom20210708kubernetes-multicluster-with-kind-and-submariner">&lt;a href="https://piotrminkowski.com/2021/07/08/kubernetes-multicluster-with-kind-and-submariner/" target="_blank" rel="noopener">Kubernetes Multicluster with Kind and Submariner&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 08/07/2021.&lt;/p>
+&lt;p>Aprenda como criar vários clusters Kubernetes localmente e estabelecer comunicação direta entre eles com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&lt;/a>
+. O objetivo deste artigo é estabelecer comunicação direta entre pods executados em dois clusters Kubernetes diferentes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-security/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-security/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
 em 04/08/2021.&lt;/p>
 &lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
-&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/03/07/kubernetes-arquitetura/</guid><description>
+&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-arquitetura/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
 em 25/01/2022.&lt;/p>
 &lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/18/kubernetes-network/</guid><description>
+&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-network/</guid><description>
 &lt;hr>
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">Tracing the path of network traffic in Kubernetes&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
 em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-tools-terminal/</guid><description>
+&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-tools-terminal/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
 &lt;/h2>
@@ -34,7 +79,7 @@ em 22/05/2019.&lt;/p>
 &lt;li>popeye&lt;/li>
 &lt;li>stern&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/2022/02/14/kubernetes-engineers-guide-mtls/</guid><description>
+&lt;hr></description></item><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - 2FA) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>

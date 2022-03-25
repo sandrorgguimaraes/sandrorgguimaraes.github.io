@@ -1,0 +1,36 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – istio</title><link>https://sandrorgguimaraes.github.io/tags/istio/</link><description>Recent content in istio on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/istio/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Multi Cluster</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Kind (&lt;em>&lt;strong>K&lt;/strong>ubernetes &lt;strong>in&lt;/strong> &lt;strong>D&lt;/strong>ocker&lt;/em>) é uma ferramenta para executar clusters locais do Kubernetes usando contêineres do Docker como nodes do Kubernetes, foi projetado principalmente para testar o próprio Kubernetes, mas pode ser usado para desenvolvimento local ou &lt;a href="https://sandrorgguimaraes.github.io/blog/devops/ci-cd/">CI (&lt;em>Continuous Integration&lt;/em>)&lt;/a>
+.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="kubernetes-multicluster-with-kind-and-ciliumhttpspiotrminkowskicom20211025kubernetes-multicluster-with-kind-and-cilium">&lt;a href="https://piotrminkowski.com/2021/10/25/kubernetes-multicluster-with-kind-and-cilium/" target="_blank" rel="noopener">Kubernetes Multicluster with Kind and Cilium&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 25/10/2021.&lt;/p>
+&lt;p>Aprenda como configurar um multicluster Kubernetes localmente com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+e &lt;a href="https://cilium.io/" target="_blank" rel="noopener">Cilium&lt;/a>
+.&lt;/p>
+&lt;blockquote>
+&lt;p>Cilium é um software de código aberto para fornecer, proteger e observar a conectividade de rede entre cargas de trabalho de contêiner - nativo da nuvem e alimentado pela revolucionária tecnologia Kernel eBPF.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="multicluster-traffic-mirroring-with-istio-and-kindhttpspiotrminkowskicom20210712multicluster-traffic-mirroring-with-istio-and-kind">&lt;a href="https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind/" target="_blank" rel="noopener">Multicluster Traffic Mirroring with Istio and Kind&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 12/07/2021.&lt;/p>
+&lt;p>Aprenda como criar uma malha do &lt;a href="https://istio.io/" target="_blank" rel="noopener">Istio&lt;/a>
+com espelhamento entre vários clusters Kubernetes em execução no &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+. Implante o mesmo aplicativo nos dois clusters Kubernetes e, em seguida, espelhe o tráfego entre eles&lt;/p>
+&lt;blockquote>
+&lt;p>O Istio estende o Kubernetes para estabelecer uma rede programável e com reconhecimento de aplicativos usando o poderoso proxy de serviço Envoy. Trabalhando com Kubernetes e cargas de trabalho tradicionais, o Istio traz gerenciamento de tráfego padrão e universal, telemetria e segurança para implantações complexas.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="kubernetes-multicluster-with-kind-and-submarinerhttpspiotrminkowskicom20210708kubernetes-multicluster-with-kind-and-submariner">&lt;a href="https://piotrminkowski.com/2021/07/08/kubernetes-multicluster-with-kind-and-submariner/" target="_blank" rel="noopener">Kubernetes Multicluster with Kind and Submariner&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 08/07/2021.&lt;/p>
+&lt;p>Aprenda como criar vários clusters Kubernetes localmente e estabelecer comunicação direta entre eles com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&lt;/a>
+. O objetivo deste artigo é estabelecer comunicação direta entre pods executados em dois clusters Kubernetes diferentes.&lt;/p>
+&lt;hr></description></item></channel></rss>

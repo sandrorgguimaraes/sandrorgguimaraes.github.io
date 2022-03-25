@@ -42,11 +42,11 @@ taxonomyCloud = [""]
 # taxonomyCloudTitle = [""]
 # taxonomyCloudTitle = ["Categorias", "Tags", "Autores"] 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = []
+taxonomyPageHeader = [ "categories", "tags"]
 # taxonomyPageHeader = ["categories", "tags", "autores"] 
 
-[permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
+# [permalinks]
+# blog = "/:section/:year/:month/:day/:slug/"
 
 [services]
 [services.googleAnalytics]

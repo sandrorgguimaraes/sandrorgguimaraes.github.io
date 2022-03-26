@@ -1,0 +1,8 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – pods</title><link>https://sandrorgguimaraes.github.io/tags/pods/</link><description>Recent content in pods on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/pods/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Pod's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</guid><description>
+&lt;hr>
+&lt;h2 id="containers-vs-pods---taking-a-deeper-lookhttpsiximiuzcomenpostscontainers-vs-pods">&lt;a href="https://iximiuz.com/en/posts/containers-vs-pods/" target="_blank" rel="noopener">Containers vs. Pods - Taking a Deeper Look&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
+em 28/10/2021.&lt;/p>
+&lt;p>Aprenda a diferença entre Containers e Pods, os prós e contras de cada um, etc.&lt;/p>
+&lt;hr></description></item></channel></rss>

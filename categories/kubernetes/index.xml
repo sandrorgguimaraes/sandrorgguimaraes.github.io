@@ -1,4 +1,52 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-argocd/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: História</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</guid><description>
+&lt;hr>
+&lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
+em 06/02/2022.&lt;/p>
+&lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Pod's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</guid><description>
+&lt;hr>
+&lt;h2 id="containers-vs-pods---taking-a-deeper-lookhttpsiximiuzcomenpostscontainers-vs-pods">&lt;a href="https://iximiuz.com/en/posts/containers-vs-pods/" target="_blank" rel="noopener">Containers vs. Pods - Taking a Deeper Look&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
+em 28/10/2021.&lt;/p>
+&lt;p>Aprenda a diferença entre Containers e Pods, os prós e contras de cada um, etc.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - &lt;a href="https://pt.wikipedia.org/wiki/Identifica%C3%A7%C3%A3o_por_dois_fatores" target="_blank" rel="noopener">2FA&lt;/a>
+) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
+em 04/08/2021.&lt;/p>
+&lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
+&lt;hr>
+&lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/" target="_blank" rel="noopener">A Kubernetes engineer’s guide to mTLS&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a>
+da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a>
+.&lt;/p>
+&lt;p>Segue alguns tópicos que serão abordados neste guia:&lt;/p>
+&lt;ul>
+&lt;li>O que é mTLS?&lt;/li>
+&lt;li>Que tipo de segurança o TLS oferece?&lt;/li>
+&lt;li>Quando o mTLS é útil?&lt;/li>
+&lt;li>Usando mTLS para proteger microsserviços;&lt;/li>
+&lt;li>A parte difícil do TLS: gerenciamento de certificados&lt;/li>
+&lt;li>Kubernetes, mTLS e a malha de serviço&lt;/li>
+&lt;/ul>
+&lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
+&lt;hr>
+&lt;h2 id="cert-managerhttpsgithubcomcert-managercert-manager">&lt;a href="https://github.com/cert-manager/cert-manager" target="_blank" rel="noopener">cert-manager&lt;/a>
+&lt;/h2>
+&lt;p>&lt;code>cert-manager&lt;/code> é um complemento do Kubernetes para automatizar o gerenciamento e a emissão de certificados TLS de várias fontes de emissão.&lt;/p>
+&lt;p>Ele garantirá que os certificados sejam válidos e atualizados periodicamente e tentará renová-los em um momento apropriado antes da expiração.&lt;/p>
+&lt;hr></description></item><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</guid><description>
 &lt;hr>
 &lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>
 &lt;/h2>
@@ -8,7 +56,7 @@ em 03/12/2021.&lt;/p>
 e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noopener">ArgoCD&lt;/a>
 . Criando um único cluster local com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
 , e a partir deste cluster, provisionar o processo de criação de outros clusters Kubernetes, de forma automática a partir de um repositório Git.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Multi Cluster</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-multicluster/</guid><description>
+&lt;hr></description></item><item><title>Blog: Multi Cluster</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/multicluster/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/multicluster/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Kind (&lt;em>&lt;strong>K&lt;/strong>ubernetes &lt;strong>in&lt;/strong> &lt;strong>D&lt;/strong>ocker&lt;/em>) é uma ferramenta para executar clusters locais do Kubernetes usando contêineres do Docker como nodes do Kubernetes, foi projetado principalmente para testar o próprio Kubernetes, mas pode ser usado para desenvolvimento local ou &lt;a href="https://sandrorgguimaraes.github.io/blog/devops/ci-cd/">CI (&lt;em>Continuous Integration&lt;/em>)&lt;/a>
 .&lt;/p>
@@ -43,28 +91,21 @@ em 08/07/2021.&lt;/p>
 &lt;p>Aprenda como criar vários clusters Kubernetes localmente e estabelecer comunicação direta entre eles com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
 e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&lt;/a>
 . O objetivo deste artigo é estabelecer comunicação direta entre pods executados em dois clusters Kubernetes diferentes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-security/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-security/</guid><description>
-&lt;hr>
-&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
-em 04/08/2021.&lt;/p>
-&lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
-&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-arquitetura/</guid><description>
+&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
 em 25/01/2022.&lt;/p>
 &lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-network/</guid><description>
+&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</guid><description>
 &lt;hr>
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">Tracing the path of network traffic in Kubernetes&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
 em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-tools-terminal/</guid><description>
+&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
 &lt;/h2>
@@ -79,26 +120,4 @@ em 22/05/2019.&lt;/p>
 &lt;li>popeye&lt;/li>
 &lt;li>stern&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - 2FA) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
-&lt;/p>
-&lt;/div>
-&lt;hr>
-&lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/" target="_blank" rel="noopener">A Kubernetes engineer’s guide to mTLS&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a>
-da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a>
-.&lt;/p>
-&lt;p>Segue alguns tópicos que serão abordados neste guia:&lt;/p>
-&lt;ul>
-&lt;li>O que é mTLS?&lt;/li>
-&lt;li>Que tipo de segurança o TLS oferece?&lt;/li>
-&lt;li>Quando o mTLS é útil?&lt;/li>
-&lt;li>Usando mTLS para proteger microsserviços;&lt;/li>
-&lt;li>A parte difícil do TLS: gerenciamento de certificados&lt;/li>
-&lt;li>Kubernetes, mTLS e a malha de serviço&lt;/li>
-&lt;/ul>
-&lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
 &lt;hr></description></item></channel></rss>

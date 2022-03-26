@@ -1,9 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – service mesh</title><link>https://sandrorgguimaraes.github.io/tags/service-mesh/</link><description>Recent content in service mesh on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/service-mesh/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Um guia para mTLS</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/kubernetes-engineers-guide-mtls/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – service mesh</title><link>https://sandrorgguimaraes.github.io/tags/service-mesh/</link><description>Recent content in service mesh on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/service-mesh/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
-&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - 2FA) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
+&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - &lt;a href="https://pt.wikipedia.org/wiki/Identifica%C3%A7%C3%A3o_por_dois_fatores" target="_blank" rel="noopener">2FA&lt;/a>
+) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
 &lt;/p>
 &lt;/div>
+&lt;hr>
+&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
+em 04/08/2021.&lt;/p>
+&lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
 &lt;hr>
 &lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/" target="_blank" rel="noopener">A Kubernetes engineer’s guide to mTLS&lt;/a>
 &lt;/h2>
@@ -20,4 +27,9 @@ da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a
 &lt;li>Kubernetes, mTLS e a malha de serviço&lt;/li>
 &lt;/ul>
 &lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
+&lt;hr>
+&lt;h2 id="cert-managerhttpsgithubcomcert-managercert-manager">&lt;a href="https://github.com/cert-manager/cert-manager" target="_blank" rel="noopener">cert-manager&lt;/a>
+&lt;/h2>
+&lt;p>&lt;code>cert-manager&lt;/code> é um complemento do Kubernetes para automatizar o gerenciamento e a emissão de certificados TLS de várias fontes de emissão.&lt;/p>
+&lt;p>Ele garantirá que os certificados sejam válidos e atualizados periodicamente e tentará renová-los em um momento apropriado antes da expiração.&lt;/p>
 &lt;hr></description></item></channel></rss>

@@ -10,7 +10,7 @@ autores:
 description: Entenda como funciona as redes e a comunicação entre os diversos componentes no Kubernetes.
 keywords:
     - network
-slug: kubernetes-network
+slug: network
 ---
 
 ---

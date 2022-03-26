@@ -16,7 +16,7 @@ keywords:
     - cilium
     - istio
     - submariner
-slug: kubernetes-multicluster
+slug: multicluster
 ---
 
 {{% pageinfo %}}

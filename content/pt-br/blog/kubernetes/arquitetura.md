@@ -12,7 +12,7 @@ description: Vamos ver algumas possibilidades de arquitetura para o Kubernetes.
 keywords:
     - namespace hierarquico
     - multi tenants
-slug: kubernetes-arquitetura
+slug: arquitetura
 ---
 
 ---

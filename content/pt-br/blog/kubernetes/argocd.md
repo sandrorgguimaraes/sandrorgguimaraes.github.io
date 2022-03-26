@@ -12,7 +12,7 @@ description: Vamos ver alguns materiais sobre o ArgoCD.
 keywords:
     - argocd
     - kind
-slug: kubernetes-argocd
+slug: argocd
 ---
 
 ---

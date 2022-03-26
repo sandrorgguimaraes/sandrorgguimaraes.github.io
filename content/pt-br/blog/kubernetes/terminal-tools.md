@@ -20,7 +20,7 @@ keywords:
     - kube-ps1
     - popeye
     - stern
-slug: kubernetes-tools-terminal
+slug: tools-terminal
 ---
 
 ---

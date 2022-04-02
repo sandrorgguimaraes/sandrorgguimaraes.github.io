@@ -1,24 +1,51 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: História</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: História</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</guid><description>
 &lt;hr>
 &lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
 em 06/02/2022.&lt;/p>
 &lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Pod's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</guid><description>
+&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</guid><description>
 &lt;hr>
-&lt;h2 id="containers-vs-pods---taking-a-deeper-lookhttpsiximiuzcomenpostscontainers-vs-pods">&lt;a href="https://iximiuz.com/en/posts/containers-vs-pods/" target="_blank" rel="noopener">Containers vs. Pods - Taking a Deeper Look&lt;/a>
+&lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
 &lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
-em 28/10/2021.&lt;/p>
-&lt;p>Aprenda a diferença entre Containers e Pods, os prós e contras de cada um, etc.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - &lt;a href="https://pt.wikipedia.org/wiki/Identifica%C3%A7%C3%A3o_por_dois_fatores" target="_blank" rel="noopener">2FA&lt;/a>
-) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
-&lt;/p>
-&lt;/div>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
+em 25/01/2022.&lt;/p>
+&lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-cooney/">&lt;strong>Chris Cooney&lt;/strong>&lt;/a>
+em 22/05/2019.&lt;/p>
+&lt;p>Veja as ferramentas que serão abordados neste artigo:&lt;/p>
+&lt;ul>
+&lt;li>k9s&lt;/li>
+&lt;li>kubectx&lt;/li>
+&lt;li>kubens&lt;/li>
+&lt;li>kube-ps1&lt;/li>
+&lt;li>popeye&lt;/li>
+&lt;li>stern&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="boosting-your-kubectl-productivityhttpslearnk8sioblogkubectl-productivity">&lt;a href="https://learnk8s.io/blog/kubectl-productivity" target="_blank" rel="noopener">Boosting your kubectl productivity&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-weibel/">&lt;strong>Daniel Weibel&lt;/strong>&lt;/a>
+em 04/2019.&lt;/p>
+&lt;p>Este artigo contém uma série de dicas e truques para tornar o uso do &lt;code>kubectl&lt;/code> mais eficiente e eficaz. Ao mesmo tempo, visa aprofundar sua compreensão de como vários aspectos do Kubernetes funcionam.&lt;/p>
+&lt;hr>
+&lt;h2 id="the-worlds-simplest-kubernetes-dashboard-k1shttpsmediumcomitnextthe-worlds-simplest-kubernetes-dashboard-k1s-4246e03191df">&lt;a href="https://medium.com/itnext/the-worlds-simplest-kubernetes-dashboard-k1s-4246e03191df" target="_blank" rel="noopener">The world’s simplest Kubernetes dashboard: k1s&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-weibel/">&lt;strong>Daniel Weibel&lt;/strong>&lt;/a>
+em 04/2019.&lt;/p>
+&lt;p>O autor apresenta neste artigo o que ele chama de “painel Kubernetes mais simples do mundo”, composto por 50 linhas de código Bash.&lt;/p></description></item><item><title>Blog: Troubleshooting</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/troubleshooting/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/troubleshooting/</guid><description>
+&lt;hr>
+&lt;h2 id="compilado-de-guias-visuais-para-auxiliar-na-resolução-dos-problemashttpssandrorgguimaraesgithubioblogficaadicaguias-visuais">&lt;a href="https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/" target="_blank" rel="noopener">Compilado de Guias Visuais para auxiliar na resolução dos problemas&lt;/a>
+&lt;/h2>
+&lt;hr>
+&lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
+&lt;/h2>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
 &lt;/h2>
@@ -26,6 +53,12 @@ em 28/10/2021.&lt;/p>
 em 04/08/2021.&lt;/p>
 &lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
 &lt;hr>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - &lt;a href="https://pt.wikipedia.org/wiki/Identifica%C3%A7%C3%A3o_por_dois_fatores" target="_blank" rel="noopener">2FA&lt;/a>
+) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
+&lt;/p>
+&lt;/div>
 &lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/" target="_blank" rel="noopener">A Kubernetes engineer’s guide to mTLS&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a>
@@ -46,6 +79,26 @@ da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a
 &lt;/h2>
 &lt;p>&lt;code>cert-manager&lt;/code> é um complemento do Kubernetes para automatizar o gerenciamento e a emissão de certificados TLS de várias fontes de emissão.&lt;/p>
 &lt;p>Ele garantirá que os certificados sejam válidos e atualizados periodicamente e tentará renová-los em um momento apropriado antes da expiração.&lt;/p>
+&lt;hr>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>O &lt;strong>RBAC&lt;/strong> (&lt;em>Role-Based Access Control&lt;/em> ou Controle de Acesso Baseado em Funções) é um mecanismo de controle de acesso de política neutra definido em torno de funções e privilégios.&lt;/p>
+&lt;p>Os componentes do RBAC, como permissões de função, funções de usuário e relações de função, facilitam a realização de atribuições de usuários&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;h2 id="limiting-access-to-kubernetes-resources-with-rbachttpslearnk8siorbac-kubernetes">&lt;a href="https://learnk8s.io/rbac-kubernetes" target="_blank" rel="noopener">Limiting access to Kubernetes resources with RBAC&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/arthur-chiao/">&lt;strong>Arthur Chiao&lt;/strong>&lt;/a>
+em 03/2022.&lt;/p>
+&lt;p>Neste artigo, você aprenderá a recriar o modelo de autorização &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">RBAC (&lt;em>Role-Based Access Control&lt;/em>)&lt;/a>
+do Kubernetes do zero e praticará os relacionamentos entre &lt;code>Roles&lt;/code>, &lt;code>ClusterRoles&lt;/code>, &lt;code>ServiceAccounts&lt;/code>, &lt;code>RoleBindings&lt;/code> e &lt;code>ClusterRoleBindings&lt;/code>.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Pod's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</guid><description>
+&lt;hr>
+&lt;h2 id="containers-vs-pods---taking-a-deeper-lookhttpsiximiuzcomenpostscontainers-vs-pods">&lt;a href="https://iximiuz.com/en/posts/containers-vs-pods/" target="_blank" rel="noopener">Containers vs. Pods - Taking a Deeper Look&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
+em 28/10/2021.&lt;/p>
+&lt;p>Aprenda a diferença entre Containers e Pods, os prós e contras de cada um, etc.&lt;/p>
 &lt;hr></description></item><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</guid><description>
 &lt;hr>
 &lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>
@@ -91,13 +144,6 @@ em 08/07/2021.&lt;/p>
 &lt;p>Aprenda como criar vários clusters Kubernetes localmente e estabelecer comunicação direta entre eles com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
 e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&lt;/a>
 . O objetivo deste artigo é estabelecer comunicação direta entre pods executados em dois clusters Kubernetes diferentes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</guid><description>
-&lt;hr>
-&lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
-em 25/01/2022.&lt;/p>
-&lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</guid><description>
 &lt;hr>
 &lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">Tracing the path of network traffic in Kubernetes&lt;/a>
@@ -105,19 +151,4 @@ em 25/01/2022.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
 em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</guid><description>
-&lt;hr>
-&lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-cooney/">&lt;strong>Chris Cooney&lt;/strong>&lt;/a>
-em 22/05/2019.&lt;/p>
-&lt;p>Veja as ferramentas que serão abordados neste artigo:&lt;/p>
-&lt;ul>
-&lt;li>k9s&lt;/li>
-&lt;li>kubectx&lt;/li>
-&lt;li>kubens&lt;/li>
-&lt;li>kube-ps1&lt;/li>
-&lt;li>popeye&lt;/li>
-&lt;li>stern&lt;/li>
-&lt;/ul>
 &lt;hr></description></item></channel></rss>

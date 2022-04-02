@@ -1,0 +1,8 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – troubleshooting</title><link>https://sandrorgguimaraes.github.io/tags/troubleshooting/</link><description>Recent content in troubleshooting on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Troubleshooting</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/troubleshooting/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/troubleshooting/</guid><description>
+&lt;hr>
+&lt;h2 id="compilado-de-guias-visuais-para-auxiliar-na-resolução-dos-problemashttpssandrorgguimaraesgithubioblogficaadicaguias-visuais">&lt;a href="https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/" target="_blank" rel="noopener">Compilado de Guias Visuais para auxiliar na resolução dos problemas&lt;/a>
+&lt;/h2>
+&lt;hr>
+&lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
+&lt;/h2>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item></channel></rss>

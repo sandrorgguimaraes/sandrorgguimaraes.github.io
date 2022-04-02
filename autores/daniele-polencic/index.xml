@@ -1,0 +1,49 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Daniele Polencic</title><link>https://sandrorgguimaraes.github.io/autores/daniele-polencic/</link><description>Recent content in Daniele Polencic on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/daniele-polencic/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+&lt;hr>
+&lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a>
+em 17/12/2020.&lt;/p>
+&lt;p>Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#" target="_blank" rel="noopener">Reduce the size of container images with DockerSlim&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a>
+em 17/01/2022.&lt;/p>
+&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
+&lt;hr>
+&lt;h2 id="3-simple-tricks-for-smaller-docker-imageshttpslearnk8sioblogsmaller-docker-images">&lt;a href="https://learnk8s.io/blog/smaller-docker-images" target="_blank" rel="noopener">3 simple tricks for smaller Docker images&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniele-polencic/">&lt;strong>Daniele Polencic&lt;/strong>&lt;/a>
+em 04/2019.&lt;/p>
+&lt;p>Quando se trata de construir contêineres Docker, você deve sempre buscar imagens menores.&lt;/p>
+&lt;blockquote>
+&lt;p>Imagens que compartilham camadas e são menores em tamanho são mais rápidas de transferir e implantar.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Guias Visuais</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Nome do Guia&lt;/th>
+&lt;th>Mantenedor&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://learnk8s.io/troubleshooting-deployments" target="_blank" rel="noopener">A visual guide on troubleshooting Kubernetes deployments&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/daniele-polencic/">Daniele Polencic&lt;/a>
+&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.tigera.io/blog/a-visual-guide-to-calico-ebpf-data-plane-validation/" target="_blank" rel="noopener">Validating the Calico eBPF Data Plane&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/chris-tomkins/">Chris Tomkins&lt;/a>
+&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr></description></item></channel></rss>

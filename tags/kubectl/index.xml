@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubectl</title><link>https://sandrorgguimaraes.github.io/tags/kubectl/</link><description>Recent content in kubectl on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/kubectl/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/chris-cooney/">&lt;strong>Chris Cooney&lt;/strong>&lt;/a>
+em 22/05/2019.&lt;/p>
+&lt;p>Veja as ferramentas que serão abordados neste artigo:&lt;/p>
+&lt;ul>
+&lt;li>k9s&lt;/li>
+&lt;li>kubectx&lt;/li>
+&lt;li>kubens&lt;/li>
+&lt;li>kube-ps1&lt;/li>
+&lt;li>popeye&lt;/li>
+&lt;li>stern&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="boosting-your-kubectl-productivityhttpslearnk8sioblogkubectl-productivity">&lt;a href="https://learnk8s.io/blog/kubectl-productivity" target="_blank" rel="noopener">Boosting your kubectl productivity&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-weibel/">&lt;strong>Daniel Weibel&lt;/strong>&lt;/a>
+em 04/2019.&lt;/p>
+&lt;p>Este artigo contém uma série de dicas e truques para tornar o uso do &lt;code>kubectl&lt;/code> mais eficiente e eficaz. Ao mesmo tempo, visa aprofundar sua compreensão de como vários aspectos do Kubernetes funcionam.&lt;/p>
+&lt;hr>
+&lt;h2 id="the-worlds-simplest-kubernetes-dashboard-k1shttpsmediumcomitnextthe-worlds-simplest-kubernetes-dashboard-k1s-4246e03191df">&lt;a href="https://medium.com/itnext/the-worlds-simplest-kubernetes-dashboard-k1s-4246e03191df" target="_blank" rel="noopener">The world’s simplest Kubernetes dashboard: k1s&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-weibel/">&lt;strong>Daniel Weibel&lt;/strong>&lt;/a>
+em 04/2019.&lt;/p>
+&lt;p>O autor apresenta neste artigo o que ele chama de “painel Kubernetes mais simples do mundo”, composto por 50 linhas de código Bash.&lt;/p></description></item></channel></rss>

@@ -1,6 +1,6 @@
 ---
 title: Docker
-date: 2022-04-01
+date: 2022-04-02
 categories:
     - container
 tags:
@@ -42,5 +42,15 @@ por [**Daniele Polencic**](/autores/daniele-polencic/) em 04/2019.
 Quando se trata de construir contêineres Docker, você deve sempre buscar imagens menores.
 
 > Imagens que compartilham camadas e são menores em tamanho são mais rápidas de transferir e implantar.
+
+---
+
+## [Dockerized](https://github.com/datastack-net/dockerized)
+
+Execute ferramentas populares de linha de comando sem precisar instalá-las.
+
+> Se o seu comando favorito não estiver incluído, ele pode ser adicionado com muita facilidade.
+>
+> **Dockerized** retorna mais de 150 comandos definidos em [jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles).
 
 ---

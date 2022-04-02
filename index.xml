@@ -5,13 +5,18 @@
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
 em 06/02/2022.&lt;/p>
 &lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</guid><description>
+&lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
 em 25/01/2022.&lt;/p>
 &lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-kubernetes-validates-custom-resourceshttpsdanielmangumcompostshow-kubernetes-validates-custom-resources">&lt;a href="https://danielmangum.com/posts/how-kubernetes-validates-custom-resources/" target="_blank" rel="noopener">How Kubernetes validates Custom Resources&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-mangum/">&lt;strong>Daniel Mangum&lt;/strong>&lt;/a>
+em 08/11/2021.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Ferramentas pro terminal</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/tools-terminal/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-set-up-a-serious-kubernetes-terminalhttpsmediumcomfree-code-camphow-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4">&lt;a href="https://medium.com/free-code-camp/how-to-set-up-a-serious-kubernetes-terminal-dd07cab51cd4/" target="_blank" rel="noopener">How to set up a serious Kubernetes terminal&lt;/a>
@@ -45,7 +50,86 @@ em 04/2019.&lt;/p>
 &lt;hr>
 &lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
 &lt;/h2>
-&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
+&lt;hr>
+&lt;h2 id="what-is-the-bash-shell-and-why-is-it-so-important-to-linuxhttpswwwhowtogeekcom726559what-is-the-bash-shell-and-why-is-it-so-important-to-linux">&lt;a href="https://www.howtogeek.com/726559/what-is-the-bash-shell-and-why-is-it-so-important-to-linux/" target="_blank" rel="noopener">What Is the Bash Shell, and Why Is It So Important to Linux?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
+em 19/05/2021.&lt;/p>
+&lt;p>O shell Bash tem mais de 30 anos e ainda está forte. O que ele faz, de onde veio e por que ainda é o shell mais comum em sistemas Linux?&lt;/p>
+&lt;hr>
+&lt;h2 id="what-are-bash-dictionaries-on-linux-and-how-do-you-use-themhttpswwwhowtogeekcom730243what-are-bash-dictionaries-on-linux-and-how-do-you-use-them">&lt;a href="https://www.howtogeek.com/730243/what-are-bash-dictionaries-on-linux-and-how-do-you-use-them/" target="_blank" rel="noopener">What Are Bash Dictionaries on Linux, and How Do You Use Them?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
+em 16/06/2021.&lt;/p>
+&lt;p>Os dicionários ou arrays Bash fornecem mapas de hash e matrizes associativas em scripts de shell do Linux. Mostraremos como usar essas estruturas de dados poderosas e úteis em seus próprios scripts de shell do Linux.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-set-and-pipefail-in-bash-scripts-on-linuxhttpswwwhowtogeekcom782514how-to-use-set-and-pipefail-in-bash-scripts-on-linux">&lt;a href="https://www.howtogeek.com/782514/how-to-use-set-and-pipefail-in-bash-scripts-on-linux/" target="_blank" rel="noopener">How To Use set and pipefail in Bash Scripts on Linux&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
+em 17/03/2022.&lt;/p>
+&lt;p>Os comandos Linux &lt;code>set&lt;/code> e o &lt;code>pipefail&lt;/code> ditam o que acontece quando ocorre uma falha em um script Bash.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">&lt;a href="https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7" target="_blank" rel="noopener">How to Modernize Your Bash Scripts By Adding GUI&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shalitha-suranga/">&lt;strong>Shalitha Suranga&lt;/strong>&lt;/a>
+em 27/09/2020.&lt;/p>
+&lt;p>Implemente componentes de entrada/saída nos script&amp;rsquo;s Bash usando a &lt;code>Zenity&lt;/code> e envie notificações com o &lt;code>notify-send&lt;/code>.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Nome do Site&lt;/th>
+&lt;th>Mantenedor&lt;/th>
+&lt;th>Conteúdo abordado&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://piotrminkowski.com/" target="_blank" rel="noopener">Piotr&amp;rsquo;s TechBlog&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">Piotr Mińkowski&lt;/a>
+&lt;/td>
+&lt;td>Java, Spring, Kotlin, microservices, Kubernetes e containers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://roadmap.sh/" target="_blank" rel="noopener">roadmap.sh&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/kamran-ahmed/">Kamran Ahmed&lt;/a>
+&lt;/td>
+&lt;td>Roadmap&amp;rsquo;s, Guias e Vídeos sobre DevOps, Frontend e Backend.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://iximiuz.com/en/" target="_blank" rel="noopener">iximiuz&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">Ivan Velichko&lt;/a>
+&lt;/td>
+&lt;td>Containers, Kubernetes e Backend Development&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://learnk8s.io/blog" target="_blank" rel="noopener">Blog learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://learnk8s.io/" target="_blank" rel="noopener">Learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;/td>
+&lt;td>Kubernetes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.codekarle.com/" target="_blank" rel="noopener">System Design Interview Preparation Series&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/codekarle/">codeKarle&lt;/a>
+&lt;/td>
+&lt;td>Design de Sistemas, com diagramas e vídeos.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://guiafoca.org/" target="_blank" rel="noopener">GuiaFoca Linux&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/gleydson-maziolli/">Gleydson Maziolli&lt;/a>
+&lt;/td>
+&lt;td>Do básico ao avançado sobre GNU/Linux.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
 &lt;hr>
 &lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
 &lt;/h2>
@@ -67,6 +151,30 @@ em 04/2019.&lt;/p>
 &lt;blockquote>
 &lt;p>Imagens que compartilham camadas e são menores em tamanho são mais rápidas de transferir e implantar.&lt;/p>
 &lt;/blockquote>
+&lt;hr>
+&lt;h2 id="dockerizedhttpsgithubcomdatastack-netdockerized">&lt;a href="https://github.com/datastack-net/dockerized" target="_blank" rel="noopener">Dockerized&lt;/a>
+&lt;/h2>
+&lt;p>Execute ferramentas populares de linha de comando sem precisar instalá-las.&lt;/p>
+&lt;blockquote>
+&lt;p>Se o seu comando favorito não estiver incluído, ele pode ser adicionado com muita facilidade.&lt;/p>
+&lt;p>&lt;strong>Dockerized&lt;/strong> retorna mais de 150 comandos definidos em &lt;a href="https://github.com/jessfraz/dockerfiles" target="_blank" rel="noopener">jessfraz/dockerfiles&lt;/a>
+.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</guid><description>
+&lt;hr>
+&lt;h2 id="notification-system-designhttpscloudificationzonecom20210813notification-system-design">&lt;a href="https://cloudificationzone.com/2021/08/13/notification-system-design/" target="_blank" rel="noopener">Notification System Design&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/rajiv-srivastava/">&lt;strong>Rajiv Srivastava&lt;/strong>&lt;/a>
+em 13/08/2021.&lt;/p>
+&lt;p>Projete uma arquitetura de sistema de nível empresarial para oferecer suporte a e-mail, SMS, bate-papo e outras integrações de aplicativos sociais públicos usando a API.&lt;/p>
+&lt;p>É um recurso genérico de todos os tipos de aplicativos móveis e da Web, necessário para todos os aplicativos distribuídos modernos, independentemente do uso de linguagens e tecnologias de programação.&lt;/p>
+&lt;p>Você pode personalizar com base em seus casos de uso de negócios.&lt;/p>
+&lt;hr>
+&lt;h2 id="notification-service-designhttpswwwcodekarlecomsystem-designnotification-system-designhtml">&lt;a href="https://www.codekarle.com/system-design/Notification-system-design.html" target="_blank" rel="noopener">Notification Service Design&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/codekarle/">&lt;strong>codeKarle&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;p>Não importa que tipo de sistema você esteja construindo, seja um sistema de comércio eletrônico ou uma plataforma de compartilhamento de conteúdo, você sempre terá um serviço de notificação através do qual notificará seus clientes sobre qualquer novo desenvolvimento. Mas como você construirá tal sistema?&lt;/p>
 &lt;hr></description></item><item><title>Blog: Guias Visuais</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</guid><description>
 &lt;table>
 &lt;thead>
@@ -146,15 +254,6 @@ da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a
 em 03/2022.&lt;/p>
 &lt;p>Neste artigo, você aprenderá a recriar o modelo de autorização &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">RBAC (&lt;em>Role-Based Access Control&lt;/em>)&lt;/a>
 do Kubernetes do zero e praticará os relacionamentos entre &lt;code>Roles&lt;/code>, &lt;code>ClusterRoles&lt;/code>, &lt;code>ServiceAccounts&lt;/code>, &lt;code>RoleBindings&lt;/code> e &lt;code>ClusterRoleBindings&lt;/code>.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</guid><description>
-&lt;hr>
-&lt;h2 id="notification-system-designhttpscloudificationzonecom20210813notification-system-design">&lt;a href="https://cloudificationzone.com/2021/08/13/notification-system-design/" target="_blank" rel="noopener">Notification System Design&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/rajiv-srivastava/">&lt;strong>Rajiv Srivastava&lt;/strong>&lt;/a>
-em 13/08/2021.&lt;/p>
-&lt;p>Projete uma arquitetura de sistema de nível empresarial para oferecer suporte a e-mail, SMS, bate-papo e outras integrações de aplicativos sociais públicos usando a API.&lt;/p>
-&lt;p>É um recurso genérico de todos os tipos de aplicativos móveis e da Web, necessário para todos os aplicativos distribuídos modernos, independentemente do uso de linguagens e tecnologias de programação.&lt;/p>
-&lt;p>Você pode personalizar com base em seus casos de uso de negócios.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
 &lt;hr>
 &lt;h2 id="learning-containers-from-the-bottom-uphttpsiximiuzcomenpostscontainer-learning-path">&lt;a href="https://iximiuz.com/en/posts/container-learning-path/" target="_blank" rel="noopener">Learning Containers From The Bottom Up&lt;/a>
@@ -165,46 +264,6 @@ em 14/11/2021.&lt;/p>
 &lt;blockquote>
 &lt;p>Este artigo não é uma tentativa de explicar os contêineres de uma só vez. Em vez disso, é a primeira página do meu estudo de vários anos sobre o domínio. Ele descreve o referido caminho de aprendizado e, em seguida, orienta você, apontando para artigos mais aprofundados neste mesmo blog.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Nome do Site&lt;/th>
-&lt;th>Mantenedor&lt;/th>
-&lt;th>Conteúdo abordado&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;a href="https://piotrminkowski.com/" target="_blank" rel="noopener">Piotr&amp;rsquo;s TechBlog&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">Piotr Mińkowski&lt;/a>
-&lt;/td>
-&lt;td>Java, Spring, Kotlin, microservices, Kubernetes, containers.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://roadmap.sh/" target="_blank" rel="noopener">roadmap.sh&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/kamran-ahmed/">Kamran Ahmed&lt;/a>
-&lt;/td>
-&lt;td>Roadmap&amp;rsquo;s, Guias e Ví deos sobre DevOps, Frontend e Backend.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://iximiuz.com/en/" target="_blank" rel="noopener">iximiuz&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">Ivan Velichko&lt;/a>
-&lt;/td>
-&lt;td>Containers, Kubernetes and Backend Development&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://learnk8s.io/blog" target="_blank" rel="noopener">Blog learn&lt;strong>k8s&lt;/strong>&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">Learn&lt;strong>k8s&lt;/strong>&lt;/a>
-&lt;/td>
-&lt;td>Containers, Kubernetes and Backend Development&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
 &lt;hr></description></item><item><title>Blog: Dicas</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-reduce-the-time-complexity-of-nested-loopshttpsdevtoleandronsphow-to-reduce-the-time-complexity-of-nested-loops-1lkd">&lt;a href="https://dev.to/leandronsp/how-to-reduce-the-time-complexity-of-nested-loops-1lkd" target="_blank" rel="noopener">How to reduce the time complexity of nested loops&lt;/a>
@@ -609,13 +668,6 @@ em 08/09/2021.&lt;/p>
 em 13/01/2021.&lt;/p>
 &lt;p>&lt;a href="https://github.com/gruns/icecream" target="_blank" rel="noopener">Icecream&lt;/a>
 é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
-&lt;hr></description></item><item><title>Blog: GUI for Bash</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/gui-for-bash/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/gui-for-bash/</guid><description>
-&lt;hr>
-&lt;h2 id="how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">&lt;a href="https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7" target="_blank" rel="noopener">How to Modernize Your Bash Scripts By Adding GUI&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shalitha-suranga/">&lt;strong>Shalitha Suranga&lt;/strong>&lt;/a>
-em 27/09/2020.&lt;/p>
-&lt;p>Implemente componentes de entrada/saída nos script&amp;rsquo;s Bash usando a &lt;code>Zenity&lt;/code> e envie notificações com o &lt;code>notify-send&lt;/code>.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O modulo Secrets é usado para gerar números aleatórios criptograficamente fortes adequados para gerenciar dados como senhas, autenticação de conta, tokens de segurança e segredos relacionados.&lt;/p>

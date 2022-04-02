@@ -1,0 +1,13 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Daniel Mangum</title><link>https://sandrorgguimaraes.github.io/autores/daniel-mangum/</link><description>Recent content in Daniel Mangum on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/daniel-mangum/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bob-reselman/">&lt;strong>Bob Reselman&lt;/strong>&lt;/a>
+em 25/01/2022.&lt;/p>
+&lt;p>Aprenda como os namespaces hierárquicos facilitam o gerenciamento de permissões e recursos em uma arquitetura Kuberentes multitenants.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-kubernetes-validates-custom-resourceshttpsdanielmangumcompostshow-kubernetes-validates-custom-resources">&lt;a href="https://danielmangum.com/posts/how-kubernetes-validates-custom-resources/" target="_blank" rel="noopener">How Kubernetes validates Custom Resources&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-mangum/">&lt;strong>Daniel Mangum&lt;/strong>&lt;/a>
+em 08/11/2021.&lt;/p>
+&lt;hr></description></item></channel></rss>

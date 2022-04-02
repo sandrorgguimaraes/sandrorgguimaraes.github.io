@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – notification system</title><link>https://sandrorgguimaraes.github.io/tags/notification-system/</link><description>Recent content in notification system on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/notification-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – notification system</title><link>https://sandrorgguimaraes.github.io/tags/notification-system/</link><description>Recent content in notification system on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/notification-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</guid><description>
 &lt;hr>
 &lt;h2 id="notification-system-designhttpscloudificationzonecom20210813notification-system-design">&lt;a href="https://cloudificationzone.com/2021/08/13/notification-system-design/" target="_blank" rel="noopener">Notification System Design&lt;/a>
 &lt;/h2>
@@ -7,4 +7,10 @@ em 13/08/2021.&lt;/p>
 &lt;p>Projete uma arquitetura de sistema de nível empresarial para oferecer suporte a e-mail, SMS, bate-papo e outras integrações de aplicativos sociais públicos usando a API.&lt;/p>
 &lt;p>É um recurso genérico de todos os tipos de aplicativos móveis e da Web, necessário para todos os aplicativos distribuídos modernos, independentemente do uso de linguagens e tecnologias de programação.&lt;/p>
 &lt;p>Você pode personalizar com base em seus casos de uso de negócios.&lt;/p>
+&lt;hr>
+&lt;h2 id="notification-service-designhttpswwwcodekarlecomsystem-designnotification-system-designhtml">&lt;a href="https://www.codekarle.com/system-design/Notification-system-design.html" target="_blank" rel="noopener">Notification Service Design&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/codekarle/">&lt;strong>codeKarle&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;p>Não importa que tipo de sistema você esteja construindo, seja um sistema de comércio eletrônico ou uma plataforma de compartilhamento de conteúdo, você sempre terá um serviço de notificação através do qual notificará seus clientes sobre qualquer novo desenvolvimento. Mas como você construirá tal sistema?&lt;/p>
 &lt;hr></description></item></channel></rss>

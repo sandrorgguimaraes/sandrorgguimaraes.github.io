@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – codeKarle</title><link>https://sandrorgguimaraes.github.io/autores/codekarle/</link><description>Recent content in codeKarle on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/codekarle/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Nome do Site&lt;/th>
+&lt;th>Mantenedor&lt;/th>
+&lt;th>Conteúdo abordado&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://piotrminkowski.com/" target="_blank" rel="noopener">Piotr&amp;rsquo;s TechBlog&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">Piotr Mińkowski&lt;/a>
+&lt;/td>
+&lt;td>Java, Spring, Kotlin, microservices, Kubernetes e containers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://roadmap.sh/" target="_blank" rel="noopener">roadmap.sh&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/kamran-ahmed/">Kamran Ahmed&lt;/a>
+&lt;/td>
+&lt;td>Roadmap&amp;rsquo;s, Guias e Vídeos sobre DevOps, Frontend e Backend.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://iximiuz.com/en/" target="_blank" rel="noopener">iximiuz&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">Ivan Velichko&lt;/a>
+&lt;/td>
+&lt;td>Containers, Kubernetes e Backend Development&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://learnk8s.io/blog" target="_blank" rel="noopener">Blog learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://learnk8s.io/" target="_blank" rel="noopener">Learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;/td>
+&lt;td>Kubernetes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.codekarle.com/" target="_blank" rel="noopener">System Design Interview Preparation Series&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/codekarle/">codeKarle&lt;/a>
+&lt;/td>
+&lt;td>Design de Sistemas, com diagramas e vídeos.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://guiafoca.org/" target="_blank" rel="noopener">GuiaFoca Linux&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/gleydson-maziolli/">Gleydson Maziolli&lt;/a>
+&lt;/td>
+&lt;td>Do básico ao avançado sobre GNU/Linux.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>Blog: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</guid><description>
+&lt;hr>
+&lt;h2 id="notification-system-designhttpscloudificationzonecom20210813notification-system-design">&lt;a href="https://cloudificationzone.com/2021/08/13/notification-system-design/" target="_blank" rel="noopener">Notification System Design&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/rajiv-srivastava/">&lt;strong>Rajiv Srivastava&lt;/strong>&lt;/a>
+em 13/08/2021.&lt;/p>
+&lt;p>Projete uma arquitetura de sistema de nível empresarial para oferecer suporte a e-mail, SMS, bate-papo e outras integrações de aplicativos sociais públicos usando a API.&lt;/p>
+&lt;p>É um recurso genérico de todos os tipos de aplicativos móveis e da Web, necessário para todos os aplicativos distribuídos modernos, independentemente do uso de linguagens e tecnologias de programação.&lt;/p>
+&lt;p>Você pode personalizar com base em seus casos de uso de negócios.&lt;/p>
+&lt;hr>
+&lt;h2 id="notification-service-designhttpswwwcodekarlecomsystem-designnotification-system-designhtml">&lt;a href="https://www.codekarle.com/system-design/Notification-system-design.html" target="_blank" rel="noopener">Notification Service Design&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/codekarle/">&lt;strong>codeKarle&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;p>Não importa que tipo de sistema você esteja construindo, seja um sistema de comércio eletrônico ou uma plataforma de compartilhamento de conteúdo, você sempre terá um serviço de notificação através do qual notificará seus clientes sobre qualquer novo desenvolvimento. Mas como você construirá tal sistema?&lt;/p>
+&lt;hr></description></item></channel></rss>

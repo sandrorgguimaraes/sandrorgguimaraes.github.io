@@ -1,4 +1,58 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – ficaadica</title><link>https://sandrorgguimaraes.github.io/categories/ficaadica/</link><description>Recent content in ficaadica on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/ficaadica/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Guias Visuais</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – ficaadica</title><link>https://sandrorgguimaraes.github.io/categories/ficaadica/</link><description>Recent content in ficaadica on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/ficaadica/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Nome do Site&lt;/th>
+&lt;th>Mantenedor&lt;/th>
+&lt;th>Conteúdo abordado&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://piotrminkowski.com/" target="_blank" rel="noopener">Piotr&amp;rsquo;s TechBlog&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">Piotr Mińkowski&lt;/a>
+&lt;/td>
+&lt;td>Java, Spring, Kotlin, microservices, Kubernetes e containers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://roadmap.sh/" target="_blank" rel="noopener">roadmap.sh&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/kamran-ahmed/">Kamran Ahmed&lt;/a>
+&lt;/td>
+&lt;td>Roadmap&amp;rsquo;s, Guias e Vídeos sobre DevOps, Frontend e Backend.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://iximiuz.com/en/" target="_blank" rel="noopener">iximiuz&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">Ivan Velichko&lt;/a>
+&lt;/td>
+&lt;td>Containers, Kubernetes e Backend Development&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://learnk8s.io/blog" target="_blank" rel="noopener">Blog learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://learnk8s.io/" target="_blank" rel="noopener">Learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;/td>
+&lt;td>Kubernetes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.codekarle.com/" target="_blank" rel="noopener">System Design Interview Preparation Series&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/codekarle/">codeKarle&lt;/a>
+&lt;/td>
+&lt;td>Design de Sistemas, com diagramas e vídeos.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://guiafoca.org/" target="_blank" rel="noopener">GuiaFoca Linux&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/gleydson-maziolli/">Gleydson Maziolli&lt;/a>
+&lt;/td>
+&lt;td>Do básico ao avançado sobre GNU/Linux.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>Blog: Guias Visuais</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</guid><description>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -21,46 +75,6 @@
 &lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/chris-tomkins/">Chris Tomkins&lt;/a>
 &lt;/td>
 &lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Nome do Site&lt;/th>
-&lt;th>Mantenedor&lt;/th>
-&lt;th>Conteúdo abordado&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;a href="https://piotrminkowski.com/" target="_blank" rel="noopener">Piotr&amp;rsquo;s TechBlog&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">Piotr Mińkowski&lt;/a>
-&lt;/td>
-&lt;td>Java, Spring, Kotlin, microservices, Kubernetes, containers.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://roadmap.sh/" target="_blank" rel="noopener">roadmap.sh&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/kamran-ahmed/">Kamran Ahmed&lt;/a>
-&lt;/td>
-&lt;td>Roadmap&amp;rsquo;s, Guias e Ví deos sobre DevOps, Frontend e Backend.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://iximiuz.com/en/" target="_blank" rel="noopener">iximiuz&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">Ivan Velichko&lt;/a>
-&lt;/td>
-&lt;td>Containers, Kubernetes and Backend Development&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://learnk8s.io/blog" target="_blank" rel="noopener">Blog learn&lt;strong>k8s&lt;/strong>&lt;/a>
-&lt;/td>
-&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">Learn&lt;strong>k8s&lt;/strong>&lt;/a>
-&lt;/td>
-&lt;td>Containers, Kubernetes and Backend Development&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

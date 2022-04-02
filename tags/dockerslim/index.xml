@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – dockerslim</title><link>https://sandrorgguimaraes.github.io/tags/dockerslim/</link><description>Recent content in dockerslim on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/dockerslim/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – dockerslim</title><link>https://sandrorgguimaraes.github.io/tags/dockerslim/</link><description>Recent content in dockerslim on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/dockerslim/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
 &lt;hr>
 &lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
 &lt;/h2>
@@ -19,5 +19,14 @@ em 04/2019.&lt;/p>
 &lt;p>Quando se trata de construir contêineres Docker, você deve sempre buscar imagens menores.&lt;/p>
 &lt;blockquote>
 &lt;p>Imagens que compartilham camadas e são menores em tamanho são mais rápidas de transferir e implantar.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="dockerizedhttpsgithubcomdatastack-netdockerized">&lt;a href="https://github.com/datastack-net/dockerized" target="_blank" rel="noopener">Dockerized&lt;/a>
+&lt;/h2>
+&lt;p>Execute ferramentas populares de linha de comando sem precisar instalá-las.&lt;/p>
+&lt;blockquote>
+&lt;p>Se o seu comando favorito não estiver incluído, ele pode ser adicionado com muita facilidade.&lt;/p>
+&lt;p>&lt;strong>Dockerized&lt;/strong> retorna mais de 150 comandos definidos em &lt;a href="https://github.com/jessfraz/dockerfiles" target="_blank" rel="noopener">jessfraz/dockerfiles&lt;/a>
+.&lt;/p>
 &lt;/blockquote>
 &lt;hr></description></item></channel></rss>

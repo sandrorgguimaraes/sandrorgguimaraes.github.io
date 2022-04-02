@@ -1,9 +1,12 @@
 ---
 title: Ferramentas pro terminal
-date: 2022-02-14T00:00:00.000Z
+date: 2022-04-01
+weight: 30
 categories:
     - kubernetes
 tags:
+    - kubectl
+    - k1s
     - k9s
     - kubectx
     - kubens
@@ -12,8 +15,11 @@ tags:
     - stern
 autores:
     - Chris Cooney
+    - Daniel Weibel
 description: Conjunto de ferramentas para turbinar o terminal ao acessar o Kubernets.
 keywords:
+    - kubectl
+    - k1s
     - k9s
     - kubectx
     - kubens
@@ -39,3 +45,17 @@ Veja as ferramentas que serão abordados neste artigo:
 - stern
 
 ---
+
+## [Boosting your kubectl productivity](https://learnk8s.io/blog/kubectl-productivity)
+
+por [**Daniel Weibel**](/autores/daniel-weibel/) em 04/2019.
+
+Este artigo contém uma série de dicas e truques para tornar o uso do `kubectl` mais eficiente e eficaz. Ao mesmo tempo, visa aprofundar sua compreensão de como vários aspectos do Kubernetes funcionam.
+
+---
+
+## [The world’s simplest Kubernetes dashboard: k1s](https://medium.com/itnext/the-worlds-simplest-kubernetes-dashboard-k1s-4246e03191df)
+
+por [**Daniel Weibel**](/autores/daniel-weibel/) em 04/2019.
+
+O autor apresenta neste artigo o que ele chama de “painel Kubernetes mais simples do mundo”, composto por 50 linhas de código Bash.

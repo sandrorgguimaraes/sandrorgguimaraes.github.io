@@ -19,5 +19,7 @@ slug: conteudo-tecnico
 | [Piotr's TechBlog](https://piotrminkowski.com/) | [Piotr Mińkowski](/autores/piotr-mińkowski/) | Java, Spring, Kotlin, microservices, Kubernetes, containers. |
 | [roadmap.sh](https://roadmap.sh/) | [Kamran Ahmed](/autores/kamran-ahmed/) | Roadmap's, Guias e Ví deos sobre DevOps, Frontend e Backend. |
 | [iximiuz](https://iximiuz.com/en/) | [Ivan Velichko](/autores/ivan-velichko/) | Containers, Kubernetes and Backend Development |
+| [Blog learn**k8s**](https://learnk8s.io/blog) | [Learn**k8s**](/autores/ivan-velichko/) | Containers, Kubernetes and Backend Development |
+
 
 ---

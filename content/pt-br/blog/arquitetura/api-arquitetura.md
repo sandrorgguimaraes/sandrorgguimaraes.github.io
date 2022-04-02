@@ -1,5 +1,5 @@
 ---
-title: API Arquitetura
+title: Arquitetura de API
 date: 2022-03-11
 categories:
     - arquitetura de sistemas

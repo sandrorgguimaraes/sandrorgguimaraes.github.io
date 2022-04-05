@@ -1,6 +1,7 @@
 ---
 title: Pod's
 date: 2022-03-25
+weight: 50
 categories:
     - kubernetes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Segurança
 date: 2022-04-01
+weight: 50
 categories:
     - kubernetes
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Docker
-date: 2022-04-02
+date: 2022-04-04
+weight: 20
 categories:
     - container
 tags:
@@ -10,6 +11,8 @@ autores:
     - Kasun Rajapakse
     - Karan Singh
     - Daniele Polencic
+    - Bibin Wilson
+    - Shishir Khandelwal
 description: Veja algumas dicas e ferramentas para lhe auxiliar na construção de imagens Docker.
 keywords:
     - docker
@@ -24,6 +27,14 @@ slug: containers-docker
 por [**Kasun Rajapakse**](/autores/kasun-rajapakse/) em 17/12/2020.
 
 Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.
+
+---
+
+## [How to Reduce Docker Image Size: 6 Optimization Methods](https://devopscube.com/reduce-docker-image-size/)
+
+por [**Bibin Wilson**](/autores/bibin-wilson/) e [**Shishir Khandelwal**](/autores/shishir-khandelwal/) em 19/01/2022.
+
+Veja algumas técnicas de otimização que você pode implementar rapidamente para criar a menor e mínima imagem do docker, além de ver algumas das melhores ferramentas para otimização de imagem do Docker ([Dive](https://github.com/wagoodman/dive) e [Docker Slim](https://github.com/docker-slim/docker-slim)).
 
 ---
 

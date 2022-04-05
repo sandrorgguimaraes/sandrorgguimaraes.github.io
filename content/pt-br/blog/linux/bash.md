@@ -15,6 +15,7 @@ tags:
 autores:
     - Dave Mckay
     - Shalitha Suranga
+    - Itamar Turner
 description: Aprenda sobre o Bash, praticamente, o Shell padrão do Linux.
 keywords:
     - linux
@@ -59,5 +60,11 @@ Os comandos Linux `set` e o `pipefail` ditam o que acontece quando ocorre uma fa
 por [**Shalitha Suranga**](/autores/shalitha-suranga/) em 27/09/2020.
 
 Implemente componentes de entrada/saída nos script's Bash usando a `Zenity` e envie notificações com o `notify-send`.
+
+---
+
+## [Please stop writing shell scripts](https://pythonspeed.com/articles/shell-scripts/)
+
+por [**Itamar Turner**](/autores/itamar-turner/) em 24/03/2022.
 
 ---

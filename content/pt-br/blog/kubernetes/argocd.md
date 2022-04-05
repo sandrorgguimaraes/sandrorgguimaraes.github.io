@@ -1,6 +1,7 @@
 ---
 title: ArgoCD
 date: 2022-03-24
+weight: 70
 categories:
     - kubernetes
 tags:

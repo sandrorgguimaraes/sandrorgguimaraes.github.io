@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – ingress</title><link>https://sandrorgguimaraes.github.io/tags/ingress/</link><description>Recent content in ingress on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/ingress/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Ingress</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-ingress-tutorial-for-beginnershttpsdevopscubecomkubernetes-ingress-tutorial">&lt;a href="https://devopscube.com/kubernetes-ingress-tutorial/" target="_blank" rel="noopener">Kubernetes Ingress Tutorial For Beginners&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 04/03/2022.&lt;/p>
+&lt;p>Neste tutorial você aprenderá os conceitos básicos sobre &lt;code>ingress&lt;/code>, os recursos nativos e os conceitos envolvidos nos &lt;code>ingress controllers&lt;/code>.&lt;/p>
+&lt;p>O &lt;a href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank" rel="noopener">Kubernetes Ingress&lt;/a>
+é um recurso para adicionar regras para rotear o tráfego de fontes externas para os aplicativos em execução no cluster kubernetes.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-setup-nginx-ingress-controller-on-kubernetes--detailed-guidehttpsdevopscubecomsetup-ingress-kubernetes-nginx-controller">&lt;a href="https://devopscube.com/setup-ingress-kubernetes-nginx-controller/" target="_blank" rel="noopener">How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 03/03/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-configure-ingress-tlsssl-certificates-in-kuberneteshttpsdevopscubecomconfigure-ingress-tls-kubernetes">&lt;a href="https://devopscube.com/configure-ingress-tls-kubernetes/" target="_blank" rel="noopener">How To Configure Ingress TLS/SSL Certificates in Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 16/03/2022.&lt;/p>
+&lt;p>Este artigo é baseado em uma demonstração real usando DNS público e seu certificado autoassinado.&lt;/p>
+&lt;hr></description></item></channel></rss>

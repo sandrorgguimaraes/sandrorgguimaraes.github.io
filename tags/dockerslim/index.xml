@@ -1,10 +1,19 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – dockerslim</title><link>https://sandrorgguimaraes.github.io/tags/dockerslim/</link><description>Recent content in dockerslim on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/dockerslim/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – dockerslim</title><link>https://sandrorgguimaraes.github.io/tags/dockerslim/</link><description>Recent content in dockerslim on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/dockerslim/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
 &lt;hr>
 &lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a>
 em 17/12/2020.&lt;/p>
 &lt;p>Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-reduce-docker-image-size-6-optimization-methodshttpsdevopscubecomreduce-docker-image-size">&lt;a href="https://devopscube.com/reduce-docker-image-size/" target="_blank" rel="noopener">How to Reduce Docker Image Size: 6 Optimization Methods&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
+em 19/01/2022.&lt;/p>
+&lt;p>Veja algumas técnicas de otimização que você pode implementar rapidamente para criar a menor e mínima imagem do docker, além de ver algumas das melhores ferramentas para otimização de imagem do Docker (&lt;a href="https://github.com/wagoodman/dive" target="_blank" rel="noopener">Dive&lt;/a>
+e &lt;a href="https://github.com/docker-slim/docker-slim" target="_blank" rel="noopener">Docker Slim&lt;/a>
+).&lt;/p>
 &lt;hr>
 &lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#" target="_blank" rel="noopener">Reduce the size of container images with DockerSlim&lt;/a>
 &lt;/h2>

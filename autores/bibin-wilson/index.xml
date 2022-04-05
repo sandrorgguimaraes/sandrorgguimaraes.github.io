@@ -1,0 +1,108 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Bibin Wilson</title><link>https://sandrorgguimaraes.github.io/autores/bibin-wilson/</link><description>Recent content in Bibin Wilson on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+&lt;hr>
+&lt;h2 id="learning-containers-from-the-bottom-uphttpsiximiuzcomenpostscontainer-learning-path">&lt;a href="https://iximiuz.com/en/posts/container-learning-path/" target="_blank" rel="noopener">Learning Containers From The Bottom Up&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
+em 14/11/2021.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Este artigo não é uma tentativa de explicar os contêineres de uma só vez. Em vez disso, é a primeira página do meu estudo de vários anos sobre o domínio. Ele descreve o referido caminho de aprendizado e, em seguida, orienta você, apontando para artigos mais aprofundados neste mesmo blog.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="what-is-docker-how-does-it-workhttpsdevopscubecomwhat-is-docker">&lt;a href="https://devopscube.com/what-is-docker/" target="_blank" rel="noopener">What is Docker? How Does it Work?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 25/01/2022.&lt;/p>
+&lt;p>Neste guia abrangente, o autor explica o que é o Docker, sua evolução, conceitos básicos do Linux e como ele funciona.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
+&lt;hr>
+&lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
+em 06/02/2022.&lt;/p>
+&lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
+&lt;hr>
+&lt;h2 id="introduction-to-kubernetes-what-problems-does-it-solvehttpsfaunpubintroduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23">&lt;a href="https://faun.pub/introduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23" target="_blank" rel="noopener">Introduction to Kubernetes: what problems does it solve?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mukul-attavania/">&lt;strong>Mukul Attavania&lt;/strong>&lt;/a>
+em 06/02/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-best-practiceshttpsonurcillmediumcomkubernetes-best-practices-5c156a0ff40f">&lt;a href="https://onurcill.medium.com/kubernetes-best-practices-5c156a0ff40f" target="_blank" rel="noopener">Kubernetes Best Practices&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/onur-cil/">&lt;strong>Onur Cil&lt;/strong>&lt;/a>
+em 25/02/2022.&lt;/p>
+&lt;p>Explore as melhores práticas do Kubernetes e o que ele deve incluir, além de exemplos detalhados.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-tutorials-for-beginners-30-comprehensive-guideshttpsdevopscubecomkubernetes-tutorials-beginners">&lt;a href="https://devopscube.com/kubernetes-tutorials-beginners/" target="_blank" rel="noopener">Kubernetes Tutorials For Beginners: 30 Comprehensive Guides&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 16/03/2021.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+&lt;hr>
+&lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a>
+em 17/12/2020.&lt;/p>
+&lt;p>Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-reduce-docker-image-size-6-optimization-methodshttpsdevopscubecomreduce-docker-image-size">&lt;a href="https://devopscube.com/reduce-docker-image-size/" target="_blank" rel="noopener">How to Reduce Docker Image Size: 6 Optimization Methods&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
+em 19/01/2022.&lt;/p>
+&lt;p>Veja algumas técnicas de otimização que você pode implementar rapidamente para criar a menor e mínima imagem do docker, além de ver algumas das melhores ferramentas para otimização de imagem do Docker (&lt;a href="https://github.com/wagoodman/dive" target="_blank" rel="noopener">Dive&lt;/a>
+e &lt;a href="https://github.com/docker-slim/docker-slim" target="_blank" rel="noopener">Docker Slim&lt;/a>
+).&lt;/p>
+&lt;hr>
+&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#" target="_blank" rel="noopener">Reduce the size of container images with DockerSlim&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a>
+em 17/01/2022.&lt;/p>
+&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
+&lt;hr>
+&lt;h2 id="3-simple-tricks-for-smaller-docker-imageshttpslearnk8sioblogsmaller-docker-images">&lt;a href="https://learnk8s.io/blog/smaller-docker-images" target="_blank" rel="noopener">3 simple tricks for smaller Docker images&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniele-polencic/">&lt;strong>Daniele Polencic&lt;/strong>&lt;/a>
+em 04/2019.&lt;/p>
+&lt;p>Quando se trata de construir contêineres Docker, você deve sempre buscar imagens menores.&lt;/p>
+&lt;blockquote>
+&lt;p>Imagens que compartilham camadas e são menores em tamanho são mais rápidas de transferir e implantar.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="dockerizedhttpsgithubcomdatastack-netdockerized">&lt;a href="https://github.com/datastack-net/dockerized" target="_blank" rel="noopener">Dockerized&lt;/a>
+&lt;/h2>
+&lt;p>Execute ferramentas populares de linha de comando sem precisar instalá-las.&lt;/p>
+&lt;blockquote>
+&lt;p>Se o seu comando favorito não estiver incluído, ele pode ser adicionado com muita facilidade.&lt;/p>
+&lt;p>&lt;strong>Dockerized&lt;/strong> retorna mais de 150 comandos definidos em &lt;a href="https://github.com/jessfraz/dockerfiles" target="_blank" rel="noopener">jessfraz/dockerfiles&lt;/a>
+.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Ingress</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-ingress-tutorial-for-beginnershttpsdevopscubecomkubernetes-ingress-tutorial">&lt;a href="https://devopscube.com/kubernetes-ingress-tutorial/" target="_blank" rel="noopener">Kubernetes Ingress Tutorial For Beginners&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 04/03/2022.&lt;/p>
+&lt;p>Neste tutorial você aprenderá os conceitos básicos sobre &lt;code>ingress&lt;/code>, os recursos nativos e os conceitos envolvidos nos &lt;code>ingress controllers&lt;/code>.&lt;/p>
+&lt;p>O &lt;a href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank" rel="noopener">Kubernetes Ingress&lt;/a>
+é um recurso para adicionar regras para rotear o tráfego de fontes externas para os aplicativos em execução no cluster kubernetes.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-setup-nginx-ingress-controller-on-kubernetes--detailed-guidehttpsdevopscubecomsetup-ingress-kubernetes-nginx-controller">&lt;a href="https://devopscube.com/setup-ingress-kubernetes-nginx-controller/" target="_blank" rel="noopener">How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 03/03/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-configure-ingress-tlsssl-certificates-in-kuberneteshttpsdevopscubecomconfigure-ingress-tls-kubernetes">&lt;a href="https://devopscube.com/configure-ingress-tls-kubernetes/" target="_blank" rel="noopener">How To Configure Ingress TLS/SSL Certificates in Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 16/03/2022.&lt;/p>
+&lt;p>Este artigo é baseado em uma demonstração real usando DNS público e seu certificado autoassinado.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
+&lt;hr>
+&lt;h2 id="cka-exam-study-guide-a-complete-resource-for-cka-aspirantshttpsdevopscubecomcka-exam-study-guide">&lt;a href="https://devopscube.com/cka-exam-study-guide/" target="_blank" rel="noopener">CKA Exam Study Guide: A Complete Resource For CKA Aspirants&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
+em 27/01/2022.&lt;/p>
+&lt;p>Este guia de estudo do Exame CKA (&lt;em>Certified Kubernetes Administrator&lt;/em>) ajudará você a se preparar com todos os recursos necessários.&lt;/p>
+&lt;hr></description></item></channel></rss>

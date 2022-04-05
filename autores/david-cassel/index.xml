@@ -1,8 +1,24 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – David Cassel</title><link>https://sandrorgguimaraes.github.io/autores/david-cassel/</link><description>Recent content in David Cassel on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/david-cassel/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: História</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – David Cassel</title><link>https://sandrorgguimaraes.github.io/autores/david-cassel/</link><description>Recent content in David Cassel on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/david-cassel/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
 &lt;hr>
 &lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
 em 06/02/2022.&lt;/p>
 &lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
+&lt;hr>
+&lt;h2 id="introduction-to-kubernetes-what-problems-does-it-solvehttpsfaunpubintroduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23">&lt;a href="https://faun.pub/introduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23" target="_blank" rel="noopener">Introduction to Kubernetes: what problems does it solve?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mukul-attavania/">&lt;strong>Mukul Attavania&lt;/strong>&lt;/a>
+em 06/02/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-best-practiceshttpsonurcillmediumcomkubernetes-best-practices-5c156a0ff40f">&lt;a href="https://onurcill.medium.com/kubernetes-best-practices-5c156a0ff40f" target="_blank" rel="noopener">Kubernetes Best Practices&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/onur-cil/">&lt;strong>Onur Cil&lt;/strong>&lt;/a>
+em 25/02/2022.&lt;/p>
+&lt;p>Explore as melhores práticas do Kubernetes e o que ele deve incluir, além de exemplos detalhados.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-tutorials-for-beginners-30-comprehensive-guideshttpsdevopscubecomkubernetes-tutorials-beginners">&lt;a href="https://devopscube.com/kubernetes-tutorials-beginners/" target="_blank" rel="noopener">Kubernetes Tutorials For Beginners: 30 Comprehensive Guides&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 16/03/2021.&lt;/p>
 &lt;hr></description></item></channel></rss>

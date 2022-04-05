@@ -1,10 +1,26 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: História</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/historia/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
 &lt;hr>
 &lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
 em 06/02/2022.&lt;/p>
 &lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
+&lt;hr>
+&lt;h2 id="introduction-to-kubernetes-what-problems-does-it-solvehttpsfaunpubintroduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23">&lt;a href="https://faun.pub/introduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23" target="_blank" rel="noopener">Introduction to Kubernetes: what problems does it solve?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mukul-attavania/">&lt;strong>Mukul Attavania&lt;/strong>&lt;/a>
+em 06/02/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-best-practiceshttpsonurcillmediumcomkubernetes-best-practices-5c156a0ff40f">&lt;a href="https://onurcill.medium.com/kubernetes-best-practices-5c156a0ff40f" target="_blank" rel="noopener">Kubernetes Best Practices&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/onur-cil/">&lt;strong>Onur Cil&lt;/strong>&lt;/a>
+em 25/02/2022.&lt;/p>
+&lt;p>Explore as melhores práticas do Kubernetes e o que ele deve incluir, além de exemplos detalhados.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-tutorials-for-beginners-30-comprehensive-guideshttpsdevopscubecomkubernetes-tutorials-beginners">&lt;a href="https://devopscube.com/kubernetes-tutorials-beginners/" target="_blank" rel="noopener">Kubernetes Tutorials For Beginners: 30 Comprehensive Guides&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 16/03/2021.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Arquitetura</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/arquitetura/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-architecture-how-to-use-hierarchical-namespaces-for-multiple-tenantshttpswwwredhatcomarchitectkubernetes-hierarchical-namespaces">&lt;a href="https://www.redhat.com/architect/kubernetes-hierarchical-namespaces" target="_blank" rel="noopener">Kubernetes architecture: How to use hierarchical namespaces for multiple tenants&lt;/a>
@@ -50,7 +66,27 @@ em 04/2019.&lt;/p>
 &lt;hr>
 &lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
 &lt;/h2>
-&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Ingress</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-ingress-tutorial-for-beginnershttpsdevopscubecomkubernetes-ingress-tutorial">&lt;a href="https://devopscube.com/kubernetes-ingress-tutorial/" target="_blank" rel="noopener">Kubernetes Ingress Tutorial For Beginners&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 04/03/2022.&lt;/p>
+&lt;p>Neste tutorial você aprenderá os conceitos básicos sobre &lt;code>ingress&lt;/code>, os recursos nativos e os conceitos envolvidos nos &lt;code>ingress controllers&lt;/code>.&lt;/p>
+&lt;p>O &lt;a href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank" rel="noopener">Kubernetes Ingress&lt;/a>
+é um recurso para adicionar regras para rotear o tráfego de fontes externas para os aplicativos em execução no cluster kubernetes.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-setup-nginx-ingress-controller-on-kubernetes--detailed-guidehttpsdevopscubecomsetup-ingress-kubernetes-nginx-controller">&lt;a href="https://devopscube.com/setup-ingress-kubernetes-nginx-controller/" target="_blank" rel="noopener">How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 03/03/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-configure-ingress-tlsssl-certificates-in-kuberneteshttpsdevopscubecomconfigure-ingress-tls-kubernetes">&lt;a href="https://devopscube.com/configure-ingress-tls-kubernetes/" target="_blank" rel="noopener">How To Configure Ingress TLS/SSL Certificates in Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 16/03/2022.&lt;/p>
+&lt;p>Este artigo é baseado em uma demonstração real usando DNS público e seu certificado autoassinado.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
 &lt;/h2>
@@ -104,16 +140,6 @@ do Kubernetes do zero e praticará os relacionamentos entre &lt;code>Roles&lt;/c
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
 em 28/10/2021.&lt;/p>
 &lt;p>Aprenda a diferença entre Containers e Pods, os prós e contras de cada um, etc.&lt;/p>
-&lt;hr></description></item><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</guid><description>
-&lt;hr>
-&lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
-em 03/12/2021.&lt;/p>
-&lt;p>Aprenda como criar e gerenciar vários clusters do Kubernetes usando a &lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener">API de cluster do Kubernetes&lt;/a>
-e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noopener">ArgoCD&lt;/a>
-. Criando um único cluster local com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
-, e a partir deste cluster, provisionar o processo de criação de outros clusters Kubernetes, de forma automática a partir de um repositório Git.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Multi Cluster</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/multicluster/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/multicluster/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Kind (&lt;em>&lt;strong>K&lt;/strong>ubernetes &lt;strong>in&lt;/strong> &lt;strong>D&lt;/strong>ocker&lt;/em>) é uma ferramenta para executar clusters locais do Kubernetes usando contêineres do Docker como nodes do Kubernetes, foi projetado principalmente para testar o próprio Kubernetes, mas pode ser usado para desenvolvimento local ou &lt;a href="https://sandrorgguimaraes.github.io/blog/devops/ci-cd/">CI (&lt;em>Continuous Integration&lt;/em>)&lt;/a>
@@ -156,4 +182,22 @@ e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
 em 01/2022.&lt;/p>
 &lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</guid><description>
+&lt;hr>
+&lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr-mi%c5%84kowski/">&lt;strong>Piotr Mińkowski&lt;/strong>&lt;/a>
+em 03/12/2021.&lt;/p>
+&lt;p>Aprenda como criar e gerenciar vários clusters do Kubernetes usando a &lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener">API de cluster do Kubernetes&lt;/a>
+e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noopener">ArgoCD&lt;/a>
+. Criando um único cluster local com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
+, e a partir deste cluster, provisionar o processo de criação de outros clusters Kubernetes, de forma automática a partir de um repositório Git.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
+&lt;hr>
+&lt;h2 id="cka-exam-study-guide-a-complete-resource-for-cka-aspirantshttpsdevopscubecomcka-exam-study-guide">&lt;a href="https://devopscube.com/cka-exam-study-guide/" target="_blank" rel="noopener">CKA Exam Study Guide: A Complete Resource For CKA Aspirants&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
+em 27/01/2022.&lt;/p>
+&lt;p>Este guia de estudo do Exame CKA (&lt;em>Certified Kubernetes Administrator&lt;/em>) ajudará você a se preparar com todos os recursos necessários.&lt;/p>
 &lt;hr></description></item></channel></rss>

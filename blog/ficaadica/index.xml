@@ -30,9 +30,9 @@
 &lt;td>Containers, Kubernetes e Backend Development&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://learnk8s.io/blog" target="_blank" rel="noopener">Blog learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;td>&lt;a href="https://learnk8s.io/blog" target="_blank" rel="noopener">Blog learnk8s&lt;/a>
 &lt;/td>
-&lt;td>&lt;a href="https://learnk8s.io/" target="_blank" rel="noopener">Learn&lt;strong>k8s&lt;/strong>&lt;/a>
+&lt;td>&lt;a href="https://learnk8s.io/" target="_blank" rel="noopener">Learnk8s&lt;/a>
 &lt;/td>
 &lt;td>Kubernetes&lt;/td>
 &lt;/tr>
@@ -49,6 +49,13 @@
 &lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/gleydson-maziolli/">Gleydson Maziolli&lt;/a>
 &lt;/td>
 &lt;td>Do básico ao avançado sobre GNU/Linux.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://devopscube.com/" target="_blank" rel="noopener">DevOpsCube&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">Bibin Wilson&lt;/a>
+&lt;/td>
+&lt;td>Kubernetes, Jenkins e Containers.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

@@ -256,14 +256,7 @@ e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="
 e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
 em 27/01/2022.&lt;/p>
 &lt;p>Este guia de estudo do Exame CKA (&lt;em>Certified Kubernetes Administrator&lt;/em>) ajudará você a se preparar com todos os recursos necessários.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Monitor do Sistema</title><link>https://sandrorgguimaraes.github.io/blog/linux/moniotor-sistema/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/moniotor-sistema/</guid><description>
-&lt;hr>
-&lt;h2 id="how-to-install-one-of-the-best-system-monitors-for-the-linux-desktophttpswwwtechrepubliccomarticlehow-to-install-best-system-monitors-for-linux-desktop">&lt;a href="https://www.techrepublic.com/article/how-to-install-best-system-monitors-for-linux-desktop/" target="_blank" rel="noopener">How to install one of the best system monitors for the Linux desktop&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jack-wallen/">&lt;strong>Jack Wallen&lt;/strong>&lt;/a>
-em 16/03/2022.&lt;/p>
-&lt;p>Procurando o último e melhor monitor de sistema que você poderia imaginar para o desktop Linux?&lt;/p>
-&lt;hr></description></item><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
+&lt;hr></description></item><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
 &lt;hr>
 &lt;h2 id="what-is-the-bash-shell-and-why-is-it-so-important-to-linuxhttpswwwhowtogeekcom726559what-is-the-bash-shell-and-why-is-it-so-important-to-linux">&lt;a href="https://www.howtogeek.com/726559/what-is-the-bash-shell-and-why-is-it-so-important-to-linux/" target="_blank" rel="noopener">What Is the Bash Shell, and Why Is It So Important to Linux?&lt;/a>
 &lt;/h2>
@@ -293,6 +286,19 @@ em 27/09/2020.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/itamar-turner/">&lt;strong>Itamar Turner&lt;/strong>&lt;/a>
 em 24/03/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="bash-construindo-indicador-de-progressohttpsmediumcommeninunesbash-construindo-indicador-de-progresso-8de94c37683">&lt;a href="https://medium.com/meninunes/bash-construindo-indicador-de-progresso-8de94c37683" target="_blank" rel="noopener">[Bash] Construindo indicador de progresso&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/leandro-nunes/">&lt;strong>Leandro Nunes&lt;/strong>&lt;/a>
+em 26/03/2018.&lt;/p>
+&lt;p>Veja como fazer um indicador de progresso, totalmente em Bash e sem nenhuma biblioteca externa, onde é possível utilizar em algum processo de instalação, ou em um processo demorado ou simplesmente para mostrar visualmente quantos comandos faltam a ser executado em determinada tarefa de forma que o usuário não fique esperando sem nenhum feedback.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Monitor do Sistema</title><link>https://sandrorgguimaraes.github.io/blog/linux/moniotor-sistema/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/moniotor-sistema/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-install-one-of-the-best-system-monitors-for-the-linux-desktophttpswwwtechrepubliccomarticlehow-to-install-best-system-monitors-for-linux-desktop">&lt;a href="https://www.techrepublic.com/article/how-to-install-best-system-monitors-for-linux-desktop/" target="_blank" rel="noopener">How to install one of the best system monitors for the Linux desktop&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jack-wallen/">&lt;strong>Jack Wallen&lt;/strong>&lt;/a>
+em 16/03/2022.&lt;/p>
+&lt;p>Procurando o último e melhor monitor de sistema que você poderia imaginar para o desktop Linux?&lt;/p>
 &lt;hr></description></item><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
 &lt;table>
 &lt;thead>

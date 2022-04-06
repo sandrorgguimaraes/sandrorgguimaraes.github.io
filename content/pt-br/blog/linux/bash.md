@@ -1,6 +1,6 @@
 ---
 title: BASH
-date: 2022-04-02
+date: 2022-04-05
 categories:
     - sistema operacional
     - linux
@@ -16,6 +16,7 @@ autores:
     - Dave Mckay
     - Shalitha Suranga
     - Itamar Turner
+    - Leandro Nunes
 description: Aprenda sobre o Bash, praticamente, o Shell padrão do Linux.
 keywords:
     - linux
@@ -66,5 +67,13 @@ Implemente componentes de entrada/saída nos script's Bash usando a `Zenity` e e
 ## [Please stop writing shell scripts](https://pythonspeed.com/articles/shell-scripts/)
 
 por [**Itamar Turner**](/autores/itamar-turner/) em 24/03/2022.
+
+---
+
+## [[Bash] Construindo indicador de progresso](https://medium.com/meninunes/bash-construindo-indicador-de-progresso-8de94c37683)
+
+por [**Leandro Nunes**](/autores/leandro-nunes/) em 26/03/2018.
+
+Veja como fazer um indicador de progresso, totalmente em Bash e sem nenhuma biblioteca externa, onde é possível utilizar em algum processo de instalação, ou em um processo demorado ou simplesmente para mostrar visualmente quantos comandos faltam a ser executado em determinada tarefa de forma que o usuário não fique esperando sem nenhum feedback.
 
 ---

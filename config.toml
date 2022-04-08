@@ -99,3 +99,4 @@ enable = true
   lastmod = ['lastmod', ':fileModTime', ':default']
   # lastmod = [':git', 'lastmod', 'date', 'publishDate']
   publishDate = ['publishDate', 'date']
+  

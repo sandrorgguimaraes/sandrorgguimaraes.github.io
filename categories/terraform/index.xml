@@ -1,0 +1,38 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – terraform</title><link>https://sandrorgguimaraes.github.io/categories/terraform/</link><description>Recent content in terraform on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/terraform/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/terraform/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/terraform/kvm-libvirt/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>O &lt;strong>KVM&lt;/strong> (&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um &lt;a href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank" rel="noopener">hypervisor&lt;/a>
+. Ele foi incorporado ao kernel Linux principal na versão 2.6.20, que foi lançada em 5 de fevereiro de 2007.&lt;/p>
+&lt;p>O &lt;strong>KVM&lt;/strong> requer um processador com extensões de virtualização de hardware, como &lt;code>Intel VT&lt;/code> ou &lt;code>AMD-V&lt;/code>.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;code>libvirt&lt;/code> é uma API de código aberto, daemon e ferramenta de gerenciamento para gerenciar a virtualização de plataforma.&lt;/p>
+&lt;p>Ele pode ser usado para gerenciar KVM, Xen, VMware ESXi, QEMU e outras tecnologias de virtualização. Essas APIs são amplamente utilizadas na camada de orquestração de hipervisores no desenvolvimento de uma solução baseada em nuvem.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Libvirt" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Libvirt&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="kvm-terraform-and-cloud-init-to-create-local-kvm-resourceshttpsfabianleeorg20200222kvm-terraform-and-cloud-init-to-create-local-kvm-resources">&lt;a href="https://fabianlee.org/2020/02/22/kvm-terraform-and-cloud-init-to-create-local-kvm-resources/" target="_blank" rel="noopener">KVM: Terraform and cloud-init to create local KVM resources&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fabian-lee/">&lt;strong>Fabian Lee&lt;/strong>&lt;/a>
+em 22/02/2020.&lt;/p>
+&lt;p>O &lt;a href="https://www.terraform.io/" target="_blank" rel="noopener">Terraform&lt;/a>
+é uma ferramenta popular para provisionar não apenas infraestrutura em provedores de nuvem, mas também localmente com o provedor para &lt;a href="https://libvirt.org/" target="_blank" rel="noopener">libvirt&lt;/a>
+/ KVM.&lt;/p>
+&lt;p>Usando o provedor libvirt, podemos usar construções padrão do Terraform para criar VMs, redes e discos locais.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-provision-vms-on-kvm-with-terraformhttpscomputingforgeekscomhow-to-provision-vms-on-kvm-with-terraform">&lt;a href="https://computingforgeeks.com/how-to-provision-vms-on-kvm-with-terraform/" target="_blank" rel="noopener">How To Provision VMs on KVM with Terraform&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/josphat-mutai/">&lt;strong>Josphat Mutai&lt;/strong>&lt;/a>
+em 16/11/2021.&lt;/p>
+&lt;p>Se você é fã do Terraform e do KVM, tenho certeza de que está procurando uma maneira de provisionar máquinas virtuais no KVM de maneira automatizada com o Terraform.&lt;/p>
+&lt;p>Neste artigo, e mostrado como instalar o provedor Terraform KVM e usá-lo para gerenciar instâncias em execução no hipervisor KVM.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-terraform-to-create-a-small-scale-cloud-infrastructurehttpsitnextiohow-to-use-terraform-to-create-a-small-scale-cloud-infrastructure-abf54fabc9dd">&lt;a href="https://itnext.io/how-to-use-terraform-to-create-a-small-scale-cloud-infrastructure-abf54fabc9dd" target="_blank" rel="noopener">How to use Terraform to create a small-scale Cloud Infrastructure&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/nitesh/">&lt;strong>Nitesh&lt;/strong>&lt;/a>
+em 16/04/2021.&lt;/p>
+&lt;p>Este tutorial dá e descreve as instruções sobre como usar o software Terraform para criar vários tipos de infraestruturas Cloud, nomeadamente Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS) e utilizando-as como método para ajudar o leitor a aprender mais sobre o uso do Terraform e da tecnologia de nuvem em geral.&lt;/p>
+&lt;p>Este documento-tutorial fornecerá uma orientação passo a passo para qualquer pessoa que não tenha conhecimento sobre o Terraform e alguma tecnologia de nuvem, mas tenha interesse em aprender mais sobre isso em um ambiente de teste de pequena escala.&lt;/p>
+&lt;hr></description></item></channel></rss>

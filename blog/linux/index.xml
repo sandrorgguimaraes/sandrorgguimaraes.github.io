@@ -1,4 +1,31 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Linux</title><link>https://sandrorgguimaraes.github.io/blog/linux/</link><description>Recent content in Linux on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Linux</title><link>https://sandrorgguimaraes.github.io/blog/linux/</link><description>Recent content in Linux on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>O &lt;strong>KVM&lt;/strong> (&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um &lt;a href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank" rel="noopener">hypervisor&lt;/a>
+. Ele foi incorporado ao kernel Linux principal na versão 2.6.20, que foi lançada em 5 de fevereiro de 2007.&lt;/p>
+&lt;p>O &lt;strong>KVM&lt;/strong> requer um processador com extensões de virtualização de hardware, como &lt;code>Intel VT&lt;/code> ou &lt;code>AMD-V&lt;/code>.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;code>libvirt&lt;/code> é uma API de código aberto, daemon e ferramenta de gerenciamento para gerenciar a virtualização de plataforma.&lt;/p>
+&lt;p>Ele pode ser usado para gerenciar KVM, Xen, VMware ESXi, QEMU e outras tecnologias de virtualização. Essas APIs são amplamente utilizadas na camada de orquestração de hipervisores no desenvolvimento de uma solução baseada em nuvem.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Libvirt" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Libvirt&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="kvm-bare-metal-virtualization-on-ubuntu-with-kvmhttpsfabianleeorg20180827kvm-bare-metal-virtualization-on-ubuntu-with-kvm">&lt;a href="https://fabianlee.org/2018/08/27/kvm-bare-metal-virtualization-on-ubuntu-with-kvm/" target="_blank" rel="noopener">KVM: Bare metal virtualization on Ubuntu with KVM&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fabian-lee/">&lt;strong>Fabian Lee&lt;/strong>&lt;/a>
+em 27/08/2018.&lt;/p>
+&lt;p>&lt;strong>KVM&lt;/strong> é um hipervisor tipo 1 implementado como um módulo de kernel Linux que utiliza extensões de virtualização de um processador moderno, tornando-o capaz de execução direta da CPU sem tradução.&lt;/p>
+&lt;p>Cada máquina virtual é um processo Linux regular, agendado pelo agendador Linux padrão.&lt;/p>
+&lt;p>Um exemplo de algo que o &lt;strong>KVM&lt;/strong> pode fazer que o &lt;em>VirtualBox não pode&lt;/em>, o &lt;strong>KVM&lt;/strong> consegue passar a capacidade de virtualização para seu sistema operacional convidado, o que permitiria a &lt;em>virtualização aninhada&lt;/em>.&lt;/p>
+&lt;hr>
+&lt;h2 id="install-kvm-hypervisor-on-ubuntu-22042004httpscomputingforgeekscominstall-kvm-hypervisor-on-ubuntu-linux">&lt;a href="https://computingforgeeks.com/install-kvm-hypervisor-on-ubuntu-linux/" target="_blank" rel="noopener">Install KVM Hypervisor on Ubuntu 22.04|20.04&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/josphat-mutai/">&lt;strong>Josphat Mutai&lt;/strong>&lt;/a>
+em 16/11/2021.&lt;/p>
+&lt;hr></description></item><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
 &lt;hr>
 &lt;h2 id="what-is-the-bash-shell-and-why-is-it-so-important-to-linuxhttpswwwhowtogeekcom726559what-is-the-bash-shell-and-why-is-it-so-important-to-linux">&lt;a href="https://www.howtogeek.com/726559/what-is-the-bash-shell-and-why-is-it-so-important-to-linux/" target="_blank" rel="noopener">What Is the Bash Shell, and Why Is It So Important to Linux?&lt;/a>
 &lt;/h2>

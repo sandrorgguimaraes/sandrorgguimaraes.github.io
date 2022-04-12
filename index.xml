@@ -283,20 +283,25 @@ em 27/08/2018.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/josphat-mutai/">&lt;strong>Josphat Mutai&lt;/strong>&lt;/a>
 em 16/11/2021.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-create-a-kvm-virtual-machine-templatehttpswwwtecmintcomcreate-kvm-virtual-machine-template">&lt;a href="https://www.tecmint.com/create-kvm-virtual-machine-template/" target="_blank" rel="noopener">How to Create a KVM Virtual Machine Template&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/james-kiarie/">&lt;strong>James Kiarie&lt;/strong>&lt;/a>
+em 13/01/2021.&lt;/p>
+&lt;p>Um modelo de máquina virtual é essencialmente uma cópia da máquina virtual instalada que é útil quando você deseja implantar várias instâncias de máquinas virtuais.&lt;/p>
+&lt;p>A criação de um modelo é um processo de 3 etapas que envolve:&lt;/p>
+&lt;ul>
+&lt;li>Criação de uma máquina virtual;&lt;/li>
+&lt;li>Instalação de todos os pacotes que você deseja que sejam instalados e;&lt;/li>
+&lt;li>Limpeza do modelo.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-to-create-linux-os-templates-with-kvm-on-ubuntu-2004httpsvituxcomhow-to-create-linux-os-templates-with-kvm-on-ubuntu">&lt;a href="https://vitux.com/how-to-create-linux-os-templates-with-kvm-on-ubuntu/" target="_blank" rel="noopener">How to Create Linux OS Templates with KVM on Ubuntu 20.04&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karim-buzdar/">&lt;strong>Karim Buzdar&lt;/strong>&lt;/a>
+em 30/09/2021.&lt;/p>
+&lt;p>Aprenda como criar um modelo / template de uma máquina virtual para ser utilizado na criação de várias instâncias da mesma.&lt;/p>
 &lt;hr></description></item><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/terraform/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/terraform/kvm-libvirt/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>O &lt;strong>KVM&lt;/strong> (&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um &lt;a href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank" rel="noopener">hypervisor&lt;/a>
-. Ele foi incorporado ao kernel Linux principal na versão 2.6.20, que foi lançada em 5 de fevereiro de 2007.&lt;/p>
-&lt;p>O &lt;strong>KVM&lt;/strong> requer um processador com extensões de virtualização de hardware, como &lt;code>Intel VT&lt;/code> ou &lt;code>AMD-V&lt;/code>.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine&lt;/a>
-&lt;/p>
-&lt;/div>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>&lt;code>libvirt&lt;/code> é uma API de código aberto, daemon e ferramenta de gerenciamento para gerenciar a virtualização de plataforma.&lt;/p>
-&lt;p>Ele pode ser usado para gerenciar KVM, Xen, VMware ESXi, QEMU e outras tecnologias de virtualização. Essas APIs são amplamente utilizadas na camada de orquestração de hipervisores no desenvolvimento de uma solução baseada em nuvem.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Libvirt" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Libvirt&lt;/a>
-&lt;/p>
-&lt;/div>
 &lt;hr>
 &lt;h2 id="kvm-terraform-and-cloud-init-to-create-local-kvm-resourceshttpsfabianleeorg20200222kvm-terraform-and-cloud-init-to-create-local-kvm-resources">&lt;a href="https://fabianlee.org/2020/02/22/kvm-terraform-and-cloud-init-to-create-local-kvm-resources/" target="_blank" rel="noopener">KVM: Terraform and cloud-init to create local KVM resources&lt;/a>
 &lt;/h2>

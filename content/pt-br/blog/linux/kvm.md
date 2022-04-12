@@ -10,6 +10,8 @@ tags:
 autores:
     - Fabian Lee
     - Josphat Mutai
+    - Karim Buzdar
+    - James Kiarie
 description: Veja algumas ferramentas para monitorar um sistema Linux.
 keywords:
     - kvm
@@ -50,5 +52,27 @@ Um exemplo de algo que o **KVM** pode fazer que o *VirtualBox não pode*, o **KV
 ## [Install KVM Hypervisor on Ubuntu 22.04|20.04](https://computingforgeeks.com/install-kvm-hypervisor-on-ubuntu-linux/)
 
 por [**Josphat Mutai**](/autores/josphat-mutai/) em 16/11/2021.
+
+---
+
+## [How to Create a KVM Virtual Machine Template](https://www.tecmint.com/create-kvm-virtual-machine-template/)
+
+por [**James Kiarie**](/autores/james-kiarie/) em 13/01/2021.
+
+Um modelo de máquina virtual é essencialmente uma cópia da máquina virtual instalada que é útil quando você deseja implantar várias instâncias de máquinas virtuais.
+
+A criação de um modelo é um processo de 3 etapas que envolve:
+
+- Criação de uma máquina virtual;
+- Instalação de todos os pacotes que você deseja que sejam instalados e;
+- Limpeza do modelo.
+
+---
+
+## [How to Create Linux OS Templates with KVM on Ubuntu 20.04](https://vitux.com/how-to-create-linux-os-templates-with-kvm-on-ubuntu/)
+
+por [**Karim Buzdar**](/autores/karim-buzdar/) em 30/09/2021.
+
+Aprenda como criar um modelo / template de uma máquina virtual para ser utilizado na criação de várias instâncias da mesma.
 
 ---

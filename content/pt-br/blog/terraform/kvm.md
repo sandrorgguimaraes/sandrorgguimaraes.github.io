@@ -17,22 +17,6 @@ keywords:
 slug: kvm-libvirt
 ---
 
-{{% pageinfo %}}
-O **KVM** (***K**ernel-based **V**irtual **M**achine*) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um [hypervisor](https://en.wikipedia.org/wiki/Hypervisor). Ele foi incorporado ao kernel Linux principal na versão 2.6.20, que foi lançada em 5 de fevereiro de 2007.
-
-O **KVM** requer um processador com extensões de virtualização de hardware, como `Intel VT` ou `AMD-V`.
-
-Fonte.: <https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine>
-{{% /pageinfo %}}
-
-{{% pageinfo %}}
-`libvirt` é uma API de código aberto, daemon e ferramenta de gerenciamento para gerenciar a virtualização de plataforma.
-
-Ele pode ser usado para gerenciar KVM, Xen, VMware ESXi, QEMU e outras tecnologias de virtualização. Essas APIs são amplamente utilizadas na camada de orquestração de hipervisores no desenvolvimento de uma solução baseada em nuvem.
-
-Fonte.: <https://en.wikipedia.org/wiki/Libvirt>
-{{% /pageinfo %}}
-
 ---
 
 ## [KVM: Terraform and cloud-init to create local KVM resources](https://fabianlee.org/2020/02/22/kvm-terraform-and-cloud-init-to-create-local-kvm-resources/)

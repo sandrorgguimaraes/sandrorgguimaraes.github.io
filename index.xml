@@ -256,6 +256,33 @@ e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="
 e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
 em 27/01/2022.&lt;/p>
 &lt;p>Este guia de estudo do Exame CKA (&lt;em>Certified Kubernetes Administrator&lt;/em>) ajudará você a se preparar com todos os recursos necessários.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</guid><description>
+&lt;hr>
+&lt;h2 id="commits-semânticos--como-escrever-uma-boa-mensagem-de-commithttpsmediumcomthallyta-castro-cvcommits-semc3a2nticos-como-escrever-uma-boa-mensagem-de-commit-58703cc58f6d">&lt;a href="https://medium.com/@thallyta-castro-cv/commits-sem%C3%A2nticos-como-escrever-uma-boa-mensagem-de-commit-58703cc58f6d" target="_blank" rel="noopener">Commits semânticos — Como escrever uma boa mensagem de commit&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/thallyta-castro/">&lt;strong>Thallyta Castro&lt;/strong>&lt;/a>
+em 12/04/2022.&lt;/p>
+&lt;p>&lt;a href="https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/" target="_blank" rel="noopener">Commits semânticos&lt;/a>
+são um modelo de padronização de commits. Uma boa mensagem de commit deve conter a descrição do que foi feito e para nos ajudar, podemos utilizar este padrão de escrita das mensagens.&lt;/p>
+&lt;p>Essas boas práticas irão te auxiliar quando você precisar resolver um problema e/ou quando um colega de trabalho pegar aquele trecho de código feito por você, assim ele vai conseguir entender apenas olhando o que foi commitado.&lt;/p>
+&lt;hr>
+&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/" target="_blank" rel="noopener">GIT PURR! Git Commands Explained with Cats!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a>
+em 26/12/2017.&lt;/p>
+&lt;p>Uma maneira descontraída, através de ilustrações &amp;lsquo;bem coloridas&amp;rsquo; com gatos, de apresentar os principais comandos do Git.&lt;/p>
+&lt;hr>
+&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/" target="_blank" rel="noopener">GitFichas&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;p>Aprenda os comandos do Git com fichas em um texto simples e claro.&lt;/p>
+&lt;hr>
+&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321" target="_blank" rel="noopener">5 new Git commands and 1 tip you’ll use every day&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a>
+em 23/09/2021.&lt;/p>
+&lt;p>Aprenda a criar seus próprios subcomandos ao git.&lt;/p>
 &lt;hr></description></item><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O &lt;strong>KVM&lt;/strong> (&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um &lt;a href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank" rel="noopener">hypervisor&lt;/a>
@@ -714,25 +741,6 @@ em 20/01/2021&lt;/p>
 &lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
 &lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</guid><description>
-&lt;hr>
-&lt;h2 id="git-purr-git-commands-explained-with-catshttpsgirliemaccomblog20171226git-purr">&lt;a href="https://girliemac.com/blog/2017/12/26/git-purr/" target="_blank" rel="noopener">GIT PURR! Git Commands Explained with Cats!&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tomomi-imura/">&lt;strong>Tomomi Imura&lt;/strong>&lt;/a>
-em 26/12/2017.&lt;/p>
-&lt;p>Uma maneira descontraída, através de ilustrações &amp;lsquo;bem coloridas&amp;rsquo; com gatos, de apresentar os principais comandos do Git.&lt;/p>
-&lt;hr>
-&lt;h2 id="gitfichashttpsgitfichascom">&lt;a href="https://gitfichas.com/" target="_blank" rel="noopener">GitFichas&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jessica-temporal/">&lt;strong>Jessica Temporal&lt;/strong>&lt;/a>
-.&lt;/p>
-&lt;p>Aprenda os comandos do Git com fichas em um texto simples e claro.&lt;/p>
-&lt;hr>
-&lt;h2 id="5-new-git-commands-and-1-tip-youll-use-every-dayhttpsblogargoprojio5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321">&lt;a href="https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321" target="_blank" rel="noopener">5 new Git commands and 1 tip you’ll use every day&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-collins/">&lt;strong>Alex Collins&lt;/strong>&lt;/a>
-em 23/09/2021.&lt;/p>
-&lt;p>Aprenda a criar seus próprios subcomandos ao git.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators-python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>

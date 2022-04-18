@@ -1,6 +1,6 @@
 ---
 title: Comandos Git
-date: 2022-03-10
+date: 2022-04-18
 categories:
     - desenvolvimento
     - controle de versão
@@ -10,11 +10,22 @@ autores:
     - Tomomi Imura
     - Jessica Temporal
     - Alex Collins
+    - Thallyta Castro
 description: Aprenda os comandos do Git..
 keywords:
     - git
 slug: comandos-git
 ---
+
+---
+
+## [Commits semânticos — Como escrever uma boa mensagem de commit](https://medium.com/@thallyta-castro-cv/commits-sem%C3%A2nticos-como-escrever-uma-boa-mensagem-de-commit-58703cc58f6d)
+
+por [**Thallyta Castro**](/autores/thallyta-castro/) em 12/04/2022.
+
+[Commits semânticos](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/) são um modelo de padronização de commits. Uma boa mensagem de commit deve conter a descrição do que foi feito e para nos ajudar, podemos utilizar este padrão de escrita das mensagens.
+
+Essas boas práticas irão te auxiliar quando você precisar resolver um problema e/ou quando um colega de trabalho pegar aquele trecho de código feito por você, assim ele vai conseguir entender apenas olhando o que foi commitado.
 
 ---
 

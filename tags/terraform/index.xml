@@ -1,0 +1,213 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – terraform</title><link>https://sandrorgguimaraes.github.io/tags/terraform/</link><description>Recent content in terraform on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Template de VM's</title><link>https://sandrorgguimaraes.github.io/docs/fazap/template-vm/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/fazap/template-vm/</guid><description>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;strong>Observações / informações iniciais:&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Os procedimentos abaixo foram aplicados em um computador com o &lt;code>Ubuntu 20.04.4 LTS&lt;/code>.&lt;/li>
+&lt;li>Utilizamos como fonte de estudo os artigos listados na seção &lt;a href="https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/">Vivendo e Aprendendo -&amp;gt; Linux -&amp;gt; KVM / libvirt&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="entendendo-os-conceitos">Entendendo os conceitos&lt;/h2>
+&lt;p>A &lt;a href="https://en.wikipedia.org/wiki/Hardware_virtualization" target="_blank" rel="noopener">virtualização de hardware&lt;/a>
+atualmente é uma tecnologia estável e madura, não sendo o objetivo deste material explorar todas as suas nuances e caracteristicas (quem sabe mais pra frente).&lt;/p>
+&lt;p>O objetivo aqui é demonstrar como criar os templates (modelos) de máquinas virtuais, que serão utilizados posteriormente.&lt;/p>
+&lt;p>Primeiro vamos conhecer os principais componentes que permitirão que isso aconteça.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">KVM&lt;/h4>
+&lt;p>&lt;a href="https://www.linux-kvm.org/page/Main_Page" target="_blank" rel="noopener">&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>&lt;/a>
+é uma solução de virtualização completa para Linux em hardware x86 contendo extensões de virtualização (&lt;a href="https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_%28VT-x%29" target="_blank" rel="noopener">Intel VT&lt;/a>
+ou &lt;a href="https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_%28AMD-V%29" target="_blank" rel="noopener">AMD-V&lt;/a>
+). Ele consiste em um módulo de kernel carregável, &lt;code>kvm.ko&lt;/code>, que fornece a infraestrutura central de virtualização e um módulo específico do processador, &lt;code>kvm-intel.ko&lt;/code> ou &lt;code>kvm-amd.ko&lt;/code>.&lt;/p>
+&lt;p>Usando o KVM, é possível executar várias máquinas virtuais executando imagens não modificadas do Linux ou do Windows. Cada máquina virtual possui hardware virtualizado privado: uma placa de rede, disco, adaptador gráfico, etc.&lt;/p>
+&lt;/div>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">libvirt&lt;/h4>
+O projeto &lt;a href="https://libvirt.org/" target="_blank" rel="noopener">libvirt&lt;/a>
+é um kit de ferramentas para gerenciar &lt;a href="https://libvirt.org/platforms.html" target="_blank" rel="noopener">plataformas de virtualização&lt;/a>
+, é acessível a partir de C, Python, Perl, Go e muito mais, está licenciado sob licenças de código aberto, suporta &lt;a href="https://libvirt.org/drvqemu.html" target="_blank" rel="noopener">KVM&lt;/a>
+, &lt;a href="https://libvirt.org/drvqemu.html" target="_blank" rel="noopener">Hypervisor.framework&lt;/a>
+, &lt;a href="https://libvirt.org/drvqemu.html" target="_blank" rel="noopener">QEMU&lt;/a>
+, &lt;a href="https://libvirt.org/drvxen.html" target="_blank" rel="noopener">Xen&lt;/a>
+, &lt;a href="https://libvirt.org/drvvirtuozzo.html" target="_blank" rel="noopener">Virtuozzo&lt;/a>
+, &lt;a href="https://libvirt.org/drvesx.html" target="_blank" rel="noopener">VMWare ESX&lt;/a>
+, &lt;a href="https://libvirt.org/drvlxc.html" target="_blank" rel="noopener">LXC&lt;/a>
+, &lt;a href="https://libvirt.org/drvbhyve.html" target="_blank" rel="noopener">BHyve&lt;/a>
+e &lt;a href="https://libvirt.org/drivers.html" target="_blank" rel="noopener">mais&lt;/a>
+, tem como alvo Linux, FreeBSD, &lt;a href="https://libvirt.org/windows.html" target="_blank" rel="noopener">Windows&lt;/a>
+e &lt;a href="https://libvirt.org/macos.html" target="_blank" rel="noopener">MacOS&lt;/a>
+e é usado por &lt;a href="https://libvirt.org/apps.html" target="_blank" rel="noopener">muitas aplicações&lt;/a>
+.
+&lt;/div>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">QEMU&lt;/h4>
+&lt;p>&lt;a href="https://www.qemu.org/" target="_blank" rel="noopener">QEMU&lt;/a>
+é um emulador e virtualizador de máquina genérico e de código aberto.&lt;/p>
+&lt;p>O QEMU pode ser usado de várias maneiras diferentes. O mais comum é para “emulação de sistema”, onde fornece um modelo virtual de uma máquina inteira (CPU, memória e dispositivos emulados) para executar um sistema operacional convidado. Neste modo, a CPU pode ser totalmente emulada ou pode funcionar com um hypervisor como KVM, Xen, Hax ou Hypervisor.Framework para permitir que o convidado seja executado diretamente na CPU do host.&lt;/p>
+&lt;p>A segunda maneira suportada de usar o QEMU é a “emulação de modo de usuário”, onde o QEMU pode iniciar processos compilados para uma CPU em outra CPU. Neste modo a CPU é sempre emulada.&lt;/p>
+&lt;/div>
+&lt;p>A imagem abaixo ilustra de forma simples a relação entre o hardware físico (CPU, memória, discos, placa de rede, etc.) o Hypervisor e as máquinas virtuais.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 611px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/fazap/template-vm/exemplo-vm_hua1d768c0155465d5bfde8bb1582d873f_100216_601x355_fill_box_smart1_3.png" width="601" height="355">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fonte: www.revistaespacios.com/a16v37n27/16372721.html
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="instalando-os-componentes">Instalando os componentes&lt;/h2>
+&lt;p>Como todos os componentes (KVM, libvirt e QEMU) estam disponíveis nos repositórios upstream do Ubuntu, usaremos o gerenciador de pacotes &lt;code>apt&lt;/code> para a instalação dos mesmos, para outras distribuições Linux ou sistemas operacionais verifique a documentação correspondente do &lt;a href="https://www.linux-kvm.org/page/Downloads" target="_blank" rel="noopener">KVM&lt;/a>
+, &lt;a href="https://libvirt.org/docs.html" target="_blank" rel="noopener">libvirt&lt;/a>
+e &lt;a href="https://www.qemu.org/download/" target="_blank" rel="noopener">QEMU&lt;/a>
+.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Atualiza a lista de pacotes disponíveis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Instalação dos pacotes principais do KVM / libvirt / QEMU&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt -y install &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> qemu-kvm &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> libvirt-daemon &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> bridge-utils &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> virtinst &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> libvirt-daemon-system
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Instalação de pacotes adicionais&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt -y install &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> virt-top &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> libguestfs-tools &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> libosinfo-bin &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> qemu-system &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> virt-manager
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="validando--concluindo-a-instalação">Validando / concluindo a instalação&lt;/h3>
+&lt;h4 id="testando-o-kvm">Testando o KVM&lt;/h4>
+&lt;p>Para validar se o KVM está instalado corretamente e se a CPU está com a &lt;a href="https://en.wikipedia.org/wiki/X86_virtualization" target="_blank" rel="noopener">virtualização x86&lt;/a>
+habilitada, utilize o utilitário &lt;a href="http://manpages.ubuntu.com/manpages/jammy/en/man1/kvm-ok.1.html" target="_blank" rel="noopener">kvm-ok&lt;/a>
+.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo kvm-ok
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>INFO: /dev/kvm exists
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>KVM acceleration can be used
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Extraído da documentação:&lt;/h4>
+Em alguns casos de falha, o &lt;strong>kvm-ok&lt;/strong> fornece dicas sobre como você pode habilitar o KVM em um sistema onde ele é arbitrariamente desabilitado.
+&lt;/div>
+&lt;h4 id="checando-o-modulo-vhost_net">Checando o modulo &lt;code>vhost_net&lt;/code>&lt;/h4>
+&lt;p>O módulo &lt;code>vhost_net&lt;/code> fornecerá ferramentas semelhantes aos comandos &lt;code>ls&lt;/code>, &lt;code>cat&lt;/code>, &lt;code>top&lt;/code> para uso com máquinas virtuais, para certificar que ele está carregado e habilitado, use o código abaixo:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Verifica se o modulo está carregado, senão carrega o modulo do Kernel&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># e já adiciona no arquivo &amp;#39;/etc/modules&amp;#39; para ser carregado na inicialização&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> ! lsmod | grep vhost; &lt;span style="color:#66d9ef">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sudo modprobe vhost_net;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo vhost_net | sudo tee -a /etc/modules;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fi&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="consultando-o-libvirt">Consultando o &lt;code>libvirt&lt;/code>&lt;/h3>
+&lt;p>Para verificar se o serviço de virtualização está devidamente ativo execute o comando &lt;code>sudo systemctl status libvirtd&lt;/code>, o resultado deve ser.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>● libvirtd.service - Virtualization daemon
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Loaded: loaded &lt;span style="color:#f92672">(&lt;/span>/lib/systemd/system/libvirtd.service; enabled; vendor preset: enabled&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Active: active &lt;span style="color:#f92672">(&lt;/span>running&lt;span style="color:#f92672">)&lt;/span> since Tue 2022-04-19 08:15:26 -03; 3s ago
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>TriggeredBy: ● libvirtd.socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ● libvirtd-ro.socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ● libvirtd-admin.socket
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Docs: man:libvirtd&lt;span style="color:#f92672">(&lt;/span>8&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> https://libvirt.org
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Main PID: &lt;span style="color:#ae81ff">203390&lt;/span> &lt;span style="color:#f92672">(&lt;/span>libvirtd&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Tasks: &lt;span style="color:#ae81ff">19&lt;/span> &lt;span style="color:#f92672">(&lt;/span>limit: 32768&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Memory: 35.6M
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> CGroup: /system.slice/libvirtd.service
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├─ &lt;span style="color:#ae81ff">1382&lt;/span> /usr/sbin/dnsmasq --conf-file&lt;span style="color:#f92672">=&lt;/span>/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script&lt;span style="color:#f92672">=&lt;/span>/usr/lib/libvirt/libvirt_leaseshelper
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├─ &lt;span style="color:#ae81ff">1383&lt;/span> /usr/sbin/dnsmasq --conf-file&lt;span style="color:#f92672">=&lt;/span>/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script&lt;span style="color:#f92672">=&lt;/span>/usr/lib/libvirt/libvirt_leaseshelper
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> └─203390 /usr/sbin/libvirtd
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se o status for diferente de &lt;code>running&lt;/code> execute os comandos abaixo para iniciar o serviço agora e habilitar a inicialização durante o boot.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl enable libvirtd
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl start libvirtd
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se tudo correu bem, também foi criada a interface de rede &lt;em>virtual&lt;/em> &lt;code>virbr0&lt;/code> vinculada a um switch &lt;em>virtual&lt;/em> pré configurado no modo &lt;a href="https://en.wikipedia.org/wiki/Network_address_translation" target="_blank" rel="noopener">NAT&lt;/a>
+e com o programa &lt;a href="https://en.wikipedia.org/wiki/Dnsmasq" target="_blank" rel="noopener">dnsmasq&lt;/a>
+habilitado, conforme diagrama abaixo.&lt;/p>
+&lt;p>Maiores detalhes sobre a configuração padrão e dos outros modos disponíveis podem ser obtidos na &lt;a href="https://wiki.libvirt.org/page/VirtualNetworking" target="_blank" rel="noopener">documentação sobre VirtualNetworking do libvirt&lt;/a>
+.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 712px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/fazap/template-vm/libvirt_virtual_network_default_huf1b4c09426728259192ba928ea6a59c7_77903_702x513_fill_q75_box_smart1.jpg" width="702" height="513">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Fonte: wiki.libvirt.org/page/File:Virtual_network_default_network_overview.jpg
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Consultando as interfaces de rede&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ip add | grep virbr
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4: virbr0: &amp;lt;NO-CARRIER,BROADCAST,MULTICAST,UP&amp;gt; mtu &lt;span style="color:#ae81ff">1500&lt;/span> qdisc noqueue state DOWN group default qlen &lt;span style="color:#ae81ff">1000&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>5: virbr0-nic: &amp;lt;BROADCAST,MULTICAST&amp;gt; mtu &lt;span style="color:#ae81ff">1500&lt;/span> qdisc fq_codel master virbr0 state DOWN group default qlen &lt;span style="color:#ae81ff">1000&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="criando-templates-de-máquinas-virtuais">Criando templates de máquinas virtuais&lt;/h2>
+&lt;p>&lt;strong>O que é um template de máquina virtual?&lt;/strong> É uma máquina virtual pré-instalada e preparada para servir de base na criação &amp;rsquo;em série&amp;rsquo; de outras máquinas virtuais, dessa forma os procedimentos normalmente demorados de baixa / instalação das aplicações é feito apenas uma vez, gerando um ganho de tempo e consequentemente de produtividade, além de garantir a padronização do que está pré instalado na máquina virtual.&lt;/p>
+&lt;p>Os templates são essenciais em processos automatizados, como parte de uma abordagem de &lt;a href="https://en.wikipedia.org/wiki/Infrastructure_as_code" target="_blank" rel="noopener">&lt;strong>IaC&lt;/strong> (&lt;em>Infrastructure as Code&lt;/em>)&lt;/a>
+ou de &lt;a href="https://en.wikipedia.org/wiki/Desktop_virtualization" target="_blank" rel="noopener">&lt;strong>VDI&lt;/strong> (&lt;em>Virtual Desktop Infrastructure&lt;/em>)&lt;/a>
+.&lt;/p>
+&lt;h3 id="escolhendo-a-imagem-base">Escolhendo a imagem base&lt;/h3>
+&lt;ul>
+&lt;li>Necessita de uma interface gráfica? ou a interface texto é o suficiente?&lt;/li>
+&lt;li>Necessita das últimas versões das aplicações, drivers, etc.? ou&amp;hellip;&lt;/li>
+&lt;li>Precisa de versões mais antigas, e teoricamente, mais estáveis das aplicações, drivers, etc.?&lt;/li>
+&lt;li>Existe alguma exigência técnica para o uso de um determinado sistema operacional / distribuição?&lt;/li>
+&lt;li>Qual distribuição ou sistema operacional você tem mais familiaridade?&lt;/li>
+&lt;/ul>
+&lt;p>Essas são algumas perguntas que devem surgir no momento de decidir qual sistema operacional / distribuição (Linux) utilizar, independente das respostas tenha em mente estes 2 pontos, dê preferência a imagens &lt;code>net-installer&lt;/code>, &lt;code>minimal&lt;/code> ou &lt;code>boot-iso&lt;/code> e &lt;em>&lt;strong>instale apenas o necessário&lt;/strong>&lt;/em>, com isso o tamanho final do template será menor e reduzirá a cobertura de ataques cibernéticos e bugs (por ter menos aplicações instaladas).&lt;/p>
+&lt;p>Abaixo segue os link&amp;rsquo;s para as páginas de download de algumas distribuições / sistemas operacionais (em ordem alfabética), fique a vontade para sugerir novas usando os link&amp;rsquo;s ao lado na seção &lt;code>Colabore&lt;/code>, obrigado!&lt;/p>
+&lt;p>&lt;a href="https://www.centos.org/download/" target="_blank" rel="noopener">CentOS&lt;/a>
+| &lt;a href="https://www.debian.org/distrib/index.pt.html" target="_blank" rel="noopener">Debian&lt;/a>
+| &lt;a href="https://get.opensuse.org/leapmicro/5.2/" target="_blank" rel="noopener">OpenSuse&lt;/a>
+| &lt;a href="https://ubuntu.com/download/server/" target="_blank" rel="noopener">Ubuntu&lt;/a>
+| &lt;a href="https://www.microsoft.com/pt-br/software-download/windows10ISO" target="_blank" rel="noopener">Windows 10&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Para os passos seguintes optamos por utilizar o &lt;a href="http://mirror.ci.ifes.edu.br/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20220414-boot.iso" target="_blank" rel="noopener">CentOS-8-Stream&lt;/a>
+.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="preparando-para-a-instalação">Preparando para a instalação&lt;/h3>
+&lt;p>O primeiro passo é criar uma imagem de disco que servirá para a instalação do sistema operacional, para tanto utilizaremos o utilitário &lt;a href="https://qemu.readthedocs.io/en/latest/tools/qemu-img.html#" target="_blank" rel="noopener">qemu-img create&lt;/a>
+, que tem as seguintes opções.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>qemu-img create &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>--object OBJECTDEF&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>-q&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>-f FMT&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>-b BACKING_FILE &lt;span style="color:#f92672">[&lt;/span>-F BACKING_FMT&lt;span style="color:#f92672">]]&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>-u&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>-o OPTIONS&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> FILENAME &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>SIZE&lt;span style="color:#f92672">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Maiores detalhes sobre cada uma das opções acima consulte a &lt;a href="https://qemu.readthedocs.io/en/latest/tools/qemu-img.html#cmdoption-qemu-img-commands-arg-create" target="_blank" rel="noopener">documentação do comando create&lt;/a>
+.&lt;/p>
+&lt;p>Vamos executar o comando abaixo para criar a nossa imagem de disco.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo qemu-img create &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> -f qcow2 &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> -o preallocation&lt;span style="color:#f92672">=&lt;/span>metadata &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> /var/lib/libvirt/images/centos8.qcow2 &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> 15G
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Para gerenciarmos nossas máquinas virtuais temos 2 opções, ambas criadas com base na biblioteca &lt;code>libvirt&lt;/code>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://libvirt.org/manpages/virsh.html" target="_blank" rel="noopener">virsh&lt;/a>
+(linha de comando);&lt;/li>
+&lt;li>&lt;a href="https://virt-manager.org/" target="_blank" rel="noopener">virt-manager&lt;/a>
+(interface gráfica);&lt;/li>
+&lt;/ul>
+&lt;p>Adicionalmente ainda temos à disposição as seguintes ferramentas de suporte, também criadas usando a &lt;code>libvirt&lt;/code>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://linux.die.net/man/1/virt-install" target="_blank" rel="noopener">virt-install&lt;/a>
+para provisionar novas máquinas virtuais.&lt;/li>
+&lt;li>&lt;a href="https://linux.die.net/man/1/virt-viewer" target="_blank" rel="noopener">virt-viewer&lt;/a>
+exibe o console gráfico para uma máquina virtual.&lt;/li>
+&lt;li>&lt;a href="https://linux.die.net/man/1/virt-clone" target="_blank" rel="noopener">virt-clone&lt;/a>
+para clonar imagens de máquinas virtuais existentes.&lt;/li>
+&lt;li>&lt;a href="https://www.systutorials.com/docs/linux/man/1-virt-xml/" target="_blank" rel="noopener">virt-xml&lt;/a>
+para editar o XML do domínio libvirt.&lt;/li>
+&lt;li>&lt;a href="https://github.com/virt-manager/virt-bootstrap" target="_blank" rel="noopener">virt-bootstrap&lt;/a>
+configura o sistema de arquivos raiz para contêineres baseados em libvirt.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Aguarde&lt;/h4>
+Página em construção&amp;hellip;
+&lt;/div>
+&lt;h3 id="instalando-o-sistema-operacional">Instalando o sistema operacional&lt;/h3>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="limpando-a-imagem">Limpando a imagem&lt;/h3></description></item></channel></rss>

@@ -12,7 +12,7 @@ tags:
     - template maquina virtual
 autores:
     - Sandro Rogério
-description: Vamos instalar o KVM e suas dependências em uma máquina Ubuntu, para gerar templates que serão utilizados na criação das máquinas virtuais.
+description: Vamos instalar o KVM e suas dependências em uma máquina Ubuntu para gerar templates que serão utilizados na criação das máquinas virtuais.
 keywords:
     - terraform
     - kvm
@@ -39,19 +39,19 @@ O objetivo aqui é demonstrar como criar os templates (modelos) de máquinas vir
 Primeiro vamos conhecer os principais componentes que permitirão que isso aconteça.
 
 {{< alert title="KVM" >}}
-[***K**ernel-based **V**irtual **M**achine*](https://www.linux-kvm.org/page/Main_Page) é uma solução de virtualização completa para Linux em hardware x86 contendo extensões de virtualização ([Intel VT](https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_(VT-x)) ou [AMD-V](https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_(AMD-V))). Ele consiste em um módulo de kernel carregável, `kvm.ko`, que fornece a infraestrutura central de virtualização e um módulo específico do processador, `kvm-intel.ko` ou `kvm-amd.ko`.
+[***K**ernel-based **V**irtual **M**achine*](https://www.linux-kvm.org/page/Main_Page) é uma solução de virtualização completa para Linux em hardware x86 contendo extensões de virtualização ([Intel VT](https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_(VT-x)) ou [AMD-V](https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_(AMD-V))). Ele consiste em um módulo de kernel carregável o `kvm.ko` que fornece a infraestrutura central de virtualização e um módulo específico do processador `kvm-intel.ko` ou `kvm-amd.ko`.
 
 Usando o KVM, é possível executar várias máquinas virtuais executando imagens não modificadas do Linux ou do Windows. Cada máquina virtual possui hardware virtualizado privado: uma placa de rede, disco, adaptador gráfico, etc.
 {{< /alert >}}
 
 {{< alert title="libvirt" >}}
-O projeto [libvirt](https://libvirt.org/) é um kit de ferramentas para gerenciar [plataformas de virtualização](https://libvirt.org/platforms.html), é acessível a partir de C, Python, Perl, Go e muito mais, está licenciado sob licenças de código aberto, suporta [KVM](https://libvirt.org/drvqemu.html), [Hypervisor.framework](https://libvirt.org/drvqemu.html), [QEMU](https://libvirt.org/drvqemu.html), [Xen](https://libvirt.org/drvxen.html), [Virtuozzo](https://libvirt.org/drvvirtuozzo.html), [VMWare ESX](https://libvirt.org/drvesx.html), [LXC](https://libvirt.org/drvlxc.html), [BHyve](https://libvirt.org/drvbhyve.html) e [mais](https://libvirt.org/drivers.html), tem como alvo Linux, FreeBSD, [Windows](https://libvirt.org/windows.html) e [MacOS](https://libvirt.org/macos.html) e é usado por [muitas aplicações](https://libvirt.org/apps.html).
+O projeto [libvirt](https://libvirt.org/) é um kit de ferramentas para gerenciar [plataformas de virtualização](https://libvirt.org/platforms.html) é acessível a partir de C, Python, Perl, Go e muito mais, está licenciado sob licenças de código aberto, suporta [KVM](https://libvirt.org/drvqemu.html), [Hypervisor.framework](https://libvirt.org/drvqemu.html), [QEMU](https://libvirt.org/drvqemu.html), [Xen](https://libvirt.org/drvxen.html), [Virtuozzo](https://libvirt.org/drvvirtuozzo.html), [VMWare ESX](https://libvirt.org/drvesx.html), [LXC](https://libvirt.org/drvlxc.html), [BHyve](https://libvirt.org/drvbhyve.html) e [mais](https://libvirt.org/drivers.html), tem como alvo Linux, FreeBSD, [Windows](https://libvirt.org/windows.html) e [MacOS](https://libvirt.org/macos.html) e é usado por [muitas aplicações](https://libvirt.org/apps.html).
 {{< /alert >}}
 
 {{< alert title="QEMU" >}}
 [QEMU](https://www.qemu.org/) é um emulador e virtualizador de máquina genérico e de código aberto.
 
-O QEMU pode ser usado de várias maneiras diferentes. O mais comum é para “emulação de sistema”, onde fornece um modelo virtual de uma máquina inteira (CPU, memória e dispositivos emulados) para executar um sistema operacional convidado. Neste modo, a CPU pode ser totalmente emulada ou pode funcionar com um hypervisor como KVM, Xen, Hax ou Hypervisor.Framework para permitir que o convidado seja executado diretamente na CPU do host.
+O QEMU pode ser usado de várias maneiras diferentes. O mais comum é para “emulação de sistema”, onde fornece um modelo virtual de uma máquina inteira (CPU, memória e dispositivos emulados) para executar um sistema operacional convidado. Neste modo, a CPU pode ser totalmente emulada ou pode funcionar com um hypervisor como [KVM]((https://www.linux-kvm.org/page/Main_Page)), [Xen](https://xenproject.org/), Hax ou Hypervisor.Framework para permitir que o convidado seja executado diretamente na CPU do host.
 
 A segunda maneira suportada de usar o QEMU é a “emulação de modo de usuário”, onde o QEMU pode iniciar processos compilados para uma CPU em outra CPU. Neste modo a CPU é sempre emulada.
 {{< /alert >}}
@@ -119,7 +119,7 @@ fi
 
 ### Consultando o `libvirt`
 
-Para verificar se o serviço de virtualização está devidamente ativo execute o comando `sudo systemctl status libvirtd`, o resultado deve ser.
+Para verificar se o serviço de virtualização está devidamente ativo execute o comando `sudo systemctl status libvirtd`, o resultado deve parecer com a saída abaixo.
 
 ```bash
 ● libvirtd.service - Virtualization daemon
@@ -139,7 +139,7 @@ TriggeredBy: ● libvirtd.socket
              └─203390 /usr/sbin/libvirtd
 ```
 
-Se o status for diferente de `running` execute os comandos abaixo para iniciar o serviço agora e habilitar a inicialização durante o boot.
+Se o status for diferente de `running` execute os comandos abaixo para habilitar a inicialização durante o boot e iniciar o serviço agora, depois repita o teste acima.
 
 ```bash
 sudo systemctl enable libvirtd
@@ -183,7 +183,7 @@ Abaixo segue os link's para as páginas de download de algumas distribuições /
 
 [CentOS](https://www.centos.org/download/) | [Debian](https://www.debian.org/distrib/index.pt.html) | [OpenSuse](https://get.opensuse.org/leapmicro/5.2/) | [Ubuntu](https://ubuntu.com/download/server/) | [Windows 10](https://www.microsoft.com/pt-br/software-download/windows10ISO)
 
-> Para os passos seguintes optamos por utilizar o [CentOS-8-Stream](http://mirror.ci.ifes.edu.br/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20220414-boot.iso).
+> Para os passos seguintes optamos por utilizar a versão mais recente do [CentOS-Stream-8-x86_64](http://mirror.ci.ifes.edu.br/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-latest-boot.iso).
 
 ### Preparando para a instalação
 
@@ -201,16 +201,23 @@ qemu-img create \
   [SIZE]
 ```
 
-Maiores detalhes sobre cada uma das opções acima consulte a [documentação do comando create](https://qemu.readthedocs.io/en/latest/tools/qemu-img.html#cmdoption-qemu-img-commands-arg-create).
+Para maiores detalhes sobre cada uma das opções acima consulte a [documentação da opção create](https://qemu.readthedocs.io/en/latest/tools/qemu-img.html#cmdoption-qemu-img-commands-arg-create).
 
-Vamos executar o comando abaixo para criar a nossa imagem de disco.
+Vamos executar o comando abaixo para criar a nossa imagem de disco no formato [qcow2](https://qemu.readthedocs.io/en/latest/system/images.html#cmdoption-image-formats-arg-qcow2) usando a [pré-alocação dos metadados](https://qemu.readthedocs.io/en/latest/system/images.html#cmdoption-qcow2-arg-preallocation), gravando-a na pasta `/var/lib/libvirt/images/` (altere o nome da imagem para melhor identifica-la depois) e por fim especifique um tamanho para a mesma.
 
 ```bash
 sudo qemu-img create \
   -f qcow2 \
   -o preallocation=metadata \
-  /var/lib/libvirt/images/centos8.qcow2 \
+  /var/lib/libvirt/images/centos8-slim.qcow2 \
   15G
+```
+
+A saída desse comando será algo parecido com o trecho abaixo.
+
+```bash
+Formatting '/var/lib/libvirt/images/centos8-slim.qcow2', fmt=qcow2 size=16106127360 cluster_size=65536
+preallocation=metadata lazy_refcounts=off refcount_bits=16
 ```
 
 Para gerenciarmos nossas máquinas virtuais temos 2 opções, ambas criadas com base na biblioteca `libvirt`:
@@ -226,21 +233,181 @@ Adicionalmente ainda temos à disposição as seguintes ferramentas de suporte, 
 - [virt-xml](https://www.systutorials.com/docs/linux/man/1-virt-xml/) para editar o XML do domínio libvirt.
 - [virt-bootstrap](https://github.com/virt-manager/virt-bootstrap) configura o sistema de arquivos raiz para contêineres baseados em libvirt.
 
-{{< alert color="warning" title="Aguarde" >}}Página em construção...{{< /alert >}}
-
 ### Instalando o sistema operacional
 
-<!-- ```bash
+#### Revisando / conhecendo as opções do comando `virt-install`
+
+Se já tem algum tempo da publicação deste material ou se você gosta de saber com o que esta lidando, é recomendável consultar a documentação com o comando `man virt-install`, para verificar se as opções permanecem as mesmas, se não foram substituídas, se existem novas opções, etc.
+
+Uma vez carregada a documentação algumas dicas podem nos poupar tempo para localizarmos o que precisamos em conteúdos extensos como este do `virt-install`.
+
+- Para localizar o texto '--virt-type' digite `/--virt-type<<ENTER>>`.
+- Para ir para a próxima ocorrência do texto use `n` e para voltar para as ocorrências anteriores `N`.
+
+#### Iniciando a instalação
+
+Uma vez terminada a consulta / validação das opções abaixo, vamos executar o comando e iniciar a instalação.
+
+```bash
 sudo virt-install \
   --virt-type kvm \
   --name centos8 \
   --memory 2048 \
-  --disk /var/lib/libvirt/images/centos8.qcow2,format=qcow2 \
+  --disk /var/lib/libvirt/images/centos8-slim.qcow2,format=qcow2 \
   --network network=default \
   --graphics vnc,listen=0.0.0.0 \
   --noautoconsole \
   --os-variant=centos-stream8 \
-  --location=/home/sandro/Downloads/CentOS-Stream-8-x86_64-20220414-boot.iso
-``` -->
+  --cdrom=/home/sandro/Downloads/CentOS-Stream-8-x86_64-latest-boot.iso
+```
+
+Após o comando acima apareceu uma mensagem informando que a instalação ainda está em progresso, vamos confirmar se temos alguma máquina virtual em execução no momento?
+
+```bash
+virsh list
+
+ Id   Name      State
+-------------------------
+ 2    centos8   running
+```
+
+Show! Então agora precisamos acessar a console dessa máquina virtual e concluir a instalação do nosso sistema operacional, para tanto execute o comando abaixo.
+
+```bash
+virt-viewer centos8
+```
+
+Deverá aparecer a tela abaixo, de boas vindas à instalação do CentOS Stream 8, onde a primeira coisa é escolher o idioma a ser utilizado no processo de instalação.
+
+{{< imgproc welcome-centos-stream-8 Fill "702x513" >}} {{< /imgproc >}}
+
+A partir deste ponto, **cada caso é um caso** e, dependendo da função das máquinas virtuais a serem criadas com este template, iremos instalar um determinado conjunto de pacotes / programas. Fora alguns casos especificos, o mais indicado é **instalar apenas o necessário**, por exemplo:
+
+- Se a função da máquina virtual for ser um servidor de aplicação, onde iremos acessar basicamente via terminal, realmente é necessário ter uma interface gráfica?
+
+Lembre-se! Quanto menos programas tivermos instalados em nosso sistema, menor será a cobertura de ataques ciberneticos e menor o espaço ocupado em disco.
+
+Bom! Uma vez concluída a instalação inicial do sistema operacional para para as etapas finais.
+
+### Acessando a máquina virtual
+
+Uma vez concluída a instalação a máquina virtual é desligada, podemos verificar este estado com o comando abaixo:
+
+```bash
+virsh list --all
+
+ Id   Name      State
+--------------------------
+ -    centos8   shut off
+```
+
+Para 'ligar' a máquina virtual execute o comando:
+
+```bash
+virsh start centos8
+```
+
+E para acessar a console da máquina virtual utilize o mesmo comando de antes:
+
+```bash
+virt-viewer centos8
+```
+
+Se preferir pode usar o `virt-manager` para acessar estas e outras funcionalidades via interface gráfica.
+
+### Ajustes pós install
+
+Para completar a instalação do sistema operacional vamos instalar alguns pacotes básicos e necessários para a manutenção futura de nossa máquina virtual.
+
+> Se quiser acessar 
+
+```bash
+sudo yum update -y;
+sudo yum install -y \
+  epel-release \
+  curl \
+  wget \
+  telnet \
+  net-tools \
+  unzip;
+```
+
+Para concluirmos esta etapa, precisamos desabilitar a funcionalidade [ZeroConf](https://en.wikipedia.org/wiki/Zero-configuration_networking) para que a configuração de rede seja feita manualmente quando da instalação das futuras máquinas virtuais baseadas neste template, para tanto execute o comando abaixo.
+
+```bash
+sudo echo "NOZEROCONF=yes" >> /etc/sysconfig/network
+```
+
+Pronto, agora podemos ir para a etapa final, então vamos desligar a nossa máquina virtual.
+
+```bash
+sudo poweroff
+```
 
 ### Limpando a imagem
+
+Antes de seguir certifique-se que a máquina virtual está desligada.
+
+```bash
+virsh list --all
+
+ Id   Name      State
+--------------------------
+ -    centos8   shut off
+```
+
+Agora vamos utilizar o útilitário [virt-sysprep](https://libguestfs.org/virt-sysprep.1.html) que tem a função de redefinir, desconfigurar ou personalizar uma máquina virtual para que possam ser feitos os clones dessa máquina virtual.
+
+```bash
+sudo virt-sysprep -d centos8
+
+[sudo] senha para sandro: 
+[   0.0] Examining the guest ...
+[   5.0] Performing "abrt-data" ...
+[   5.0] Performing "backup-files" ...
+[   5.2] Performing "bash-history" ...
+[   5.2] Performing "blkid-tab" ...
+[   5.2] Performing "crash-data" ...
+[   5.2] Performing "cron-spool" ...
+[   5.3] Performing "dhcp-client-state" ...
+[   5.3] Performing "dhcp-server-state" ...
+[   5.3] Performing "dovecot-data" ...
+[   5.3] Performing "logfiles" ...
+[   5.4] Performing "machine-id" ...
+[   5.4] Performing "mail-spool" ...
+[   5.4] Performing "net-hostname" ...
+[   5.4] Performing "net-hwaddr" ...
+[   5.5] Performing "pacct-log" ...
+[   5.5] Performing "package-manager-cache" ...
+[   5.6] Performing "pam-data" ...
+[   5.6] Performing "passwd-backups" ...
+[   5.6] Performing "puppet-data-log" ...
+[   5.6] Performing "rh-subscription-manager" ...
+[   5.7] Performing "rhn-systemid" ...
+[   5.7] Performing "rpm-db" ...
+[   5.7] Performing "samba-db-log" ...
+[   5.7] Performing "script" ...
+[   5.7] Performing "smolt-uuid" ...
+[   5.8] Performing "ssh-hostkeys" ...
+[   5.8] Performing "ssh-userdir" ...
+[   5.8] Performing "sssd-db-log" ...
+[   5.8] Performing "tmp-files" ...
+[   5.8] Performing "udev-persistent-net" ...
+[   5.8] Performing "utmp" ...
+[   5.9] Performing "yum-uuid" ...
+[   5.9] Performing "customize" ...
+[   5.9] Setting a random seed
+[   5.9] Setting the machine ID in /etc/machine-id
+[   6.0] Performing "lvm-uuids" ...
+```
+
+E agora vamos remover a configuração da máquina virtual com o comando abaixo:
+
+```bash
+sudo virsh undefine centos8
+```
+Pronto! Procedimento concluído, agora podemos clonar a nossa máquina virtual nos próximos artigos.
+
+Espero que tenha gostado, deixe seu Feedback abaixo e sinta-se à vontade para colaborar usando o menu da direita.
+
+Até breve!

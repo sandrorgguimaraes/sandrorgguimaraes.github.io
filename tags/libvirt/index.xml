@@ -17,14 +17,14 @@ atualmente é uma tecnologia estável e madura, não sendo o objetivo deste mate
 &lt;p>&lt;a href="https://www.linux-kvm.org/page/Main_Page" target="_blank" rel="noopener">&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>&lt;/a>
 é uma solução de virtualização completa para Linux em hardware x86 contendo extensões de virtualização (&lt;a href="https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_%28VT-x%29" target="_blank" rel="noopener">Intel VT&lt;/a>
 ou &lt;a href="https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_%28AMD-V%29" target="_blank" rel="noopener">AMD-V&lt;/a>
-). Ele consiste em um módulo de kernel carregável, &lt;code>kvm.ko&lt;/code>, que fornece a infraestrutura central de virtualização e um módulo específico do processador, &lt;code>kvm-intel.ko&lt;/code> ou &lt;code>kvm-amd.ko&lt;/code>.&lt;/p>
+). Ele consiste em um módulo de kernel carregável o &lt;code>kvm.ko&lt;/code> que fornece a infraestrutura central de virtualização e um módulo específico do processador &lt;code>kvm-intel.ko&lt;/code> ou &lt;code>kvm-amd.ko&lt;/code>.&lt;/p>
 &lt;p>Usando o KVM, é possível executar várias máquinas virtuais executando imagens não modificadas do Linux ou do Windows. Cada máquina virtual possui hardware virtualizado privado: uma placa de rede, disco, adaptador gráfico, etc.&lt;/p>
 &lt;/div>
 &lt;div class="alert alert-primary" role="alert">
 &lt;h4 class="alert-heading">libvirt&lt;/h4>
 O projeto &lt;a href="https://libvirt.org/" target="_blank" rel="noopener">libvirt&lt;/a>
 é um kit de ferramentas para gerenciar &lt;a href="https://libvirt.org/platforms.html" target="_blank" rel="noopener">plataformas de virtualização&lt;/a>
-, é acessível a partir de C, Python, Perl, Go e muito mais, está licenciado sob licenças de código aberto, suporta &lt;a href="https://libvirt.org/drvqemu.html" target="_blank" rel="noopener">KVM&lt;/a>
+é acessível a partir de C, Python, Perl, Go e muito mais, está licenciado sob licenças de código aberto, suporta &lt;a href="https://libvirt.org/drvqemu.html" target="_blank" rel="noopener">KVM&lt;/a>
 , &lt;a href="https://libvirt.org/drvqemu.html" target="_blank" rel="noopener">Hypervisor.framework&lt;/a>
 , &lt;a href="https://libvirt.org/drvqemu.html" target="_blank" rel="noopener">QEMU&lt;/a>
 , &lt;a href="https://libvirt.org/drvxen.html" target="_blank" rel="noopener">Xen&lt;/a>
@@ -42,7 +42,9 @@ e é usado por &lt;a href="https://libvirt.org/apps.html" target="_blank" rel="n
 &lt;h4 class="alert-heading">QEMU&lt;/h4>
 &lt;p>&lt;a href="https://www.qemu.org/" target="_blank" rel="noopener">QEMU&lt;/a>
 é um emulador e virtualizador de máquina genérico e de código aberto.&lt;/p>
-&lt;p>O QEMU pode ser usado de várias maneiras diferentes. O mais comum é para “emulação de sistema”, onde fornece um modelo virtual de uma máquina inteira (CPU, memória e dispositivos emulados) para executar um sistema operacional convidado. Neste modo, a CPU pode ser totalmente emulada ou pode funcionar com um hypervisor como KVM, Xen, Hax ou Hypervisor.Framework para permitir que o convidado seja executado diretamente na CPU do host.&lt;/p>
+&lt;p>O QEMU pode ser usado de várias maneiras diferentes. O mais comum é para “emulação de sistema”, onde fornece um modelo virtual de uma máquina inteira (CPU, memória e dispositivos emulados) para executar um sistema operacional convidado. Neste modo, a CPU pode ser totalmente emulada ou pode funcionar com um hypervisor como &lt;a href="%28https://www.linux-kvm.org/page/Main_Page%29">KVM&lt;/a>
+, &lt;a href="https://xenproject.org/" target="_blank" rel="noopener">Xen&lt;/a>
+, Hax ou Hypervisor.Framework para permitir que o convidado seja executado diretamente na CPU do host.&lt;/p>
 &lt;p>A segunda maneira suportada de usar o QEMU é a “emulação de modo de usuário”, onde o QEMU pode iniciar processos compilados para uma CPU em outra CPU. Neste modo a CPU é sempre emulada.&lt;/p>
 &lt;/div>
 &lt;p>A imagem abaixo ilustra de forma simples a relação entre o hardware físico (CPU, memória, discos, placa de rede, etc.) o Hypervisor e as máquinas virtuais.&lt;/p>
@@ -100,7 +102,7 @@ Em alguns casos de falha, o &lt;strong>kvm-ok&lt;/strong> fornece dicas sobre co
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo vhost_net | sudo tee -a /etc/modules;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fi&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="consultando-o-libvirt">Consultando o &lt;code>libvirt&lt;/code>&lt;/h3>
-&lt;p>Para verificar se o serviço de virtualização está devidamente ativo execute o comando &lt;code>sudo systemctl status libvirtd&lt;/code>, o resultado deve ser.&lt;/p>
+&lt;p>Para verificar se o serviço de virtualização está devidamente ativo execute o comando &lt;code>sudo systemctl status libvirtd&lt;/code>, o resultado deve parecer com a saída abaixo.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>● libvirtd.service - Virtualization daemon
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Loaded: loaded &lt;span style="color:#f92672">(&lt;/span>/lib/systemd/system/libvirtd.service; enabled; vendor preset: enabled&lt;span style="color:#f92672">)&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Active: active &lt;span style="color:#f92672">(&lt;/span>running&lt;span style="color:#f92672">)&lt;/span> since Tue 2022-04-19 08:15:26 -03; 3s ago
@@ -116,7 +118,7 @@ Em alguns casos de falha, o &lt;strong>kvm-ok&lt;/strong> fornece dicas sobre co
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├─ &lt;span style="color:#ae81ff">1382&lt;/span> /usr/sbin/dnsmasq --conf-file&lt;span style="color:#f92672">=&lt;/span>/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script&lt;span style="color:#f92672">=&lt;/span>/usr/lib/libvirt/libvirt_leaseshelper
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├─ &lt;span style="color:#ae81ff">1383&lt;/span> /usr/sbin/dnsmasq --conf-file&lt;span style="color:#f92672">=&lt;/span>/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script&lt;span style="color:#f92672">=&lt;/span>/usr/lib/libvirt/libvirt_leaseshelper
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> └─203390 /usr/sbin/libvirtd
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se o status for diferente de &lt;code>running&lt;/code> execute os comandos abaixo para iniciar o serviço agora e habilitar a inicialização durante o boot.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se o status for diferente de &lt;code>running&lt;/code> execute os comandos abaixo para habilitar a inicialização durante o boot e iniciar o serviço agora, depois repita o teste acima.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl enable libvirtd
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl start libvirtd
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se tudo correu bem, também foi criada a interface de rede &lt;em>virtual&lt;/em> &lt;code>virbr0&lt;/code> vinculada a um switch &lt;em>virtual&lt;/em> pré configurado no modo &lt;a href="https://en.wikipedia.org/wiki/Network_address_translation" target="_blank" rel="noopener">NAT&lt;/a>
@@ -160,7 +162,7 @@ ou de &lt;a href="https://en.wikipedia.org/wiki/Desktop_virtualization" target="
 | &lt;a href="https://www.microsoft.com/pt-br/software-download/windows10ISO" target="_blank" rel="noopener">Windows 10&lt;/a>
 &lt;/p>
 &lt;blockquote>
-&lt;p>Para os passos seguintes optamos por utilizar o &lt;a href="http://mirror.ci.ifes.edu.br/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20220414-boot.iso" target="_blank" rel="noopener">CentOS-8-Stream&lt;/a>
+&lt;p>Para os passos seguintes optamos por utilizar a versão mais recente do &lt;a href="http://mirror.ci.ifes.edu.br/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-latest-boot.iso" target="_blank" rel="noopener">CentOS-Stream-8-x86_64&lt;/a>
 .&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="preparando-para-a-instalação">Preparando para a instalação&lt;/h3>
@@ -175,14 +177,19 @@ ou de &lt;a href="https://en.wikipedia.org/wiki/Desktop_virtualization" target="
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>-o OPTIONS&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#ae81ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> FILENAME &lt;span style="color:#ae81ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">[&lt;/span>SIZE&lt;span style="color:#f92672">]&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Maiores detalhes sobre cada uma das opções acima consulte a &lt;a href="https://qemu.readthedocs.io/en/latest/tools/qemu-img.html#cmdoption-qemu-img-commands-arg-create" target="_blank" rel="noopener">documentação do comando create&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Para maiores detalhes sobre cada uma das opções acima consulte a &lt;a href="https://qemu.readthedocs.io/en/latest/tools/qemu-img.html#cmdoption-qemu-img-commands-arg-create" target="_blank" rel="noopener">documentação da opção create&lt;/a>
 .&lt;/p>
-&lt;p>Vamos executar o comando abaixo para criar a nossa imagem de disco.&lt;/p>
+&lt;p>Vamos executar o comando abaixo para criar a nossa imagem de disco no formato &lt;a href="https://qemu.readthedocs.io/en/latest/system/images.html#cmdoption-image-formats-arg-qcow2" target="_blank" rel="noopener">qcow2&lt;/a>
+usando a &lt;a href="https://qemu.readthedocs.io/en/latest/system/images.html#cmdoption-qcow2-arg-preallocation" target="_blank" rel="noopener">pré-alocação dos metadados&lt;/a>
+, gravando-a na pasta &lt;code>/var/lib/libvirt/images/&lt;/code> (altere o nome da imagem para melhor identifica-la depois) e por fim especifique um tamanho para a mesma.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo qemu-img create &lt;span style="color:#ae81ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> -f qcow2 &lt;span style="color:#ae81ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> -o preallocation&lt;span style="color:#f92672">=&lt;/span>metadata &lt;span style="color:#ae81ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> /var/lib/libvirt/images/centos8.qcow2 &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> /var/lib/libvirt/images/centos8-slim.qcow2 &lt;span style="color:#ae81ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> 15G
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>A saída desse comando será algo parecido com o trecho abaixo.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Formatting &lt;span style="color:#e6db74">&amp;#39;/var/lib/libvirt/images/centos8-slim.qcow2&amp;#39;&lt;/span>, fmt&lt;span style="color:#f92672">=&lt;/span>qcow2 size&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">16106127360&lt;/span> cluster_size&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">65536&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>preallocation&lt;span style="color:#f92672">=&lt;/span>metadata lazy_refcounts&lt;span style="color:#f92672">=&lt;/span>off refcount_bits&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">16&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Para gerenciarmos nossas máquinas virtuais temos 2 opções, ambas criadas com base na biblioteca &lt;code>libvirt&lt;/code>:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://libvirt.org/manpages/virsh.html" target="_blank" rel="noopener">virsh&lt;/a>
@@ -203,14 +210,131 @@ para editar o XML do domínio libvirt.&lt;/li>
 &lt;li>&lt;a href="https://github.com/virt-manager/virt-bootstrap" target="_blank" rel="noopener">virt-bootstrap&lt;/a>
 configura o sistema de arquivos raiz para contêineres baseados em libvirt.&lt;/li>
 &lt;/ul>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Aguarde&lt;/h4>
-Página em construção&amp;hellip;
-&lt;/div>
 &lt;h3 id="instalando-o-sistema-operacional">Instalando o sistema operacional&lt;/h3>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;h3 id="limpando-a-imagem">Limpando a imagem&lt;/h3></description></item><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</guid><description>
+&lt;h4 id="revisando--conhecendo-as-opções-do-comando-virt-install">Revisando / conhecendo as opções do comando &lt;code>virt-install&lt;/code>&lt;/h4>
+&lt;p>Se já tem algum tempo da publicação deste material ou se você gosta de saber com o que esta lidando, é recomendável consultar a documentação com o comando &lt;code>man virt-install&lt;/code>, para verificar se as opções permanecem as mesmas, se não foram substituídas, se existem novas opções, etc.&lt;/p>
+&lt;p>Uma vez carregada a documentação algumas dicas podem nos poupar tempo para localizarmos o que precisamos em conteúdos extensos como este do &lt;code>virt-install&lt;/code>.&lt;/p>
+&lt;ul>
+&lt;li>Para localizar o texto &amp;lsquo;&amp;ndash;virt-type&amp;rsquo; digite &lt;code>/--virt-type&amp;lt;&amp;lt;ENTER&amp;gt;&amp;gt;&lt;/code>.&lt;/li>
+&lt;li>Para ir para a próxima ocorrência do texto use &lt;code>n&lt;/code> e para voltar para as ocorrências anteriores &lt;code>N&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="iniciando-a-instalação">Iniciando a instalação&lt;/h4>
+&lt;p>Uma vez terminada a consulta / validação das opções abaixo, vamos executar o comando e iniciar a instalação.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo virt-install &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --virt-type kvm &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --name centos8 &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --memory &lt;span style="color:#ae81ff">2048&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --disk /var/lib/libvirt/images/centos8-slim.qcow2,format&lt;span style="color:#f92672">=&lt;/span>qcow2 &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --network network&lt;span style="color:#f92672">=&lt;/span>default &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --graphics vnc,listen&lt;span style="color:#f92672">=&lt;/span>0.0.0.0 &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --noautoconsole &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --os-variant&lt;span style="color:#f92672">=&lt;/span>centos-stream8 &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --cdrom&lt;span style="color:#f92672">=&lt;/span>/home/sandro/Downloads/CentOS-Stream-8-x86_64-latest-boot.iso
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Após o comando acima apareceu uma mensagem informando que a instalação ainda está em progresso, vamos confirmar se temos alguma máquina virtual em execução no momento?&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>virsh list
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Id Name State
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-------------------------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ae81ff">2&lt;/span> centos8 running
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Show! Então agora precisamos acessar a console dessa máquina virtual e concluir a instalação do nosso sistema operacional, para tanto execute o comando abaixo.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>virt-viewer centos8
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Deverá aparecer a tela abaixo, de boas vindas à instalação do CentOS Stream 8, onde a primeira coisa é escolher o idioma a ser utilizado no processo de instalação.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 712px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/fazap/template-vm/welcome-centos-stream-8_hufbcefd3c0e93f87e9ba98fc5032c30ba_141814_702x513_fill_box_smart1_3.png" width="702" height="513">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>A partir deste ponto, &lt;strong>cada caso é um caso&lt;/strong> e, dependendo da função das máquinas virtuais a serem criadas com este template, iremos instalar um determinado conjunto de pacotes / programas. Fora alguns casos especificos, o mais indicado é &lt;strong>instalar apenas o necessário&lt;/strong>, por exemplo:&lt;/p>
+&lt;ul>
+&lt;li>Se a função da máquina virtual for ser um servidor de aplicação, onde iremos acessar basicamente via terminal, realmente é necessário ter uma interface gráfica?&lt;/li>
+&lt;/ul>
+&lt;p>Lembre-se! Quanto menos programas tivermos instalados em nosso sistema, menor será a cobertura de ataques ciberneticos e menor o espaço ocupado em disco.&lt;/p>
+&lt;p>Bom! Uma vez concluída a instalação inicial do sistema operacional para para as etapas finais.&lt;/p>
+&lt;h3 id="acessando-a-máquina-virtual">Acessando a máquina virtual&lt;/h3>
+&lt;p>Uma vez concluída a instalação a máquina virtual é desligada, podemos verificar este estado com o comando abaixo:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>virsh list --all
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Id Name State
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--------------------------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - centos8 shut off
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Para &amp;rsquo;ligar&amp;rsquo; a máquina virtual execute o comando:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>virsh start centos8
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>E para acessar a console da máquina virtual utilize o mesmo comando de antes:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>virt-viewer centos8
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se preferir pode usar o &lt;code>virt-manager&lt;/code> para acessar estas e outras funcionalidades via interface gráfica.&lt;/p>
+&lt;h3 id="ajustes-pós-install">Ajustes pós install&lt;/h3>
+&lt;p>Para completar a instalação do sistema operacional vamos instalar alguns pacotes básicos e necessários para a manutenção futura de nossa máquina virtual.&lt;/p>
+&lt;blockquote>
+&lt;p>Se quiser acessar&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo yum update -y;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo yum install -y &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> epel-release &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> curl &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> wget &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> telnet &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> net-tools &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> unzip;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Para concluirmos esta etapa, precisamos desabilitar a funcionalidade &lt;a href="https://en.wikipedia.org/wiki/Zero-configuration_networking" target="_blank" rel="noopener">ZeroConf&lt;/a>
+para que a configuração de rede seja feita manualmente quando da instalação das futuras máquinas virtuais baseadas neste template, para tanto execute o comando abaixo.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo echo &lt;span style="color:#e6db74">&amp;#34;NOZEROCONF=yes&amp;#34;&lt;/span> &amp;gt;&amp;gt; /etc/sysconfig/network
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pronto, agora podemos ir para a etapa final, então vamos desligar a nossa máquina virtual.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo poweroff
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="limpando-a-imagem">Limpando a imagem&lt;/h3>
+&lt;p>Antes de seguir certifique-se que a máquina virtual está desligada.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>virsh list --all
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Id Name State
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--------------------------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - centos8 shut off
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Agora vamos utilizar o útilitário &lt;a href="https://libguestfs.org/virt-sysprep.1.html" target="_blank" rel="noopener">virt-sysprep&lt;/a>
+que tem a função de redefinir, desconfigurar ou personalizar uma máquina virtual para que possam ser feitos os clones dessa máquina virtual.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo virt-sysprep -d centos8
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span>sudo&lt;span style="color:#f92672">]&lt;/span> senha para sandro:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 0.0&lt;span style="color:#f92672">]&lt;/span> Examining the guest ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.0&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;abrt-data&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.0&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;backup-files&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.2&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;bash-history&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.2&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;blkid-tab&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.2&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;crash-data&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.2&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;cron-spool&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.3&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;dhcp-client-state&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.3&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;dhcp-server-state&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.3&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;dovecot-data&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.3&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;logfiles&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.4&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;machine-id&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.4&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;mail-spool&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.4&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;net-hostname&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.4&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;net-hwaddr&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.5&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;pacct-log&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.5&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;package-manager-cache&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.6&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;pam-data&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.6&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;passwd-backups&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.6&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;puppet-data-log&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.6&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;rh-subscription-manager&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.7&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;rhn-systemid&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.7&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;rpm-db&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.7&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;samba-db-log&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.7&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;script&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.7&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;smolt-uuid&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.8&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;ssh-hostkeys&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.8&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;ssh-userdir&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.8&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;sssd-db-log&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.8&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;tmp-files&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.8&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;udev-persistent-net&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.8&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;utmp&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.9&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;yum-uuid&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.9&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;customize&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.9&lt;span style="color:#f92672">]&lt;/span> Setting a random seed
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 5.9&lt;span style="color:#f92672">]&lt;/span> Setting the machine ID in /etc/machine-id
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> 6.0&lt;span style="color:#f92672">]&lt;/span> Performing &lt;span style="color:#e6db74">&amp;#34;lvm-uuids&amp;#34;&lt;/span> ...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>E agora vamos remover a configuração da máquina virtual com o comando abaixo:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo virsh undefine centos8
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pronto! Procedimento concluído, agora podemos clonar a nossa máquina virtual nos próximos artigos.&lt;/p>
+&lt;p>Espero que tenha gostado, deixe seu Feedback abaixo e sinta-se à vontade para colaborar usando o menu da direita.&lt;/p>
+&lt;p>Até breve!&lt;/p></description></item><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O &lt;strong>KVM&lt;/strong> (&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um &lt;a href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank" rel="noopener">hypervisor&lt;/a>
 . Ele foi incorporado ao kernel Linux principal na versão 2.6.20, que foi lançada em 5 de fevereiro de 2007.&lt;/p>

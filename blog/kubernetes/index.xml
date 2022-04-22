@@ -192,7 +192,7 @@ em 03/12/2021.&lt;/p>
 e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noopener">ArgoCD&lt;/a>
 . Criando um único cluster local com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
 , e a partir deste cluster, provisionar o processo de criação de outros clusters Kubernetes, de forma automática a partir de um repositório Git.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
+&lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
 &lt;hr>
 &lt;h2 id="cka-exam-study-guide-a-complete-resource-for-cka-aspirantshttpsdevopscubecomcka-exam-study-guide">&lt;a href="https://devopscube.com/cka-exam-study-guide/" target="_blank" rel="noopener">CKA Exam Study Guide: A Complete Resource For CKA Aspirants&lt;/a>
 &lt;/h2>
@@ -200,4 +200,9 @@ e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="
 e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
 em 27/01/2022.&lt;/p>
 &lt;p>Este guia de estudo do Exame CKA (&lt;em>Certified Kubernetes Administrator&lt;/em>) ajudará você a se preparar com todos os recursos necessários.&lt;/p>
+&lt;hr>
+&lt;h2 id="certificação-kubernetes-cka---como-passei-na-certificação-começando-do-zerohttpsmediumcomitalocavalcantechagascertificac3a7c3a3o-kubernetes-cka-como-passei-na-certificac3a7c3a3o-comec3a7ando-do-zero-ecf3cce5f5ce">&lt;a href="https://medium.com/@italocavalcantechagas/certifica%C3%A7%C3%A3o-kubernetes-cka-como-passei-na-certifica%C3%A7%C3%A3o-come%C3%A7ando-do-zero-ecf3cce5f5ce" target="_blank" rel="noopener">Certificação Kubernetes (CKA) - Como passei na certificação começando do zero&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/italo-chagas/">&lt;strong>Italo Chagas&lt;/strong>&lt;/a>
+em 18/04/2022.&lt;/p>
 &lt;hr></description></item></channel></rss>

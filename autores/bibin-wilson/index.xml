@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Bibin Wilson</title><link>https://sandrorgguimaraes.github.io/autores/bibin-wilson/</link><description>Recent content in Bibin Wilson on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Bibin Wilson</title><link>https://sandrorgguimaraes.github.io/autores/bibin-wilson/</link><description>Recent content in Bibin Wilson on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
 &lt;hr>
 &lt;h2 id="learning-containers-from-the-bottom-uphttpsiximiuzcomenpostscontainer-learning-path">&lt;a href="https://iximiuz.com/en/posts/container-learning-path/" target="_blank" rel="noopener">Learning Containers From The Bottom Up&lt;/a>
 &lt;/h2>
@@ -97,7 +97,7 @@ em 03/03/2022.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
 em 16/03/2022.&lt;/p>
 &lt;p>Este artigo é baseado em uma demonstração real usando DNS público e seu certificado autoassinado.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
+&lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
 &lt;hr>
 &lt;h2 id="cka-exam-study-guide-a-complete-resource-for-cka-aspirantshttpsdevopscubecomcka-exam-study-guide">&lt;a href="https://devopscube.com/cka-exam-study-guide/" target="_blank" rel="noopener">CKA Exam Study Guide: A Complete Resource For CKA Aspirants&lt;/a>
 &lt;/h2>
@@ -105,4 +105,9 @@ em 16/03/2022.&lt;/p>
 e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
 em 27/01/2022.&lt;/p>
 &lt;p>Este guia de estudo do Exame CKA (&lt;em>Certified Kubernetes Administrator&lt;/em>) ajudará você a se preparar com todos os recursos necessários.&lt;/p>
+&lt;hr>
+&lt;h2 id="certificação-kubernetes-cka---como-passei-na-certificação-começando-do-zerohttpsmediumcomitalocavalcantechagascertificac3a7c3a3o-kubernetes-cka-como-passei-na-certificac3a7c3a3o-comec3a7ando-do-zero-ecf3cce5f5ce">&lt;a href="https://medium.com/@italocavalcantechagas/certifica%C3%A7%C3%A3o-kubernetes-cka-como-passei-na-certifica%C3%A7%C3%A3o-come%C3%A7ando-do-zero-ecf3cce5f5ce" target="_blank" rel="noopener">Certificação Kubernetes (CKA) - Como passei na certificação começando do zero&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/italo-chagas/">&lt;strong>Italo Chagas&lt;/strong>&lt;/a>
+em 18/04/2022.&lt;/p>
 &lt;hr></description></item></channel></rss>

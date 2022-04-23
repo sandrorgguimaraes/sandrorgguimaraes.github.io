@@ -1,6 +1,6 @@
 ---
 title: Dicas Python
-date: 2022-03-14
+date: 2022-04-22
 categories:
     - linguagem de programação
 tags:
@@ -16,7 +16,6 @@ autores:
     - Khuyen Tran
     - Yong Cui
     - Haider Imtiaz
-    - Louis de Bruijn
     - Jerry Ng
 description: Conjunto de dicas de bibliotecas para facilitar nossa vida com o Python.
 keywords:
@@ -77,23 +76,6 @@ Neste artigo, é apresentado alguns recursos interessantes do Python.
 - String slicing;
 - The Zen of Python;
 - Easter Eggs in Python;
-
----
-
-## [Seven Tips To Clean Code With Python](https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f)
-
-por [**Louis de Bruijn**](/autores/louis-de-bruijn/) em 27/01/2021.
-
-Neste artigo, é apresentado alguns recursos interessantes do Python.
-
-- String formatting with f-strings;
-- Platform-independent directory delimiters;
-- Variable unpacking;
-- `.get` instead of `[key]` for dictionary iterations;
-- Loop two iterators with the zip function;
-- List comprehensions;
-- Multiple assignment with `*` and `**`;
-- Putting it all together;
 
 ---
 

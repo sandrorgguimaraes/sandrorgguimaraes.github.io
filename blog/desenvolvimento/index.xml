@@ -1,31 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Desenvolvimento</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/</link><description>Recent content in Desenvolvimento on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/desenvolvimento/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Markdown</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/markdown/</guid><description/></item><item><title>Blog: Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/</guid><description/></item><item><title>Blog: Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</guid><description/></item><item><title>Blog: Flutter</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/</guid><description/></item><item><title>Blog: Dicas</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</guid><description>
-&lt;hr>
-&lt;h2 id="how-to-reduce-the-time-complexity-of-nested-loopshttpsdevtoleandronsphow-to-reduce-the-time-complexity-of-nested-loops-1lkd">&lt;a href="https://dev.to/leandronsp/how-to-reduce-the-time-complexity-of-nested-loops-1lkd" target="_blank" rel="noopener">How to reduce the time complexity of nested loops&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/leandro-proen%c3%a7a/">&lt;strong>Leandro Proença&lt;/strong>&lt;/a>
-em 04/12/2021.&lt;/p>
-&lt;p>Palavras do autor:&lt;/p>
-&lt;blockquote>
-&lt;p>Neste post vou demonstrar uma forma de entender, analisar e reduzir a complexidade de tempo em algoritmos, especialmente em loops aninhados .&lt;/p>
-&lt;p>Os exemplos usarão Ruby, mas podem ser traduzidos para qualquer linguagem de programação.&lt;/p>
-&lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Aprenda a programar</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/aprenda-a-programar/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/aprenda-a-programar/</guid><description>
-&lt;hr>
-&lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://codecombat.com/" target="_blank" rel="noopener">Code Combat&lt;/a>
-&amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
-No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um sorriso no rosto.&lt;/li>
-&lt;li>&lt;a href="https://www.codemonkey.com/" target="_blank" rel="noopener">Code Monkey&lt;/a>
-é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
-&lt;li>&lt;a href="https://www.codewars.com/" target="_blank" rel="noopener">Code Wars&lt;/a>
-é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
-&lt;li>&lt;a href="https://checkio.org/" target="_blank" rel="noopener">CheckIo&lt;/a>
-é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
-&lt;li>&lt;a href="https://www.codingame.com/" target="_blank" rel="noopener">Coding Game&lt;/a>
-permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
-&lt;/ul>
-&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Desenvolvimento</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/</link><description>Recent content in Desenvolvimento on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/desenvolvimento/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Markdown</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/markdown/</guid><description/></item><item><title>Blog: Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/</guid><description/></item><item><title>Blog: Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</guid><description/></item><item><title>Blog: Flutter</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/</guid><description/></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
@@ -65,4 +38,54 @@ em 20/01/2021&lt;/p>
 &lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
 &lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
 &lt;/blockquote>
+&lt;hr>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f" target="_blank" rel="noopener">Seven Tips To Clean Code With Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a>
+em 27/01/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>String formatting with f-strings;&lt;/li>
+&lt;li>Platform-independent directory delimiters;&lt;/li>
+&lt;li>Variable unpacking;&lt;/li>
+&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
+&lt;li>Loop two iterators with the zip function;&lt;/li>
+&lt;li>List comprehensions;&lt;/li>
+&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
+&lt;li>Putting it all together;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="10-must-know-patterns-for-writing-clean-code-with-pythonhttpsdevtoalexomeyer10-must-know-patterns-for-writing-clean-code-with-python-56bf">&lt;a href="https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-python-56bf" target="_blank" rel="noopener">10 must-know patterns for writing clean code with Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-omeyer/">&lt;strong>Alex Omeyer&lt;/strong>&lt;/a>
+em 05/04/2022.&lt;/p>
+&lt;p>Python é uma das linguagens de programação mais elegantes e limpas, mas ter uma sintaxe bonita e limpa não é o mesmo que escrever código limpo.&lt;/p>
+&lt;p>Os desenvolvedores ainda precisam aprender as melhores práticas e padrões de design do Python para escrever um código limpo.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Dicas</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-reduce-the-time-complexity-of-nested-loopshttpsdevtoleandronsphow-to-reduce-the-time-complexity-of-nested-loops-1lkd">&lt;a href="https://dev.to/leandronsp/how-to-reduce-the-time-complexity-of-nested-loops-1lkd" target="_blank" rel="noopener">How to reduce the time complexity of nested loops&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/leandro-proen%c3%a7a/">&lt;strong>Leandro Proença&lt;/strong>&lt;/a>
+em 04/12/2021.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Neste post vou demonstrar uma forma de entender, analisar e reduzir a complexidade de tempo em algoritmos, especialmente em loops aninhados .&lt;/p>
+&lt;p>Os exemplos usarão Ruby, mas podem ser traduzidos para qualquer linguagem de programação.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item><item><title>Blog: Aprenda a programar</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/aprenda-a-programar/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/aprenda-a-programar/</guid><description>
+&lt;hr>
+&lt;h2 id="aprenda-a-programar">Aprenda a Programar&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://codecombat.com/" target="_blank" rel="noopener">Code Combat&lt;/a>
+&amp;lsquo;Se quer aprender a programar, você precisa escrever (bastante) código&amp;rsquo;.
+No CodeCombat, nosso trabalho é assegurar que você está fazendo isso com um sorriso no rosto.&lt;/li>
+&lt;li>&lt;a href="https://www.codemonkey.com/" target="_blank" rel="noopener">Code Monkey&lt;/a>
+é uma equipe de especialistas em tecnologia, jogos e pedagogia que juntos resolvem a equação de aprender a codificar.&lt;/li>
+&lt;li>&lt;a href="https://www.codewars.com/" target="_blank" rel="noopener">Code Wars&lt;/a>
+é um esforço coletivo de seus usuários. Eles criam kata para ensinar várias técnicas, resolvem kata com soluções que iluminam os outros e comentam com feedback construtivo.&lt;/li>
+&lt;li>&lt;a href="https://checkio.org/" target="_blank" rel="noopener">CheckIo&lt;/a>
+é um recurso de aprendizado Python/JavaScript baseado na web, onde sua tarefa é aprender através de jogos e resolvendo questionários interessantes.&lt;/li>
+&lt;li>&lt;a href="https://www.codingame.com/" target="_blank" rel="noopener">Coding Game&lt;/a>
+permite que os programadores continuem melhorando suas habilidades de codificação, resolvendo os problemas mais desafiadores do mundo, aprendendo novos conceitos e se inspirando nos melhores desenvolvedores.&lt;/li>
+&lt;/ul>
 &lt;hr></description></item></channel></rss>

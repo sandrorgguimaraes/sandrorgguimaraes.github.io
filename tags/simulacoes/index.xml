@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – simulacoes</title><link>https://sandrorgguimaraes.github.io/tags/simulacoes/</link><description>Recent content in simulacoes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/simulacoes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – simulacoes</title><link>https://sandrorgguimaraes.github.io/tags/simulacoes/</link><description>Recent content in simulacoes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/simulacoes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</guid><description>
 &lt;hr>
 &lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5" target="_blank" rel="noopener">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>
 &lt;/h2>
@@ -46,22 +46,6 @@ em 24/06/2021.&lt;/p>
 &lt;li>String slicing;&lt;/li>
 &lt;li>The Zen of Python;&lt;/li>
 &lt;li>Easter Eggs in Python;&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f" target="_blank" rel="noopener">Seven Tips To Clean Code With Python&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a>
-em 27/01/2021.&lt;/p>
-&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
-&lt;ul>
-&lt;li>String formatting with f-strings;&lt;/li>
-&lt;li>Platform-independent directory delimiters;&lt;/li>
-&lt;li>Variable unpacking;&lt;/li>
-&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
-&lt;li>Loop two iterators with the zip function;&lt;/li>
-&lt;li>List comprehensions;&lt;/li>
-&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
-&lt;li>Putting it all together;&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5" target="_blank" rel="noopener">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>

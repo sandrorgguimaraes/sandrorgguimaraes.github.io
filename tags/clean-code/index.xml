@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – clean code</title><link>https://sandrorgguimaraes.github.io/tags/clean-code/</link><description>Recent content in clean code on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/clean-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – clean code</title><link>https://sandrorgguimaraes.github.io/tags/clean-code/</link><description>Recent content in clean code on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/clean-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
@@ -38,4 +38,27 @@ em 20/01/2021&lt;/p>
 &lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
 &lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
 &lt;/blockquote>
+&lt;hr>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f" target="_blank" rel="noopener">Seven Tips To Clean Code With Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a>
+em 27/01/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>String formatting with f-strings;&lt;/li>
+&lt;li>Platform-independent directory delimiters;&lt;/li>
+&lt;li>Variable unpacking;&lt;/li>
+&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
+&lt;li>Loop two iterators with the zip function;&lt;/li>
+&lt;li>List comprehensions;&lt;/li>
+&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
+&lt;li>Putting it all together;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="10-must-know-patterns-for-writing-clean-code-with-pythonhttpsdevtoalexomeyer10-must-know-patterns-for-writing-clean-code-with-python-56bf">&lt;a href="https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-python-56bf" target="_blank" rel="noopener">10 must-know patterns for writing clean code with Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-omeyer/">&lt;strong>Alex Omeyer&lt;/strong>&lt;/a>
+em 05/04/2022.&lt;/p>
+&lt;p>Python é uma das linguagens de programação mais elegantes e limpas, mas ter uma sintaxe bonita e limpa não é o mesmo que escrever código limpo.&lt;/p>
+&lt;p>Os desenvolvedores ainda precisam aprender as melhores práticas e padrões de design do Python para escrever um código limpo.&lt;/p>
 &lt;hr></description></item></channel></rss>

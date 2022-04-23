@@ -1,4 +1,67 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – desenvolvimento</title><link>https://sandrorgguimaraes.github.io/categories/desenvolvimento/</link><description>Recent content in desenvolvimento on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/desenvolvimento/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – desenvolvimento</title><link>https://sandrorgguimaraes.github.io/categories/desenvolvimento/</link><description>Recent content in desenvolvimento on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/desenvolvimento/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">Conheça os 7 princípios do Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/" target="_blank" rel="noopener">&lt;strong>HostGator&lt;/strong>&lt;/a>
+em 08/04/2020.&lt;/p>
+&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a" target="_blank" rel="noopener">12 Conventions for Writing Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a>
+em 26/04/2021&lt;/p>
+&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4" target="_blank" rel="noopener">In Defense of Clean Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a>
+em 29/11/2021&lt;/p>
+&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="_blank" rel="noopener">Robert C. Martin&lt;/a>
+o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
+&lt;hr>
+&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60" target="_blank" rel="noopener">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 20/01/2021&lt;/p>
+&lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
+&lt;blockquote>
+&lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>
+&lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
+&lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f" target="_blank" rel="noopener">Seven Tips To Clean Code With Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a>
+em 27/01/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>String formatting with f-strings;&lt;/li>
+&lt;li>Platform-independent directory delimiters;&lt;/li>
+&lt;li>Variable unpacking;&lt;/li>
+&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
+&lt;li>Loop two iterators with the zip function;&lt;/li>
+&lt;li>List comprehensions;&lt;/li>
+&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
+&lt;li>Putting it all together;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="10-must-know-patterns-for-writing-clean-code-with-pythonhttpsdevtoalexomeyer10-must-know-patterns-for-writing-clean-code-with-python-56bf">&lt;a href="https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-python-56bf" target="_blank" rel="noopener">10 must-know patterns for writing clean code with Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/alex-omeyer/">&lt;strong>Alex Omeyer&lt;/strong>&lt;/a>
+em 05/04/2022.&lt;/p>
+&lt;p>Python é uma das linguagens de programação mais elegantes e limpas, mas ter uma sintaxe bonita e limpa não é o mesmo que escrever código limpo.&lt;/p>
+&lt;p>Os desenvolvedores ainda precisam aprender as melhores práticas e padrões de design do Python para escrever um código limpo.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</guid><description>
 &lt;hr>
 &lt;h2 id="commits-semânticos--como-escrever-uma-boa-mensagem-de-commithttpsmediumcomthallyta-castro-cvcommits-semc3a2nticos-como-escrever-uma-boa-mensagem-de-commit-58703cc58f6d">&lt;a href="https://medium.com/@thallyta-castro-cv/commits-sem%C3%A2nticos-como-escrever-uma-boa-mensagem-de-commit-58703cc58f6d" target="_blank" rel="noopener">Commits semânticos — Como escrever uma boa mensagem de commit&lt;/a>
 &lt;/h2>
@@ -60,46 +123,6 @@ permite que os programadores continuem melhorando suas habilidades de codificaç
 em 21/07/2021.&lt;/p>
 &lt;p>Leve sua documentação para o próximo nível com gráficos projetados usando &lt;a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">Mermaid&lt;/a>
 - um script &lt;em>markdown-like&lt;/em>!.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
-&lt;/p>
-&lt;/div>
-&lt;hr>
-&lt;h2 id="conheça-os-7-princípios-do-clean-codehttpswwwhostgatorcombrblogclean-code-o-que-e">&lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">Conheça os 7 princípios do Clean Code&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://www.hostgator.com.br/blog/author/hostgator/" target="_blank" rel="noopener">&lt;strong>HostGator&lt;/strong>&lt;/a>
-em 08/04/2020.&lt;/p>
-&lt;p>Neste artigo, você vai conhecer mais sobre essa Clean Code, incluindo sua origem, princípios e benefícios que oferece no dia a dia.&lt;/p>
-&lt;hr>
-&lt;h2 id="12-conventions-for-writing-clean-codehttpsbetterprogrammingpub12-conventions-for-writing-clean-code-e16c51e3939a">&lt;a href="https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a" target="_blank" rel="noopener">12 Conventions for Writing Clean Code&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shoaib-mehedi/">&lt;strong>Shoaib Mehedi&lt;/strong>&lt;/a>
-em 26/04/2021&lt;/p>
-&lt;p>Neste artigo o autor vai discutir e explicar algumas convenções e boas práticas para deixar seus códigos mais facieis de ler e entender.&lt;/p>
-&lt;p>Palavras do autor:&lt;/p>
-&lt;blockquote>
-&lt;p>Seus colegas vão agradecer mais tarde&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="in-defense-of-clean-codehttpslevelupgitconnectedcomin-defense-of-clean-code-2592165487d4">&lt;a href="https://levelup.gitconnected.com/in-defense-of-clean-code-2592165487d4" target="_blank" rel="noopener">In Defense of Clean Code&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tyler-hawkins/">&lt;strong>Tyler Hawkins&lt;/strong>&lt;/a>
-em 29/11/2021&lt;/p>
-&lt;p>Após uma análise, capitulo por capitulo, do livro &amp;lsquo;Clean Code&amp;rsquo; de &lt;a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="_blank" rel="noopener">Robert C. Martin&lt;/a>
-o autor deste artigo apresenta mais de 100 conselhos atemporais para quem quer ser um &amp;lsquo;bom&amp;rsquo; engenheiro de software.&lt;/p>
-&lt;hr>
-&lt;h2 id="python-clean-code-6-best-practices-to-make-your-python-functions-more-readablehttpstowardsdatasciencecompython-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60">&lt;a href="https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60" target="_blank" rel="noopener">Python Clean Code: 6 Best Practices to Make Your Python Functions More Readable&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
-em 20/01/2021&lt;/p>
-&lt;p>Pare de escrever funções Python que levam mais de três minutos para entender.&lt;/p>
-&lt;blockquote>
-&lt;p>Você já olhou para uma função que escreveu um mês antes e achou difícil de entender em 3 minutos?&lt;/p>
-&lt;p>Se for esse o caso, é hora de refatorar seu código.&lt;/p>
-&lt;p>Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.&lt;/p>
-&lt;/blockquote>
 &lt;hr></description></item><item><title>Blog: Casos de uso</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/casos-de-uso-do-flutter/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/flutter/casos-de-uso-do-flutter/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-architect-a-production-level-app-in-flutterhttpsitnextiohow-to-architect-a-production-level-app-in-flutter-251335cae1bb">&lt;a href="https://itnext.io/how-to-architect-a-production-level-app-in-flutter-251335cae1bb" target="_blank" rel="noopener">How to Architect a Production-Level App in Flutter&lt;/a>

@@ -66,7 +66,19 @@ em 04/2019.&lt;/p>
 &lt;hr>
 &lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
 &lt;/h2>
-&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Ingress</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</guid><description>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-networking-fundamentalshttpsmediumcomtechbeatlykubernetes-networking-fundamentals-d30baf8a28c8">&lt;a href="https://medium.com/techbeatly/kubernetes-networking-fundamentals-d30baf8a28c8" target="_blank" rel="noopener">Kubernetes Networking Fundamentals&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/nived-velayudhan/">&lt;strong>Nived Velayudhan&lt;/strong>&lt;/a>
+em 09/03/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">Tracing the path of network traffic in Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
+em 01/2022.&lt;/p>
+&lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Ingress</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-ingress-tutorial-for-beginnershttpsdevopscubecomkubernetes-ingress-tutorial">&lt;a href="https://devopscube.com/kubernetes-ingress-tutorial/" target="_blank" rel="noopener">Kubernetes Ingress Tutorial For Beginners&lt;/a>
 &lt;/h2>
@@ -175,13 +187,6 @@ em 08/07/2021.&lt;/p>
 &lt;p>Aprenda como criar vários clusters Kubernetes localmente e estabelecer comunicação direta entre eles com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
 e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&lt;/a>
 . O objetivo deste artigo é estabelecer comunicação direta entre pods executados em dois clusters Kubernetes diferentes.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</guid><description>
-&lt;hr>
-&lt;h2 id="tracing-the-path-of-network-traffic-in-kuberneteshttpslearnk8siokubernetes-network-packets">&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">Tracing the path of network traffic in Kubernetes&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kristijan-mitevski/">&lt;strong>Kristijan Mitevski&lt;/strong>&lt;/a>
-em 01/2022.&lt;/p>
-&lt;p>Aprenda como os pacotes de rede fluem dentro e fora de um cluster Kubernetes.&lt;/p>
 &lt;hr></description></item><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</guid><description>
 &lt;hr>
 &lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>

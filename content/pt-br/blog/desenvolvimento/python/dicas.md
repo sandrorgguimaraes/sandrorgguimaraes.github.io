@@ -1,6 +1,6 @@
 ---
 title: Dicas Python
-date: 2022-03-14
+date: 2022-04-25
 categories:
     - linguagem de programação
 tags:
@@ -18,6 +18,7 @@ autores:
     - Haider Imtiaz
     - Louis de Bruijn
     - Jerry Ng
+    - MinJae Kwon
 description: Conjunto de dicas de bibliotecas para facilitar nossa vida com o Python.
 keywords:
     - python
@@ -106,5 +107,17 @@ Coisas que você precisa saber sobre formatação de String do Python usando [f-
 - Usando `f-string` para melhor depuração;
 - Formate casas decimais com `float`, moedas, objetos `datetime` e preenchimento com `f-string`;
 - Usando `f-string` para conversões (ASCII e `repr()`);
+
+---
+
+## [Diagrams - Diagram as Code](https://diagrams.mingrammer.com/)
+
+por [**MinJae Kwon**](/autores/minjae-kwon/) em 2022.
+
+`Diagrams` permite desenhar a arquitetura do sistema em nuvem em código Python.
+
+Ele nasceu para prototipar uma nova arquitetura de sistema sem nenhuma ferramenta de design.
+
+`Diagram as Code` permite rastrear as alterações do diagrama de arquitetura em qualquer sistema de controle de versão.
 
 ---

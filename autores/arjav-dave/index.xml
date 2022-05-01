@@ -1,0 +1,49 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Arjav Dave</title><link>https://sandrorgguimaraes.github.io/autores/arjav-dave/</link><description>Recent content in Arjav Dave on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/arjav-dave/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-run-multiple-containers-with-docker-composehttpswwwfreecodecamporgnewsrun-multiple-containers-with-docker-compose">&lt;a href="https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/" target="_blank" rel="noopener">How to Run Multiple Containers with Docker Compose&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/arjav-dave/">&lt;strong>Arjav Dave&lt;/strong>&lt;/a>
+em 27/04/2022.&lt;/p>
+&lt;p>Você pode pensar que precisa ter todas as tecnologias instaladas para executar essa pilha de tecnologia de MySQL, Python, NodeJS, .NET e PHP. Mas, na verdade, tudo o que você precisa é de um mecanismo Docker funcionando.&lt;/p>
+&lt;p>As versões mais recentes do Docker vêm com o &lt;a href="https://docs.docker.com/compose/" target="_blank" rel="noopener">Docker Compose&lt;/a>
+instalado. Por enquanto você não precisa instalar mais nada.&lt;/p>
+&lt;hr>
+&lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kasun-rajapakse/">&lt;strong>Kasun Rajapakse&lt;/strong>&lt;/a>
+em 17/12/2020.&lt;/p>
+&lt;p>Otimize sua imagem do Docker seguindo estas práticas recomendadas desde o primeiro dia.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-reduce-docker-image-size-6-optimization-methodshttpsdevopscubecomreduce-docker-image-size">&lt;a href="https://devopscube.com/reduce-docker-image-size/" target="_blank" rel="noopener">How to Reduce Docker Image Size: 6 Optimization Methods&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+e &lt;a href="https://sandrorgguimaraes.github.io/autores/shishir-khandelwal/">&lt;strong>Shishir Khandelwal&lt;/strong>&lt;/a>
+em 19/01/2022.&lt;/p>
+&lt;p>Veja algumas técnicas de otimização que você pode implementar rapidamente para criar a menor e mínima imagem do docker, além de ver algumas das melhores ferramentas para otimização de imagem do Docker (&lt;a href="https://github.com/wagoodman/dive" target="_blank" rel="noopener">Dive&lt;/a>
+e &lt;a href="https://github.com/docker-slim/docker-slim" target="_blank" rel="noopener">Docker Slim&lt;/a>
+).&lt;/p>
+&lt;hr>
+&lt;h2 id="reduce-the-size-of-container-images-with-dockerslimhttpsdevelopersredhatcomarticles20220117reduce-size-container-images-dockerslimsc_cid7013a000002qad7aae">&lt;a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim?sc_cid=7013a000002qAd7AAE#" target="_blank" rel="noopener">Reduce the size of container images with DockerSlim&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karan-singh/">&lt;strong>Karan Singh&lt;/strong>&lt;/a>
+em 17/01/2022.&lt;/p>
+&lt;p>Aprenda uma maneira de otimizar (diminuir) o tamanho das suas imagens Docker e porque precisamos nos preocupar com isso.&lt;/p>
+&lt;hr>
+&lt;h2 id="3-simple-tricks-for-smaller-docker-imageshttpslearnk8sioblogsmaller-docker-images">&lt;a href="https://learnk8s.io/blog/smaller-docker-images" target="_blank" rel="noopener">3 simple tricks for smaller Docker images&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniele-polencic/">&lt;strong>Daniele Polencic&lt;/strong>&lt;/a>
+em 04/2019.&lt;/p>
+&lt;p>Quando se trata de construir contêineres Docker, você deve sempre buscar imagens menores.&lt;/p>
+&lt;blockquote>
+&lt;p>Imagens que compartilham camadas e são menores em tamanho são mais rápidas de transferir e implantar.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="dockerizedhttpsgithubcomdatastack-netdockerized">&lt;a href="https://github.com/datastack-net/dockerized" target="_blank" rel="noopener">Dockerized&lt;/a>
+&lt;/h2>
+&lt;p>Execute ferramentas populares de linha de comando sem precisar instalá-las.&lt;/p>
+&lt;blockquote>
+&lt;p>Se o seu comando favorito não estiver incluído, ele pode ser adicionado com muita facilidade.&lt;/p>
+&lt;p>&lt;strong>Dockerized&lt;/strong> retorna mais de 150 comandos definidos em &lt;a href="https://github.com/jessfraz/dockerfiles" target="_blank" rel="noopener">jessfraz/dockerfiles&lt;/a>
+.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item></channel></rss>

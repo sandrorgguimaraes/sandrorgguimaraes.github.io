@@ -1,4 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Diário de Bordo</title><link>https://sandrorgguimaraes.github.io/</link><description>Recent content on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Diário de Bordo</title><link>https://sandrorgguimaraes.github.io/</link><description>Recent content on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+&lt;hr>
+&lt;h2 id="the-differences-between-docker-containerd-cri-o-and-runchttpswwwtutorialworkscomdifference-docker-containerd-runc-crio-oci">&lt;a href="https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/" target="_blank" rel="noopener">The differences between Docker, containerd, CRI-O and runc&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tom-donohue/">&lt;strong>Tom Donohue&lt;/strong>&lt;/a>
+em 29/04/2022.&lt;/p>
+&lt;p>O Docker deu o pontapé inicial na explosão em contêineres, mas logo depois, a paisagem parecia explodir com ferramentas, padrões e siglas.&lt;/p>
+&lt;p>Então, o que realmente é &lt;code>docker&lt;/code> e o que significam termos como &lt;code>CRI&lt;/code> e &lt;code>OCI&lt;/code>?&lt;/p>
+&lt;p>Por que você deveria se importar?&lt;/p>
+&lt;hr>
+&lt;h2 id="what-is-docker-how-does-it-workhttpsdevopscubecomwhat-is-docker">&lt;a href="https://devopscube.com/what-is-docker/" target="_blank" rel="noopener">What is Docker? How Does it Work?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 25/01/2022.&lt;/p>
+&lt;p>Neste guia abrangente, o autor explica o que é o Docker, sua evolução, conceitos básicos do Linux e como ele funciona.&lt;/p>
 &lt;hr>
 &lt;h2 id="learning-containers-from-the-bottom-uphttpsiximiuzcomenpostscontainer-learning-path">&lt;a href="https://iximiuz.com/en/posts/container-learning-path/" target="_blank" rel="noopener">Learning Containers From The Bottom Up&lt;/a>
 &lt;/h2>
@@ -8,12 +22,6 @@ em 14/11/2021.&lt;/p>
 &lt;blockquote>
 &lt;p>Este artigo não é uma tentativa de explicar os contêineres de uma só vez. Em vez disso, é a primeira página do meu estudo de vários anos sobre o domínio. Ele descreve o referido caminho de aprendizado e, em seguida, orienta você, apontando para artigos mais aprofundados neste mesmo blog.&lt;/p>
 &lt;/blockquote>
-&lt;hr>
-&lt;h2 id="what-is-docker-how-does-it-workhttpsdevopscubecomwhat-is-docker">&lt;a href="https://devopscube.com/what-is-docker/" target="_blank" rel="noopener">What is Docker? How Does it Work?&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
-em 25/01/2022.&lt;/p>
-&lt;p>Neste guia abrangente, o autor explica o que é o Docker, sua evolução, conceitos básicos do Linux e como ele funciona.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
 &lt;hr>
 &lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
@@ -37,7 +45,15 @@ em 25/02/2022.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
 em 16/03/2021.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+&lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-run-multiple-containers-with-docker-composehttpswwwfreecodecamporgnewsrun-multiple-containers-with-docker-compose">&lt;a href="https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/" target="_blank" rel="noopener">How to Run Multiple Containers with Docker Compose&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/arjav-dave/">&lt;strong>Arjav Dave&lt;/strong>&lt;/a>
+em 27/04/2022.&lt;/p>
+&lt;p>Você pode pensar que precisa ter todas as tecnologias instaladas para executar essa pilha de tecnologia de MySQL, Python, NodeJS, .NET e PHP. Mas, na verdade, tudo o que você precisa é de um mecanismo Docker funcionando.&lt;/p>
+&lt;p>As versões mais recentes do Docker vêm com o &lt;a href="https://docs.docker.com/compose/" target="_blank" rel="noopener">Docker Compose&lt;/a>
+instalado. Por enquanto você não precisa instalar mais nada.&lt;/p>
 &lt;hr>
 &lt;h2 id="best-practices-for-writing-a-dockerfilehttpsblogbitsrciobest-practices-for-writing-a-dockerfile-68893706c3">&lt;a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3" target="_blank" rel="noopener">Best Practices for Writing a Dockerfile&lt;/a>
 &lt;/h2>
@@ -122,7 +138,14 @@ em 04/2019.&lt;/p>
 &lt;hr>
 &lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
 &lt;/h2>
-&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</guid><description>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Node's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/nodes/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/nodes/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-choosing-right-node-sizehttpsmediumcommohansujay22054044kubernetes-choosing-right-node-size-802f174dd24d">&lt;a href="https://medium.com/@mohansujay22054044/kubernetes-choosing-right-node-size-802f174dd24d" target="_blank" rel="noopener">Kubernetes Choosing Right Node Size&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mohan-raj-ravi/">&lt;strong>Mohan Raj Ravi&lt;/strong>&lt;/a>
+em 09/04/2022.&lt;/p>
+&lt;p>Escolher o tamanho de nó certo para o nosso cluster Kubernetes será sempre divertido, pois há muitos fatores que contribuem na escolha.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Network</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/network/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-networking-fundamentalshttpsmediumcomtechbeatlykubernetes-networking-fundamentals-d30baf8a28c8">&lt;a href="https://medium.com/techbeatly/kubernetes-networking-fundamentals-d30baf8a28c8" target="_blank" rel="noopener">Kubernetes Networking Fundamentals&lt;/a>
 &lt;/h2>
@@ -266,7 +289,159 @@ em 27/01/2022.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/italo-chagas/">&lt;strong>Italo Chagas&lt;/strong>&lt;/a>
 em 18/04/2022.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
+&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</guid><description>
+&lt;hr>
+&lt;h2 id="run-python-in-your-htmlhttpspyscriptnet">&lt;a href="https://pyscript.net/" target="_blank" rel="noopener">Run Python in Your HTML&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/projeto-anaconda/">&lt;strong>Projeto Anaconda&lt;/strong>&lt;/a>
+em 2022.&lt;/p>
+&lt;p>&lt;code>PyScript&lt;/code> é uma estrutura que permite aos usuários criar aplicativos Python ricos no navegador usando a interface do HTML. O PyScript visa fornecer aos usuários uma linguagem de programação de primeira classe que tenha regras de estilo consistentes, seja mais expressiva e mais fácil de aprender&lt;/p>
+&lt;p>E &lt;a href="https://github.com/pyscript/pyscript/blob/main/GETTING-STARTED.md" target="_blank" rel="noopener">esta página o guiará pelos primeiros passos com o PyScript&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="diagrams---diagram-as-codehttpsdiagramsmingrammercom">&lt;a href="https://diagrams.mingrammer.com/" target="_blank" rel="noopener">Diagrams - Diagram as Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/minjae-kwon/">&lt;strong>MinJae Kwon&lt;/strong>&lt;/a>
+em 2022.&lt;/p>
+&lt;p>&lt;code>Diagrams&lt;/code> permite desenhar a arquitetura do sistema em nuvem em código Python.&lt;/p>
+&lt;p>Ele nasceu para prototipar uma nova arquitetura de sistema sem nenhuma ferramenta de design.&lt;/p>
+&lt;p>&lt;code>Diagram as Code&lt;/code> permite rastrear as alterações do diagrama de arquitetura em qualquer sistema de controle de versão.&lt;/p>
+&lt;hr>
+&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5" target="_blank" rel="noopener">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a>
+em 30/08/2021.&lt;/p>
+&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py" target="_blank" rel="noopener">JMESPath&lt;/a>
+permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jpvanhal/inflection" target="_blank" rel="noopener">Inflection&lt;/a>
+é uma biblioteca de transformação de string.&lt;/li>
+&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#" target="_blank" rel="noopener">more-itertools&lt;/a>
+é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-chaotic-python-features-to-avoidhttpsbetterprogrammingpub3-chaotic-python-features-to-avoid-9c609908bc13">&lt;a href="https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13" target="_blank" rel="noopener">3 Chaotic Python Features To Avoid&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yong-cui/">&lt;strong>Yong Cui&lt;/strong>&lt;/a>
+em 19/07/2021.&lt;/p>
+&lt;p>Neste artigo, é discutido alguns recursos do Python que podem ser confusos — principalmente para iniciantes.&lt;/p>
+&lt;ul>
+&lt;li>A cláusula &lt;code>else&lt;/code> em loops &lt;code>for/while&lt;/code>;&lt;/li>
+&lt;li>Use um valor padrão com &lt;code>setdefault&lt;/code>;&lt;/li>
+&lt;li>Passos negativos com &lt;code>Slicing&lt;/code>;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5" target="_blank" rel="noopener">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jerry-ng/">&lt;strong>Jerry Ng&lt;/strong>&lt;/a>
+em 06/07/2021.&lt;/p>
+&lt;p>Coisas que você precisa saber sobre formatação de String do Python usando &lt;a href="https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals" target="_blank" rel="noopener">f-string&lt;/a>
+.&lt;/p>
+&lt;ul>
+&lt;li>Usando &lt;code>f-string&lt;/code> para melhor depuração;&lt;/li>
+&lt;li>Formate casas decimais com &lt;code>float&lt;/code>, moedas, objetos &lt;code>datetime&lt;/code> e preenchimento com &lt;code>f-string&lt;/code>;&lt;/li>
+&lt;li>Usando &lt;code>f-string&lt;/code> para conversões (ASCII e &lt;code>repr()&lt;/code>);&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="python-hidden-features-that-you-probably-never-heard-ofhttpspythonplainenglishiohidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">&lt;a href="https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2" target="_blank" rel="noopener">Python Hidden Features That You Probably Never Heard Of&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/haider-imtiaz/">&lt;strong>Haider Imtiaz&lt;/strong>&lt;/a>
+em 24/06/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>Get() Method;&lt;/li>
+&lt;li>List Step;&lt;/li>
+&lt;li>Value Swapping (the short way);&lt;/li>
+&lt;li>Ellipsis;&lt;/li>
+&lt;li>Reverse (the short way);&lt;/li>
+&lt;li>String slicing;&lt;/li>
+&lt;li>The Zen of Python;&lt;/li>
+&lt;li>Easter Eggs in Python;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f" target="_blank" rel="noopener">Simulate Real-life Events in Python Using SimPy&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 16/05/2021.&lt;/p>
+&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html" target="_blank" rel="noopener">SimPy&lt;/a>
+é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
+&lt;hr>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f" target="_blank" rel="noopener">Seven Tips To Clean Code With Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a>
+em 27/01/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>String formatting with f-strings;&lt;/li>
+&lt;li>Platform-independent directory delimiters;&lt;/li>
+&lt;li>Variable unpacking;&lt;/li>
+&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
+&lt;li>Loop two iterators with the zip function;&lt;/li>
+&lt;li>List comprehensions;&lt;/li>
+&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
+&lt;li>Putting it all together;&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Blog: Onde Estudar?</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Nome do Site&lt;/th>
+&lt;th>Tecnologias / Ferramentas&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://www.codecademy.com/" target="_blank" rel="noopener">CodeCademy&lt;/a>
+&lt;/td>
+&lt;td>Diversas linguagens de programação.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.learnpython.org/" target="_blank" rel="noopener">learnpython.org&lt;/a>
+&lt;/td>
+&lt;td>Como o próprio nome diz, esse site é focado em Python.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://pt.coursera.org/" target="_blank" rel="noopener">Coursera&lt;/a>
+&lt;/td>
+&lt;td>Diversas tecnologias, linguagens, ferramentas dos mais variados fornecedores.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.edx.org/learn/computer-programming" target="_blank" rel="noopener">edX&lt;/a>
+&lt;/td>
+&lt;td>Cursos online gratuitos das principais universidades do mundo.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://watch.diolinux.com.br/public/products" target="_blank" rel="noopener">DioLinux Play&lt;/a>
+&lt;/td>
+&lt;td>Shell Script básico e avançado e alguns outros assuntos.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.tutorialworks.com/learn-kubernetes-online/#what-is-kubernetes" target="_blank" rel="noopener">Tutorial Works&lt;/a>
+&lt;/td>
+&lt;td>Compilado com os melhores lugares para aprender e experimentar o Kubernetes online.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>Blog: Projetos</title><link>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</guid><description>
+&lt;hr>
+&lt;h2 id="chonky-palmtophttpsgitlabcomnorrisdanielchonky-palmtop">&lt;a href="https://gitlab.com/norris.daniel/chonky-palmtop" target="_blank" rel="noopener">Chonky Palmtop&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-norris/">&lt;strong>Daniel Norris&lt;/strong>&lt;/a>
+em 04/2022.&lt;/p>
+&lt;p>Passo a passo para a construção de um Palmtop, digamos diferente.&lt;/p>
+&lt;hr>
+&lt;h2 id="minepeon-distribuição-linux-para-mineração-de-bitcoin-em-raspberry-pihttpssempreupdatecombrminepeon-distribuicao-linux-para-mineracao-de-bitcoin-em-raspberry-pi">&lt;a href="https://sempreupdate.com.br/minepeon-distribuicao-linux-para-mineracao-de-bitcoin-em-raspberry-pi/" target="_blank" rel="noopener">MinePeon: distribuição Linux para mineração de Bitcoin em Raspberry Pi!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/emanuel-negromonte/">&lt;strong>Emanuel Negromonte&lt;/strong>&lt;/a>
+em 12/12/2019.&lt;/p></description></item><item><title>Blog: Clean Code</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/clean-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Code, ou Código Limpo, é uma filosofia de desenvolvimento de softwares que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código. Tornando-o, assim, de fácil compreensão.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://www.hostgator.com.br/blog/clean-code-o-que-e/" target="_blank" rel="noopener">https://www.hostgator.com.br/blog/clean-code-o-que-e/&lt;/a>
@@ -329,67 +504,6 @@ em 27/01/2021.&lt;/p>
 em 05/04/2022.&lt;/p>
 &lt;p>Python é uma das linguagens de programação mais elegantes e limpas, mas ter uma sintaxe bonita e limpa não é o mesmo que escrever código limpo.&lt;/p>
 &lt;p>Os desenvolvedores ainda precisam aprender as melhores práticas e padrões de design do Python para escrever um código limpo.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</guid><description>
-&lt;hr>
-&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5" target="_blank" rel="noopener">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a>
-em 30/08/2021.&lt;/p>
-&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py" target="_blank" rel="noopener">JMESPath&lt;/a>
-permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
-&lt;li>&lt;a href="https://github.com/jpvanhal/inflection" target="_blank" rel="noopener">Inflection&lt;/a>
-é uma biblioteca de transformação de string.&lt;/li>
-&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#" target="_blank" rel="noopener">more-itertools&lt;/a>
-é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f" target="_blank" rel="noopener">Simulate Real-life Events in Python Using SimPy&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
-em 16/05/2021.&lt;/p>
-&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html" target="_blank" rel="noopener">SimPy&lt;/a>
-é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
-&lt;hr>
-&lt;h2 id="3-chaotic-python-features-to-avoidhttpsbetterprogrammingpub3-chaotic-python-features-to-avoid-9c609908bc13">&lt;a href="https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13" target="_blank" rel="noopener">3 Chaotic Python Features To Avoid&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yong-cui/">&lt;strong>Yong Cui&lt;/strong>&lt;/a>
-em 19/07/2021.&lt;/p>
-&lt;p>Neste artigo, é discutido alguns recursos do Python que podem ser confusos — principalmente para iniciantes.&lt;/p>
-&lt;ul>
-&lt;li>A cláusula &lt;code>else&lt;/code> em loops &lt;code>for/while&lt;/code>;&lt;/li>
-&lt;li>Use um valor padrão com &lt;code>setdefault&lt;/code>;&lt;/li>
-&lt;li>Passos negativos com &lt;code>Slicing&lt;/code>;&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="python-hidden-features-that-you-probably-never-heard-ofhttpspythonplainenglishiohidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">&lt;a href="https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2" target="_blank" rel="noopener">Python Hidden Features That You Probably Never Heard Of&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/haider-imtiaz/">&lt;strong>Haider Imtiaz&lt;/strong>&lt;/a>
-em 24/06/2021.&lt;/p>
-&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
-&lt;ul>
-&lt;li>Get() Method;&lt;/li>
-&lt;li>List Step;&lt;/li>
-&lt;li>Value Swapping (the short way);&lt;/li>
-&lt;li>Ellipsis;&lt;/li>
-&lt;li>Reverse (the short way);&lt;/li>
-&lt;li>String slicing;&lt;/li>
-&lt;li>The Zen of Python;&lt;/li>
-&lt;li>Easter Eggs in Python;&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5" target="_blank" rel="noopener">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jerry-ng/">&lt;strong>Jerry Ng&lt;/strong>&lt;/a>
-em 06/07/2021.&lt;/p>
-&lt;p>Coisas que você precisa saber sobre formatação de String do Python usando &lt;a href="https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals" target="_blank" rel="noopener">f-string&lt;/a>
-.&lt;/p>
-&lt;ul>
-&lt;li>Usando &lt;code>f-string&lt;/code> para melhor depuração;&lt;/li>
-&lt;li>Formate casas decimais com &lt;code>float&lt;/code>, moedas, objetos &lt;code>datetime&lt;/code> e preenchimento com &lt;code>f-string&lt;/code>;&lt;/li>
-&lt;li>Usando &lt;code>f-string&lt;/code> para conversões (ASCII e &lt;code>repr()&lt;/code>);&lt;/li>
-&lt;/ul>
 &lt;hr></description></item><item><title>Blog: Comandos Git</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/git/comandos-git/</guid><description>
 &lt;hr>
 &lt;h2 id="commits-semânticos--como-escrever-uma-boa-mensagem-de-commithttpsmediumcomthallyta-castro-cvcommits-semc3a2nticos-como-escrever-uma-boa-mensagem-de-commit-58703cc58f6d">&lt;a href="https://medium.com/@thallyta-castro-cv/commits-sem%C3%A2nticos-como-escrever-uma-boa-mensagem-de-commit-58703cc58f6d" target="_blank" rel="noopener">Commits semânticos — Como escrever uma boa mensagem de commit&lt;/a>
@@ -631,12 +745,6 @@ em 13/08/2021.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;hr></description></item><item><title>Blog: Projetos</title><link>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</guid><description>
-&lt;hr>
-&lt;h2 id="minepeon-distribuição-linux-para-mineração-de-bitcoin-em-raspberry-pihttpssempreupdatecombrminepeon-distribuicao-linux-para-mineracao-de-bitcoin-em-raspberry-pi">&lt;a href="https://sempreupdate.com.br/minepeon-distribuicao-linux-para-mineracao-de-bitcoin-em-raspberry-pi/" target="_blank" rel="noopener">MinePeon: distribuição Linux para mineração de Bitcoin em Raspberry Pi!&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/emanuel-negromonte/">&lt;strong>Emanuel Negromonte&lt;/strong>&lt;/a>
-em 12/12/2019.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Dicas</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/dicas/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-reduce-the-time-complexity-of-nested-loopshttpsdevtoleandronsphow-to-reduce-the-time-complexity-of-nested-loops-1lkd">&lt;a href="https://dev.to/leandronsp/how-to-reduce-the-time-complexity-of-nested-loops-1lkd" target="_blank" rel="noopener">How to reduce the time complexity of nested loops&lt;/a>

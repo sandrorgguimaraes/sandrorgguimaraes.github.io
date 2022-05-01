@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Tom Donohue</title><link>https://sandrorgguimaraes.github.io/autores/tom-donohue/</link><description>Recent content in Tom Donohue on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/tom-donohue/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+&lt;hr>
+&lt;h2 id="the-differences-between-docker-containerd-cri-o-and-runchttpswwwtutorialworkscomdifference-docker-containerd-runc-crio-oci">&lt;a href="https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/" target="_blank" rel="noopener">The differences between Docker, containerd, CRI-O and runc&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/tom-donohue/">&lt;strong>Tom Donohue&lt;/strong>&lt;/a>
+em 29/04/2022.&lt;/p>
+&lt;p>O Docker deu o pontapé inicial na explosão em contêineres, mas logo depois, a paisagem parecia explodir com ferramentas, padrões e siglas.&lt;/p>
+&lt;p>Então, o que realmente é &lt;code>docker&lt;/code> e o que significam termos como &lt;code>CRI&lt;/code> e &lt;code>OCI&lt;/code>?&lt;/p>
+&lt;p>Por que você deveria se importar?&lt;/p>
+&lt;hr>
+&lt;h2 id="what-is-docker-how-does-it-workhttpsdevopscubecomwhat-is-docker">&lt;a href="https://devopscube.com/what-is-docker/" target="_blank" rel="noopener">What is Docker? How Does it Work?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 25/01/2022.&lt;/p>
+&lt;p>Neste guia abrangente, o autor explica o que é o Docker, sua evolução, conceitos básicos do Linux e como ele funciona.&lt;/p>
+&lt;hr>
+&lt;h2 id="learning-containers-from-the-bottom-uphttpsiximiuzcomenpostscontainer-learning-path">&lt;a href="https://iximiuz.com/en/posts/container-learning-path/" target="_blank" rel="noopener">Learning Containers From The Bottom Up&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
+em 14/11/2021.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Este artigo não é uma tentativa de explicar os contêineres de uma só vez. Em vez disso, é a primeira página do meu estudo de vários anos sobre o domínio. Ele descreve o referido caminho de aprendizado e, em seguida, orienta você, apontando para artigos mais aprofundados neste mesmo blog.&lt;/p>
+&lt;/blockquote>
+&lt;hr></description></item></channel></rss>

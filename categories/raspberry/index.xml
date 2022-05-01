@@ -1,7 +1,12 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – raspberry</title><link>https://sandrorgguimaraes.github.io/categories/raspberry/</link><description>Recent content in raspberry on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/raspberry/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Projetos</title><link>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – raspberry</title><link>https://sandrorgguimaraes.github.io/categories/raspberry/</link><description>Recent content in raspberry on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/raspberry/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Projetos</title><link>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/raspberry/container-networking/</guid><description>
+&lt;hr>
+&lt;h2 id="chonky-palmtophttpsgitlabcomnorrisdanielchonky-palmtop">&lt;a href="https://gitlab.com/norris.daniel/chonky-palmtop" target="_blank" rel="noopener">Chonky Palmtop&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/daniel-norris/">&lt;strong>Daniel Norris&lt;/strong>&lt;/a>
+em 04/2022.&lt;/p>
+&lt;p>Passo a passo para a construção de um Palmtop, digamos diferente.&lt;/p>
 &lt;hr>
 &lt;h2 id="minepeon-distribuição-linux-para-mineração-de-bitcoin-em-raspberry-pihttpssempreupdatecombrminepeon-distribuicao-linux-para-mineracao-de-bitcoin-em-raspberry-pi">&lt;a href="https://sempreupdate.com.br/minepeon-distribuicao-linux-para-mineracao-de-bitcoin-em-raspberry-pi/" target="_blank" rel="noopener">MinePeon: distribuição Linux para mineração de Bitcoin em Raspberry Pi!&lt;/a>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/emanuel-negromonte/">&lt;strong>Emanuel Negromonte&lt;/strong>&lt;/a>
-em 12/12/2019.&lt;/p>
-&lt;hr></description></item></channel></rss>
+em 12/12/2019.&lt;/p></description></item></channel></rss>

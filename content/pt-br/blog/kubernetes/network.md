@@ -1,6 +1,6 @@
 ---
 title: Network
-date: 2022-02-18T00:00:00.000Z
+date: 2022-04-22
 weight: 50
 categories:
     - kubernetes
@@ -8,11 +8,18 @@ tags:
     - network
 autores:
     - Kristijan Mitevski
+    - Nived Velayudhan
 description: Entenda como funciona as redes e a comunicação entre os diversos componentes no Kubernetes.
 keywords:
     - network
 slug: network
 ---
+
+---
+
+## [Kubernetes Networking Fundamentals](https://medium.com/techbeatly/kubernetes-networking-fundamentals-d30baf8a28c8)
+
+por [**Nived Velayudhan**](/autores/nived-velayudhan/) em 09/03/2022.
 
 ---
 

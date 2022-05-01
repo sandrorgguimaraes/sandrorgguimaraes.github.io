@@ -16,7 +16,6 @@ autores:
     - Khuyen Tran
     - Yong Cui
     - Haider Imtiaz
-    - Louis de Bruijn
     - Jerry Ng
     - MinJae Kwon
     - Projeto Anaconda

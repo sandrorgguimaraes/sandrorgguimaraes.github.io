@@ -1,6 +1,6 @@
 ---
 title: Clean Code
-date: 2022-03-10
+date: 2022-04-22
 categories:
     - desenvolvimento
 tags:
@@ -11,6 +11,7 @@ autores:
     - HostGator
     - Tyler Hawkins
     - Khuyen Tran
+    - Louis de Bruijn
 description: Clean Code, ou Código Limpo, é um conjunto de técnicas simples que facilitam a escrita e a leitura de um código.
 keywords:
     - clean code
@@ -65,5 +66,32 @@ Pare de escrever funções Python que levam mais de três minutos para entender.
 > Se for esse o caso, é hora de refatorar seu código.
 >
 > Se você levar mais de 3 minutos para entender seu código, imagine quanto tempo levaria para seus colegas de equipe entenderem seu código.
+
+---
+
+## [Seven Tips To Clean Code With Python](https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f)
+
+por [**Louis de Bruijn**](/autores/louis-de-bruijn/) em 27/01/2021.
+
+Neste artigo, é apresentado alguns recursos interessantes do Python.
+
+- String formatting with f-strings;
+- Platform-independent directory delimiters;
+- Variable unpacking;
+- `.get` instead of `[key]` for dictionary iterations;
+- Loop two iterators with the zip function;
+- List comprehensions;
+- Multiple assignment with `*` and `**`;
+- Putting it all together;
+
+---
+
+## [10 must-know patterns for writing clean code with Python](https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-python-56bf)
+
+por [**Alex Omeyer**](/autores/alex-omeyer/) em 05/04/2022.
+
+Python é uma das linguagens de programação mais elegantes e limpas, mas ter uma sintaxe bonita e limpa não é o mesmo que escrever código limpo.
+
+Os desenvolvedores ainda precisam aprender as melhores práticas e padrões de design do Python para escrever um código limpo.
 
 ---

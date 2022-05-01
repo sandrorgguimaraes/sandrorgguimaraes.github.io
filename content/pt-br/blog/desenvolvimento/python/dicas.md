@@ -1,6 +1,6 @@
 ---
 title: Dicas Python
-date: 2022-04-25
+date: 2022-05-01
 categories:
     - linguagem de programação
 tags:
@@ -19,6 +19,7 @@ autores:
     - Louis de Bruijn
     - Jerry Ng
     - MinJae Kwon
+    - Projeto Anaconda
 description: Conjunto de dicas de bibliotecas para facilitar nossa vida com o Python.
 keywords:
     - python
@@ -29,6 +30,28 @@ keywords:
     - simulacoes
 slug: dicas-python
 ---
+
+---
+
+## [Run Python in Your HTML](https://pyscript.net/)
+
+por [**Projeto Anaconda**](/autores/projeto-anaconda/) em 2022.
+
+`PyScript` é uma estrutura que permite aos usuários criar aplicativos Python ricos no navegador usando a interface do HTML. O PyScript visa fornecer aos usuários uma linguagem de programação de primeira classe que tenha regras de estilo consistentes, seja mais expressiva e mais fácil de aprender
+
+E [esta página o guiará pelos primeiros passos com o PyScript](https://github.com/pyscript/pyscript/blob/main/GETTING-STARTED.md).
+
+---
+
+## [Diagrams - Diagram as Code](https://diagrams.mingrammer.com/)
+
+por [**MinJae Kwon**](/autores/minjae-kwon/) em 2022.
+
+`Diagrams` permite desenhar a arquitetura do sistema em nuvem em código Python.
+
+Ele nasceu para prototipar uma nova arquitetura de sistema sem nenhuma ferramenta de design.
+
+`Diagram as Code` permite rastrear as alterações do diagrama de arquitetura em qualquer sistema de controle de versão.
 
 ---
 
@@ -44,14 +67,6 @@ Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o au
 
 ---
 
-## [Simulate Real-life Events in Python Using SimPy](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f)
-
-por [**Khuyen Tran**](/autores/khuyen-tran/) em 16/05/2021.
-
-Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. [SimPy](https://simpy.readthedocs.io/en/latest/contents.html) é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.
-
----
-
 ## [3 Chaotic Python Features To Avoid](https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13)
 
 por [**Yong Cui**](/autores/yong-cui/) em 19/07/2021.
@@ -61,6 +76,18 @@ Neste artigo, é discutido alguns recursos do Python que podem ser confusos — 
 - A cláusula `else` em loops `for/while`;
 - Use um valor padrão com `setdefault`;
 - Passos negativos com `Slicing`;
+
+---
+
+## [3 Useful Python f-string Tricks You Probably Don’t Know](https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5)
+
+por [**Jerry Ng**](/autores/jerry-ng/) em 06/07/2021.
+
+Coisas que você precisa saber sobre formatação de String do Python usando [f-string](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals).
+
+- Usando `f-string` para melhor depuração;
+- Formate casas decimais com `float`, moedas, objetos `datetime` e preenchimento com `f-string`;
+- Usando `f-string` para conversões (ASCII e `repr()`);
 
 ---
 
@@ -81,6 +108,14 @@ Neste artigo, é apresentado alguns recursos interessantes do Python.
 
 ---
 
+## [Simulate Real-life Events in Python Using SimPy](https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f)
+
+por [**Khuyen Tran**](/autores/khuyen-tran/) em 16/05/2021.
+
+Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. [SimPy](https://simpy.readthedocs.io/en/latest/contents.html) é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.
+
+---
+
 ## [Seven Tips To Clean Code With Python](https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f)
 
 por [**Louis de Bruijn**](/autores/louis-de-bruijn/) em 27/01/2021.
@@ -95,29 +130,5 @@ Neste artigo, é apresentado alguns recursos interessantes do Python.
 - List comprehensions;
 - Multiple assignment with `*` and `**`;
 - Putting it all together;
-
----
-
-## [3 Useful Python f-string Tricks You Probably Don’t Know](https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5)
-
-por [**Jerry Ng**](/autores/jerry-ng/) em 06/07/2021.
-
-Coisas que você precisa saber sobre formatação de String do Python usando [f-string](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals).
-
-- Usando `f-string` para melhor depuração;
-- Formate casas decimais com `float`, moedas, objetos `datetime` e preenchimento com `f-string`;
-- Usando `f-string` para conversões (ASCII e `repr()`);
-
----
-
-## [Diagrams - Diagram as Code](https://diagrams.mingrammer.com/)
-
-por [**MinJae Kwon**](/autores/minjae-kwon/) em 2022.
-
-`Diagrams` permite desenhar a arquitetura do sistema em nuvem em código Python.
-
-Ele nasceu para prototipar uma nova arquitetura de sistema sem nenhuma ferramenta de design.
-
-`Diagram as Code` permite rastrear as alterações do diagrama de arquitetura em qualquer sistema de controle de versão.
 
 ---

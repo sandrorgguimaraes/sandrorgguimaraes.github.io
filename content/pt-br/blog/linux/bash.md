@@ -1,6 +1,6 @@
 ---
 title: BASH
-date: 2022-04-05
+date: 2022-05-02
 categories:
     - sistema operacional
     - linux
@@ -17,6 +17,7 @@ autores:
     - Shalitha Suranga
     - Itamar Turner
     - Leandro Nunes
+    - Jonathan CookWebjq
 description: Aprenda sobre o Bash, praticamente, o Shell padrão do Linux.
 keywords:
     - linux
@@ -29,6 +30,18 @@ keywords:
     - arrays
 slug: bash
 ---
+
+---
+
+## [Guide to Linux jq Command for JSON Processing](https://www.baeldung.com/linux/jq-command-json)
+
+por [**Jonathan CookWebjq**](/autores/jonathan-cookwebjq/) em 13/08/2021.
+
+[JSON](https://en.wikipedia.org/wiki/JSON) é um formato de dados estruturados amplamente empregado, normalmente usado na maioria das APIs e serviços de dados modernos. É particularmente popular em aplicativos da Web devido à sua natureza leve e compatibilidade com JavaScript.
+
+Infelizmente, shells como o Bash não podem interpretar e trabalhar com JSON diretamente.
+
+Neste tutorial, veja como usar o **[jq](https://stedolan.github.io/jq/)** — um processador de linha de comando eloquente para JSON.
 
 ---
 

@@ -1,4 +1,50 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – linux</title><link>https://sandrorgguimaraes.github.io/categories/linux/</link><description>Recent content in linux on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – linux</title><link>https://sandrorgguimaraes.github.io/categories/linux/</link><description>Recent content in linux on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
+&lt;hr>
+&lt;h2 id="guide-to-linux-jq-command-for-json-processinghttpswwwbaeldungcomlinuxjq-command-json">&lt;a href="https://www.baeldung.com/linux/jq-command-json" target="_blank" rel="noopener">Guide to Linux jq Command for JSON Processing&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jonathan-cookwebjq/">&lt;strong>Jonathan CookWebjq&lt;/strong>&lt;/a>
+em 13/08/2021.&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/JSON" target="_blank" rel="noopener">JSON&lt;/a>
+é um formato de dados estruturados amplamente empregado, normalmente usado na maioria das APIs e serviços de dados modernos. É particularmente popular em aplicativos da Web devido à sua natureza leve e compatibilidade com JavaScript.&lt;/p>
+&lt;p>Infelizmente, shells como o Bash não podem interpretar e trabalhar com JSON diretamente.&lt;/p>
+&lt;p>Neste tutorial, veja como usar o &lt;strong>&lt;a href="https://stedolan.github.io/jq/" target="_blank" rel="noopener">jq&lt;/a>
+&lt;/strong> — um processador de linha de comando eloquente para JSON.&lt;/p>
+&lt;hr>
+&lt;h2 id="what-is-the-bash-shell-and-why-is-it-so-important-to-linuxhttpswwwhowtogeekcom726559what-is-the-bash-shell-and-why-is-it-so-important-to-linux">&lt;a href="https://www.howtogeek.com/726559/what-is-the-bash-shell-and-why-is-it-so-important-to-linux/" target="_blank" rel="noopener">What Is the Bash Shell, and Why Is It So Important to Linux?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
+em 19/05/2021.&lt;/p>
+&lt;p>O shell Bash tem mais de 30 anos e ainda está forte. O que ele faz, de onde veio e por que ainda é o shell mais comum em sistemas Linux?&lt;/p>
+&lt;hr>
+&lt;h2 id="what-are-bash-dictionaries-on-linux-and-how-do-you-use-themhttpswwwhowtogeekcom730243what-are-bash-dictionaries-on-linux-and-how-do-you-use-them">&lt;a href="https://www.howtogeek.com/730243/what-are-bash-dictionaries-on-linux-and-how-do-you-use-them/" target="_blank" rel="noopener">What Are Bash Dictionaries on Linux, and How Do You Use Them?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
+em 16/06/2021.&lt;/p>
+&lt;p>Os dicionários ou arrays Bash fornecem mapas de hash e matrizes associativas em scripts de shell do Linux. Mostraremos como usar essas estruturas de dados poderosas e úteis em seus próprios scripts de shell do Linux.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-set-and-pipefail-in-bash-scripts-on-linuxhttpswwwhowtogeekcom782514how-to-use-set-and-pipefail-in-bash-scripts-on-linux">&lt;a href="https://www.howtogeek.com/782514/how-to-use-set-and-pipefail-in-bash-scripts-on-linux/" target="_blank" rel="noopener">How To Use set and pipefail in Bash Scripts on Linux&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
+em 17/03/2022.&lt;/p>
+&lt;p>Os comandos Linux &lt;code>set&lt;/code> e o &lt;code>pipefail&lt;/code> ditam o que acontece quando ocorre uma falha em um script Bash.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">&lt;a href="https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7" target="_blank" rel="noopener">How to Modernize Your Bash Scripts By Adding GUI&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shalitha-suranga/">&lt;strong>Shalitha Suranga&lt;/strong>&lt;/a>
+em 27/09/2020.&lt;/p>
+&lt;p>Implemente componentes de entrada/saída nos script&amp;rsquo;s Bash usando a &lt;code>Zenity&lt;/code> e envie notificações com o &lt;code>notify-send&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;h2 id="please-stop-writing-shell-scriptshttpspythonspeedcomarticlesshell-scripts">&lt;a href="https://pythonspeed.com/articles/shell-scripts/" target="_blank" rel="noopener">Please stop writing shell scripts&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/itamar-turner/">&lt;strong>Itamar Turner&lt;/strong>&lt;/a>
+em 24/03/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="bash-construindo-indicador-de-progressohttpsmediumcommeninunesbash-construindo-indicador-de-progresso-8de94c37683">&lt;a href="https://medium.com/meninunes/bash-construindo-indicador-de-progresso-8de94c37683" target="_blank" rel="noopener">[Bash] Construindo indicador de progresso&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/leandro-nunes/">&lt;strong>Leandro Nunes&lt;/strong>&lt;/a>
+em 26/03/2018.&lt;/p>
+&lt;p>Veja como fazer um indicador de progresso, totalmente em Bash e sem nenhuma biblioteca externa, onde é possível utilizar em algum processo de instalação, ou em um processo demorado ou simplesmente para mostrar visualmente quantos comandos faltam a ser executado em determinada tarefa de forma que o usuário não fique esperando sem nenhum feedback.&lt;/p>
+&lt;hr></description></item><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O &lt;strong>KVM&lt;/strong> (&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um &lt;a href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank" rel="noopener">hypervisor&lt;/a>
 . Ele foi incorporado ao kernel Linux principal na versão 2.6.20, que foi lançada em 5 de fevereiro de 2007.&lt;/p>
@@ -43,42 +89,6 @@ em 13/01/2021.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karim-buzdar/">&lt;strong>Karim Buzdar&lt;/strong>&lt;/a>
 em 30/09/2021.&lt;/p>
 &lt;p>Aprenda como criar um modelo / template de uma máquina virtual para ser utilizado na criação de várias instâncias da mesma.&lt;/p>
-&lt;hr></description></item><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
-&lt;hr>
-&lt;h2 id="what-is-the-bash-shell-and-why-is-it-so-important-to-linuxhttpswwwhowtogeekcom726559what-is-the-bash-shell-and-why-is-it-so-important-to-linux">&lt;a href="https://www.howtogeek.com/726559/what-is-the-bash-shell-and-why-is-it-so-important-to-linux/" target="_blank" rel="noopener">What Is the Bash Shell, and Why Is It So Important to Linux?&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
-em 19/05/2021.&lt;/p>
-&lt;p>O shell Bash tem mais de 30 anos e ainda está forte. O que ele faz, de onde veio e por que ainda é o shell mais comum em sistemas Linux?&lt;/p>
-&lt;hr>
-&lt;h2 id="what-are-bash-dictionaries-on-linux-and-how-do-you-use-themhttpswwwhowtogeekcom730243what-are-bash-dictionaries-on-linux-and-how-do-you-use-them">&lt;a href="https://www.howtogeek.com/730243/what-are-bash-dictionaries-on-linux-and-how-do-you-use-them/" target="_blank" rel="noopener">What Are Bash Dictionaries on Linux, and How Do You Use Them?&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
-em 16/06/2021.&lt;/p>
-&lt;p>Os dicionários ou arrays Bash fornecem mapas de hash e matrizes associativas em scripts de shell do Linux. Mostraremos como usar essas estruturas de dados poderosas e úteis em seus próprios scripts de shell do Linux.&lt;/p>
-&lt;hr>
-&lt;h2 id="how-to-use-set-and-pipefail-in-bash-scripts-on-linuxhttpswwwhowtogeekcom782514how-to-use-set-and-pipefail-in-bash-scripts-on-linux">&lt;a href="https://www.howtogeek.com/782514/how-to-use-set-and-pipefail-in-bash-scripts-on-linux/" target="_blank" rel="noopener">How To Use set and pipefail in Bash Scripts on Linux&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/dave-mckay/">&lt;strong>Dave Mckay&lt;/strong>&lt;/a>
-em 17/03/2022.&lt;/p>
-&lt;p>Os comandos Linux &lt;code>set&lt;/code> e o &lt;code>pipefail&lt;/code> ditam o que acontece quando ocorre uma falha em um script Bash.&lt;/p>
-&lt;hr>
-&lt;h2 id="how-to-modernize-your-bash-scripts-by-adding-guihttpsmediumcomswlhhow-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7">&lt;a href="https://medium.com/swlh/how-to-modernize-your-bash-scripts-by-adding-gui-cba613a34cb7" target="_blank" rel="noopener">How to Modernize Your Bash Scripts By Adding GUI&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/shalitha-suranga/">&lt;strong>Shalitha Suranga&lt;/strong>&lt;/a>
-em 27/09/2020.&lt;/p>
-&lt;p>Implemente componentes de entrada/saída nos script&amp;rsquo;s Bash usando a &lt;code>Zenity&lt;/code> e envie notificações com o &lt;code>notify-send&lt;/code>.&lt;/p>
-&lt;hr>
-&lt;h2 id="please-stop-writing-shell-scriptshttpspythonspeedcomarticlesshell-scripts">&lt;a href="https://pythonspeed.com/articles/shell-scripts/" target="_blank" rel="noopener">Please stop writing shell scripts&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/itamar-turner/">&lt;strong>Itamar Turner&lt;/strong>&lt;/a>
-em 24/03/2022.&lt;/p>
-&lt;hr>
-&lt;h2 id="bash-construindo-indicador-de-progressohttpsmediumcommeninunesbash-construindo-indicador-de-progresso-8de94c37683">&lt;a href="https://medium.com/meninunes/bash-construindo-indicador-de-progresso-8de94c37683" target="_blank" rel="noopener">[Bash] Construindo indicador de progresso&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/leandro-nunes/">&lt;strong>Leandro Nunes&lt;/strong>&lt;/a>
-em 26/03/2018.&lt;/p>
-&lt;p>Veja como fazer um indicador de progresso, totalmente em Bash e sem nenhuma biblioteca externa, onde é possível utilizar em algum processo de instalação, ou em um processo demorado ou simplesmente para mostrar visualmente quantos comandos faltam a ser executado em determinada tarefa de forma que o usuário não fique esperando sem nenhum feedback.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Monitor do Sistema</title><link>https://sandrorgguimaraes.github.io/blog/linux/moniotor-sistema/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/moniotor-sistema/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-install-one-of-the-best-system-monitors-for-the-linux-desktophttpswwwtechrepubliccomarticlehow-to-install-best-system-monitors-for-linux-desktop">&lt;a href="https://www.techrepublic.com/article/how-to-install-best-system-monitors-for-linux-desktop/" target="_blank" rel="noopener">How to install one of the best system monitors for the Linux desktop&lt;/a>

@@ -1,4 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – arrays</title><link>https://sandrorgguimaraes.github.io/tags/arrays/</link><description>Recent content in arrays on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/arrays/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – arrays</title><link>https://sandrorgguimaraes.github.io/tags/arrays/</link><description>Recent content in arrays on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/arrays/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: BASH</title><link>https://sandrorgguimaraes.github.io/blog/linux/bash/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/bash/</guid><description>
+&lt;hr>
+&lt;h2 id="guide-to-linux-jq-command-for-json-processinghttpswwwbaeldungcomlinuxjq-command-json">&lt;a href="https://www.baeldung.com/linux/jq-command-json" target="_blank" rel="noopener">Guide to Linux jq Command for JSON Processing&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jonathan-cookwebjq/">&lt;strong>Jonathan CookWebjq&lt;/strong>&lt;/a>
+em 13/08/2021.&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/JSON" target="_blank" rel="noopener">JSON&lt;/a>
+é um formato de dados estruturados amplamente empregado, normalmente usado na maioria das APIs e serviços de dados modernos. É particularmente popular em aplicativos da Web devido à sua natureza leve e compatibilidade com JavaScript.&lt;/p>
+&lt;p>Infelizmente, shells como o Bash não podem interpretar e trabalhar com JSON diretamente.&lt;/p>
+&lt;p>Neste tutorial, veja como usar o &lt;strong>&lt;a href="https://stedolan.github.io/jq/" target="_blank" rel="noopener">jq&lt;/a>
+&lt;/strong> — um processador de linha de comando eloquente para JSON.&lt;/p>
 &lt;hr>
 &lt;h2 id="what-is-the-bash-shell-and-why-is-it-so-important-to-linuxhttpswwwhowtogeekcom726559what-is-the-bash-shell-and-why-is-it-so-important-to-linux">&lt;a href="https://www.howtogeek.com/726559/what-is-the-bash-shell-and-why-is-it-so-important-to-linux/" target="_blank" rel="noopener">What Is the Bash Shell, and Why Is It So Important to Linux?&lt;/a>
 &lt;/h2>

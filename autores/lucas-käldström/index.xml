@@ -1,0 +1,7 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Lucas Käldström</title><link>https://sandrorgguimaraes.github.io/autores/lucas-k%C3%A4ldstr%C3%B6m/</link><description>Recent content in Lucas Käldström on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/lucas-k%C3%A4ldstr%C3%B6m/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Tutoriais</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/tutoriais/</link><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/tutoriais/</guid><description>
+&lt;hr>
+&lt;h2 id="building-a-multi-platform-kubernetes-cluster-on-bare-metal-with-kubeadmhttpsgithubcomluxaskubeadm-workshop">&lt;a href="https://github.com/luxas/kubeadm-workshop" target="_blank" rel="noopener">Building a multi-platform Kubernetes cluster on bare metal with kubeadm&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/lucas-k%c3%a4ldstr%c3%b6m/">&lt;strong>Lucas Käldström&lt;/strong>&lt;/a>
+03/04/2018.&lt;/p>
+&lt;hr></description></item></channel></rss>

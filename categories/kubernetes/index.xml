@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – kubernetes</title><link>https://sandrorgguimaraes.github.io/categories/kubernetes/</link><description>Recent content in kubernetes on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
 &lt;hr>
 &lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
 &lt;/h2>
@@ -194,6 +194,16 @@ em 08/07/2021.&lt;/p>
 &lt;p>Aprenda como criar vários clusters Kubernetes localmente e estabelecer comunicação direta entre eles com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
 e &lt;a href="https://submariner.io/" target="_blank" rel="noopener">Submariner&lt;/a>
 . O objetivo deste artigo é estabelecer comunicação direta entre pods executados em dois clusters Kubernetes diferentes.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Horizontal Pod Autoscaler</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/hpa/</link><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/hpa/</guid><description>
+&lt;hr>
+&lt;h2 id="prometheus-adapter-for-kubernetes-metrics-apishttpsgithubcomkubernetes-sigsprometheus-adapter">&lt;a href="https://github.com/kubernetes-sigs/prometheus-adapter" target="_blank" rel="noopener">Prometheus Adapter for Kubernetes Metrics APIs&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kubernetes-sigs/">&lt;strong>Kubernetes SIGs&lt;/strong>&lt;/a>
+04/2022.&lt;/p>
+&lt;p>Este é um projeto do grupo &lt;code>Kubernetes Special Interest Groups - Prometheus Adapter&lt;/code> e implementa métricas de recursos do Kubernetes, métricas personalizadas e APIs de métricas externas .&lt;/p>
+&lt;p>Este adaptador é, portanto, adequado para uso com o autoscaling/v2 Horizontal Pod Autoscaler no Kubernetes 1.6+.&lt;/p>
+&lt;p>Ele também pode substituir o &lt;a href="https://github.com/kubernetes-incubator/metrics-server" target="_blank" rel="noopener">servidor de métricas&lt;/a>
+em clusters que já executam o Prometheus e coletar as métricas apropriadas.&lt;/p>
 &lt;hr></description></item><item><title>Blog: ArgoCD</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/argocd/</guid><description>
 &lt;hr>
 &lt;h2 id="create-and-manage-kubernetes-clusters-with-cluster-api-and-argocdhttpspiotrminkowskicom20211203create-kubernetes-clusters-with-cluster-api-and-argocd">&lt;a href="https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/" target="_blank" rel="noopener">Create and Manage Kubernetes Clusters with Cluster API and ArgoCD&lt;/a>
@@ -204,6 +214,12 @@ em 03/12/2021.&lt;/p>
 e o &lt;a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noopener">ArgoCD&lt;/a>
 . Criando um único cluster local com &lt;a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener">Kind&lt;/a>
 , e a partir deste cluster, provisionar o processo de criação de outros clusters Kubernetes, de forma automática a partir de um repositório Git.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Tutoriais</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/tutoriais/</link><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/tutoriais/</guid><description>
+&lt;hr>
+&lt;h2 id="building-a-multi-platform-kubernetes-cluster-on-bare-metal-with-kubeadmhttpsgithubcomluxaskubeadm-workshop">&lt;a href="https://github.com/luxas/kubeadm-workshop" target="_blank" rel="noopener">Building a multi-platform Kubernetes cluster on bare metal with kubeadm&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/lucas-k%c3%a4ldstr%c3%b6m/">&lt;strong>Lucas Käldström&lt;/strong>&lt;/a>
+03/04/2018.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
 &lt;hr>
 &lt;h2 id="cka-exam-study-guide-a-complete-resource-for-cka-aspirantshttpsdevopscubecomcka-exam-study-guide">&lt;a href="https://devopscube.com/cka-exam-study-guide/" target="_blank" rel="noopener">CKA Exam Study Guide: A Complete Resource For CKA Aspirants&lt;/a>

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Abdul Wahab</title><link>https://sandrorgguimaraes.github.io/autores/abdul-wahab/</link><description>Recent content in Abdul Wahab on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Arquitetura de API</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Abdul Wahab</title><link>https://sandrorgguimaraes.github.io/autores/abdul-wahab/</link><description>Recent content in Abdul Wahab on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/abdul-wahab/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Desenvolvimento de API´s</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</link><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma API (&lt;em>Application Programming Interface&lt;/em>) ou Interface de Programação de Aplicativos é uma conexão entre computadores ou entre programas de computador. É um tipo de interface de software, oferecendo um serviço a outros softwares.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/API" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/API&lt;/a>
@@ -19,4 +19,13 @@ em 07/11/2021.&lt;/p>
 &lt;blockquote>
 &lt;p>Um design bem pensado também deve levar em conta os aspectos de desempenho de uma API. Um bom design significa pouco se a API não tiver o desempenho desejado em resposta a solicitações crescentes e requisitos de negócios e/ou clientes em evolução.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item></channel></rss>
+&lt;hr>
+&lt;h2 id="rest-api-design-best-practices--how-to-build-a-rest-api-with-javascript-nodejs-and-expressjshttpswwwfreecodecamporgnewsrest-api-design-best-practices-build-a-rest-apiintegrate-filtering-sorting-pagination">&lt;a href="https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/#integrate-filtering-sorting-pagination" target="_blank" rel="noopener">REST API Design Best Practices – How to Build a REST API with JavaScript, Node.js, and Express.js&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jean-marc-m%c3%b6ckel/">&lt;strong>Jean-Marc Möckel&lt;/strong>&lt;/a>
+em 04/05/2022.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Fornecer exemplos simples ajuda a entender o conceito em si sem muita complexidade, mas na prática as coisas nem sempre são tão simples. Tenho certeza que você sabe do que estou falando 😁&lt;/p>
+&lt;p>É por isso que eu decidi escrever este tutorial. Juntei todos esses aprendizados (bons e ruins) em um artigo digerível, fornecendo um exemplo prático que pode ser seguido. No final, construiremos uma API completa enquanto implementamos uma prática recomendada após a outra.&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

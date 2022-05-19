@@ -1,0 +1,9 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Partiu Certificação!</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/</link><description>Recent content in Partiu Certificação! on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/docs/certificacoes/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Certified Kubernetes Administrator (CKA)</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</guid><description>
+&lt;blockquote>
+&lt;p>O programa &lt;a href="https://www.cncf.io/certification/cka/" target="_blank" rel="noopener">&lt;em>&lt;strong>Certified Kubernetes Administrator (CKA&lt;/strong>)&lt;/em>&lt;/a>
+foi criado pela &lt;a href="https://www.cncf.io/" target="_blank" rel="noopener">&lt;em>&lt;strong>Cloud Native Computing Foundation (CNCF)&lt;/strong>&lt;/em>&lt;/a>
+, em colaboração com a &lt;a href="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/" target="_blank" rel="noopener">&lt;em>&lt;strong>The Linux Foundation&lt;/strong>&lt;/em>&lt;/a>
+, para ajudar a desenvolver o ecossistema Kubernetes.&lt;/p>
+&lt;p>Além dos materiais oficiais disponíveis nos link&amp;rsquo;s acima, estou realizando o curso &lt;a href="https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn/lecture/31984310#overview" target="_blank" rel="noopener">&lt;em>&lt;strong>Certified Kubernetes Administrator (CKA) with Practice Tests&lt;/strong>&lt;/em>&lt;/a>
+que é muito bem pontuado na Udemy além de ter lido boas recomendações do mesmo em vários sites.&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

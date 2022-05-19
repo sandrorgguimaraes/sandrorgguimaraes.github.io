@@ -1,6 +1,6 @@
 ---
 title: Docker
-date: 2022-04-04
+date: 2022-05-01
 weight: 20
 categories:
     - container
@@ -13,12 +13,23 @@ autores:
     - Daniele Polencic
     - Bibin Wilson
     - Shishir Khandelwal
+    - Arjav Dave
 description: Veja algumas dicas e ferramentas para lhe auxiliar na construção de imagens Docker.
 keywords:
     - docker
     - dockerslim
 slug: containers-docker
 ---
+
+---
+
+## [How to Run Multiple Containers with Docker Compose](https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/)
+
+por [**Arjav Dave**](/autores/arjav-dave/) em 27/04/2022.
+
+Você pode pensar que precisa ter todas as tecnologias instaladas para executar essa pilha de tecnologia de MySQL, Python, NodeJS, .NET e PHP. Mas, na verdade, tudo o que você precisa é de um mecanismo Docker funcionando.
+
+As versões mais recentes do Docker vêm com o [Docker Compose](https://docs.docker.com/compose/) instalado. Por enquanto você não precisa instalar mais nada.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Arquitetura de API
-date: 2022-03-11
+title: Desenvolvimento de API´s
+date: 2022-05-05
 categories:
     - arquitetura de sistemas
 tags:
@@ -38,3 +38,13 @@ Palavras do autor:
 > Um design bem pensado também deve levar em conta os aspectos de desempenho de uma API. Um bom design significa pouco se a API não tiver o desempenho desejado em resposta a solicitações crescentes e requisitos de negócios e/ou clientes em evolução.
 
 ---
+
+## [REST API Design Best Practices – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/#integrate-filtering-sorting-pagination)
+
+por [**Jean-Marc Möckel**](/autores/jean-marc-möckel/) em 04/05/2022.
+
+Palavras do autor:
+
+> Fornecer exemplos simples ajuda a entender o conceito em si sem muita complexidade, mas na prática as coisas nem sempre são tão simples. Tenho certeza que você sabe do que estou falando 😁
+>
+> É por isso que eu decidi escrever este tutorial. Juntei todos esses aprendizados (bons e ruins) em um artigo digerível, fornecendo um exemplo prático que pode ser seguido. No final, construiremos uma API completa enquanto implementamos uma prática recomendada após a outra.

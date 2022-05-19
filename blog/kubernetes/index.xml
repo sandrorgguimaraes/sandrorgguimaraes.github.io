@@ -66,7 +66,28 @@ em 04/2019.&lt;/p>
 &lt;hr>
 &lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
 &lt;/h2>
-&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Node's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/nodes/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/nodes/</guid><description>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Scheduler</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-schedulerhttpskubernetesiodocsconceptsscheduling-evictionkube-scheduler">&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" target="_blank" rel="noopener">Kubernetes Scheduler&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kubernetes-documentation/">&lt;strong>Kubernetes Documentation&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="scheduler-code-hierarchy-overviewhttpsgithubcomkubernetescommunityblobmastercontributorsdevelsig-schedulingscheduling_code_hierarchy_overviewmd">&lt;a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-scheduling/scheduling_code_hierarchy_overview.md" target="_blank" rel="noopener">Scheduler code hierarchy overview&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kubernetes-community/">&lt;strong>Kubernetes Community&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="advanced-scheduling-in-kuberneteshttpskubernetesioblog201703advanced-scheduling-in-kubernetes">&lt;a href="https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/" target="_blank" rel="noopener">Advanced Scheduling in Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kubernetes-documentation/">&lt;strong>Kubernetes Documentation&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-does-the-kubernetes-scheduler-workhttpsjvnscablog20170727how-does-the-kubernetes-scheduler-work">&lt;a href="https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/" target="_blank" rel="noopener">How does the Kubernetes scheduler work?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/julia-evans/">&lt;strong>Julia Evans&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Node's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/nodes/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/nodes/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-choosing-right-node-sizehttpsmediumcommohansujay22054044kubernetes-choosing-right-node-size-802f174dd24d">&lt;a href="https://medium.com/@mohansujay22054044/kubernetes-choosing-right-node-size-802f174dd24d" target="_blank" rel="noopener">Kubernetes Choosing Right Node Size&lt;/a>
 &lt;/h2>

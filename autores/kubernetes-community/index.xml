@@ -1,0 +1,22 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Kubernetes Community</title><link>https://sandrorgguimaraes.github.io/autores/kubernetes-community/</link><description>Recent content in Kubernetes Community on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/kubernetes-community/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Scheduler</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-schedulerhttpskubernetesiodocsconceptsscheduling-evictionkube-scheduler">&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" target="_blank" rel="noopener">Kubernetes Scheduler&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kubernetes-documentation/">&lt;strong>Kubernetes Documentation&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="scheduler-code-hierarchy-overviewhttpsgithubcomkubernetescommunityblobmastercontributorsdevelsig-schedulingscheduling_code_hierarchy_overviewmd">&lt;a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-scheduling/scheduling_code_hierarchy_overview.md" target="_blank" rel="noopener">Scheduler code hierarchy overview&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kubernetes-community/">&lt;strong>Kubernetes Community&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="advanced-scheduling-in-kuberneteshttpskubernetesioblog201703advanced-scheduling-in-kubernetes">&lt;a href="https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/" target="_blank" rel="noopener">Advanced Scheduling in Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/kubernetes-documentation/">&lt;strong>Kubernetes Documentation&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-does-the-kubernetes-scheduler-workhttpsjvnscablog20170727how-does-the-kubernetes-scheduler-work">&lt;a href="https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/" target="_blank" rel="noopener">How does the Kubernetes scheduler work?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/julia-evans/">&lt;strong>Julia Evans&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;hr></description></item></channel></rss>

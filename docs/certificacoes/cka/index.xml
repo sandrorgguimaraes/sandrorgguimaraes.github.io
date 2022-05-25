@@ -1,1 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Certified Kubernetes Administrator (CKA)</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</link><description>Recent content in Certified Kubernetes Administrator (CKA) on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Certified Kubernetes Administrator (CKA)</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</link><description>Recent content in Certified Kubernetes Administrator (CKA) on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Componentes Básicos</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/</guid><description>
+&lt;h2 id="arquitetura-de-um-cluster-k8s">Arquitetura de um Cluster k8s&lt;/h2>
+&lt;h2 id="etcd">ETCD&lt;/h2>
+&lt;h2 id="api-server">API Server&lt;/h2>
+&lt;h2 id="controller-manager">Controller Manager&lt;/h2>
+&lt;h2 id="scheduler">Scheduler&lt;/h2>
+&lt;h2 id="kubelet">Kubelet&lt;/h2>
+&lt;h2 id="kube-proxy">Kube Proxy&lt;/h2></description></item><item><title>Docs: Objetos Básicos</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</guid><description>
+&lt;h2 id="pods">POD&amp;rsquo;s&lt;/h2>
+&lt;h2 id="replicasets">ReplicaSets&lt;/h2>
+&lt;h2 id="deployments">Deployments&lt;/h2>
+&lt;h2 id="services">Services&lt;/h2>
+&lt;h2 id="namespaces">Namespaces&lt;/h2></description></item><item><title>Docs: Agendamento</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</guid><description>
+&lt;h2 id="agendamento-manual">Agendamento manual&lt;/h2>
+&lt;h2 id="labels-e-selectors">Labels e Selectors&lt;/h2>
+&lt;h2 id="taints-e-tolerations">Taints e Tolerations&lt;/h2>
+&lt;h2 id="node-selectors">Node Selectors&lt;/h2>
+&lt;h2 id="node-affinity">Node Affinity&lt;/h2>
+&lt;h2 id="taints-e-tolerations-x-node-affinity">Taints e Tolerations X Node Affinity&lt;/h2>
+&lt;h2 id="resources-requirements-e-limits">Resources Requirements e Limits&lt;/h2>
+&lt;h2 id="daemonsets">DaemonSets&lt;/h2>
+&lt;h2 id="static-pods">Static Pods&lt;/h2>
+&lt;h2 id="multiplos-kubernetes-schedulers">Multiplos Kubernetes Schedulers&lt;/h2></description></item></channel></rss>

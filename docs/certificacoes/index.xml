@@ -1,9 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Partiu Certificação!</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/</link><description>Recent content in Partiu Certificação! on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/docs/certificacoes/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Certified Kubernetes Administrator (CKA)</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/" target="_blank" rel="noopener">&lt;em>&lt;strong>Kubernetes&lt;/strong>&lt;/em>&lt;/a>
+, também conhecido como &lt;em>&lt;strong>K8s&lt;/strong>&lt;/em>, é um sistema de código aberto para automatizar a implantação, dimensionamento e gerenciamento de aplicativos em contêiner.&lt;/p>
+&lt;p>Ele agrupa os contêineres que compõem um aplicativo em unidades lógicas para facilitar o gerenciamento e a descoberta. O Kubernetes se baseia em &lt;a href="https://queue.acm.org/detail.cfm?id=2898444" target="_blank" rel="noopener">15 anos de experiência na execução de cargas de trabalho de produção no Google&lt;/a>
+, combinado com as melhores ideias e práticas da comunidade.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://kubernetes.io/" target="_blank" rel="noopener">https://kubernetes.io/&lt;/a>
+&lt;/p>
+&lt;/div>
 &lt;blockquote>
 &lt;p>O programa &lt;a href="https://www.cncf.io/certification/cka/" target="_blank" rel="noopener">&lt;em>&lt;strong>Certified Kubernetes Administrator (CKA&lt;/strong>)&lt;/em>&lt;/a>
 foi criado pela &lt;a href="https://www.cncf.io/" target="_blank" rel="noopener">&lt;em>&lt;strong>Cloud Native Computing Foundation (CNCF)&lt;/strong>&lt;/em>&lt;/a>
-, em colaboração com a &lt;a href="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/" target="_blank" rel="noopener">&lt;em>&lt;strong>The Linux Foundation&lt;/strong>&lt;/em>&lt;/a>
-, para ajudar a desenvolver o ecossistema Kubernetes.&lt;/p>
-&lt;p>Além dos materiais oficiais disponíveis nos link&amp;rsquo;s acima, estou realizando o curso &lt;a href="https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn/lecture/31984310#overview" target="_blank" rel="noopener">&lt;em>&lt;strong>Certified Kubernetes Administrator (CKA) with Practice Tests&lt;/strong>&lt;/em>&lt;/a>
-que é muito bem pontuado na Udemy além de ter lido boas recomendações do mesmo em vários sites.&lt;/p>
-&lt;/blockquote></description></item></channel></rss>
+em colaboração com a &lt;a href="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/" target="_blank" rel="noopener">&lt;em>&lt;strong>The Linux Foundation&lt;/strong>&lt;/em>&lt;/a>
+, para ajudar a desenvolver o ecossistema &lt;a href="https://kubernetes.io/" target="_blank" rel="noopener">Kubernetes&lt;/a>
+.&lt;/p>
+&lt;/blockquote>
+&lt;p>Além dos materiais oficiais disponíveis nos link&amp;rsquo;s acima, estou realizando o curso &lt;a href="https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn/lecture/31984310#overview" target="_blank" rel="noopener">&lt;em>Certified Kubernetes Administrator (CKA) with Practice Tests&lt;/em>&lt;/a>
+da &lt;a href="https://www.udemy.com/user/kodekloud/" target="_blank" rel="noopener">&lt;em>KodeKloud Training&lt;/em>&lt;/a>
+, que é muito bem pontuado na Udemy além de ter lido boas recomendações do mesmo em vários sites, &lt;a href="https://github.com/kodekloudhub/certified-kubernetes-administrator-course" target="_blank" rel="noopener">&lt;strong>neste repositório&lt;/strong>&lt;/a>
+estão disponibilizadas as anotações do curso (vale a leitura para quem não for comprar o curso).&lt;/p>
+&lt;p>Temos também um compilado de materiais sobre os mais diversos aspectos do Kubernetes disponíveis na seção &lt;a href="../../../blog/kubernetes/">Vivendo &amp;amp; Aprendendo -&amp;gt; Kubernetes&lt;/a>
+, bons estudos para todos nós e &amp;lsquo;Partiu Certificação!&amp;rsquo;.&lt;/p></description></item></channel></rss>

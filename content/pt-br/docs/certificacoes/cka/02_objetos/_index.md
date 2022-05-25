@@ -1,8 +1,8 @@
 ---
-title: Componentes Básicos
+title: Objetos Básicos
 date: 2022-05-25
 weight: 20
-description: Componentes e|ou objetos básicos do Kubernetes.
+description: Conhecendo os objetos básicos de um cluster Kubernetes.
 ---
 
 ## POD's

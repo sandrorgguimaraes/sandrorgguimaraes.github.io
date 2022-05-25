@@ -2,7 +2,7 @@
 title: Agendamento
 date: 2022-05-25
 weight: 30
-description: Entendendo como o agendamento ou 'scheduling' funciona no Kubernetes.
+description: Entendendo como o agendamento ou 'scheduling' funciona em cluster Kubernetes.
 ---
 
 ## Agendamento manual

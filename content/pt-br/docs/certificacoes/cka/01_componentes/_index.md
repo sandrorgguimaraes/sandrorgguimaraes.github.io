@@ -1,8 +1,8 @@
 ---
-title: Conceitos Básicos
+title: Componentes Básicos
 date: 2022-05-25
 weight: 10
-description: Conceitos básicos sobre o Kubernetes.
+description: Conhecendo os componentes básicos de um cluster Kubernetes.
 ---
 
 ## Arquitetura de um Cluster k8s

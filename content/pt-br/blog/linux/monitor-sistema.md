@@ -11,7 +11,7 @@ autores:
 description: Veja algumas ferramentas para monitorar um sistema Linux.
 keywords:
     - monitor sistema
-slug: moniotor-sistema
+slug: monitor-sistema
 ---
 
 ---

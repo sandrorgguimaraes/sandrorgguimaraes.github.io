@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – codeKarle</title><link>https://sandrorgguimaraes.github.io/autores/codekarle/</link><description>Recent content in codeKarle on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/codekarle/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – codeKarle</title><link>https://sandrorgguimaraes.github.io/autores/codekarle/</link><description>Recent content in codeKarle on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/codekarle/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -56,6 +56,13 @@
 &lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">Bibin Wilson&lt;/a>
 &lt;/td>
 &lt;td>Kubernetes, Jenkins e Containers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://jvns.ca/" target="_blank" rel="noopener">Julia Evans&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/julia-evans/">Julia Evans&lt;/a>
+&lt;/td>
+&lt;td>Kubernetes, Linux, dentre muitos outros assuntos.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

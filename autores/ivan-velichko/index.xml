@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Ivan Velichko</title><link>https://sandrorgguimaraes.github.io/autores/ivan-velichko/</link><description>Recent content in Ivan Velichko on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Ivan Velichko</title><link>https://sandrorgguimaraes.github.io/autores/ivan-velichko/</link><description>Recent content in Ivan Velichko on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
 &lt;hr>
 &lt;h2 id="the-differences-between-docker-containerd-cri-o-and-runchttpswwwtutorialworkscomdifference-docker-containerd-runc-crio-oci">&lt;a href="https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/" target="_blank" rel="noopener">The differences between Docker, containerd, CRI-O and runc&lt;/a>
 &lt;/h2>
@@ -29,7 +29,7 @@ em 14/11/2021.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/ivan-velichko/">&lt;strong>Ivan Velichko&lt;/strong>&lt;/a>
 em 28/10/2021.&lt;/p>
 &lt;p>Aprenda a diferença entre Containers e Pods, os prós e contras de cada um, etc.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
+&lt;hr></description></item><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -87,6 +87,13 @@ em 28/10/2021.&lt;/p>
 &lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">Bibin Wilson&lt;/a>
 &lt;/td>
 &lt;td>Kubernetes, Jenkins e Containers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://jvns.ca/" target="_blank" rel="noopener">Julia Evans&lt;/a>
+&lt;/td>
+&lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/julia-evans/">Julia Evans&lt;/a>
+&lt;/td>
+&lt;td>Kubernetes, Linux, dentre muitos outros assuntos.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

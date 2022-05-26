@@ -1,11 +1,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Certified Kubernetes Administrator (CKA)</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</link><description>Recent content in Certified Kubernetes Administrator (CKA) on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Componentes Básicos</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/</guid><description>
-&lt;h2 id="arquitetura-de-um-cluster-k8s">Arquitetura de um Cluster k8s&lt;/h2>
-&lt;h2 id="etcd">ETCD&lt;/h2>
-&lt;h2 id="api-server">API Server&lt;/h2>
-&lt;h2 id="controller-manager">Controller Manager&lt;/h2>
-&lt;h2 id="scheduler">Scheduler&lt;/h2>
-&lt;h2 id="kubelet">Kubelet&lt;/h2>
-&lt;h2 id="kube-proxy">Kube Proxy&lt;/h2></description></item><item><title>Docs: Objetos Básicos</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</guid><description>
+&lt;h2 id="visão-geral-da-arquitetura-de-um-cluster-k8s">Visão geral da arquitetura de um cluster k8s&lt;/h2>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 710px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/arquitetura_k8s_hud8201c29ed6267df247424b67429a3bd_92678_700x342_fill_box_smart1_3.png" width="700" height="342">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overview-introduction-to-k8s-architecture-and-understanding-k8s-cluster-components-90e11eb34ccd" target="_blank" rel="noopener">Kubernetes — Architecture Overview&lt;/a>
+.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Visão geral&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/architecture/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Arquitetura de cluster&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="componentes-do-master-nodes">Componentes do Master Nodes&lt;/h2>
+&lt;h3 id="etcd">ETCD&lt;/h3>
+&lt;p>É um armazenamento do tipo &lt;code>chave-valor&lt;/code> distribuído e fortemente consistente que fornece uma maneira confiável de armazenar dados que precisam ser acessados ​​por um sistema distribuído ou cluster de máquinas. Ele lida com as eleições do líder durante as partições da rede e pode tolerar falhas de máquina, mesmo no nó líder.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://etcd.io/" target="_blank" rel="noopener">Site oficial&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="api-server">API Server&lt;/h3>
+&lt;p>O servidor de API do Kubernetes valida e configura dados para os objetos de API que incluem pods, services, replicaSets e outros.&lt;/p>
+&lt;p>O API Server atende às operações REST/kubectl e fornece o frontend para o estado compartilhado do cluster por meio do qual todos os outros componentes interagem.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-apiserver&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="controller-manager">Controller Manager&lt;/h3>
+&lt;p>No Kubernetes, controladores são ciclos de controle que observam o estado do cluster, e então fazem ou requisitam mudanças onde e quando necessário.&lt;/p>
+&lt;p>Cada controlador tenta mover o &lt;em>estado atual&lt;/em> do cluster mais perto do &lt;em>estado desejado&lt;/em>.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/pt-br/docs/concepts/architecture/controller/" target="_blank" rel="noopener">Documentação - Conceitos - Arquitetura do Kubernetes - Controladores&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-controller-manager&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="scheduler">Scheduler&lt;/h3>
+&lt;p>Observa os pods recém-criados sem nenhum nó atribuído e seleciona um nó para executá-los.&lt;/p>
+&lt;p>Os fatores levados em consideração para as decisões de agendamento incluem:&lt;/p>
+&lt;ul>
+&lt;li>Requisitos de recursos individuais e coletivos;&lt;/li>
+&lt;li>Hardware/software/política de restrições;&lt;/li>
+&lt;li>Especificações de afinidade e antiafinidade;&lt;/li>
+&lt;li>Localidade dos dados;&lt;/li>
+&lt;li>Interferência entre cargas de trabalho; e&lt;/li>
+&lt;li>Prazos.&lt;/li>
+&lt;/ul>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-scheduler&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="../../../../blog/kubernetes/scheduler/">Vivendo &amp;amp; Aprendendo - Kubernetes - Scheduler&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="componentes-dos-worker-nodes">Componentes dos Worker Nodes&lt;/h2>
+&lt;h3 id="kubelet">Kubelet&lt;/h3>
+&lt;p>&lt;em>É o principal agente&lt;/em> executado em cada worker node. O kubelet usa um conjunto de PodSpecs fornecidos por meio de vários mecanismos (principalmente por meio do apiserver) e garante que os contêineres descritos nesses PodSpecs estejam em execução e íntegros.&lt;/p>
+&lt;p>O kubelet não gerencia contêineres que não foram criados pelo Kubernetes.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kubelet&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="kube-proxy">Kube Proxy&lt;/h3>
+&lt;p>É um proxy de rede executado em cada nó no cluster, implementando parte do conceito de serviço do Kubernetes.&lt;/p>
+&lt;p>O &lt;code>kube-proxy&lt;/code> mantém regras de rede nos nós, estas regras permitem a comunicação de rede com os pods a partir de sessões de rede dentro ou fora do cluster.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-proxy&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="container-runtime">Container runtime&lt;/h3>
+&lt;p>É o software responsável pela execução dos contêineres.&lt;/p>
+&lt;p>O Kubernetes oferece suporte a ambientes de container runtime como o &lt;a href="https://containerd.io/docs/" target="_blank" rel="noopener">containerd&lt;/a>
+, o &lt;a href="https://cri-o.io/#what-is-cri-o" target="_blank" rel="noopener">CRI-O&lt;/a>
+e qualquer outra implementação do &lt;a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-node/container-runtime-interface.md" target="_blank" rel="noopener">Kubernetes CRI (Container Runtime Interface)&lt;/a>
+.&lt;/p></description></item><item><title>Docs: Objetos Básicos</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</guid><description>
 &lt;h2 id="pods">POD&amp;rsquo;s&lt;/h2>
 &lt;h2 id="replicasets">ReplicaSets&lt;/h2>
 &lt;h2 id="deployments">Deployments&lt;/h2>
@@ -20,4 +99,6 @@
 &lt;h2 id="resources-requirements-e-limits">Resources Requirements e Limits&lt;/h2>
 &lt;h2 id="daemonsets">DaemonSets&lt;/h2>
 &lt;h2 id="static-pods">Static Pods&lt;/h2>
-&lt;h2 id="multiplos-kubernetes-schedulers">Multiplos Kubernetes Schedulers&lt;/h2></description></item></channel></rss>
+&lt;h2 id="multiplos-kubernetes-schedulers">Multiplos Kubernetes Schedulers&lt;/h2></description></item><item><title>Docs: Log &amp; Monitoração</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</guid><description>
+&lt;h2 id="monitorar-os-componentes-do-cluster">Monitorar os componentes do cluster&lt;/h2>
+&lt;h2 id="acompanhar-os-logs-das-aplicações">Acompanhar os logs das aplicações&lt;/h2></description></item></channel></rss>

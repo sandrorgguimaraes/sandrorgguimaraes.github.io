@@ -1,6 +1,6 @@
 ---
 title: Onde Estudar?
-date: 2022-05-01
+date: 2022-05-26
 categories:
     - ficaadica
 tags:
@@ -20,5 +20,5 @@ slug: onde-estudar
 | [edX](https://www.edx.org/learn/computer-programming) | Cursos online gratuitos das principais universidades do mundo. |
 | [DioLinux Play](https://watch.diolinux.com.br/public/products) | Shell Script básico e avançado e alguns outros assuntos. |
 | [Tutorial Works](https://www.tutorialworks.com/learn-kubernetes-online/#what-is-kubernetes) | Compilado com os melhores lugares para aprender e experimentar o Kubernetes online. |
-
+| [InterviewBit](https://www.interviewbit.com/practice/) | Plataforma para aprender as habilidades necessárias para trabalhos de tecnologia, através de cursos, Cheat Sheet e muito mais. |
 ---

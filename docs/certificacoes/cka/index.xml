@@ -86,8 +86,52 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 e qualquer outra implementação do &lt;a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-node/container-runtime-interface.md" target="_blank" rel="noopener">Kubernetes CRI (Container Runtime Interface)&lt;/a>
 .&lt;/p></description></item><item><title>Docs: Objetos Básicos</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/</guid><description>
 &lt;h2 id="pods">POD&amp;rsquo;s&lt;/h2>
+&lt;p>São as menores unidades de computação implantáveis ​​que você pode criar e gerenciar no Kubernetes.&lt;/p>
+&lt;p>Um Pod modela um &amp;ldquo;host lógico&amp;rdquo; específico do aplicativo: ele contém um ou mais contêineres de aplicativos que são relativamente fortemente acoplados.&lt;/p>
+&lt;p>Além dos contêineres de aplicativos, um Pod pode conter &lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener">init contêineres&lt;/a>
+que são executados durante a inicialização do Pod, e também podemos injetar &lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/" target="_blank" rel="noopener">contêineres efêmeros&lt;/a>
+para depuração se seu cluster oferecer isso.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 678px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/pods_hu20e870202e243bd401efa252c15cb6d3_40021_668x277_fill_box_smart1_3.png" width="668" height="277">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explorar seu aplicativo - Como visualizar pods e nós&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="../../../../blog/kubernetes/pods/">Vivendo &amp;amp; Aprendendo - Kubernetes - Pod&amp;rsquo;s&lt;/a>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="replicasets">ReplicaSets&lt;/h2>
+&lt;p>Tem como finalidade manter um conjunto estável de réplicas de pods idênticos em execução a qualquer momento.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets&lt;/a>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="deployments">Deployments&lt;/h2>
+&lt;p>Permite atualizações declarativas para Pods e ReplicaSets.&lt;/p>
+&lt;p>Você descreve um estado desejado em um Deployment e o Deployment Controller altera o estado atual para o estado desejado a uma taxa controlada.&lt;/p>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 823px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/deployments_hucef69b7a9d82d3984860a77c3f6d89b7_52410_813x346_fill_box_smart1_3.png" width="813" height="346">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://faun.pub/kubernetes-pod-naming-convention-78272fcc53ed" target="_blank" rel="noopener">Kubernetes Pod naming convention&lt;/a>
+.&lt;/p>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment&lt;/a>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="services">Services&lt;/h2>
 &lt;h2 id="namespaces">Namespaces&lt;/h2></description></item><item><title>Docs: Agendamento</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</guid><description>
 &lt;h2 id="agendamento-manual">Agendamento manual&lt;/h2>

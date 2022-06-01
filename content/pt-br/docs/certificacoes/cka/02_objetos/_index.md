@@ -48,4 +48,11 @@ Link's úteis:
 
 ## Services
 
+Uma maneira abstrata de expor um aplicativo em execução como um conjunto de Pods como um serviço de rede.
+
+O Kubernetes fornece um único nome DNS para um conjunto de pods e pode balancear a carga entre eles.
+
+{{< imgproc services Fill "387x204" >}} {{< /imgproc >}}
+Fonte.: [Kubernetes — Active/Passive Load Balancing with Services](https://faun.pub/active-passive-load-balancing-with-kubernetes-services-742cae1938af).
+
 ## Namespaces

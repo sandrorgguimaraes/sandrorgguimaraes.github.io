@@ -5,13 +5,13 @@ weight: 30
 description: Entendendo como o agendamento ou 'scheduling' funciona em cluster Kubernetes.
 ---
 
-Um agendador observa os [Pods](../02_objetos/#pods) recém-criados que não têm [Node](../../../../blog/kubernetes/nodes) atribuído. Para cada Pod que o agendador descobre, o agendador se torna responsável por encontrar o melhor Node para esse Pod ser executado, uma vez concluído esse processo o [Kubelet](../01_componentes/#kubelet) então coloca o pod em execução.
+Um agendador observa os [Pods](../02_objetos/#pods) recém-criados que não têm [Node](https://kubernetes.io/docs/concepts/architecture/nodes/) atribuído. Para cada Pod que o agendador descobre, o agendador se torna responsável por encontrar o melhor [Node](https://kubernetes.io/docs/concepts/architecture/nodes/) para esse Pod ser executado, uma vez concluído esse processo o [Kubelet](../01_componentes/#kubelet) do node escolhido então coloca o pod em execução.
 
 O escalonador chega a esta decisão de posicionamento levando em consideração os princípios de escalonamento descritos abaixo.
 
 ## Agendamento manual
 
-Defina diretamente na especificação do [Pods](../02_objetos/#pods) em qual [Node](../../../../blog/kubernetes/nodes) ele será executado.
+Defina diretamente na especificação do [Pods](../02_objetos/#pods) em qual [Node](https://kubernetes.io/docs/concepts/architecture/nodes/) ele será executado.
 
 > Link's úteis:
 >
@@ -39,13 +39,61 @@ Através de um label `selector`, o cliente/usuário pode identificar um conjunto
 
 ## Taints e Tolerations
 
+Enquanto [Node Affinity](#node-affinity) é uma propriedade dos Pods que os atrai para um conjunto de nós (como uma preferência ou um requisito rígido), as `Taints` são o oposto, elas *permitem a um nó repelir um conjunto de pods*.
+
+As `Tolerations` *são aplicadas aos pods e permitem (mas não exigem)* que os pods sejam agendados em nós com `Taints` correspondentes.
+
+As `Taints` e as `Tolerations` *trabalham juntas para garantir* que os pods não sejam agendados em nós inadequados.
+
+Uma ou mais Taints pode(m) ser aplicadas a um nó, isso marca que o nó *não deve aceitar* nenhum pod que não ***tolere*** essas Taints.
+
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Taints e Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
+
 ## Node Selectors
 
+`nodeSelector` é a forma mais simples recomendada de restrição de seleção de nó.
+
+Ao adicionar o campo `nodeSelector` à especificação do pod e definir as [labels de nós](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#built-in-node-labels) que deseja que o nó de destino tenha, o Kubernetes agenda o pod apenas em nós que tenham cada uma das labels especificadas.
+
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeSelector](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector)
+> [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós](https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/)
+
 ## Node Affinity
+
+A `Node Affinity` é conceitualmente semelhante a [nodeSelector](#node-selectors), permitindo restringir em quais nós o pod pode ser agendado com base em [labels de nós](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#built-in-node-labels).
+
+Existem dois tipos de `Node Affinity`:
+
+- `requiredDuringSchedulingIgnoredDuringExecution`: o agendador *não pode agendar* o pod a menos que a regra seja atendida. Isso funciona como [nodeSelector](#node-selectors), *mas com uma sintaxe mais expressiva*.
+- `preferredDuringSchedulingIgnoredDuringExecution`: o agendador *tenta encontrar* um nó que atenda à regra. Se um nó correspondente não estiver disponível, o agendador *ainda agendará* o pod.
+
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Node affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity)
+> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
+> - [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós usando afinidade de nó](https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/)
 
 ## Taints e Tolerations X Node Affinity
 
 ## Resources Requirements e Limits
+
+Quando você define um Pod, você pode opcionalmente especificar quanto de cada recurso um Pod precisa, os recursos mais comuns a serem especificados são [CPU](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-cpu) e [memória (RAM)](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-memory); existem outros [tipos de recursos](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-types).
+
+Quando você especifica o `requests` de um recurso para contêineres em um pod, o [kube-scheduler](../01_componentes/#scheduler) usa essas informações para decidir em qual nó colocar o pod.
+
+Quando você especifica um `limits` de recurso para um contêiner, o [kubelet](../01_componentes/#kubelet) impõe esses `limits` para que o contêiner em execução não tenha permissão para usar mais desse recurso do que o `limits` definido.
+
+O [kubelet](../01_componentes/#kubelet) também reserva pelo menos a quantidade de `requests` desse recurso do sistema *especificamente* para esse contêiner usar.
+
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Configuração - Gerenciamento de recursos para pods e contêineres](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
+> - [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir recursos de memória a contêineres e pods](https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/)
+> - [Documentação do Kubernetes - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/)
 
 ## DaemonSets
 

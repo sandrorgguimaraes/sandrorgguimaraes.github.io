@@ -9,6 +9,7 @@
 &lt;/div>
 Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overview-introduction-to-k8s-architecture-and-understanding-k8s-cluster-components-90e11eb34ccd" target="_blank" rel="noopener">Kubernetes — Architecture Overview&lt;/a>
 .&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Visão geral&lt;/a>
@@ -16,25 +17,31 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;li>&lt;a href="https://kubernetes.io/docs/concepts/architecture/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Arquitetura de cluster&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="componentes-do-master-nodes">Componentes do Master Nodes&lt;/h2>
 &lt;h3 id="etcd">ETCD&lt;/h3>
 &lt;p>É um armazenamento do tipo &lt;code>chave-valor&lt;/code> distribuído e fortemente consistente que fornece uma maneira confiável de armazenar dados que precisam ser acessados ​​por um sistema distribuído ou cluster de máquinas. Ele lida com as eleições do líder durante as partições da rede e pode tolerar falhas de máquina, mesmo no nó líder.&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://etcd.io/" target="_blank" rel="noopener">Site oficial&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="api-server">API Server&lt;/h3>
 &lt;p>O servidor de API do Kubernetes valida e configura dados para os objetos de API que incluem pods, services, replicaSets e outros.&lt;/p>
 &lt;p>O API Server atende às operações REST/kubectl e fornece o frontend para o estado compartilhado do cluster por meio do qual todos os outros componentes interagem.&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-apiserver&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="controller-manager">Controller Manager&lt;/h3>
 &lt;p>No Kubernetes, controladores são ciclos de controle que observam o estado do cluster, e então fazem ou requisitam mudanças onde e quando necessário.&lt;/p>
 &lt;p>Cada controlador tenta mover o &lt;em>estado atual&lt;/em> do cluster mais perto do &lt;em>estado desejado&lt;/em>.&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/pt-br/docs/concepts/architecture/controller/" target="_blank" rel="noopener">Documentação - Conceitos - Arquitetura do Kubernetes - Controladores&lt;/a>
@@ -42,6 +49,7 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-controller-manager&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="scheduler">Scheduler&lt;/h3>
 &lt;p>Observa os pods recém-criados sem nenhum nó atribuído e seleciona um nó para executá-los.&lt;/p>
 &lt;p>Os fatores levados em consideração para as decisões de agendamento incluem:&lt;/p>
@@ -53,6 +61,7 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;li>Interferência entre cargas de trabalho; e&lt;/li>
 &lt;li>Prazos.&lt;/li>
 &lt;/ul>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes&lt;/a>
@@ -62,23 +71,28 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;li>&lt;a href="../../../../blog/kubernetes/scheduler/">Vivendo &amp;amp; Aprendendo - Kubernetes - Scheduler&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="componentes-dos-worker-nodes">Componentes dos Worker Nodes&lt;/h2>
 &lt;h3 id="kubelet">Kubelet&lt;/h3>
 &lt;p>&lt;em>É o principal agente&lt;/em> executado em cada worker node. O kubelet usa um conjunto de PodSpecs fornecidos por meio de vários mecanismos (principalmente por meio do apiserver) e garante que os contêineres descritos nesses PodSpecs estejam em execução e íntegros.&lt;/p>
 &lt;p>O kubelet não gerencia contêineres que não foram criados pelo Kubernetes.&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kubelet&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="kube-proxy">Kube Proxy&lt;/h3>
 &lt;p>É um proxy de rede executado em cada nó no cluster, implementando parte do conceito de serviço do Kubernetes.&lt;/p>
 &lt;p>O &lt;code>kube-proxy&lt;/code> mantém regras de rede nos nós, estas regras permitem a comunicação de rede com os pods a partir de sessões de rede dentro ou fora do cluster.&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-proxy&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="container-runtime">Container runtime&lt;/h3>
 &lt;p>É o software responsável pela execução dos contêineres.&lt;/p>
 &lt;p>O Kubernetes oferece suporte a ambientes de container runtime como o &lt;a href="https://containerd.io/docs/" target="_blank" rel="noopener">containerd&lt;/a>
@@ -91,28 +105,35 @@ e qualquer outra implementação do &lt;a href="https://github.com/kubernetes/co
 &lt;p>Além dos contêineres de aplicativos, um Pod pode conter &lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener">init contêineres&lt;/a>
 que são executados durante a inicialização do Pod, e também podemos injetar &lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/" target="_blank" rel="noopener">contêineres efêmeros&lt;/a>
 para depuração se seu cluster oferecer isso.&lt;/p>
+&lt;p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 678px">
 &lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/pods_hu20e870202e243bd401efa252c15cb6d3_40021_668x277_fill_box_smart1_3.png" width="668" height="277">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text"> &lt;/p>
 &lt;/div>
 &lt;/div>
+Fonte.: &lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes&lt;/a>
+&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explorar seu aplicativo - Como visualizar pods e nós&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes&lt;/a>
 &lt;/li>
 &lt;li>&lt;a href="../../../../blog/kubernetes/pods/">Vivendo &amp;amp; Aprendendo - Kubernetes - Pod&amp;rsquo;s&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="replicasets">ReplicaSets&lt;/h2>
 &lt;p>Tem como finalidade manter um conjunto estável de réplicas de pods idênticos em execução a qualquer momento.&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="deployments">Deployments&lt;/h2>
 &lt;p>Permite atualizações declarativas para Pods e ReplicaSets.&lt;/p>
 &lt;p>Você descreve um estado desejado em um Deployment e o Deployment Controller altera o estado atual para o estado desejado a uma taxa controlada.&lt;/p>
@@ -125,6 +146,7 @@ para depuração se seu cluster oferecer isso.&lt;/p>
 &lt;/div>
 Fonte.: &lt;a href="https://faun.pub/kubernetes-pod-naming-convention-78272fcc53ed" target="_blank" rel="noopener">Kubernetes Pod naming convention&lt;/a>
 .&lt;/p>
+&lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments&lt;/a>
@@ -132,10 +154,92 @@ Fonte.: &lt;a href="https://faun.pub/kubernetes-pod-naming-convention-78272fcc53
 &lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="services">Services&lt;/h2>
-&lt;h2 id="namespaces">Namespaces&lt;/h2></description></item><item><title>Docs: Agendamento</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</guid><description>
+&lt;p>Uma maneira abstrata de expor um aplicativo em execução com um conjunto de Pods (normalmente gerenciados por um ReplicaSet) como um serviço de rede.&lt;/p>
+&lt;p>O Kubernetes fornece um único nome DNS e endereço IP para esse conjunto de pods e pode balancear a carga entre eles.&lt;/p>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 696px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/services_hu664fc43ad0c83382baa79e172c1cde29_83574_686x509_fill_box_smart1_3.png" width="686" height="509">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Exponha seu aplicativo publicamente - Usando um service para expor seu aplicativo&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/services-networking/service/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Services, balanceamento de carga e rede - Services&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="namespaces">Namespaces&lt;/h2>
+&lt;p>No Kubernetes, os namespaces fornecem um mecanismo para isolar grupos de recursos dentro de um cluster.&lt;/p>
+&lt;p>Os nomes dos recursos precisam ser exclusivos dentro do namespace, mas não entre namespaces.&lt;/p>
+&lt;p>Os namespaces não podem ser aninhados uns dentro dos outros e cada recurso do Kubernetes só pode estar em um namespace.&lt;/p>
+&lt;p>Os namespaces são uma maneira de dividir os recursos do cluster entre vários usuários (por meio das &lt;a href="https://kubernetes.io/docs/concepts/policy/resource-quotas/" target="_blank" rel="noopener">resources quotas&lt;/a>
+).&lt;/p>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 754px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/02_objetos/namespaces_hu0dce226aecd7a37245248683e66a16bb_40979_744x446_fill_box_smart1_3.png" width="744" height="446">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://www.mshowto.org/kubernetes-namespace-terminating-problemi.html" target="_blank" rel="noopener">Kubernetes Namespace Terminating Problemi&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Namespaces&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Administrar um cluster - Passo a passo de namespaces&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item><item><title>Docs: Agendamento</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</guid><description>
+&lt;p>Um agendador observa os &lt;a href="../02_objetos/#pods">Pods&lt;/a>
+recém-criados que não têm &lt;a href="../../../../blog/kubernetes/nodes">Node&lt;/a>
+atribuído. Para cada Pod que o agendador descobre, o agendador se torna responsável por encontrar o melhor Node para esse Pod ser executado, uma vez concluído esse processo o &lt;a href="../01_componentes/#kubelet">Kubelet&lt;/a>
+então coloca o pod em execução.&lt;/p>
+&lt;p>O escalonador chega a esta decisão de posicionamento levando em consideração os princípios de escalonamento descritos abaixo.&lt;/p>
 &lt;h2 id="agendamento-manual">Agendamento manual&lt;/h2>
+&lt;p>Defina diretamente na especificação do &lt;a href="../02_objetos/#pods">Pods&lt;/a>
+em qual &lt;a href="../../../../blog/kubernetes/nodes">Node&lt;/a>
+ele será executado.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeName&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="labels-e-selectors">Labels e Selectors&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Labels:&lt;/p>
+&lt;ul>
+&lt;li>São pares de chave/valor anexados a objetos, como pods.&lt;/li>
+&lt;li>Devem ser usados ​​para especificar atributos de identificação de objetos que são significativos e relevantes para os usuários, mas não implicam diretamente na semântica do sistema central.&lt;/li>
+&lt;li>Podem ser usados ​​para organizar e selecionar subconjuntos de objetos.&lt;/li>
+&lt;li>Podem ser anexados a objetos no momento da criação e posteriormente adicionados e modificados a qualquer momento.&lt;/li>
+&lt;li>Cada chave deve ser exclusiva para um determinado objeto.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Ao contrário de &lt;a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/" target="_blank" rel="noopener">nomes e UIDs&lt;/a>
+, &lt;em>as labels não fornecem exclusividade&lt;/em>. Em geral, espera-se que muitos objetos tenham a(s) mesma(s) label(s).&lt;/p>
+&lt;ul>
+&lt;li>Selectors&lt;/li>
+&lt;/ul>
+&lt;p>Através de um label &lt;code>selector&lt;/code>, o cliente/usuário pode identificar um conjunto de objetos. O label selector é a primitiva de agrupamento principal no Kubernetes.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Labels e Selectors&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="taints-e-tolerations">Taints e Tolerations&lt;/h2>
 &lt;h2 id="node-selectors">Node Selectors&lt;/h2>
 &lt;h2 id="node-affinity">Node Affinity&lt;/h2>

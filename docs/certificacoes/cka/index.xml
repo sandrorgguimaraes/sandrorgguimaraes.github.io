@@ -1,8 +1,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Certified Kubernetes Administrator (CKA)</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/</link><description>Recent content in Certified Kubernetes Administrator (CKA) on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Componentes Básicos</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/</guid><description>
+&lt;p>Um &lt;a href="https://en.wikipedia.org/wiki/Computer_cluster" target="_blank" rel="noopener">cluster&lt;/a>
+Kubernetes consiste em um conjunto de máquinas de trabalho (físicas ou virtuais), chamadas &lt;a href="https://kubernetes.io/docs/concepts/architecture/nodes/" target="_blank" rel="noopener">&lt;code>Node&lt;/code> ou &lt;code>Nó&lt;/code>&lt;/a>
+que executam aplicativos em contêiner.&lt;/p>
+&lt;p>Em essência existem 2 (dois) tipos de nós em um cluster Kubernetes:&lt;/p>
+&lt;ul>
+&lt;li>Os &lt;code>nós workers&lt;/code> que hospedam os Pods que são os componentes da carga de trabalho do aplicativo.&lt;/li>
+&lt;li>Os &lt;code>nós masters&lt;/code> ou &lt;code>control plane&lt;/code> que gerenciam os &lt;code>nós works&lt;/code> e os pods no cluster.&lt;/li>
+&lt;/ul>
+&lt;p>Em ambiente de produção, o &lt;code>control plane&lt;/code> geralmente é executado em vários computadores e um cluster geralmente executa vários &lt;code>nós workers&lt;/code> fornecendo tolerância a falhas e alta disponibilidade.&lt;/p>
+&lt;p>Em ambientes de estudo podemos ter apenas uma máquina exercendo as duas funções.&lt;/p>
 &lt;h2 id="visão-geral-da-arquitetura-de-um-cluster-k8s">Visão geral da arquitetura de um cluster k8s&lt;/h2>
 &lt;p>
-&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 710px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/arquitetura_k8s_hud8201c29ed6267df247424b67429a3bd_92678_700x342_fill_box_smart1_3.png" width="700" height="342">
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 849px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/01_componentes/arquitetura_k8s_hu8443cdf2387def9c2debf01304f5c329_136093_839x410_fill_box_smart1_3.png" width="839" height="410">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text"> &lt;/p>
 &lt;/div>
@@ -18,7 +28,7 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;h2 id="componentes-do-master-nodes">Componentes do Master Nodes&lt;/h2>
+&lt;h2 id="componentes-dos-master-nodes-ou-control-plane">Componentes dos Master Nodes ou Control Plane&lt;/h2>
 &lt;h3 id="etcd">ETCD&lt;/h3>
 &lt;p>É um armazenamento do tipo &lt;code>chave-valor&lt;/code> distribuído e fortemente consistente que fornece uma maneira confiável de armazenar dados que precisam ser acessados ​​por um sistema distribuído ou cluster de máquinas. Ele lida com as eleições do líder durante as partições da rede e pode tolerar falhas de máquina, mesmo no nó líder.&lt;/p>
 &lt;blockquote>
@@ -199,13 +209,14 @@ Fonte.: &lt;a href="https://www.mshowto.org/kubernetes-namespace-terminating-pro
 &lt;/ul>
 &lt;/blockquote></description></item><item><title>Docs: Agendamento</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</guid><description>
 &lt;p>Um agendador observa os &lt;a href="../02_objetos/#pods">Pods&lt;/a>
-recém-criados que não têm &lt;a href="../../../../blog/kubernetes/nodes">Node&lt;/a>
-atribuído. Para cada Pod que o agendador descobre, o agendador se torna responsável por encontrar o melhor Node para esse Pod ser executado, uma vez concluído esse processo o &lt;a href="../01_componentes/#kubelet">Kubelet&lt;/a>
-então coloca o pod em execução.&lt;/p>
+recém-criados que não têm &lt;a href="https://kubernetes.io/docs/concepts/architecture/nodes/" target="_blank" rel="noopener">Node&lt;/a>
+atribuído. Para cada Pod que o agendador descobre, o agendador se torna responsável por encontrar o melhor &lt;a href="https://kubernetes.io/docs/concepts/architecture/nodes/" target="_blank" rel="noopener">Node&lt;/a>
+para esse Pod ser executado, uma vez concluído esse processo o &lt;a href="../01_componentes/#kubelet">Kubelet&lt;/a>
+do node escolhido então coloca o pod em execução.&lt;/p>
 &lt;p>O escalonador chega a esta decisão de posicionamento levando em consideração os princípios de escalonamento descritos abaixo.&lt;/p>
 &lt;h2 id="agendamento-manual">Agendamento manual&lt;/h2>
 &lt;p>Defina diretamente na especificação do &lt;a href="../02_objetos/#pods">Pods&lt;/a>
-em qual &lt;a href="../../../../blog/kubernetes/nodes">Node&lt;/a>
+em qual &lt;a href="https://kubernetes.io/docs/concepts/architecture/nodes/" target="_blank" rel="noopener">Node&lt;/a>
 ele será executado.&lt;/p>
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
@@ -241,10 +252,74 @@ ele será executado.&lt;/p>
 &lt;/ul>
 &lt;/blockquote>
 &lt;h2 id="taints-e-tolerations">Taints e Tolerations&lt;/h2>
+&lt;p>Enquanto &lt;a href="#node-affinity">Node Affinity&lt;/a>
+é uma propriedade dos Pods que os atrai para um conjunto de nós (como uma preferência ou um requisito rígido), as &lt;code>Taints&lt;/code> são o oposto, elas &lt;em>permitem a um nó repelir um conjunto de pods&lt;/em>.&lt;/p>
+&lt;p>As &lt;code>Tolerations&lt;/code> &lt;em>são aplicadas aos pods e permitem (mas não exigem)&lt;/em> que os pods sejam agendados em nós com &lt;code>Taints&lt;/code> correspondentes.&lt;/p>
+&lt;p>As &lt;code>Taints&lt;/code> e as &lt;code>Tolerations&lt;/code> &lt;em>trabalham juntas para garantir&lt;/em> que os pods não sejam agendados em nós inadequados.&lt;/p>
+&lt;p>Uma ou mais Taints pode(m) ser aplicadas a um nó, isso marca que o nó &lt;em>não deve aceitar&lt;/em> nenhum pod que não &lt;em>&lt;strong>tolere&lt;/strong>&lt;/em> essas Taints.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Taints e Tolerations&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="node-selectors">Node Selectors&lt;/h2>
+&lt;p>&lt;code>nodeSelector&lt;/code> é a forma mais simples recomendada de restrição de seleção de nó.&lt;/p>
+&lt;p>Ao adicionar o campo &lt;code>nodeSelector&lt;/code> à especificação do pod e definir as &lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#built-in-node-labels" target="_blank" rel="noopener">labels de nós&lt;/a>
+que deseja que o nó de destino tenha, o Kubernetes agenda o pod apenas em nós que tenham cada uma das labels especificadas.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeSelector&lt;/a>
+&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="node-affinity">Node Affinity&lt;/h2>
+&lt;p>A &lt;code>Node Affinity&lt;/code> é conceitualmente semelhante a &lt;a href="#node-selectors">nodeSelector&lt;/a>
+, permitindo restringir em quais nós o pod pode ser agendado com base em &lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#built-in-node-labels" target="_blank" rel="noopener">labels de nós&lt;/a>
+.&lt;/p>
+&lt;p>Existem dois tipos de &lt;code>Node Affinity&lt;/code>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>requiredDuringSchedulingIgnoredDuringExecution&lt;/code>: o agendador &lt;em>não pode agendar&lt;/em> o pod a menos que a regra seja atendida. Isso funciona como &lt;a href="#node-selectors">nodeSelector&lt;/a>
+, &lt;em>mas com uma sintaxe mais expressiva&lt;/em>.&lt;/li>
+&lt;li>&lt;code>preferredDuringSchedulingIgnoredDuringExecution&lt;/code>: o agendador &lt;em>tenta encontrar&lt;/em> um nó que atenda à regra. Se um nó correspondente não estiver disponível, o agendador &lt;em>ainda agendará&lt;/em> o pod.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Node affinity&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Affinity and anti-affinity&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós usando afinidade de nó&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="taints-e-tolerations-x-node-affinity">Taints e Tolerations X Node Affinity&lt;/h2>
 &lt;h2 id="resources-requirements-e-limits">Resources Requirements e Limits&lt;/h2>
+&lt;p>Quando você define um Pod, você pode opcionalmente especificar quanto de cada recurso um Pod precisa, os recursos mais comuns a serem especificados são &lt;a href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-cpu" target="_blank" rel="noopener">CPU&lt;/a>
+e &lt;a href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-memory" target="_blank" rel="noopener">memória (RAM)&lt;/a>
+; existem outros &lt;a href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-types" target="_blank" rel="noopener">tipos de recursos&lt;/a>
+.&lt;/p>
+&lt;p>Quando você especifica o &lt;code>requests&lt;/code> de um recurso para contêineres em um pod, o &lt;a href="../01_componentes/#scheduler">kube-scheduler&lt;/a>
+usa essas informações para decidir em qual nó colocar o pod.&lt;/p>
+&lt;p>Quando você especifica um &lt;code>limits&lt;/code> de recurso para um contêiner, o &lt;a href="../01_componentes/#kubelet">kubelet&lt;/a>
+impõe esses &lt;code>limits&lt;/code> para que o contêiner em execução não tenha permissão para usar mais desse recurso do que o &lt;code>limits&lt;/code> definido.&lt;/p>
+&lt;p>O &lt;a href="../01_componentes/#kubelet">kubelet&lt;/a>
+também reserva pelo menos a quantidade de &lt;code>requests&lt;/code> desse recurso do sistema &lt;em>especificamente&lt;/em> para esse contêiner usar.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Configuração - Gerenciamento de recursos para pods e contêineres&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir recursos de memória a contêineres e pods&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="daemonsets">DaemonSets&lt;/h2>
 &lt;h2 id="static-pods">Static Pods&lt;/h2>
 &lt;h2 id="multiplos-kubernetes-schedulers">Multiplos Kubernetes Schedulers&lt;/h2></description></item><item><title>Docs: Log &amp; Monitoração</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</guid><description>

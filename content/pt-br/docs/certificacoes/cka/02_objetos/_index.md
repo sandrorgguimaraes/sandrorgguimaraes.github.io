@@ -19,19 +19,19 @@ Além dos contêineres de aplicativos, um Pod pode conter [init contêineres](ht
 {{< imgproc pods Fill "668x277" >}} {{< /imgproc >}}
 Fonte.: [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
-- [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
-- [Vivendo & Aprendendo - Kubernetes - Pod's](../../../../blog/kubernetes/pods/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
+> - [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
+> - [Vivendo & Aprendendo - Kubernetes - Pod's](../../../../blog/kubernetes/pods/)
 
 ## ReplicaSets
 
 Tem como finalidade manter um conjunto estável de réplicas de pods idênticos em execução a qualquer momento.
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 
 ## Deployments
 
@@ -42,10 +42,10 @@ Você descreve um estado desejado em um Deployment e o Deployment Controller alt
 {{< imgproc deployments Fill "813x346" >}} {{< /imgproc >}}
 Fonte.: [Kubernetes Pod naming convention](https://faun.pub/kubernetes-pod-naming-convention-78272fcc53ed).
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
-- [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+> - [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)
 
 ## Services
 
@@ -56,9 +56,9 @@ O Kubernetes fornece um único nome DNS e endereço IP para esse conjunto de pod
 {{< imgproc services Fill "686x509" >}} {{< /imgproc >}}
 Fonte.: [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Exponha seu aplicativo publicamente - Usando um service para expor seu aplicativo](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/)
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Conceitos - Services, balanceamento de carga e rede - Services](https://kubernetes.io/docs/concepts/services-networking/service/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Services, balanceamento de carga e rede - Services](https://kubernetes.io/docs/concepts/services-networking/service/)
 
 ## Namespaces
 
@@ -73,7 +73,7 @@ Os namespaces são uma maneira de dividir os recursos do cluster entre vários u
 {{< imgproc namespaces Fill "744x446" >}} {{< /imgproc >}}
 Fonte.: [Kubernetes Namespace Terminating Problemi](https://www.mshowto.org/kubernetes-namespace-terminating-problemi.html)
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
-- [Documentação do Kubernetes - Tarefas - Administrar um cluster - Passo a passo de namespaces](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
+> - [Documentação do Kubernetes - Tarefas - Administrar um cluster - Passo a passo de namespaces](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/)

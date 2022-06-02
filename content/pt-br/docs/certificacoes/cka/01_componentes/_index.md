@@ -8,9 +8,20 @@ resources:
   title: "Image #:counter"
 ---
 
+Um [cluster](https://en.wikipedia.org/wiki/Computer_cluster) Kubernetes consiste em um conjunto de máquinas de trabalho (físicas ou virtuais), chamadas [`Node` ou `Nó`](https://kubernetes.io/docs/concepts/architecture/nodes/) que executam aplicativos em contêiner.
+
+Em essência existem 2 (dois) tipos de nós em um cluster Kubernetes:
+
+- Os `nós workers` que hospedam os Pods que são os componentes da carga de trabalho do aplicativo.
+- Os `nós masters` ou `control plane` que gerenciam os `nós works` e os pods no cluster.
+
+Em ambiente de produção, o `control plane` geralmente é executado em vários computadores e um cluster geralmente executa vários `nós workers` fornecendo tolerância a falhas e alta disponibilidade.
+
+Em ambientes de estudo podemos ter apenas uma máquina exercendo as duas funções.
+
 ## Visão geral da arquitetura de um cluster k8s
 
-{{< imgproc arquitetura_k8s Fill "700x342" >}} {{< /imgproc >}}
+{{< imgproc arquitetura_k8s Fill "839x410" >}} {{< /imgproc >}}
 Fonte.: [Kubernetes — Architecture Overview](https://medium.com/devops-mojo/kubernetes-architecture-overview-introduction-to-k8s-architecture-and-understanding-k8s-cluster-components-90e11eb34ccd).
 
 > Link's úteis:
@@ -18,7 +29,7 @@ Fonte.: [Kubernetes — Architecture Overview](https://medium.com/devops-mojo/ku
 > - [Documentação do Kubernetes - Conceitos - Visão geral](https://kubernetes.io/docs/concepts/overview/)
 > - [Documentação do Kubernetes - Conceitos - Arquitetura de cluster](https://kubernetes.io/docs/concepts/architecture/)
 
-## Componentes do Master Nodes
+## Componentes dos Master Nodes ou Control Plane
 
 ### ETCD
 

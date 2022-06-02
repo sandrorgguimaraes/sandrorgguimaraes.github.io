@@ -13,10 +13,10 @@ resources:
 {{< imgproc arquitetura_k8s Fill "700x342" >}} {{< /imgproc >}}
 Fonte.: [Kubernetes — Architecture Overview](https://medium.com/devops-mojo/kubernetes-architecture-overview-introduction-to-k8s-architecture-and-understanding-k8s-cluster-components-90e11eb34ccd).
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Conceitos - Visão geral](https://kubernetes.io/docs/concepts/overview/)
-- [Documentação do Kubernetes - Conceitos - Arquitetura de cluster](https://kubernetes.io/docs/concepts/architecture/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Visão geral](https://kubernetes.io/docs/concepts/overview/)
+> - [Documentação do Kubernetes - Conceitos - Arquitetura de cluster](https://kubernetes.io/docs/concepts/architecture/)
 
 ## Componentes do Master Nodes
 
@@ -24,9 +24,9 @@ Link's úteis:
 
 É um armazenamento do tipo `chave-valor` distribuído e fortemente consistente que fornece uma maneira confiável de armazenar dados que precisam ser acessados ​​por um sistema distribuído ou cluster de máquinas. Ele lida com as eleições do líder durante as partições da rede e pode tolerar falhas de máquina, mesmo no nó líder.
 
-Link's úteis:
-
-- [Site oficial](https://etcd.io/)
+> Link's úteis:
+>
+> - [Site oficial](https://etcd.io/)
 
 ### API Server
 
@@ -34,9 +34,9 @@ O servidor de API do Kubernetes valida e configura dados para os objetos de API 
 
 O API Server atende às operações REST/kubectl e fornece o frontend para o estado compartilhado do cluster por meio do qual todos os outros componentes interagem.
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-apiserver](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-apiserver](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
 
 ### Controller Manager
 
@@ -44,10 +44,10 @@ No Kubernetes, controladores são ciclos de controle que observam o estado do cl
 
 Cada controlador tenta mover o *estado atual* do cluster mais perto do *estado desejado*.
 
-Link's úteis:
-
-- [Documentação - Conceitos - Arquitetura do Kubernetes - Controladores](https://kubernetes.io/pt-br/docs/concepts/architecture/controller/)
-- [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-controller-manager](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
+> Link's úteis:
+>
+> - [Documentação - Conceitos - Arquitetura do Kubernetes - Controladores](https://kubernetes.io/pt-br/docs/concepts/architecture/controller/)
+> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-controller-manager](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
 
 ### Scheduler
 
@@ -62,11 +62,11 @@ Os fatores levados em consideração para as decisões de agendamento incluem:
 - Interferência entre cargas de trabalho; e
 - Prazos.
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
-- [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/)
-- [Vivendo & Aprendendo - Kubernetes - Scheduler](../../../../blog/kubernetes/scheduler/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
+> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/)
+> - [Vivendo & Aprendendo - Kubernetes - Scheduler](../../../../blog/kubernetes/scheduler/)
 
 ## Componentes dos Worker Nodes
 
@@ -76,9 +76,9 @@ Link's úteis:
 
 O kubelet não gerencia contêineres que não foram criados pelo Kubernetes.
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Referência - Ferramentas de componentes - kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/)
 
 ### Kube Proxy
 
@@ -86,9 +86,9 @@ Link's úteis:
 
 O `kube-proxy` mantém regras de rede nos nós, estas regras permitem a comunicação de rede com os pods a partir de sessões de rede dentro ou fora do cluster.
 
-Link's úteis:
-
-- [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-proxy](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/)
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-proxy](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/)
 
 ### Container runtime
 

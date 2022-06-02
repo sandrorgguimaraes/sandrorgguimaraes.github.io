@@ -406,6 +406,7 @@ E agora vamos remover a configuração da máquina virtual com o comando abaixo:
 ```bash
 sudo virsh undefine centos8
 ```
+
 Pronto! Procedimento concluído, agora podemos clonar a nossa máquina virtual nos próximos artigos.
 
 Espero que tenha gostado, deixe seu Feedback abaixo e sinta-se à vontade para colaborar usando o menu da direita.

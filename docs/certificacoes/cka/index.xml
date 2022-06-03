@@ -321,7 +321,64 @@ também reserva pelo menos a quantidade de &lt;code>requests&lt;/code> desse rec
 &lt;/ul>
 &lt;/blockquote>
 &lt;h2 id="daemonsets">DaemonSets&lt;/h2>
+&lt;p>Um &lt;code>DaemonSet&lt;/code> garante que todos (ou alguns) nós executem uma cópia em um pod.&lt;/p>
+&lt;p>À medida que os nós são adicionados ao cluster, os pods são adicionados a eles. À medida que os nós são removidos do cluster, esses pods são coletados como lixo.&lt;/p>
+&lt;p>A exclusão de um &lt;code>DaemonSet&lt;/code> limpará os pods que ele criou.&lt;/p>
+&lt;p>Alguns usos típicos de um &lt;code>DaemonSet&lt;/code> são:&lt;/p>
+&lt;ul>
+&lt;li>Executando um daemon de armazenamento de cluster em cada nó.&lt;/li>
+&lt;li>Executando um daemon de coleta de logs em cada nó.&lt;/li>
+&lt;li>Executando um daemon de monitoramento de nó em cada nó.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - DaemonSet&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/manage-daemon/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Gerenciar daemons de cluster&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="static-pods">Static Pods&lt;/h2>
-&lt;h2 id="multiplos-kubernetes-schedulers">Multiplos Kubernetes Schedulers&lt;/h2></description></item><item><title>Docs: Log &amp; Monitoração</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</guid><description>
+&lt;p>Os &lt;code>Static Pods&lt;/code> são gerenciados diretamente pelo daemon &lt;a href="../01_componentes/#kubelet">kubelet&lt;/a>
+em um nó específico, sem o &lt;a href="../01_componentes/#api-server">API Server&lt;/a>
+observando-os.&lt;/p>
+&lt;p>Enquanto a maioria dos Pods é gerenciada pelo &lt;a href="../01_componentes/#componentes-dos-master-nodes-ou-control-plane">Control Plane&lt;/a>
+(por exemplo, um &lt;a href="../02_objetos/#deployments">Deployments&lt;/a>
+), para &lt;code>Static Pods&lt;/code>, o &lt;a href="../01_componentes/#kubelet">kubelet&lt;/a>
+supervisiona diretamente cada &lt;code>Static Pods&lt;/code> (e o reinicia se falhar).&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/#static-pods" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Criar pods estáticos&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="multiplos-kubernetes-schedulers">Multiplos Kubernetes Schedulers&lt;/h2>
+&lt;p>Se o agendador padrão não atender às suas necessidades, você pode implementar seu próprio agendador. Além disso, você pode até executar vários agendadores simultaneamente ao lado do agendador padrão e instruir o Kubernetes sobre qual agendador usar para cada um de seus pods.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Estender Kubernetes - Configurar vários agendadores&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item><item><title>Docs: Log &amp; Monitoração</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</guid><description>
 &lt;h2 id="monitorar-os-componentes-do-cluster">Monitorar os componentes do cluster&lt;/h2>
+&lt;p>Para Kubernetes, a &lt;a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-api" target="_blank" rel="noopener">API Metrics&lt;/a>
+oferece um conjunto básico de métricas para dar suporte ao dimensionamento automático e casos de uso semelhantes.&lt;/p>
+&lt;p>Essa API disponibiliza informações sobre o uso de recursos para nó e pod, incluindo métricas para CPU e memória.&lt;/p>
+&lt;p>Se você implantar a API de métricas em seu cluster, os clientes da API do Kubernetes poderão consultar essas informações e você poderá usar os mecanismos de controle de acesso do Kubernetes para gerenciar permissões para fazer isso.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Monitoramento, registro e depuração - Solução de problemas de clusters - Pipeline de métricas de recursos&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-usage-monitoring/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Monitoramento, registro e depuração - Solução de problemas de clusters - Ferramentas para monitorar recursos&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="acompanhar-os-logs-das-aplicações">Acompanhar os logs das aplicações&lt;/h2></description></item></channel></rss>

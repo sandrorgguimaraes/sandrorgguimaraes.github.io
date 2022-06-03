@@ -97,6 +97,38 @@ O [kubelet](../01_componentes/#kubelet) também reserva pelo menos a quantidade 
 
 ## DaemonSets
 
+Um `DaemonSet` garante que todos (ou alguns) nós executem uma cópia em um pod.
+
+À medida que os nós são adicionados ao cluster, os pods são adicionados a eles. À medida que os nós são removidos do cluster, esses pods são coletados como lixo.
+
+A exclusão de um `DaemonSet` limpará os pods que ele criou.
+
+Alguns usos típicos de um `DaemonSet` são:
+
+- Executando um daemon de armazenamento de cluster em cada nó.
+- Executando um daemon de coleta de logs em cada nó.
+- Executando um daemon de monitoramento de nó em cada nó.
+
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
+> - [Documentação do Kubernetes - Tarefas - Gerenciar daemons de cluster](https://kubernetes.io/docs/tasks/manage-daemon/)
+
 ## Static Pods
 
+Os `Static Pods` são gerenciados diretamente pelo daemon [kubelet](../01_componentes/#kubelet) em um nó específico, sem o [API Server](../01_componentes/#api-server) observando-os.
+
+Enquanto a maioria dos Pods é gerenciada pelo [Control Plane](../01_componentes/#componentes-dos-master-nodes-ou-control-plane) (por exemplo, um [Deployments](../02_objetos/#deployments)), para `Static Pods`, o [kubelet](../01_componentes/#kubelet) supervisiona diretamente cada `Static Pods` (e o reinicia se falhar).
+
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/#static-pods)
+> - [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Criar pods estáticos](https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/)
+
 ## Multiplos Kubernetes Schedulers
+
+Se o agendador padrão não atender às suas necessidades, você pode implementar seu próprio agendador. Além disso, você pode até executar vários agendadores simultaneamente ao lado do agendador padrão e instruir o Kubernetes sobre qual agendador usar para cada um de seus pods.
+
+> Link's úteis:
+>
+> - [Documentação do Kubernetes - Tarefas - Estender Kubernetes - Configurar vários agendadores](https://kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/)

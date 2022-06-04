@@ -1,6 +1,6 @@
 ---
 title: Segurança
-date: 2022-04-01
+date: 2022-06-03
 weight: 50
 categories:
     - kubernetes
@@ -20,6 +20,7 @@ autores:
     - Piotr
     - William Morgan
     - Arthur Chiao
+    - Mumshad Mannambeth
 description: Entenda como funciona as segurança no Kubernetes.
 keywords:
     - security
@@ -91,5 +92,11 @@ Fonte.: <https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C
 por [**Arthur Chiao**](/autores/arthur-chiao/) em 03/2022.
 
 Neste artigo, você aprenderá a recriar o modelo de autorização [RBAC (*Role-Based Access Control*)](https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es) do Kubernetes do zero e praticará os relacionamentos entre `Roles`, `ClusterRoles`, `ServiceAccounts`, `RoleBindings` e `ClusterRoleBindings`.
+
+---
+
+## [Kubernetes Security Best Practices](https://kodekloud.com/kubernetes-security-best-practices/)
+
+por [**Mumshad Mannambeth**](/autores/mumshad-mannambeth/) em 18/10/2021.
 
 ---

@@ -2,7 +2,7 @@
 title: "Colocando em prática"
 menu:
   main:
-    weight: 20
+    weight: 30
     pre: <i class='fas fa-book'></i>
 ---
 

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – onde estudar</title><link>https://sandrorgguimaraes.github.io/tags/onde-estudar/</link><description>Recent content in onde estudar on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/onde-estudar/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Onde Estudar?</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – onde estudar</title><link>https://sandrorgguimaraes.github.io/tags/onde-estudar/</link><description>Recent content in onde estudar on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/onde-estudar/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Onde Estudar?</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</guid><description>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -48,6 +48,12 @@
 &lt;td>&lt;a href="https://www.interviewbit.com/practice/" target="_blank" rel="noopener">InterviewBit&lt;/a>
 &lt;/td>
 &lt;td>Plataforma para aprender as habilidades necessárias para trabalhos de tecnologia, através de cursos, Cheat Sheet e muito mais.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://medium.com/codex/free-devops-training-and-certifications-you-should-know-13f98e0853c9" target="_blank" rel="noopener">KumoMind&lt;/a>
+&lt;/td>
+&lt;td>Artigo com uma lista de certificações e treinamentos gratuitos sobre Kubernetes, SRE, DevOps, Cloud.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>

@@ -1,4 +1,38 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Diário de Bordo</title><link>https://sandrorgguimaraes.github.io/</link><description>Recent content on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Diário de Bordo</title><link>https://sandrorgguimaraes.github.io/</link><description>Recent content on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
+&lt;hr>
+&lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
+em 06/02/2022.&lt;/p>
+&lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
+&lt;hr>
+&lt;h2 id="introduction-to-kubernetes-what-problems-does-it-solvehttpsfaunpubintroduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23">&lt;a href="https://faun.pub/introduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23" target="_blank" rel="noopener">Introduction to Kubernetes: what problems does it solve?&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mukul-attavania/">&lt;strong>Mukul Attavania&lt;/strong>&lt;/a>
+em 06/02/2022.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-best-practiceshttpsonurcillmediumcomkubernetes-best-practices-5c156a0ff40f">&lt;a href="https://onurcill.medium.com/kubernetes-best-practices-5c156a0ff40f" target="_blank" rel="noopener">Kubernetes Best Practices&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/onur-cil/">&lt;strong>Onur Cil&lt;/strong>&lt;/a>
+em 25/02/2022.&lt;/p>
+&lt;p>Explore as melhores práticas do Kubernetes e o que ele deve incluir, além de exemplos detalhados.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-tutorials-for-beginners-30-comprehensive-guideshttpsdevopscubecomkubernetes-tutorials-beginners">&lt;a href="https://devopscube.com/kubernetes-tutorials-beginners/" target="_blank" rel="noopener">Kubernetes Tutorials For Beginners: 30 Comprehensive Guides&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
+em 16/03/2021.&lt;/p>
+&lt;hr>
+&lt;h2 id="o-efeito-kuberneteshttpswwwinfoqcombrarticleskubernetes-effectitm_sourceinfoq_enitm_mediumlink_on_en_itemitm_campaignitem_in_other_langs">&lt;a href="https://www.infoq.com/br/articles/kubernetes-effect/?itm_source=infoq_en&amp;amp;itm_medium=link_on_en_item&amp;amp;itm_campaign=item_in_other_langs" target="_blank" rel="noopener">O Efeito Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bilgin-ibryam/">&lt;strong>Bilgin Ibryam&lt;/strong>&lt;/a>
+em 30/08/2018.&lt;/p>
+&lt;p>Neste artigo o autor aborda as questões abaixo relacionadas ao desenvolvimento de aplicações em container:&lt;/p>
+&lt;ul>
+&lt;li>Abstrações e primitivas distribuídos;&lt;/li>
+&lt;li>Princípios e padrões de desing;&lt;/li>
+&lt;li>Práticas e técnicas recomendadas;&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
 &lt;hr>
 &lt;h2 id="the-differences-between-docker-containerd-cri-o-and-runchttpswwwtutorialworkscomdifference-docker-containerd-runc-crio-oci">&lt;a href="https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/" target="_blank" rel="noopener">The differences between Docker, containerd, CRI-O and runc&lt;/a>
 &lt;/h2>
@@ -22,29 +56,6 @@ em 14/11/2021.&lt;/p>
 &lt;blockquote>
 &lt;p>Este artigo não é uma tentativa de explicar os contêineres de uma só vez. Em vez disso, é a primeira página do meu estudo de vários anos sobre o domínio. Ele descreve o referido caminho de aprendizado e, em seguida, orienta você, apontando para artigos mais aprofundados neste mesmo blog.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
-&lt;hr>
-&lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/david-cassel/">&lt;strong>David Cassel&lt;/strong>&lt;/a>
-em 06/02/2022.&lt;/p>
-&lt;p>É uma das grandes histórias de sucesso de código aberto – e foi condensada em uma breve história oral.&lt;/p>
-&lt;hr>
-&lt;h2 id="introduction-to-kubernetes-what-problems-does-it-solvehttpsfaunpubintroduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23">&lt;a href="https://faun.pub/introduction-to-kubernetes-what-problems-does-it-solve-5d7b49b7db23" target="_blank" rel="noopener">Introduction to Kubernetes: what problems does it solve?&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mukul-attavania/">&lt;strong>Mukul Attavania&lt;/strong>&lt;/a>
-em 06/02/2022.&lt;/p>
-&lt;hr>
-&lt;h2 id="kubernetes-best-practiceshttpsonurcillmediumcomkubernetes-best-practices-5c156a0ff40f">&lt;a href="https://onurcill.medium.com/kubernetes-best-practices-5c156a0ff40f" target="_blank" rel="noopener">Kubernetes Best Practices&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/onur-cil/">&lt;strong>Onur Cil&lt;/strong>&lt;/a>
-em 25/02/2022.&lt;/p>
-&lt;p>Explore as melhores práticas do Kubernetes e o que ele deve incluir, além de exemplos detalhados.&lt;/p>
-&lt;hr>
-&lt;h2 id="kubernetes-tutorials-for-beginners-30-comprehensive-guideshttpsdevopscubecomkubernetes-tutorials-beginners">&lt;a href="https://devopscube.com/kubernetes-tutorials-beginners/" target="_blank" rel="noopener">Kubernetes Tutorials For Beginners: 30 Comprehensive Guides&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
-em 16/03/2021.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-run-multiple-containers-with-docker-composehttpswwwfreecodecamporgnewsrun-multiple-containers-with-docker-compose">&lt;a href="https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/" target="_blank" rel="noopener">How to Run Multiple Containers with Docker Compose&lt;/a>
@@ -138,7 +149,59 @@ em 04/2019.&lt;/p>
 &lt;hr>
 &lt;h2 id="kubernetes-production-best-practiceshttpslearnk8sioproduction-best-practices">&lt;a href="https://learnk8s.io/production-best-practices" target="_blank" rel="noopener">Kubernetes production best practices&lt;/a>
 &lt;/h2>
-&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Scheduler</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</guid><description>
+&lt;p>Lista de verificação com práticas recomendadas acionáveis ​​para implantar serviços seguros, escalonáveis ​​e resilientes no Kubernetes.&lt;/p></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
+&lt;hr>
+&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
+em 04/08/2021.&lt;/p>
+&lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
+&lt;hr>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - &lt;a href="https://pt.wikipedia.org/wiki/Identifica%C3%A7%C3%A3o_por_dois_fatores" target="_blank" rel="noopener">2FA&lt;/a>
+) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/" target="_blank" rel="noopener">A Kubernetes engineer’s guide to mTLS&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a>
+da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a>
+.&lt;/p>
+&lt;p>Segue alguns tópicos que serão abordados neste guia:&lt;/p>
+&lt;ul>
+&lt;li>O que é mTLS?&lt;/li>
+&lt;li>Que tipo de segurança o TLS oferece?&lt;/li>
+&lt;li>Quando o mTLS é útil?&lt;/li>
+&lt;li>Usando mTLS para proteger microsserviços;&lt;/li>
+&lt;li>A parte difícil do TLS: gerenciamento de certificados&lt;/li>
+&lt;li>Kubernetes, mTLS e a malha de serviço&lt;/li>
+&lt;/ul>
+&lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
+&lt;hr>
+&lt;h2 id="cert-managerhttpsgithubcomcert-managercert-manager">&lt;a href="https://github.com/cert-manager/cert-manager" target="_blank" rel="noopener">cert-manager&lt;/a>
+&lt;/h2>
+&lt;p>&lt;code>cert-manager&lt;/code> é um complemento do Kubernetes para automatizar o gerenciamento e a emissão de certificados TLS de várias fontes de emissão.&lt;/p>
+&lt;p>Ele garantirá que os certificados sejam válidos e atualizados periodicamente e tentará renová-los em um momento apropriado antes da expiração.&lt;/p>
+&lt;hr>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>O &lt;strong>RBAC&lt;/strong> (&lt;em>Role-Based Access Control&lt;/em> ou Controle de Acesso Baseado em Funções) é um mecanismo de controle de acesso de política neutra definido em torno de funções e privilégios.&lt;/p>
+&lt;p>Os componentes do RBAC, como permissões de função, funções de usuário e relações de função, facilitam a realização de atribuições de usuários&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;h2 id="limiting-access-to-kubernetes-resources-with-rbachttpslearnk8siorbac-kubernetes">&lt;a href="https://learnk8s.io/rbac-kubernetes" target="_blank" rel="noopener">Limiting access to Kubernetes resources with RBAC&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/arthur-chiao/">&lt;strong>Arthur Chiao&lt;/strong>&lt;/a>
+em 03/2022.&lt;/p>
+&lt;p>Neste artigo, você aprenderá a recriar o modelo de autorização &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">RBAC (&lt;em>Role-Based Access Control&lt;/em>)&lt;/a>
+do Kubernetes do zero e praticará os relacionamentos entre &lt;code>Roles&lt;/code>, &lt;code>ClusterRoles&lt;/code>, &lt;code>ServiceAccounts&lt;/code>, &lt;code>RoleBindings&lt;/code> e &lt;code>ClusterRoleBindings&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-security-best-practiceshttpskodekloudcomkubernetes-security-best-practices">&lt;a href="https://kodekloud.com/kubernetes-security-best-practices/" target="_blank" rel="noopener">Kubernetes Security Best Practices&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mumshad-mannambeth/">&lt;strong>Mumshad Mannambeth&lt;/strong>&lt;/a>
+em 18/10/2021.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Scheduler</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/scheduler/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-schedulerhttpskubernetesiodocsconceptsscheduling-evictionkube-scheduler">&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" target="_blank" rel="noopener">Kubernetes Scheduler&lt;/a>
 &lt;/h2>
@@ -198,53 +261,6 @@ em 03/03/2022.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
 em 16/03/2022.&lt;/p>
 &lt;p>Este artigo é baseado em uma demonstração real usando DNS público e seu certificado autoassinado.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
-&lt;hr>
-&lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/piotr/">&lt;strong>Piotr&lt;/strong>&lt;/a>
-em 04/08/2021.&lt;/p>
-&lt;p>Neste artigo, veremos padrões na segurança nativa da nuvem e do Kubernetes. Esses padrões são baseados em duas publicações interessantes relacionadas à segurança, uma da &lt;em>National Security Agency&lt;/em> (NSA) e outra da &lt;em>Cloud Native Computing Foundation&lt;/em> (CNCF).&lt;/p>
-&lt;hr>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Autenticação mútua ou autenticação bidirecional (não confundir com autenticação de dois fatores - &lt;a href="https://pt.wikipedia.org/wiki/Identifica%C3%A7%C3%A3o_por_dois_fatores" target="_blank" rel="noopener">2FA&lt;/a>
-) refere-se a duas partes que se autenticam ao mesmo tempo em um protocolo de autenticação. É um modo de autenticação padrão em alguns protocolos (IKE, SSH) e opcional em outros (TLS).&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Mutual_authentication/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mutual_authentication/&lt;/a>
-&lt;/p>
-&lt;/div>
-&lt;h2 id="a-kubernetes-engineers-guide-to-mtlshttpsbuoyantiomtls-guide">&lt;a href="https://buoyant.io/mtls-guide/" target="_blank" rel="noopener">A Kubernetes engineer’s guide to mTLS&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/william-morgan/">&lt;strong>William Morgan&lt;/strong>&lt;/a>
-da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a>
-.&lt;/p>
-&lt;p>Segue alguns tópicos que serão abordados neste guia:&lt;/p>
-&lt;ul>
-&lt;li>O que é mTLS?&lt;/li>
-&lt;li>Que tipo de segurança o TLS oferece?&lt;/li>
-&lt;li>Quando o mTLS é útil?&lt;/li>
-&lt;li>Usando mTLS para proteger microsserviços;&lt;/li>
-&lt;li>A parte difícil do TLS: gerenciamento de certificados&lt;/li>
-&lt;li>Kubernetes, mTLS e a malha de serviço&lt;/li>
-&lt;/ul>
-&lt;p>Além de um tutorial, claro! senão não teria graça.&lt;/p>
-&lt;hr>
-&lt;h2 id="cert-managerhttpsgithubcomcert-managercert-manager">&lt;a href="https://github.com/cert-manager/cert-manager" target="_blank" rel="noopener">cert-manager&lt;/a>
-&lt;/h2>
-&lt;p>&lt;code>cert-manager&lt;/code> é um complemento do Kubernetes para automatizar o gerenciamento e a emissão de certificados TLS de várias fontes de emissão.&lt;/p>
-&lt;p>Ele garantirá que os certificados sejam válidos e atualizados periodicamente e tentará renová-los em um momento apropriado antes da expiração.&lt;/p>
-&lt;hr>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>O &lt;strong>RBAC&lt;/strong> (&lt;em>Role-Based Access Control&lt;/em> ou Controle de Acesso Baseado em Funções) é um mecanismo de controle de acesso de política neutra definido em torno de funções e privilégios.&lt;/p>
-&lt;p>Os componentes do RBAC, como permissões de função, funções de usuário e relações de função, facilitam a realização de atribuições de usuários&lt;/p>
-&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es&lt;/a>
-&lt;/p>
-&lt;/div>
-&lt;h2 id="limiting-access-to-kubernetes-resources-with-rbachttpslearnk8siorbac-kubernetes">&lt;a href="https://learnk8s.io/rbac-kubernetes" target="_blank" rel="noopener">Limiting access to Kubernetes resources with RBAC&lt;/a>
-&lt;/h2>
-&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/arthur-chiao/">&lt;strong>Arthur Chiao&lt;/strong>&lt;/a>
-em 03/2022.&lt;/p>
-&lt;p>Neste artigo, você aprenderá a recriar o modelo de autorização &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">RBAC (&lt;em>Role-Based Access Control&lt;/em>)&lt;/a>
-do Kubernetes do zero e praticará os relacionamentos entre &lt;code>Roles&lt;/code>, &lt;code>ClusterRoles&lt;/code>, &lt;code>ServiceAccounts&lt;/code>, &lt;code>RoleBindings&lt;/code> e &lt;code>ClusterRoleBindings&lt;/code>.&lt;/p>
 &lt;hr></description></item><item><title>Blog: Pod's</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/pods/</guid><description>
 &lt;hr>
 &lt;h2 id="containers-vs-pods---taking-a-deeper-lookhttpsiximiuzcomenpostscontainers-vs-pods">&lt;a href="https://iximiuz.com/en/posts/containers-vs-pods/" target="_blank" rel="noopener">Containers vs. Pods - Taking a Deeper Look&lt;/a>
@@ -326,6 +342,66 @@ em 27/01/2022.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/italo-chagas/">&lt;strong>Italo Chagas&lt;/strong>&lt;/a>
 em 18/04/2022.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Onde Estudar?</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Nome do Site&lt;/th>
+&lt;th>Tecnologias / Ferramentas&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://www.codecademy.com/" target="_blank" rel="noopener">CodeCademy&lt;/a>
+&lt;/td>
+&lt;td>Diversas linguagens de programação.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.learnpython.org/" target="_blank" rel="noopener">learnpython.org&lt;/a>
+&lt;/td>
+&lt;td>Como o próprio nome diz, esse site é focado em Python.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://pt.coursera.org/" target="_blank" rel="noopener">Coursera&lt;/a>
+&lt;/td>
+&lt;td>Diversas tecnologias, linguagens, ferramentas dos mais variados fornecedores.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.edx.org/learn/computer-programming" target="_blank" rel="noopener">edX&lt;/a>
+&lt;/td>
+&lt;td>Cursos online gratuitos das principais universidades do mundo.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://watch.diolinux.com.br/public/products" target="_blank" rel="noopener">DioLinux Play&lt;/a>
+&lt;/td>
+&lt;td>Shell Script básico e avançado e alguns outros assuntos.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.tutorialworks.com/learn-kubernetes-online/#what-is-kubernetes" target="_blank" rel="noopener">Tutorial Works&lt;/a>
+&lt;/td>
+&lt;td>Compilado com os melhores lugares para aprender e experimentar o Kubernetes online.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.interviewbit.com/practice/" target="_blank" rel="noopener">InterviewBit&lt;/a>
+&lt;/td>
+&lt;td>Plataforma para aprender as habilidades necessárias para trabalhos de tecnologia, através de cursos, Cheat Sheet e muito mais.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://medium.com/codex/free-devops-training-and-certifications-you-should-know-13f98e0853c9" target="_blank" rel="noopener">KumoMind&lt;/a>
+&lt;/td>
+&lt;td>Artigo com uma lista de certificações e treinamentos gratuitos sobre Kubernetes, SRE, DevOps, Cloud.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;hr></description></item><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
 &lt;table>
 &lt;thead>
@@ -391,60 +467,6 @@ em 18/04/2022.&lt;/p>
 &lt;td>&lt;a href="https://sandrorgguimaraes.github.io/autores/julia-evans/">Julia Evans&lt;/a>
 &lt;/td>
 &lt;td>Kubernetes, Linux, dentre muitos outros assuntos.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>Blog: Onde Estudar?</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/onde-estudar/</guid><description>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Nome do Site&lt;/th>
-&lt;th>Tecnologias / Ferramentas&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;a href="https://www.codecademy.com/" target="_blank" rel="noopener">CodeCademy&lt;/a>
-&lt;/td>
-&lt;td>Diversas linguagens de programação.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.learnpython.org/" target="_blank" rel="noopener">learnpython.org&lt;/a>
-&lt;/td>
-&lt;td>Como o próprio nome diz, esse site é focado em Python.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://pt.coursera.org/" target="_blank" rel="noopener">Coursera&lt;/a>
-&lt;/td>
-&lt;td>Diversas tecnologias, linguagens, ferramentas dos mais variados fornecedores.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.edx.org/learn/computer-programming" target="_blank" rel="noopener">edX&lt;/a>
-&lt;/td>
-&lt;td>Cursos online gratuitos das principais universidades do mundo.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://watch.diolinux.com.br/public/products" target="_blank" rel="noopener">DioLinux Play&lt;/a>
-&lt;/td>
-&lt;td>Shell Script básico e avançado e alguns outros assuntos.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.tutorialworks.com/learn-kubernetes-online/#what-is-kubernetes" target="_blank" rel="noopener">Tutorial Works&lt;/a>
-&lt;/td>
-&lt;td>Compilado com os melhores lugares para aprender e experimentar o Kubernetes online.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.interviewbit.com/practice/" target="_blank" rel="noopener">InterviewBit&lt;/a>
-&lt;/td>
-&lt;td>Plataforma para aprender as habilidades necessárias para trabalhos de tecnologia, através de cursos, Cheat Sheet e muito mais.&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

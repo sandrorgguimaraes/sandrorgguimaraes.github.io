@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Mukul Attavania</title><link>https://sandrorgguimaraes.github.io/autores/mukul-attavania/</link><description>Recent content in Mukul Attavania on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/mukul-attavania/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Mukul Attavania</title><link>https://sandrorgguimaraes.github.io/autores/mukul-attavania/</link><description>Recent content in Mukul Attavania on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/mukul-attavania/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
 &lt;hr>
 &lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
 &lt;/h2>
@@ -21,4 +21,15 @@ em 25/02/2022.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
 em 16/03/2021.&lt;/p>
+&lt;hr>
+&lt;h2 id="o-efeito-kuberneteshttpswwwinfoqcombrarticleskubernetes-effectitm_sourceinfoq_enitm_mediumlink_on_en_itemitm_campaignitem_in_other_langs">&lt;a href="https://www.infoq.com/br/articles/kubernetes-effect/?itm_source=infoq_en&amp;amp;itm_medium=link_on_en_item&amp;amp;itm_campaign=item_in_other_langs" target="_blank" rel="noopener">O Efeito Kubernetes&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bilgin-ibryam/">&lt;strong>Bilgin Ibryam&lt;/strong>&lt;/a>
+em 30/08/2018.&lt;/p>
+&lt;p>Neste artigo o autor aborda as questões abaixo relacionadas ao desenvolvimento de aplicações em container:&lt;/p>
+&lt;ul>
+&lt;li>Abstrações e primitivas distribuídos;&lt;/li>
+&lt;li>Princípios e padrões de desing;&lt;/li>
+&lt;li>Práticas e técnicas recomendadas;&lt;/li>
+&lt;/ul>
 &lt;hr></description></item></channel></rss>

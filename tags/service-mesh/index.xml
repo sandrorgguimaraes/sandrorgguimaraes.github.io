@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – service mesh</title><link>https://sandrorgguimaraes.github.io/tags/service-mesh/</link><description>Recent content in service mesh on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/service-mesh/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – service mesh</title><link>https://sandrorgguimaraes.github.io/tags/service-mesh/</link><description>Recent content in service mesh on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/service-mesh/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Segurança</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/security/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-security--hardening-guidancehttpsitnextiokubernetes-security-hardening-guidance-cf5fc48a9b3e">&lt;a href="https://itnext.io/kubernetes-security-hardening-guidance-cf5fc48a9b3e" target="_blank" rel="noopener">Kubernetes Security &amp;amp; Hardening Guidance&lt;/a>
 &lt;/h2>
@@ -45,4 +45,9 @@ da &lt;a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant&lt;/a
 em 03/2022.&lt;/p>
 &lt;p>Neste artigo, você aprenderá a recriar o modelo de autorização &lt;a href="https://pt.wikipedia.org/wiki/Controle_de_acesso_baseado_em_fun%C3%A7%C3%B5es" target="_blank" rel="noopener">RBAC (&lt;em>Role-Based Access Control&lt;/em>)&lt;/a>
 do Kubernetes do zero e praticará os relacionamentos entre &lt;code>Roles&lt;/code>, &lt;code>ClusterRoles&lt;/code>, &lt;code>ServiceAccounts&lt;/code>, &lt;code>RoleBindings&lt;/code> e &lt;code>ClusterRoleBindings&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;h2 id="kubernetes-security-best-practiceshttpskodekloudcomkubernetes-security-best-practices">&lt;a href="https://kodekloud.com/kubernetes-security-best-practices/" target="_blank" rel="noopener">Kubernetes Security Best Practices&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/mumshad-mannambeth/">&lt;strong>Mumshad Mannambeth&lt;/strong>&lt;/a>
+em 18/10/2021.&lt;/p>
 &lt;hr></description></item></channel></rss>

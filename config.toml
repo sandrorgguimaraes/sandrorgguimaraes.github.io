@@ -19,11 +19,11 @@ github_branch = "main"
 # github_subdir = "userguide"
 # github_project_repo = "https://github.com/google/docsy"
 
-gcs_engine_id = "00d233acb080f4e82"
+# gcs_engine_id = "00d233acb080f4e82"
 # Enable Algolia DocSearch
 algolia_docsearch = false
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # Enable .GitInfo object for each page (if the Hugo site is versioned by Git). This will then update
 # the Lastmod parameter for each page using the last git commit date for that content file.
@@ -99,4 +99,10 @@ enable = true
   lastmod = ['lastmod', ':fileModTime', ':default']
   # lastmod = [':git', 'lastmod', 'date', 'publishDate']
   publishDate = ['publishDate', 'date']
-  
+
+[menu]
+[[menu.main]]
+  identifier = '#FicaaDica'
+  name = '#FicaaDica'
+  url = '/blog/ficaadica/'
+  weight = 10

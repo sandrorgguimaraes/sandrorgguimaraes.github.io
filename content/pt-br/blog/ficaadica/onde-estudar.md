@@ -1,6 +1,6 @@
 ---
 title: Onde Estudar?
-date: 2022-05-26
+date: 2022-06-03
 categories:
     - ficaadica
 tags:
@@ -21,4 +21,6 @@ slug: onde-estudar
 | [DioLinux Play](https://watch.diolinux.com.br/public/products) | Shell Script básico e avançado e alguns outros assuntos. |
 | [Tutorial Works](https://www.tutorialworks.com/learn-kubernetes-online/#what-is-kubernetes) | Compilado com os melhores lugares para aprender e experimentar o Kubernetes online. |
 | [InterviewBit](https://www.interviewbit.com/practice/) | Plataforma para aprender as habilidades necessárias para trabalhos de tecnologia, através de cursos, Cheat Sheet e muito mais. |
+| [KumoMind](https://medium.com/codex/free-devops-training-and-certifications-you-should-know-13f98e0853c9) | Artigo com uma lista de certificações e treinamentos gratuitos sobre Kubernetes, SRE, DevOps, Cloud. |
+
 ---

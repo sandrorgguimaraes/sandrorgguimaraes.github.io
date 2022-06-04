@@ -2,6 +2,6 @@
 title: "Vivendo & Aprendendo"
 menu:
   main:
-    weight: 10
+    weight: 20
     pre: <i class="fas fa-blog"></i>
 ---

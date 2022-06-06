@@ -26,8 +26,8 @@ Fonte.: [Kubernetes — Architecture Overview](https://medium.com/devops-mojo/ku
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Visão geral](https://kubernetes.io/docs/concepts/overview/)
-> - [Documentação do Kubernetes - Conceitos - Arquitetura de cluster](https://kubernetes.io/docs/concepts/architecture/)
+> - [Doc K8S - Conceitos - Visão geral](https://kubernetes.io/docs/concepts/overview/)
+> - [Doc K8S - Conceitos - Arquitetura de cluster](https://kubernetes.io/docs/concepts/architecture/)
 
 ## Componentes dos Master Nodes ou Control Plane
 
@@ -47,7 +47,7 @@ O API Server atende às operações REST/kubectl e fornece o frontend para o est
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-apiserver](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
+> - [Doc K8S - Referência - Ferramentas de componentes - kube-apiserver](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
 
 ### Controller Manager
 
@@ -57,8 +57,8 @@ Cada controlador tenta mover o *estado atual* do cluster mais perto do *estado d
 
 > Link's úteis:
 >
-> - [Documentação - Conceitos - Arquitetura do Kubernetes - Controladores](https://kubernetes.io/pt-br/docs/concepts/architecture/controller/)
-> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-controller-manager](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
+> - [Doc K8S - Conceitos - Arquitetura do Kubernetes - Controladores](https://kubernetes.io/pt-br/docs/concepts/architecture/controller/)
+> - [Doc K8S - Referência - Ferramentas de componentes - kube-controller-manager](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
 
 ### Scheduler
 
@@ -75,8 +75,8 @@ Os fatores levados em consideração para as decisões de agendamento incluem:
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
-> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/)
+> - [Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
+> - [Doc K8S - Referência - Ferramentas de componentes - kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/)
 > - [Vivendo & Aprendendo - Kubernetes - Scheduler](../../../../blog/kubernetes/scheduler/)
 
 ## Componentes dos Worker Nodes
@@ -89,7 +89,7 @@ O kubelet não gerencia contêineres que não foram criados pelo Kubernetes.
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/)
+> - [Doc K8S - Referência - Ferramentas de componentes - kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/)
 
 ### Kube Proxy
 
@@ -99,7 +99,7 @@ O `kube-proxy` mantém regras de rede nos nós, estas regras permitem a comunica
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-proxy](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/)
+> - [Doc K8S - Referência - Ferramentas de componentes - kube-proxy](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/)
 
 ### Container runtime
 

@@ -15,7 +15,7 @@ Defina diretamente na especificação do [Pods](../02_objetos/#pods) em qual [No
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeName](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename)
+> - [Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeName](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename)
 
 ## Labels e Selectors
 
@@ -35,7 +35,7 @@ Através de um label `selector`, o cliente/usuário pode identificar um conjunto
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Labels e Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
+> - [Doc K8S - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Labels e Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
 
 ## Taints e Tolerations
 
@@ -49,7 +49,7 @@ Uma ou mais Taints pode(m) ser aplicadas a um nó, isso marca que o nó *não de
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Taints e Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
+> - [Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Taints e Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 
 ## Node Selectors
 
@@ -59,8 +59,8 @@ Ao adicionar o campo `nodeSelector` à especificação do pod e definir as [labe
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeSelector](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector)
-> [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós](https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/)
+> - [Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeSelector](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector)
+> [Doc K8S - Tarefas - Configurar pods e contêineres - Atribuir pods a nós](https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/)
 
 ## Node Affinity
 
@@ -73,9 +73,9 @@ Existem dois tipos de `Node Affinity`:
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Node affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity)
-> - [Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
-> - [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós usando afinidade de nó](https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/)
+> - [Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Node affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity)
+> - [Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
+> - [Doc K8S - Tarefas - Configurar pods e contêineres - Atribuir pods a nós usando afinidade de nó](https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/)
 
 ## Taints e Tolerations X Node Affinity
 
@@ -91,9 +91,9 @@ O [kubelet](../01_componentes/#kubelet) também reserva pelo menos a quantidade 
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Configuração - Gerenciamento de recursos para pods e contêineres](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
-> - [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir recursos de memória a contêineres e pods](https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/)
-> - [Documentação do Kubernetes - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/)
+> - [Doc K8S - Conceitos - Configuração - Gerenciamento de recursos para pods e contêineres](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
+> - [Doc K8S - Tarefas - Configurar pods e contêineres - Atribuir recursos de memória a contêineres e pods](https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/)
+> - [Doc K8S - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/)
 
 ## DaemonSets
 
@@ -111,8 +111,8 @@ Alguns usos típicos de um `DaemonSet` são:
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
-> - [Documentação do Kubernetes - Tarefas - Gerenciar daemons de cluster](https://kubernetes.io/docs/tasks/manage-daemon/)
+> - [Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
+> - [Doc K8S - Tarefas - Gerenciar daemons de cluster](https://kubernetes.io/docs/tasks/manage-daemon/)
 
 ## Static Pods
 
@@ -122,8 +122,8 @@ Enquanto a maioria dos Pods é gerenciada pelo [Control Plane](../01_componentes
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/#static-pods)
-> - [Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Criar pods estáticos](https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/)
+> - [Doc K8S - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/#static-pods)
+> - [Doc K8S - Tarefas - Configurar pods e contêineres - Criar pods estáticos](https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/)
 
 ## Multiplos Kubernetes Schedulers
 
@@ -131,4 +131,4 @@ Se o agendador padrão não atender às suas necessidades, você pode implementa
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Tarefas - Estender Kubernetes - Configurar vários agendadores](https://kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/)
+> - [Doc K8S - Tarefas - Estender Kubernetes - Configurar vários agendadores](https://kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/)

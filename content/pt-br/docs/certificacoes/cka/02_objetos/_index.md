@@ -17,12 +17,12 @@ Um Pod modela um "host lógico" específico do aplicativo: ele contém um ou mai
 Além dos contêineres de aplicativos, um Pod pode conter [init contêineres](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/) que são executados durante a inicialização do Pod, e também podemos injetar [contêineres efêmeros](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/) para depuração se seu cluster oferecer isso.
 
 {{< imgproc pods Fill "668x277" >}} {{< /imgproc >}}
-Fonte.: [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
+Fonte.: [Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
-> - [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
+> - [Doc K8S - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
+> - [Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
 > - [Vivendo & Aprendendo - Kubernetes - Pod's](../../../../blog/kubernetes/pods/)
 
 ## ReplicaSets
@@ -31,7 +31,7 @@ Tem como finalidade manter um conjunto estável de réplicas de pods idênticos 
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+> - [Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 
 ## Deployments
 
@@ -44,8 +44,8 @@ Fonte.: [Kubernetes Pod naming convention](https://faun.pub/kubernetes-pod-namin
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
-> - [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)
+> - [Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+> - [Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)
 
 ## Services
 
@@ -54,11 +54,11 @@ Uma maneira abstrata de expor um aplicativo em execução com um conjunto de Pod
 O Kubernetes fornece um único nome DNS e endereço IP para esse conjunto de pods e pode balancear a carga entre eles.
 
 {{< imgproc services Fill "686x509" >}} {{< /imgproc >}}
-Fonte.: [Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Exponha seu aplicativo publicamente - Usando um service para expor seu aplicativo](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/)
+Fonte.: [Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Exponha seu aplicativo publicamente - Usando um service para expor seu aplicativo](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/)
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Services, balanceamento de carga e rede - Services](https://kubernetes.io/docs/concepts/services-networking/service/)
+> - [Doc K8S - Conceitos - Services, balanceamento de carga e rede - Services](https://kubernetes.io/docs/concepts/services-networking/service/)
 
 ## Namespaces
 
@@ -75,5 +75,5 @@ Fonte.: [Kubernetes Namespace Terminating Problemi](https://www.mshowto.org/kube
 
 > Link's úteis:
 >
-> - [Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
-> - [Documentação do Kubernetes - Tarefas - Administrar um cluster - Passo a passo de namespaces](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/)
+> - [Doc K8S - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
+> - [Doc K8S - Tarefas - Administrar um cluster - Passo a passo de namespaces](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/)

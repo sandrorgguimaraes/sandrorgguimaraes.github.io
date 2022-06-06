@@ -22,9 +22,9 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Visão geral&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener">Doc K8S - Conceitos - Visão geral&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/architecture/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Arquitetura de cluster&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/architecture/" target="_blank" rel="noopener">Doc K8S - Conceitos - Arquitetura de cluster&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -44,7 +44,7 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-apiserver&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/" target="_blank" rel="noopener">Doc K8S - Referência - Ferramentas de componentes - kube-apiserver&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -54,9 +54,9 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/pt-br/docs/concepts/architecture/controller/" target="_blank" rel="noopener">Documentação - Conceitos - Arquitetura do Kubernetes - Controladores&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/pt-br/docs/concepts/architecture/controller/" target="_blank" rel="noopener">Doc K8S - Conceitos - Arquitetura do Kubernetes - Controladores&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-controller-manager&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/" target="_blank" rel="noopener">Doc K8S - Referência - Ferramentas de componentes - kube-controller-manager&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -74,9 +74,9 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" target="_blank" rel="noopener">Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-scheduler&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/" target="_blank" rel="noopener">Doc K8S - Referência - Ferramentas de componentes - kube-scheduler&lt;/a>
 &lt;/li>
 &lt;li>&lt;a href="../../../../blog/kubernetes/scheduler/">Vivendo &amp;amp; Aprendendo - Kubernetes - Scheduler&lt;/a>
 &lt;/li>
@@ -89,7 +89,7 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kubelet&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" target="_blank" rel="noopener">Doc K8S - Referência - Ferramentas de componentes - kubelet&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -99,7 +99,7 @@ Fonte.: &lt;a href="https://medium.com/devops-mojo/kubernetes-architecture-overv
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/" target="_blank" rel="noopener">Documentação do Kubernetes - Referência - Ferramentas de componentes - kube-proxy&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/" target="_blank" rel="noopener">Doc K8S - Referência - Ferramentas de componentes - kube-proxy&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -122,14 +122,14 @@ para depuração se seu cluster oferecer isso.&lt;/p>
 &lt;p class="card-text"> &lt;/p>
 &lt;/div>
 &lt;/div>
-Fonte.: &lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes&lt;/a>
+Fonte.: &lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes&lt;/a>
 &lt;/p>
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Pods&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/" target="_blank" rel="noopener">Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes&lt;/a>
 &lt;/li>
 &lt;li>&lt;a href="../../../../blog/kubernetes/pods/">Vivendo &amp;amp; Aprendendo - Kubernetes - Pod&amp;rsquo;s&lt;/a>
 &lt;/li>
@@ -140,7 +140,7 @@ Fonte.: &lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/explo
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - ReplicaSets&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -159,9 +159,9 @@ Fonte.: &lt;a href="https://faun.pub/kubernetes-pod-naming-convention-78272fcc53
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/" target="_blank" rel="noopener">Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Implantar um aplicativo - Usando kubectl para criar um Deployment&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -175,12 +175,12 @@ Fonte.: &lt;a href="https://faun.pub/kubernetes-pod-naming-convention-78272fcc53
 &lt;p class="card-text"> &lt;/p>
 &lt;/div>
 &lt;/div>
-Fonte.: &lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/" target="_blank" rel="noopener">Documentação do Kubernetes - Tutoriais - Aprenda o básico do Kubernetes - Exponha seu aplicativo publicamente - Usando um service para expor seu aplicativo&lt;/a>
+Fonte.: &lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/" target="_blank" rel="noopener">Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Exponha seu aplicativo publicamente - Usando um service para expor seu aplicativo&lt;/a>
 &lt;/p>
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/services-networking/service/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Services, balanceamento de carga e rede - Services&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/services-networking/service/" target="_blank" rel="noopener">Doc K8S - Conceitos - Services, balanceamento de carga e rede - Services&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -202,9 +202,9 @@ Fonte.: &lt;a href="https://www.mshowto.org/kubernetes-namespace-terminating-pro
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Namespaces&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/" target="_blank" rel="noopener">Doc K8S - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Namespaces&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Administrar um cluster - Passo a passo de namespaces&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Passo a passo de namespaces&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote></description></item><item><title>Docs: Agendamento</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/03_agendamento/</guid><description>
@@ -221,7 +221,7 @@ ele será executado.&lt;/p>
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeName&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename" target="_blank" rel="noopener">Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeName&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -247,7 +247,7 @@ ele será executado.&lt;/p>
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Labels e Selectors&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/" target="_blank" rel="noopener">Doc K8S - Conceitos - Visão geral - Trabalhando com objetos do Kubernetes - Labels e Selectors&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -260,7 +260,7 @@ ele será executado.&lt;/p>
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Taints e Tolerations&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/" target="_blank" rel="noopener">Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Taints e Tolerations&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -271,8 +271,8 @@ que deseja que o nó de destino tenha, o Kubernetes agenda o pod apenas em nós 
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeSelector&lt;/a>
-&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector" target="_blank" rel="noopener">Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - nodeSelector&lt;/a>
+&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Atribuir pods a nós&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -289,11 +289,11 @@ que deseja que o nó de destino tenha, o Kubernetes agenda o pod apenas em nós 
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Node affinity&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity" target="_blank" rel="noopener">Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Node affinity&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Affinity and anti-affinity&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity" target="_blank" rel="noopener">Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Atribuindo pods a nós - Affinity and anti-affinity&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir pods a nós usando afinidade de nó&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Atribuir pods a nós usando afinidade de nó&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -312,11 +312,11 @@ também reserva pelo menos a quantidade de &lt;code>requests&lt;/code> desse rec
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Configuração - Gerenciamento de recursos para pods e contêineres&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/" target="_blank" rel="noopener">Doc K8S - Conceitos - Configuração - Gerenciamento de recursos para pods e contêineres&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Atribuir recursos de memória a contêineres e pods&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Atribuir recursos de memória a contêineres e pods&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -333,9 +333,9 @@ também reserva pelo menos a quantidade de &lt;code>requests&lt;/code> desse rec
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - DaemonSet&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - DaemonSet&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/manage-daemon/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Gerenciar daemons de cluster&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/manage-daemon/" target="_blank" rel="noopener">Doc K8S - Tarefas - Gerenciar daemons de cluster&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -350,9 +350,9 @@ supervisiona diretamente cada &lt;code>Static Pods&lt;/code> (e o reinicia se fa
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/#static-pods" target="_blank" rel="noopener">Documentação do Kubernetes - Conceitos - Cargas de trabalho - Pods&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/#static-pods" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Pods&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Configurar pods e contêineres - Criar pods estáticos&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Criar pods estáticos&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -361,7 +361,7 @@ supervisiona diretamente cada &lt;code>Static Pods&lt;/code> (e o reinicia se fa
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Estender Kubernetes - Configurar vários agendadores&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/" target="_blank" rel="noopener">Doc K8S - Tarefas - Estender Kubernetes - Configurar vários agendadores&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote></description></item><item><title>Docs: Log &amp; Monitoração</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/04_log_monitoracao/</guid><description>
@@ -373,12 +373,43 @@ oferece um conjunto básico de métricas para dar suporte ao dimensionamento aut
 &lt;blockquote>
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Monitoramento, registro e depuração - Solução de problemas de clusters - Pipeline de métricas de recursos&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/" target="_blank" rel="noopener">Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de clusters - Pipeline de métricas de recursos&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-usage-monitoring/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Monitoramento, registro e depuração - Solução de problemas de clusters - Ferramentas para monitorar recursos&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-usage-monitoring/" target="_blank" rel="noopener">Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de clusters - Ferramentas para monitorar recursos&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/" target="_blank" rel="noopener">Documentação do Kubernetes - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API&lt;/a>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Gerenciar recursos de memória, CPU e API&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;h2 id="acompanhar-os-logs-das-aplicações">Acompanhar os logs das aplicações&lt;/h2></description></item></channel></rss>
+&lt;h2 id="acompanhar-os-logs-das-aplicações">Acompanhar os logs das aplicações&lt;/h2>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/pt-br/docs/concepts/cluster-administration/logging/#log-b%C3%A1sico-no-kubernentes" target="_blank" rel="noopener">Doc K8S - Conceitos - Administração de Cluster - Arquitetura de Log&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-application/" target="_blank" rel="noopener">Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de Aplicativos&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/" target="_blank" rel="noopener">Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de Aplicativos - Debug Pods&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-application/determine-reason-pod-failure/" target="_blank" rel="noopener">Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de Aplicativos - Determinar o motivo da falha do Pod&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Troubleshooting Applications&lt;/p></description></item><item><title>Docs: Gerenciar Ciclos de Vida de Aplicações</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</guid><description>
+&lt;h2 id="rolling-updates-e-rollbacks">Rolling Updates e Rollbacks&lt;/h2>
+&lt;h2 id="configurando-aplicações">Configurando aplicações&lt;/h2>
+&lt;h3 id="comandos-e-argumentos">Comandos e Argumentos&lt;/h3>
+&lt;h3 id="variáveis-de-ambiente">Variáveis de ambiente&lt;/h3>
+&lt;h3 id="configmaps">ConfigMaps&lt;/h3>
+&lt;h3 id="secrets">Secrets&lt;/h3>
+&lt;h2 id="pods-com-multiplos-containers">Pods com multiplos containers&lt;/h2>
+&lt;h2 id="initcontainers">InitContainers&lt;/h2>
+&lt;h2 id="self-healing-auto-cura-das-aplicações">Self Healing (auto cura) das aplicações&lt;/h2>
+&lt;p>O Kubernetes oferece suporte de self healing (auto recuperação) a aplicativos por meio de &lt;a href="../02_objetos/#replicasets">ReplicaSets&lt;/a>
+.&lt;/p>
+&lt;p>O &lt;a href="../02_objetos/#replicasets">ReplicaSets&lt;/a>
+ajuda a garantir que um POD seja recriado automaticamente quando o aplicativo dentro do POD trava, isso ajuda a garantir que réplicas suficientes do aplicativo estejam em execução o tempo todo.&lt;/p>
+&lt;p>O Kubernetes fornece suporte adicional para verificar a integridade dos aplicativos executados em PODs e realizar as ações necessárias por meio de &lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command" target="_blank" rel="noopener">Liveness Probes&lt;/a>
+e &lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-readiness-probes" target="_blank" rel="noopener">Readiness Probes&lt;/a>
+, porém esses 2 (dois) tópicos são para o exame &lt;a href="https://www.cncf.io/certification/ckad/" target="_blank" rel="noopener">Certified Kubernetes Application Developers (CKAD)&lt;/a>
+, não são abordados nesta certificação para CKA.&lt;/p></description></item></channel></rss>

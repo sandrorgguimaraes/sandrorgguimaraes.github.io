@@ -13,7 +13,7 @@ description: Veja algumas formas de efetuar o debugging de um código Python.
 keywords:
     - debug
     - python
-slug: debug-in-python
+slug: debug
 ---
 
 {{% pageinfo %}}

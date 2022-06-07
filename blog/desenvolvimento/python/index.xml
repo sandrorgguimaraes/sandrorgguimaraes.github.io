@@ -1,4 +1,19 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</link><description>Recent content in Python on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas-python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/</link><description>Recent content in Python on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Descriptors</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/descriptors/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/descriptors/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Descriptors&lt;/strong> é uma forma elegante de controlar o acesso (pesquisa, armazenamento, exclusão, etc.) ao atributo de um objeto.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="if-you-havent-heard-of-descriptors-you-dont-know-pythonhttpsmediumcomflorianriegerif-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2">&lt;a href="https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2" target="_blank" rel="noopener">If you haven‘t heard of descriptors, you don‘t know Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/florian-rieger/">&lt;strong>Florian Rieger&lt;/strong>&lt;/a>
+em 01/12/2021.&lt;/p>
+&lt;hr>
+&lt;h2 id="descriptor-howto-guidehttpsdocspythonorg3howtodescriptorhtml">&lt;a href="https://docs.python.org/3/howto/descriptor.html" target="_blank" rel="noopener">Descriptor HowTo Guide&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/raymond-hettinger/">&lt;strong>Raymond Hettinger&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;p>Documentação oficial do Python.&lt;/p>
+&lt;hr></description></item><item><title>Blog: Dicas Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/dicas/</guid><description>
 &lt;hr>
 &lt;h2 id="run-python-in-your-htmlhttpspyscriptnet">&lt;a href="https://pyscript.net/" target="_blank" rel="noopener">Run Python in Your HTML&lt;/a>
 &lt;/h2>
@@ -100,7 +115,7 @@ em 25/01/2021.&lt;/p>
 &lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface" target="_blank" rel="noopener">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a>
 para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/" target="_blank" rel="noopener">Gunicorn&lt;/a>
 tem a oferecer.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/abstract-class-python/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/abstract-class-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/abstract-class/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/abstract-class/</guid><description>
 &lt;hr>
 &lt;h2 id="abstract-base-classes-in-python-fundamentals-for-data-scientistshttpstowardsdatasciencecomabstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">&lt;a href="https://towardsdatascience.com/abstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b" target="_blank" rel="noopener">Abstract Base Classes in Python: Fundamentals for Data Scientists&lt;/a>
 &lt;/h2>
@@ -111,9 +126,9 @@ em 08/09/2021.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/nijanthan/">&lt;strong>nijanthan&lt;/strong>&lt;/a>
 em 19/02/2021.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
-&lt;p>Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
+&lt;p>&lt;strong>Decorators&lt;/strong> permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>
 &lt;hr>
 &lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76" target="_blank" rel="noopener">7 Levels of Using Decorators in Python&lt;/a>
@@ -137,7 +152,7 @@ em 01/06/2021.&lt;/p>
 &lt;/h2>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/felipe-florencio-garcia/">&lt;strong>Felipe Florencio Garcia&lt;/strong>&lt;/a>
 em 10/11/2021.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Graphical User Interface</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/gui-python/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/gui-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Graphical User Interface</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/gui/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/gui/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Interface Gráfica do Usuário mais conhecida como GUI (&lt;em>Graphical User Interface&lt;/em>) é um tipo de interface que permite a interação com dispositivos digitais por meio de elementos gráficos como ícones e outros indicadores visuais.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Graphical_user_interface&lt;/a>
@@ -151,7 +166,7 @@ em 13/10/2021.&lt;/p>
 &lt;p>Conheça o pacote &lt;a href="https://github.com/hoffstadt/DearPyGui" target="_blank" rel="noopener">Dear PyGui&lt;/a>
 e alguns &lt;a href="https://github.com/hoffstadt/DearPyGui/wiki/Dear-PyGui-Showcase" target="_blank" rel="noopener">exemplos de uso&lt;/a>
 .&lt;/p>
-&lt;hr></description></item><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/cli-with-python/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/cli-with-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: CLI com Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/cli/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/cli/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma Interface de Linha de Comandos (ILC), em inglês &lt;em>Command-Line Interface&lt;/em> (CLI), é um meio de interagir com um programa de computador, onde o utilizador emite comandos para o programa sob a forma de sucessivas linhas de texto (linhas de comando).&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>
@@ -167,7 +182,7 @@ em 19/01/2022.&lt;/p>
 &lt;/p>
 &lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#" target="_blank" rel="noopener">Documentação da biblioteca Rich&lt;/a>
 &lt;/p>
-&lt;hr></description></item><item><title>Blog: Debug in Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/debug-in-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/debug-in-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Debug in Python</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/debug/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/debug/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Na programação de computadores e desenvolvimento de software, debugging ou depuração em portugues, é o processo de encontrar e resolver bugs (defeitos ou problemas que impedem a operação correta) em programas de computador, software ou sistemas.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Debugging/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Debugging/&lt;/a>
@@ -186,7 +201,7 @@ em 08/09/2021.&lt;/p>
 em 13/01/2021.&lt;/p>
 &lt;p>&lt;a href="https://github.com/gruns/icecream" target="_blank" rel="noopener">Icecream&lt;/a>
 é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module-python/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module-python/</guid><description>
+&lt;hr></description></item><item><title>Blog: Secrets Module</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/secrets-module/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O modulo Secrets é usado para gerar números aleatórios criptograficamente fortes adequados para gerenciar dados como senhas, autenticação de conta, tokens de segurança e segredos relacionados.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://docs.python.org/3/library/secrets.html/" target="_blank" rel="noopener">https://docs.python.org/3/library/secrets.html/&lt;/a>

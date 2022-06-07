@@ -15,11 +15,11 @@ description: Entenda o funcionamento do design pattern (padrão de design) Decor
 keywords:
     - decorators
     - python
-slug: decorators-python
+slug: decorators
 ---
 
 {{% pageinfo %}}
-Decorators permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.
+**Decorators** permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.
 {{% /pageinfo %}}
 
 ---

@@ -13,7 +13,7 @@ description: Entenda o funcionamento das Classes Abstratas no Python.
 keywords:
     - python
     - abstract class
-slug: abstract-class-python
+slug: abstract-class
 ---
 
 ---

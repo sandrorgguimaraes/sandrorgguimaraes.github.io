@@ -14,7 +14,7 @@ keywords:
     - python
     - cli
     - command line interface
-slug: cli-with-python
+slug: cli
 ---
 
 {{% pageinfo %}}

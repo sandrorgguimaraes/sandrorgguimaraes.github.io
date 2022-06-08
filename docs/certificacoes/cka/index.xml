@@ -397,19 +397,128 @@ oferece um conjunto básico de métricas para dar suporte ao dimensionamento aut
 &lt;/blockquote>
 &lt;p>Troubleshooting Applications&lt;/p></description></item><item><title>Docs: Gerenciar Ciclos de Vida de Aplicações</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</guid><description>
 &lt;h2 id="rolling-updates-e-rollbacks">Rolling Updates e Rollbacks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>Rolling Updates&lt;/code> permitem que a atualização de um &lt;a href="../02_objetos/#deployments">Deployment&lt;/a>
+ocorra com tempo de inatividade zero, atualizando incrementalmente as instâncias de novos &lt;a href="../02_objetos/#pods">Pods&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-update-deployment" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments # Rolling Update&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/" target="_blank" rel="noopener">Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Atualize seu aplicativo - Executando um Rolling Update&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/manage-daemon/update-daemon-set/" target="_blank" rel="noopener">Doc K8S - Tarefas - Gerenciar daemons de cluster - Executar um Rolling Update em um DaemonSet&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;code>Rollbacks&lt;/code> permitem retornar a uma versão anterior de um &lt;a href="../02_objetos/#deployments">Deployment&lt;/a>
+, por padrão o Kubernetes mantém um histórico de 10 versões.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-update-deployment" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Recursos de carga de trabalho - Deployments # Rollback&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/manage-daemon/rollback-daemon-set/" target="_blank" rel="noopener">Doc K8S - Tarefas - Gerenciar daemons de cluster - Executar um Rollback em um DaemonSet&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="configurando-aplicações">Configurando aplicações&lt;/h2>
+&lt;p>Veremos abaixo algumas formas de permitir a portabilidade e a reusabilidade das imagens de container, usando a abordagem de separação do código da aplicação das configurações e variáveis que podemos passar durante a inicialização dos &lt;a href="../02_objetos/#pods">Pods&lt;/a>
+.&lt;/p>
 &lt;h3 id="comandos-e-argumentos">Comandos e Argumentos&lt;/h3>
+&lt;p>O &lt;code>comando&lt;/code> e os &lt;code>argumentos&lt;/code> que definimos na especificação do Pod substituem o &lt;code>comando&lt;/code> e os &lt;code>argumentos&lt;/code> padrão fornecidos pela imagem do contêiner.&lt;/p>
+&lt;p>Se definirmos &lt;code>argumentos&lt;/code>, mas não definirmos um &lt;code>comando&lt;/code>, o &lt;code>comando&lt;/code> padrão será usado com seus &lt;em>novos&lt;/em> &lt;code>argumentos&lt;/code>.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/" target="_blank" rel="noopener">Doc K8S - Tarefas - Injetar dados em aplicativos - Definir um comando e argumentos para um contêiner&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="variáveis-de-ambiente">Variáveis de ambiente&lt;/h3>
+&lt;p>Ao criarmos um &lt;a href="../02_objetos/#pods">Pod&lt;/a>
+, podemos definir &lt;code>variáveis ​​de ambiente&lt;/code> para os containers executados no &lt;a href="../02_objetos/#pods">Pod&lt;/a>
+, para tanto inclua o campo &lt;code>env&lt;/code> ou &lt;code>envFrom&lt;/code> na especificação do container.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/" target="_blank" rel="noopener">Doc K8S - Tarefas - Injetar dados em aplicativos - Definir variáveis ​​de ambiente para um contêiner&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/" target="_blank" rel="noopener">Doc K8S - Tarefas - Injetar dados em aplicativos - Expor informações do Pod ao container por meio de variáveis ​​de ambiente&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="configmaps">ConfigMaps&lt;/h3>
+&lt;p>Um &lt;code>ConfigMap&lt;/code> é um objeto de API usado para armazenar &lt;em>dados não confidenciais&lt;/em> em pares de chave-valor.&lt;/p>
+&lt;p>Os &lt;a href="../02_objetos/#pods">Pods&lt;/a>
+podem consumir &lt;code>ConfigMaps&lt;/code> como variáveis ​​de ambiente, argumentos de linha de comando ou como arquivos de configuração em um volume.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/configuration/configmap/" target="_blank" rel="noopener">Doc K8S - Conceitos - Configuração - ConfigMaps&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Configurar um pod para usar um ConfigMap&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h3 id="secrets">Secrets&lt;/h3>
+&lt;p>&lt;code>Secrets&lt;/code> são semelhantes aos &lt;code>ConfigMaps&lt;/code> mas destinam-se especificamente a manter &lt;em>dados confidenciais&lt;/em>.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/configuration/secret/" target="_blank" rel="noopener">Doc K8S - Conceitos - Configuração - Secrets&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configmap-secret/" target="_blank" rel="noopener">Doc K8S - Tarefas - Gerenciando Secrets&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/" target="_blank" rel="noopener">Doc K8S - Tarefas - Injetar dados em aplicativos - Distribua credenciais com segurança usando Secrets&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="pods-com-multiplos-containers">Pods com multiplos containers&lt;/h2>
+&lt;p>Os &lt;a href="../02_objetos/#pods">Pods&lt;/a>
+são projetados para oferecer suporte a vários processos cooperativos (como containers) que formam uma unidade de serviço coesa.&lt;/p>
+&lt;p>Os containers em um &lt;a href="../02_objetos/#pods">Pod&lt;/a>
+são colocados e co-agendados automaticamente na mesma máquina física ou virtual no cluster, podem compartilhar recursos e dependências, comunicar-se entre si e coordenar quando e como eles serão encerrados.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/#how-pods-manage-multiple-containers" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Pods # Como os pods gerenciam vários contêineres&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/blog/2015/06/the-distributed-system-toolkit-patterns/" target="_blank" rel="noopener">Blog K8S - O kit de ferramentas do sistema distribuído: Padrões para contêineres compostos&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="initcontainers">InitContainers&lt;/h2>
+&lt;p>Os &lt;code>initContainers&lt;/code> são containers especializados que são executados antes dos containers de aplicativos em um &lt;a href="../02_objetos/#pods">Pod&lt;/a>
+, eles são exatamente como os containers normais, exceto que:&lt;/p>
+&lt;ul>
+&lt;li>Os &lt;code>initContainers&lt;/code> sempre são executados até a conclusão.&lt;/li>
+&lt;li>Cada &lt;code>initContainers&lt;/code> deve ser concluído com êxito antes que o próximo seja iniciado.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener">Doc K8S - Conceitos - Cargas de trabalho - Pods # Init Containers&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-initialization/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Configurar inicialização do Pod&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-application/debug-init-containers/" target="_blank" rel="noopener">Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de aplicativos - Debug Init Containers&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
 &lt;h2 id="self-healing-auto-cura-das-aplicações">Self Healing (auto cura) das aplicações&lt;/h2>
 &lt;p>O Kubernetes oferece suporte de self healing (auto recuperação) a aplicativos por meio de &lt;a href="../02_objetos/#replicasets">ReplicaSets&lt;/a>
 .&lt;/p>
 &lt;p>O &lt;a href="../02_objetos/#replicasets">ReplicaSets&lt;/a>
-ajuda a garantir que um POD seja recriado automaticamente quando o aplicativo dentro do POD trava, isso ajuda a garantir que réplicas suficientes do aplicativo estejam em execução o tempo todo.&lt;/p>
-&lt;p>O Kubernetes fornece suporte adicional para verificar a integridade dos aplicativos executados em PODs e realizar as ações necessárias por meio de &lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command" target="_blank" rel="noopener">Liveness Probes&lt;/a>
+ajuda a garantir que um &lt;a href="../02_objetos/#pods">Pod&lt;/a>
+seja recriado automaticamente quando o aplicativo dentro do &lt;a href="../02_objetos/#pods">Pod&lt;/a>
+trava, isso ajuda a garantir que réplicas suficientes do aplicativo estejam em execução o tempo todo.&lt;/p>
+&lt;p>O Kubernetes fornece suporte adicional para verificar a integridade dos aplicativos executados em &lt;a href="../02_objetos/#pods">Pods&lt;/a>
+e realizar as ações necessárias por meio de &lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command" target="_blank" rel="noopener">Liveness Probes&lt;/a>
 e &lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-readiness-probes" target="_blank" rel="noopener">Readiness Probes&lt;/a>
 , porém esses 2 (dois) tópicos são para o exame &lt;a href="https://www.cncf.io/certification/ckad/" target="_blank" rel="noopener">Certified Kubernetes Application Developers (CKAD)&lt;/a>
 , não são abordados nesta certificação para CKA.&lt;/p></description></item></channel></rss>

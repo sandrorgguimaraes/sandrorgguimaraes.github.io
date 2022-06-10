@@ -2,7 +2,7 @@
 title: Agendamento
 date: 2022-05-25
 weight: 30
-description: Entendendo como o agendamento ou 'scheduling' funciona em cluster Kubernetes.
+description: Entendendo como o agendamento ou 'scheduling' funciona em um cluster Kubernetes.
 ---
 
 Um agendador observa os [Pods](../02_objetos/#pods) recém-criados que não têm [Node](https://kubernetes.io/docs/concepts/architecture/nodes/) atribuído. Para cada Pod que o agendador descobre, o agendador se torna responsável por encontrar o melhor [Node](https://kubernetes.io/docs/concepts/architecture/nodes/) para esse Pod ser executado, uma vez concluído esse processo o [Kubelet](../01_componentes/#kubelet) do node escolhido então coloca o pod em execução.

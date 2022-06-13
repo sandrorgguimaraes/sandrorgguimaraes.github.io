@@ -2,7 +2,7 @@
 title: Gerenciar Ciclos de Vida de Aplicações
 date: 2022-06-06
 weight: 50
-description: Entendendo como gerenciar o ciclo de vida das aplicações
+description: Entendendo como gerenciar o ciclo de vida das aplicações em um cluster Kubernetes.
 ---
 
 ## Rolling Updates e Rollbacks

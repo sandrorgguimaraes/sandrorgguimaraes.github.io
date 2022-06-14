@@ -521,4 +521,64 @@ trava, isso ajuda a garantir que réplicas suficientes do aplicativo estejam em 
 e realizar as ações necessárias por meio de &lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command" target="_blank" rel="noopener">Liveness Probes&lt;/a>
 e &lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-readiness-probes" target="_blank" rel="noopener">Readiness Probes&lt;/a>
 , porém esses 2 (dois) tópicos são para o exame &lt;a href="https://www.cncf.io/certification/ckad/" target="_blank" rel="noopener">Certified Kubernetes Application Developers (CKAD)&lt;/a>
-, não são abordados nesta certificação para CKA.&lt;/p></description></item></channel></rss>
+, não são abordados nesta certificação para CKA.&lt;/p></description></item><item><title>Docs: Manutenção do Cluster</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/06_manutencao_cluster/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/06_manutencao_cluster/</guid><description>
+&lt;h2 id="drain-cordon-e-uncordon">Drain, Cordon e Uncordon&lt;/h2>
+&lt;p>Os comandos abaixo vão nos permitir efetuar a manutenção nos &lt;a href="https://kubernetes.io/docs/concepts/architecture/nodes/" target="_blank" rel="noopener">Nodes&lt;/a>
+de forma controlada, mitigando possíveis problemas às aplicações.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>cordon&lt;/code> == &lt;strong>marcar&lt;/strong> o Node como não agendável;
+&lt;ul>
+&lt;li>Impedindo que novos Pods sejam agendados no mesmo.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>drain&lt;/code> == &lt;strong>drenar&lt;/strong> o Node.
+&lt;ul>
+&lt;li>Marca o Node como não agendável (igual o &lt;code>cordon&lt;/code>) e;&lt;/li>
+&lt;li>Remove todos os Pods em execução, exceto os DaemonSets, criando-os em outros Nodes.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>uncordon&lt;/code> == &lt;strong>desmarcar&lt;/strong> o Node como não agendável.
+&lt;ul>
+&lt;li>Permitindo que &lt;em>novas cargas&lt;/em> de trabalho / Pods sejam agendadas no mesmo.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/architecture/nodes/#manual-node-administration" target="_blank" rel="noopener">Doc K8S - Conceitos - Arquitetura de cluster - Nodes # Administração manual de Nodes&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Drain em um Nó com segurança&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="atualizando-a-versão-do-kubernetes">Atualizando a versão do Kubernetes&lt;/h2>
+&lt;p>A maneira como atualizamos um cluster Kubernetes depende de como foi implantado inicialmente e das alterações realizadas posteriormente.&lt;/p>
+&lt;p>Em alto nível, as etapas são:&lt;/p>
+&lt;ul>
+&lt;li>Atualizar os &lt;a href="../01_componentes/#componentes-dos-master-nodes-ou-control-plane">Nodes Control Plane&lt;/a>
+(um Node por vez);&lt;/li>
+&lt;li>Atualizar os &lt;a href="../01_componentes/#componentes-dos-worker-nodes">Nodes Workes&lt;/a>
+(um Node por vez);&lt;/li>
+&lt;li>Atualizar os clientes como o `kubectl;&lt;/li>
+&lt;li>Ajustar manifestos e outros recursos com base nas alterações da API que acompanham a nova versão do Kubernetes;&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Atualizar um cluster&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Administração com kubeadm - Como fazer upgrade de clusters kubeadm&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="backup-e-restore-etcd">Backup e Restore ETCD&lt;/h2>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Operando clusters ETCD para Kubernetes # Fazendo o backup&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://etcd.io/docs/v3.5/op-guide/recovery/" target="_blank" rel="noopener">Doc ETCD - Versões - v3.5 - Guia de Operações - Disaster Recovery&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item></channel></rss>

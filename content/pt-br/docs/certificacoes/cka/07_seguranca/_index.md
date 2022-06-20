@@ -44,38 +44,29 @@ E como a premissa do Kubernetes é que todos os Pods podem se comunicar entre si
 
 ## Conceitos básicos sobre TLS
 
-- Diferença entre criptografia simetrica e assimetrica
-- O que é TLS
-- Certificados
-  - Processo de assinatura dos certificados (KEY -> CSR -> CRT)
-  - Autoridade Certificadora (CA)
-- PKI
+O [**TLS** (*Transport Layer Security*)](https://en.wikipedia.org/wiki/Transport_Layer_Security) é um protocolo de [criptografia](https://en.wikipedia.org/wiki/Cryptography) projetado para garantir a privacidade (confidencialidade), integridade e autenticidade na comunicação em uma rede de computadores através do uso de [certificados digitais](https://en.wikipedia.org/wiki/Public_key_certificate), ele é a base do [**HTTPS** (*Hypertext Transfer Protocol Secure*)](https://en.wikipedia.org/wiki/HTTPS).
+
+> Link's úteis:
+>
+> - [Criptografia Simétrica e Assimétrica: Qual a diferença entre elas?](https://cryptoid.com.br/banco-de-noticias/29196criptografia-simetrica-e-assimetrica/)
+> - [O que é SSL e TLS? E por que é hora de atualizar para TLS 1.3?](https://cryptoid.com.br/banco-de-noticias/o-que-e-ssl-tls-e-por-que-e-hora-de-atualizar-para-tls-1-3/)
+> - [PKI - Public Key Infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)
+> - [OpenSSL Project](https://www.openssl.org/docs/)
 
 ## TLS no Kubernetes
 
-https://github.com/kodekloudhub/certified-kubernetes-administrator-course/tree/master/docs/07-Security
+No Kubernetes para garantir a comunicação segura e confiável entre os componentes nos Worker Nodes, o [kubelet](http://localhost:1313/docs/certificacoes/cka/01_componentes/#kubelet) e o [kube-proxy](http://localhost:1313/docs/certificacoes/cka/01_componentes/#kube-proxy), e os componentes no [Control Plane](../01_componentes/#componentes-dos-master-nodes-ou-control-plane), principalmente o [kube-apiserver](http://localhost:1313/docs/certificacoes/cka/01_componentes/#api-server) é altamente recomendável usar certificados TLS.
 
-- Toda comunicação interna do cluster, entre os nodes (master e/ou workers).
-- Certificados dos Servers e Clientes
-- Sequencia de geração dos certificados
-  - CA do Kubernetes
-    - Certificados Clientes
-      - Admin User
-      - Scheduler
-      - Controller Manager
-      - Kube Proxy
-      - ApiServer-Kubelet-cliente
-      - ApiServer-ETCD-cliente
-      - Kubelet-cliente
-    - Certificados Servidoes
-      - ETCD
-      - ApiServer
-        - Vários CN
-      - Kubelet
-        - Um para cada Node
+{{< imgproc tls Fit "861x560" >}} {{< /imgproc >}}
+Fonte.: [Curso - Certified Kubernetes Administrator (CKA) with Practice Tests](https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/07-Security/06-TLS-in-Kubernetes.md).
 
-https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/
-https://kubernetes.io/docs/setup/best-practices/certificates/
+> Link's úteis:
+>
+> - [Doc K8S - Referência - Controle de acesso à API - Inicialização de TLS](https://kubernetes.io/docs/reference/access-authn-authz/kubelet-tls-bootstrapping/)
+> - [Doc K8S - Começando - Melhores Práticas - Certificados e requisitos de PKI](https://kubernetes.io/docs/setup/best-practices/certificates/)
+> - [Doc K8S - Tarefas - TLS - Gerenciar certificados TLS em um cluster](https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/)
+> - [Doc K8S - Tarefas - Administrar um cluster - Administração com kubeadm - Gerenciamento de certificados com kubeadm](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/)
+> - [Curso - Certified Kubernetes Administrator (CKA) with Practice Tests - TLS in kubernetes - Certificate Creation](https://kubernetes.io/docs/setup/best-practices/certificates/)
 
 ## API de Certificados
 

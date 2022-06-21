@@ -68,7 +68,7 @@ Fonte.: [Curso - Certified Kubernetes Administrator (CKA) with Practice Tests](h
 > - [Doc K8S - Tarefas - Administrar um cluster - Administração com kubeadm - Gerenciamento de certificados com kubeadm](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/)
 > - [Curso - Certified Kubernetes Administrator (CKA) with Practice Tests - TLS in kubernetes - Certificate Creation](https://kubernetes.io/docs/setup/best-practices/certificates/)
 
-## API de Certificados
+## Certificates API / API de Certificados
 
 A API de certificados permite a automação do provisionamento de credenciais X.509 fornecendo uma interface programática para clientes da API Kubernetes solicitarem e obterem certificados X.509 de uma Autoridade de Certificação (CA).
 
@@ -89,7 +89,7 @@ Por padrão, o `kubectl` procura por um arquivo de nome `config` no diretório `
 >
 > - [Doc K8S - Conceitos - Configuração - Organizando o acesso ao cluster usando arquivos kubeconfig](https://kubernetes.io/pt-br/docs/concepts/configuration/organize-cluster-access-kubeconfig/)
 
-## Grupos de API
+## API Groups / Grupos de API
 
 Os grupos de API facilitam a extensão da API do Kubernetes. O grupo de APIs é especificado em um caminho `REST` e no campo `apiVersion` de um objeto serializado.
 
@@ -152,7 +152,7 @@ Os recursos têm nomes diferentes (`Role` e `ClusterRole`) porque um objeto Kube
 > - [Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Role e ClusterRole](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole)
 > - [Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Utilitários de linha de comando](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities)
 
-## Services Accounts
+## Services Accounts / Contas de Serviços
 
 Segue abaixo algumas caracteristicas das *Services Accounts* ou Contas de Serviço:
 
@@ -167,18 +167,32 @@ Segue abaixo algumas caracteristicas das *Services Accounts* ou Contas de Servi�
 
 ## Segurança de Imagens
 
-https://kubernetes.io/docs/concepts/containers/images/
+Uma imagem de container representa dados binários que encapsulam um aplicativo e todas as suas dependências de software, são pacotes de software executáveis ​​que podem ser executados de forma independente e que fazem suposições muito bem definidas sobre seu ambiente de tempo de execução.
 
-## Segurança de Contexto
+Normalmente se cria uma imagem de contêiner de seu aplicativo e a envia para um registro antes de se referir a ela em um Pod.
 
-https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+> Link's úteis:
+>
+> - [Doc K8S - Conceitos - Containers - Imagens](https://kubernetes.io/docs/concepts/containers/images/)
+
+## Security Context ou Contexto de Segurança
+
+Os *Security Contexts* configuram Pods e Containers em tempo de execução.
+
+Os *Security Contexts* são definidos como parte das especificações do Pod e do Container no manifesto do Pod e representam parâmetros para o tempo de execução do container.
+
+> Link's úteis:
+>
+> - [Doc K8S - Tarefas - Configurar Pods e Containers - Configurar um Security Context para um Pod ou Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 
 ## Network Policy
 
-https://kubernetes.io/docs/concepts/services-networking/network-policies/
-https://kubernetes.io/docs/concepts/services-networking/network-policies/
+Por padrão todas as conexões de entrada e saída em um Pod são permitidas, as *Network Policies* implementam um controle no fluxo do tráfego tanto de entrada `Ingress`, quanto de saída `Egress`.
 
-<!-- 
-curl --cacert ${CACERT} --header "Authorization: Bearer ${TOKEN}" -X GET ${APISERVER}/api/v1/nodes/
+As *Network Policies* não entram em conflito, elas são aditivas. Se alguma política ou políticas se aplicarem a um determinado Pod para uma determinada direção, as conexões permitidas nessa direção desse Pod serão a união do que as políticas aplicáveis ​​permitem. Assim, a ordem de avaliação não afeta o resultado da política.
 
-curl http://localhost:8080/api/v1/namespaces/default/pods -->
+Para que uma conexão de um Pod de origem a um Pod de destino seja permitida, a política de saída no Pod de origem e a política de entrada no Pod de destino precisam permitir a conexão, se um dos lados não permitir a conexão, ela não acontecerá.
+
+> Link's úteis:
+>
+> - [Doc K8S - Conceitos - Serviços, balanceamento de carga e rede - Network Policy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)

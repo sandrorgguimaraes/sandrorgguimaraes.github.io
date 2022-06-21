@@ -70,39 +70,100 @@ Fonte.: [Curso - Certified Kubernetes Administrator (CKA) with Practice Tests](h
 
 ## API de Certificados
 
-https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/#request-signing-process
-https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/
+A API de certificados permite a automação do provisionamento de credenciais X.509 fornecendo uma interface programática para clientes da API Kubernetes solicitarem e obterem certificados X.509 de uma Autoridade de Certificação (CA).
+
+Um recurso `CertificateSigningRequest` (CSR) é usado para solicitar que um certificado seja assinado por um assinante indicado, após o qual a solicitação pode ser aprovada ou negada antes de ser finalmente assinada.
+
+> Link's úteis:
+>
+> - [Doc K8S - Referência - Controle de acesso à API - Solicitações de assinatura de certificado](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/)
+> - [Doc K8S - Tarefas - TLS - Gerenciar certificados TLS em um cluster](https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/)
 
 ## KubeConfig
 
-https://kubernetes.io/pt-br/docs/concepts/configuration/organize-cluster-access-kubeconfig/
+Utilize arquivos `kubeconfig` para organizar informações sobre clusters, usuários, namespaces e mecanismos de autenticação. A ferramenta de linha de comando `kubectl` faz uso dos arquivos `kubeconfig` para encontrar as informações necessárias para escolher e se comunicar com o serviço de API de um cluster.
 
-## API de Grupos
+Por padrão, o `kubectl` procura por um arquivo de nome `config` no diretório `$HOME/.kube`. Você pode especificar outros arquivos kubeconfig através da variável de ambiente `KUBECONFIG` ou adicionando a opção `--kubeconfig`.
 
-https://kubernetes.io/docs/reference/using-api/
-https://kubernetes.io/docs/concepts/overview/kubernetes-api/
-https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/
-https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/07-Security/15-API-Groups.md
+> Link's úteis:
+>
+> - [Doc K8S - Conceitos - Configuração - Organizando o acesso ao cluster usando arquivos kubeconfig](https://kubernetes.io/pt-br/docs/concepts/configuration/organize-cluster-access-kubeconfig/)
+
+## Grupos de API
+
+Os grupos de API facilitam a extensão da API do Kubernetes. O grupo de APIs é especificado em um caminho `REST` e no campo `apiVersion` de um objeto serializado.
+
+Existem vários grupos de API no Kubernetes:
+
+- O grupo principal ou `core` (também chamado de legado) é encontrado no caminho REST `/api/v1`. O grupo principal não é especificado como parte do campo `apiVersion`, por exemplo, `apiVersion: v1`.
+
+{{< imgproc api5 Fit "861x560" >}} {{< /imgproc >}}
+Fonte.: [Curso - Certified Kubernetes Administrator (CKA) with Practice Tests](https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/07-Security/15-API-Groups.md).
+
+- Os grupos nomeados estão no caminho REST `/apis/$GROUP_NAME/$VERSION` e usam `apiVersion: $GROUP_NAME/$VERSION` (por exemplo, `apiVersion: batch/v1`). Podemos encontrar a lista completa de grupos de API compatíveis na [referência da API do Kubernetes](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/#-strong-api-groups-strong-).
+
+{{< imgproc api6 Fit "861x560" >}} {{< /imgproc >}}
+Fonte.: [Curso - Certified Kubernetes Administrator (CKA) with Practice Tests](https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/07-Security/15-API-Groups.md).
+
+> Link's úteis:
+>
+> - [Doc K8S - Conceitos - Visão geral - A API do Kubernetes](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
+> - [Doc K8S - Referência - Configuração - Visão geral da API](https://kubernetes.io/docs/reference/using-api/)
+> - [Doc K8S - Referência - API do Kubernetes](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/)
 
 ## Autorização
 
-https://kubernetes.io/docs/reference/access-authn-authz/authorization/
-https://github.com/kodekloudhub/certified-kubernetes-administrator-course/tree/master/docs/07-Security
+O Kubernetes autoriza solicitações de API usando o API Server. Ele avalia todos os atributos de solicitação em relação a todas as políticas e permite ou nega a solicitação. Todas as partes de uma solicitação de API devem ser permitidas por alguma política para prosseguir. *Isso significa que as permissões são negadas por padrão*.
 
-## RBAC
+Quando vários módulos de autorização são configurados, cada um é verificado em sequência. Se algum autorizador aprovar ou negar um pedido, *essa decisão é imediatamente devolvida* e *nenhum outro autorizador é consultado*. Se todos os módulos não tiverem opinião sobre a solicitação, *a solicitação será negada*. Uma negação retorna um código de status HTTP 403.
 
-https://kubernetes.io/docs/reference/access-authn-authz/rbac/
-https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities
+> Link's úteis:
+>
+> - [Doc K8S - Referência - Controle de acesso à API - Visão geral da autorização](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)
+
+## RBAC (Role-Based Access Control)
+
+O **RBAC** (*Role-Based Access Control* ou Controle de Acesso Baseado em Função) é um método de regular o acesso a recursos de computador ou rede com base nas funções de usuários individuais em sua organização.
+
+A autorização **RBAC** usa o `rbac.authorization.k8s.io` [Grupo de API](#grupos-de-api) para orientar as decisões de autorização, permitindo configurar políticas dinamicamente por meio da API do Kubernetes.
+
+Para habilitar o **RBAC**, inicie o API Server com o sinalizador `--authorization-modes` definido para uma lista separada por vírgulas que inclua `RBAC`, por exemplo:
+
+```bash
+kube-apiserver --authorization-mode=Example,RBAC --other-options --more-options
+```
+
+> Link's úteis:
+>
+> - [Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
+> - [Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Utilitários de linha de comando](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities)
 
 ## Cluster Roles e Role Bindings
 
-https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole
-https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities
+Uma `Role` ou `ClusterRole` [RBAC](#rbac-role-based-access-control) contém regras que representam um conjunto de permissões. *As permissões são puramente aditivas* (não há regras de "negação").
+
+- Uma `Role` sempre define permissões em um determinado `namespace`; ao criar uma `Role`, precisa ser especificado o `namespace` ao qual ela pertence.
+- `ClusterRole`, por outro lado, é um recurso *sem namespace*, se aplica ao cluster inteiro.
+
+Os recursos têm nomes diferentes (`Role` e `ClusterRole`) porque um objeto Kubernetes sempre precisa ter namespace ou não; não pode ser os dois.
+
+> Link's úteis:
+>
+> - [Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Role e ClusterRole](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole)
+> - [Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Utilitários de linha de comando](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities)
 
 ## Services Accounts
 
-https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/
-https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
+Segue abaixo algumas caracteristicas das *Services Accounts* ou Contas de Serviço:
+
+- São para processos, que são executados em pods.
+- São vinculadas a um namespace.
+- Processo de criação mais leve, permitindo que os usuários do cluster criem contas de serviço para tarefas específicas seguindo o princípio de privilégio mínimo.
+
+> Link's úteis:
+>
+> - [Doc K8S - Referência - Controle de acesso à API - Como gerenciar Services Accounts](https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/)
+> - [Doc K8S - Tarefas - Configurar pods e contêineres - Configurar contas de serviço para pods](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
 
 ## Segurança de Imagens
 
@@ -116,3 +177,8 @@ https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
 
 https://kubernetes.io/docs/concepts/services-networking/network-policies/
 https://kubernetes.io/docs/concepts/services-networking/network-policies/
+
+<!-- 
+curl --cacert ${CACERT} --header "Authorization: Bearer ${TOKEN}" -X GET ${APISERVER}/api/v1/nodes/
+
+curl http://localhost:8080/api/v1/namespaces/default/pods -->

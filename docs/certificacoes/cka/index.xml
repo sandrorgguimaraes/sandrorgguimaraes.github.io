@@ -581,4 +581,242 @@ de forma controlada, mitigando possíveis problemas às aplicações.&lt;/p>
 &lt;li>&lt;a href="https://etcd.io/docs/v3.5/op-guide/recovery/" target="_blank" rel="noopener">Doc ETCD - Versões - v3.5 - Guia de Operações - Disaster Recovery&lt;/a>
 &lt;/li>
 &lt;/ul>
+&lt;/blockquote></description></item><item><title>Docs: Segurança do Cluster</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/07_seguranca/</link><pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/07_seguranca/</guid><description>
+&lt;p>Em linhas gerais o que veremos a seguir é a aplicação do modelo &lt;code>4C's da segurança nativa da nuvem&lt;/code>, não necessariamente na ordem apresentada.&lt;/p>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 790px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/07_seguranca/4c_hubb291a1abaef25ea02932d8768e7b07a_49564_800x450_fit_box_3.png" width="780" height="450">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://kubernetes.io/docs/concepts/security/overview/#the-4c-s-of-cloud-native-security" target="_blank" rel="noopener">Doc K8S — Visão geral da segurança nativa da nuvem&lt;/a>
+.&lt;/p>
+&lt;h2 id="a-segurança-no-kubernetes">A Segurança no Kubernetes&lt;/h2>
+&lt;p>O &lt;a href="../01_componentes/">Kubernetes é formado por Nodes&lt;/a>
+, portanto o primeiro passo é garantir a segurança dos mesmos, &lt;em>desabilitando&lt;/em> a autenticação por senha e &lt;em>habilitando&lt;/em> a autenticação por chave SSH;&lt;/p>
+&lt;p>Como a comunicação dentro de um cluster Kubernetes, os comandos, o gerenciamento, etc. passa pelo API Server, não podemos esquecer:&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>API Server Seguro == Kubernetes Seguro&lt;/p>
+&lt;/div>
+&lt;p>Para manter a segurança no acesso ao API Server, precisamos pensar em:&lt;/p>
+&lt;ul>
+&lt;li>Quem pode acessar (&lt;em>Autenticação&lt;/em>) e;&lt;/li>
+&lt;li>O que pode fazer (&lt;em>Autorização&lt;/em>);&lt;/li>
+&lt;/ul>
+&lt;p>Para garantir a segurança nas comunicações entre os componentes do cluster é fundamental o &lt;em>uso do TLS&lt;/em>.&lt;/p>
+&lt;p>E como a premissa do Kubernetes é que todos os Pods podem se comunicar entre si, temos as &lt;em>Network Policies&lt;/em> para implementar um controle nestas comunicações.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/security/" target="_blank" rel="noopener">Doc K8S - Conceitos - Segurança&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="autenticação">Autenticação&lt;/h2>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/security/" target="_blank" rel="noopener">Doc K8S - Conceitos - Segurança&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="conceitos-básicos-sobre-tls">Conceitos básicos sobre TLS&lt;/h2>
+&lt;p>O &lt;a href="https://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank" rel="noopener">&lt;strong>TLS&lt;/strong> (&lt;em>Transport Layer Security&lt;/em>)&lt;/a>
+é um protocolo de &lt;a href="https://en.wikipedia.org/wiki/Cryptography" target="_blank" rel="noopener">criptografia&lt;/a>
+projetado para garantir a privacidade (confidencialidade), integridade e autenticidade na comunicação em uma rede de computadores através do uso de &lt;a href="https://en.wikipedia.org/wiki/Public_key_certificate" target="_blank" rel="noopener">certificados digitais&lt;/a>
+, ele é a base do &lt;a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank" rel="noopener">&lt;strong>HTTPS&lt;/strong> (&lt;em>Hypertext Transfer Protocol Secure&lt;/em>)&lt;/a>
+.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cryptoid.com.br/banco-de-noticias/29196criptografia-simetrica-e-assimetrica/" target="_blank" rel="noopener">Criptografia Simétrica e Assimétrica: Qual a diferença entre elas?&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://cryptoid.com.br/banco-de-noticias/o-que-e-ssl-tls-e-por-que-e-hora-de-atualizar-para-tls-1-3/" target="_blank" rel="noopener">O que é SSL e TLS? E por que é hora de atualizar para TLS 1.3?&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Public_key_infrastructure" target="_blank" rel="noopener">PKI - Public Key Infrastructure&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://www.openssl.org/docs/" target="_blank" rel="noopener">OpenSSL Project&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="tls-no-kubernetes">TLS no Kubernetes&lt;/h2>
+&lt;p>No Kubernetes para garantir a comunicação segura e confiável entre os componentes nos Worker Nodes, o &lt;a href="http://localhost:1313/docs/certificacoes/cka/01_componentes/#kubelet" target="_blank" rel="noopener">kubelet&lt;/a>
+e o &lt;a href="http://localhost:1313/docs/certificacoes/cka/01_componentes/#kube-proxy" target="_blank" rel="noopener">kube-proxy&lt;/a>
+, e os componentes no &lt;a href="../01_componentes/#componentes-dos-master-nodes-ou-control-plane">Control Plane&lt;/a>
+, principalmente o &lt;a href="http://localhost:1313/docs/certificacoes/cka/01_componentes/#api-server" target="_blank" rel="noopener">kube-apiserver&lt;/a>
+é altamente recomendável usar certificados TLS.&lt;/p>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 838px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/07_seguranca/tls_hu08e91078096c6b59cf5f3c1362f8098d_152827_861x560_fit_box_3.png" width="828" height="472">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/07-Security/06-TLS-in-Kubernetes.md" target="_blank" rel="noopener">Curso - Certified Kubernetes Administrator (CKA) with Practice Tests&lt;/a>
+.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/kubelet-tls-bootstrapping/" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Inicialização de TLS&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/setup/best-practices/certificates/" target="_blank" rel="noopener">Doc K8S - Começando - Melhores Práticas - Certificados e requisitos de PKI&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/" target="_blank" rel="noopener">Doc K8S - Tarefas - TLS - Gerenciar certificados TLS em um cluster&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Administração com kubeadm - Gerenciamento de certificados com kubeadm&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/setup/best-practices/certificates/" target="_blank" rel="noopener">Curso - Certified Kubernetes Administrator (CKA) with Practice Tests - TLS in kubernetes - Certificate Creation&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="certificates-api--api-de-certificados">Certificates API / API de Certificados&lt;/h2>
+&lt;p>A API de certificados permite a automação do provisionamento de credenciais X.509 fornecendo uma interface programática para clientes da API Kubernetes solicitarem e obterem certificados X.509 de uma Autoridade de Certificação (CA).&lt;/p>
+&lt;p>Um recurso &lt;code>CertificateSigningRequest&lt;/code> (CSR) é usado para solicitar que um certificado seja assinado por um assinante indicado, após o qual a solicitação pode ser aprovada ou negada antes de ser finalmente assinada.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Solicitações de assinatura de certificado&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/" target="_blank" rel="noopener">Doc K8S - Tarefas - TLS - Gerenciar certificados TLS em um cluster&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="kubeconfig">KubeConfig&lt;/h2>
+&lt;p>Utilize arquivos &lt;code>kubeconfig&lt;/code> para organizar informações sobre clusters, usuários, namespaces e mecanismos de autenticação. A ferramenta de linha de comando &lt;code>kubectl&lt;/code> faz uso dos arquivos &lt;code>kubeconfig&lt;/code> para encontrar as informações necessárias para escolher e se comunicar com o serviço de API de um cluster.&lt;/p>
+&lt;p>Por padrão, o &lt;code>kubectl&lt;/code> procura por um arquivo de nome &lt;code>config&lt;/code> no diretório &lt;code>$HOME/.kube&lt;/code>. Você pode especificar outros arquivos kubeconfig através da variável de ambiente &lt;code>KUBECONFIG&lt;/code> ou adicionando a opção &lt;code>--kubeconfig&lt;/code>.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/pt-br/docs/concepts/configuration/organize-cluster-access-kubeconfig/" target="_blank" rel="noopener">Doc K8S - Conceitos - Configuração - Organizando o acesso ao cluster usando arquivos kubeconfig&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="api-groups--grupos-de-api">API Groups / Grupos de API&lt;/h2>
+&lt;p>Os grupos de API facilitam a extensão da API do Kubernetes. O grupo de APIs é especificado em um caminho &lt;code>REST&lt;/code> e no campo &lt;code>apiVersion&lt;/code> de um objeto serializado.&lt;/p>
+&lt;p>Existem vários grupos de API no Kubernetes:&lt;/p>
+&lt;ul>
+&lt;li>O grupo principal ou &lt;code>core&lt;/code> (também chamado de legado) é encontrado no caminho REST &lt;code>/api/v1&lt;/code>. O grupo principal não é especificado como parte do campo &lt;code>apiVersion&lt;/code>, por exemplo, &lt;code>apiVersion: v1&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 547px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/07_seguranca/api5_hucb6c4e8aca6cad6c6f1e289d5f01a92a_120222_861x560_fit_box_3.png" width="537" height="409">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/07-Security/15-API-Groups.md" target="_blank" rel="noopener">Curso - Certified Kubernetes Administrator (CKA) with Practice Tests&lt;/a>
+.&lt;/p>
+&lt;ul>
+&lt;li>Os grupos nomeados estão no caminho REST &lt;code>/apis/$GROUP_NAME/$VERSION&lt;/code> e usam &lt;code>apiVersion: $GROUP_NAME/$VERSION&lt;/code> (por exemplo, &lt;code>apiVersion: batch/v1&lt;/code>). Podemos encontrar a lista completa de grupos de API compatíveis na &lt;a href="https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/#-strong-api-groups-strong-" target="_blank" rel="noopener">referência da API do Kubernetes&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 871px">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/certificacoes/cka/07_seguranca/api6_hu50a1f89d54766dfc4e5965dbd3ed2ee6_267325_861x560_fit_box_3.png" width="861" height="479">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> &lt;/p>
+&lt;/div>
+&lt;/div>
+Fonte.: &lt;a href="https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/07-Security/15-API-Groups.md" target="_blank" rel="noopener">Curso - Certified Kubernetes Administrator (CKA) with Practice Tests&lt;/a>
+.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/overview/kubernetes-api/" target="_blank" rel="noopener">Doc K8S - Conceitos - Visão geral - A API do Kubernetes&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/using-api/" target="_blank" rel="noopener">Doc K8S - Referência - Configuração - Visão geral da API&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/" target="_blank" rel="noopener">Doc K8S - Referência - API do Kubernetes&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="autorização">Autorização&lt;/h2>
+&lt;p>O Kubernetes autoriza solicitações de API usando o API Server. Ele avalia todos os atributos de solicitação em relação a todas as políticas e permite ou nega a solicitação. Todas as partes de uma solicitação de API devem ser permitidas por alguma política para prosseguir. &lt;em>Isso significa que as permissões são negadas por padrão&lt;/em>.&lt;/p>
+&lt;p>Quando vários módulos de autorização são configurados, cada um é verificado em sequência. Se algum autorizador aprovar ou negar um pedido, &lt;em>essa decisão é imediatamente devolvida&lt;/em> e &lt;em>nenhum outro autorizador é consultado&lt;/em>. Se todos os módulos não tiverem opinião sobre a solicitação, &lt;em>a solicitação será negada&lt;/em>. Uma negação retorna um código de status HTTP 403.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/authorization/" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Visão geral da autorização&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="rbac-role-based-access-control">RBAC (Role-Based Access Control)&lt;/h2>
+&lt;p>O &lt;strong>RBAC&lt;/strong> (&lt;em>Role-Based Access Control&lt;/em> ou Controle de Acesso Baseado em Função) é um método de regular o acesso a recursos de computador ou rede com base nas funções de usuários individuais em sua organização.&lt;/p>
+&lt;p>A autorização &lt;strong>RBAC&lt;/strong> usa o &lt;code>rbac.authorization.k8s.io&lt;/code> &lt;a href="#grupos-de-api">Grupo de API&lt;/a>
+para orientar as decisões de autorização, permitindo configurar políticas dinamicamente por meio da API do Kubernetes.&lt;/p>
+&lt;p>Para habilitar o &lt;strong>RBAC&lt;/strong>, inicie o API Server com o sinalizador &lt;code>--authorization-modes&lt;/code> definido para uma lista separada por vírgulas que inclua &lt;code>RBAC&lt;/code>, por exemplo:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kube-apiserver --authorization-mode&lt;span style="color:#f92672">=&lt;/span>Example,RBAC --other-options --more-options
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/rbac/" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Utilitários de linha de comando&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="cluster-roles-e-role-bindings">Cluster Roles e Role Bindings&lt;/h2>
+&lt;p>Uma &lt;code>Role&lt;/code> ou &lt;code>ClusterRole&lt;/code> &lt;a href="#rbac-role-based-access-control">RBAC&lt;/a>
+contém regras que representam um conjunto de permissões. &lt;em>As permissões são puramente aditivas&lt;/em> (não há regras de &amp;ldquo;negação&amp;rdquo;).&lt;/p>
+&lt;ul>
+&lt;li>Uma &lt;code>Role&lt;/code> sempre define permissões em um determinado &lt;code>namespace&lt;/code>; ao criar uma &lt;code>Role&lt;/code>, precisa ser especificado o &lt;code>namespace&lt;/code> ao qual ela pertence.&lt;/li>
+&lt;li>&lt;code>ClusterRole&lt;/code>, por outro lado, é um recurso &lt;em>sem namespace&lt;/em>, se aplica ao cluster inteiro.&lt;/li>
+&lt;/ul>
+&lt;p>Os recursos têm nomes diferentes (&lt;code>Role&lt;/code> e &lt;code>ClusterRole&lt;/code>) porque um objeto Kubernetes sempre precisa ter namespace ou não; não pode ser os dois.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Role e ClusterRole&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Usando autorização RBAC # Utilitários de linha de comando&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="services-accounts--contas-de-serviços">Services Accounts / Contas de Serviços&lt;/h2>
+&lt;p>Segue abaixo algumas caracteristicas das &lt;em>Services Accounts&lt;/em> ou Contas de Serviço:&lt;/p>
+&lt;ul>
+&lt;li>São para processos, que são executados em pods.&lt;/li>
+&lt;li>São vinculadas a um namespace.&lt;/li>
+&lt;li>Processo de criação mais leve, permitindo que os usuários do cluster criem contas de serviço para tarefas específicas seguindo o princípio de privilégio mínimo.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/" target="_blank" rel="noopener">Doc K8S - Referência - Controle de acesso à API - Como gerenciar Services Accounts&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Configurar contas de serviço para pods&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="segurança-de-imagens">Segurança de Imagens&lt;/h2>
+&lt;p>Uma imagem de container representa dados binários que encapsulam um aplicativo e todas as suas dependências de software, são pacotes de software executáveis ​​que podem ser executados de forma independente e que fazem suposições muito bem definidas sobre seu ambiente de tempo de execução.&lt;/p>
+&lt;p>Normalmente se cria uma imagem de contêiner de seu aplicativo e a envia para um registro antes de se referir a ela em um Pod.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/containers/images/" target="_blank" rel="noopener">Doc K8S - Conceitos - Containers - Imagens&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="security-context-ou-contexto-de-segurança">Security Context ou Contexto de Segurança&lt;/h2>
+&lt;p>Os &lt;em>Security Contexts&lt;/em> configuram Pods e Containers em tempo de execução.&lt;/p>
+&lt;p>Os &lt;em>Security Contexts&lt;/em> são definidos como parte das especificações do Pod e do Container no manifesto do Pod e representam parâmetros para o tempo de execução do container.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/security-context/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar Pods e Containers - Configurar um Security Context para um Pod ou Container&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="network-policy">Network Policy&lt;/h2>
+&lt;p>Por padrão todas as conexões de entrada e saída em um Pod são permitidas, as &lt;em>Network Policies&lt;/em> implementam um controle no fluxo do tráfego tanto de entrada &lt;code>Ingress&lt;/code>, quanto de saída &lt;code>Egress&lt;/code>.&lt;/p>
+&lt;p>As &lt;em>Network Policies&lt;/em> não entram em conflito, elas são aditivas. Se alguma política ou políticas se aplicarem a um determinado Pod para uma determinada direção, as conexões permitidas nessa direção desse Pod serão a união do que as políticas aplicáveis ​​permitem. Assim, a ordem de avaliação não afeta o resultado da política.&lt;/p>
+&lt;p>Para que uma conexão de um Pod de origem a um Pod de destino seja permitida, a política de saída no Pod de origem e a política de entrada no Pod de destino precisam permitir a conexão, se um dos lados não permitir a conexão, ela não acontecerá.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/services-networking/network-policies/" target="_blank" rel="noopener">Doc K8S - Conceitos - Serviços, balanceamento de carga e rede - Network Policy&lt;/a>
+&lt;/li>
+&lt;/ul>
 &lt;/blockquote></description></item></channel></rss>

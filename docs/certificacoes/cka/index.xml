@@ -394,8 +394,7 @@ oferece um conjunto básico de métricas para dar suporte ao dimensionamento aut
 &lt;li>&lt;a href="https://kubernetes.io/docs/tasks/debug/debug-application/determine-reason-pod-failure/" target="_blank" rel="noopener">Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de Aplicativos - Determinar o motivo da falha do Pod&lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;/blockquote>
-&lt;p>Troubleshooting Applications&lt;/p></description></item><item><title>Docs: Gerenciar Ciclos de Vida de Aplicações</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Gerenciar Ciclos de Vida de Aplicações</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/05_gerenciar_apps/</guid><description>
 &lt;h2 id="rolling-updates-e-rollbacks">Rolling Updates e Rollbacks&lt;/h2>
 &lt;ul>
 &lt;li>&lt;code>Rolling Updates&lt;/code> permitem que a atualização de um &lt;a href="../02_objetos/#deployments">Deployment&lt;/a>
@@ -817,6 +816,64 @@ contém regras que representam um conjunto de permissões. &lt;em>As permissões
 &lt;p>Link&amp;rsquo;s úteis:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://kubernetes.io/docs/concepts/services-networking/network-policies/" target="_blank" rel="noopener">Doc K8S - Conceitos - Serviços, balanceamento de carga e rede - Network Policy&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item><item><title>Docs: Armazenamento</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/08_armazenamento/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/08_armazenamento/</guid><description>
+&lt;h2 id="conceitos-sobre-armazenamento-em-containers">Conceitos sobre armazenamento em Containers&lt;/h2>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.docker.com/storage/" target="_blank" rel="noopener">Doc Docker - Execute seu aplicativo em produção - Gerenciar dados do aplicativo - Visão geral do armazenamento&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://docs.docker.com/storage/storagedriver/" target="_blank" rel="noopener">Doc Docker - Execute seu aplicativo em produção - Gerenciar dados do aplicativo - Armazenar dados em contêineres&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="volumes">Volumes&lt;/h2>
+&lt;p>O sistema de arquivos de um Container vive apenas enquanto o Container existir. Portanto, quando um Container é encerrado e reiniciado, as alterações no sistema de arquivos são perdidas.&lt;/p>
+&lt;p>A abstração de &lt;code>Volumes&lt;/code> do Kubernetes resolve este problema, fornecendo um armazenamento mais consistente e independente do Container, o que é especialmente importante para aplicativos com estado, como bancos de dados.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/storage/volumes/" target="_blank" rel="noopener">Doc K8S - Conceitos - Armazenar - Volumes&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/storage/volumes/#out-of-tree-volume-plugins" target="_blank" rel="noopener">Doc K8S - Conceitos - Armazenar - Volumes # Plugins&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="persistent-volumes-pv">Persistent Volumes (PV)&lt;/h2>
+&lt;p>Um &lt;code>Persistent Volume&lt;/code> (PV) é uma parte do armazenamento no cluster que foi provisionado por um administrador ou provisionado dinamicamente usando &lt;code>Storage Class&lt;/code>.&lt;/p>
+&lt;p>É um recurso no cluster, assim como um nó é um recurso de cluster.&lt;/p>
+&lt;p>&lt;code>PVs&lt;/code> são plugins de volume como Volumes, mas têm um ciclo de vida independente de qualquer Pod individual que use o &lt;code>PV&lt;/code>.&lt;/p>
+&lt;p>Esse objeto de API captura os detalhes da implementação do armazenamento, seja NFS, iSCSI ou um sistema de armazenamento específico do provedor de nuvem.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/" target="_blank" rel="noopener">Doc K8S - Conceitos - Armazenar - Persistent Volumes&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/" target="_blank" rel="noopener">Doc K8S - Tarefas - Configurar pods e contêineres - Configurar um pod para usar um Persistent Volume&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="persistent-volumes-claims-pvc">Persistent Volumes Claims (PVC)&lt;/h2>
+&lt;p>Um &lt;code>Persistent Volume Claim&lt;/code> (PVC) é uma solicitação de armazenamento feita por um usuário, é semelhante a um Pod.&lt;/p>
+&lt;p>Enquanto os pods consomem recursos do nó, os &lt;code>PVCs&lt;/code> consomem recursos dos &lt;code>PV&lt;/code>.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims" target="_blank" rel="noopener">Doc K8S - Conceitos - Armazenar - Persistent Volumes Claims&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="storage-class">Storage Class&lt;/h2>
+&lt;p>Um &lt;code>Storage Class&lt;/code> fornece uma maneira para os administradores descreverem as &amp;ldquo;classes&amp;rdquo; de armazenamento que eles oferecem.&lt;/p>
+&lt;p>Classes diferentes podem ser mapeadas para níveis de qualidade de serviço, políticas de backup ou políticas arbitrárias determinadas pelos administradores de cluster.&lt;/p>
+&lt;blockquote>
+&lt;p>Link&amp;rsquo;s úteis:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://kubernetes.io/docs/concepts/storage/storage-classes/" target="_blank" rel="noopener">Doc K8S - Conceitos - Armazenar - Storage Class&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/tasks/administer-cluster/change-default-storage-class/" target="_blank" rel="noopener">Doc K8S - Tarefas - Administrar um cluster - Altere o Storage Class padrão&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote></description></item></channel></rss>

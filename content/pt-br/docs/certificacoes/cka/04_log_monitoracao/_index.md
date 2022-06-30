@@ -27,5 +27,3 @@ Se você implantar a API de métricas em seu cluster, os clientes da API do Kube
 > - [Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de Aplicativos](https://kubernetes.io/docs/tasks/debug/debug-application/)
 > - [Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de Aplicativos - Debug Pods](https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/)
 > - [Doc K8S - Tarefas - Monitoramento, Logs e Debug - Troubleshooting de Aplicativos - Determinar o motivo da falha do Pod](https://kubernetes.io/docs/tasks/debug/debug-application/determine-reason-pod-failure/)
-
-Troubleshooting Applications

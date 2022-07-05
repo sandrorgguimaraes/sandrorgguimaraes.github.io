@@ -10,9 +10,9 @@ resources:
 
 ## Conceitos básicos de Redes
 
-### Geral
+Abaixo alguns tópicos básicos para direcionar o entendimento sobre o funcionamento de uma rede de computadores:
 
-Abaixo segue alguns tópicos básicos para direcionar o entendimento sobre o funcionamento de uma rede de computadores:
+### Geral
 
 - [Switching / Routing / Gateway](https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/09-Networking/02-Pre-requisite-Switching-Routing-Gateways.md);
 - [DNS](https://github.com/kodekloudhub/certified-kubernetes-administrator-course/blob/master/docs/09-Networking/03-Pre-requisite-DNS.md);
@@ -50,7 +50,9 @@ A rede é uma parte central do Kubernetes, e pode ser um desafio entender exatam
 
 ## Pod Networking
 
-Cada Pod recebe um endereço IP exclusivo para cada família de endereços. Cada container do Pod compartilha o `network namespace`, incluindo o endereço IP e as portas de rede. Dentro do Pod, os containers se comunicam entre si usando `localhost`.
+Cada Pod recebe um endereço IP exclusivo para cada família de endereços. Cada container do Pod compartilha o `network namespace`, incluindo o endereço IP e as portas de rede.
+
+Dentro do Pod, os containers se comunicam entre si usando `localhost`.
 
 Quando os contêineres em um Pod se comunicam com entidades fora do Pod, eles devem coordenar como usam os recursos de rede compartilhados (como portas).
 
@@ -88,3 +90,15 @@ Com o Kubernetes, você não precisa modificar seu aplicativo para usar um mecan
 > - [Doc K8S - Conceitos - Serviços, balanceamento de carga e rede - DNS para Services](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#services)
 > - [Doc K8S - Conceitos - Serviços, balanceamento de carga e rede - Conectando aplicativos com Services](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/)
 > - [Doc K8S - Tarefas - Administrar um cluster - Debugging DNS Resolution](https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/)
+
+## Ingress
+
+O `Ingress` expõe rotas `HTTP/HTTPS` de fora do cluster para `Services` dentro do cluster, pode atuar como balanceador de carga, aplicar SSL/TLS e oferecer hospedagem virtual baseada em nome.
+
+É necessário ter um `Ingress Controller` para satisfazer um Ingress. Apenas a criação de um `Ingress resource` não tem efeito.
+
+> Link's úteis:
+>
+> - [Doc K8S - Conceitos - Serviços, balanceamento de carga e rede - Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+> - [Doc K8S - Conceitos - Serviços, balanceamento de carga e rede - Ingress Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
+> - [Doc K8S - Tarefas - Acessando aplicações no Cluster - Configurando um Ingress no Minikube com o NGINX Ingress Controller](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)

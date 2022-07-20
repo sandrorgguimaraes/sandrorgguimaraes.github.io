@@ -29,7 +29,7 @@ Tendo esta base de conhecimento, agora é dedicação e foco, principalmente por
 
 Além dos materiais citados acima estou realizando o curso [*Certified Kubernetes Administrator (CKA) with Practice Tests*](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn/lecture/31984310#overview) da [*KodeKloud Training*](https://www.udemy.com/user/kodekloud/) que é muito bem pontuado na Udemy além de ter lido boas recomendações do mesmo em vários sites, [neste repositório](https://github.com/kodekloudhub/certified-kubernetes-administrator-course) estão disponibilizadas as anotações deste curso (vale a leitura para quem não for comprar).
 
-Temos também um compilado de materiais sobre os mais diversos aspectos nos link's abaixo:
+Temos também um compilado de materiais sobre os mais diversos aspectos relacionados à certificação nos link's abaixo:
 
 - [Vivendo & Aprendendo -> Linux -> Container Network](../../../blog/linux/container-networking/)
 - [Vivendo & Aprendendo -> Containers](../../../blog/container/)

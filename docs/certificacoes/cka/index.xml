@@ -999,4 +999,94 @@ Fonte.: &lt;a href="https://github.com/kodekloudhub/certified-kubernetes-adminis
 &lt;li>&lt;a href="https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/" target="_blank" rel="noopener">Doc K8S - Tarefas - Acessando aplicações no Cluster - Configurando um Ingress no Minikube com o NGINX Ingress Controller&lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;/blockquote></description></item></channel></rss>
+&lt;/blockquote></description></item><item><title>Docs: Dicas</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/10_dicas/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/10_dicas/</guid><description>
+&lt;p>Segue abaixo um compilado de várias dicas que pegamos durante a preparação para a prova que acredito vá ajudar a todos.&lt;/p>
+&lt;ol>
+&lt;li>Pratique, pratique e pratique&amp;hellip; e depois volte e pratique mais um pouco.
+&lt;ul>
+&lt;li>No nosso &lt;a href="../../cka/">guia de estudos&lt;/a>
+você encontrará em cada tópico &lt;code>Link's úteis&lt;/code> e sempre que possível teremos um link direto para &lt;code>Doc K8S - Tarefas&lt;/code> específica, vá lá e faça o exercício.&lt;/li>
+&lt;li>Na &lt;a href="https://kubernetes.io/docs/tasks/" target="_blank" rel="noopener">documentação oficial do Kubernetes&lt;/a>
+tem disponível muitos exercícios, veja os que estão relacionados ao &lt;a href="https://github.com/cncf/curriculum" target="_blank" rel="noopener">curriculo da certificação&lt;/a>
+e faça-os também.&lt;/li>
+&lt;li>&lt;a href="https://killercoda.com/killer-shell-cka" target="_blank" rel="noopener">KillerCoda - CKA&lt;/a>
+é um ambiente interativo com vários exercícios.&lt;/li>
+&lt;li>Repositório &lt;a href="https://github.com/StenlyTU/K8s-training-official" target="_blank" rel="noopener">K8s Practice Training&lt;/a>
+cotém alguns exercícios.&lt;/li>
+&lt;li>Site &lt;a href="https://kubebyexample.com/" target="_blank" rel="noopener">Kube by Example&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Estude sobre a estrutura dos arquivos &lt;code>.yaml&lt;/code> / &lt;code>.json&lt;/code> e aprenda a fazer consultas utilizando o &lt;code>JSON PATH&lt;/code>.
+&lt;ul>
+&lt;li>Curso gratuito:
+&lt;ul>
+&lt;li>&lt;a href="https://kodekloud.com/courses/json-path-quiz/?no_frame=1" target="_blank" rel="noopener">JSON Path Test – Free Course&lt;/a>
+da &lt;a href="https://kodekloud.com/" target="_blank" rel="noopener">KodeKloud&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sites:
+&lt;ul>
+&lt;li>&lt;a href="https://jsonpath.com/" target="_blank" rel="noopener">JSONPath Online Evaluator&lt;/a>
+.&lt;/li>
+&lt;li>&lt;a href="https://goessner.net/articles/JsonPath/index.html#e2" target="_blank" rel="noopener">JSONPath expressions&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Otimize o seu ambiente, criando &lt;code>alias&lt;/code> e &lt;code>variáveis de ambiente&lt;/code>, para poupar preciosos segundos durante a avaliação. Comece a fazer isso já durante os simulados até decorar (lembre-se que no dia da prova não terá acesso a recursos externos).
+&lt;ul>
+&lt;li>
+&lt;p>No arquivo &lt;code>~/.bashrc&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Estes 3 (três) primeiros comandos não precisa decorar.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Criação do alias `k` e configuração do autocomplete já devem estar pré configurados no ambiente&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># mas vale a pena conferir, na dúvida consulte a documentação oficial procurando por&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># `kubectl cheat` e ir para a página https://kubernetes.io/docs/reference/kubectl/cheatsheet/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>alias k&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;kubectl&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>source &amp;lt;&lt;span style="color:#f92672">(&lt;/span>kubectl completion bash&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>complete -o default -F __start_kubectl k
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Já os 4 (quatro) comandos abaixo, será necessário decorar.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># O comando para alterar de contexto / cluster normalmente é dado na questão,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># mas para alterar entre os namespaces não.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Exemplo de uso:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># kns &amp;lt;nome-do-namespace&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>alias kns&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;kubectl config set-context --current --namespace&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Para agilizar a criação de objetos via manifestos (arquivos .yaml)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Exemplo de uso:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># ka &amp;lt;nome-do-arquivo&amp;gt;.yaml&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>alias ka&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;kubectl apply -f&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Para facilitar a validação dos comandos e geração dos manifestos (arquivos .yaml).&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Exemplos de uso:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># k run &amp;lt;nome-pod&amp;gt; --image=&amp;lt;nome-da-image&amp;gt; $do&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># k run &amp;lt;nome-pod&amp;gt; --image=&amp;lt;nome-da-image&amp;gt; $do &amp;gt; &amp;lt;nome-do-arquivo&amp;gt;.yaml&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>export &lt;span style="color:#66d9ef">do&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;--dry-run=client -o yaml&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Para não esperar pela exclusão de um objeto.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Exemplo de uso:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># k delete pod &amp;lt;nome-do-pod&amp;gt; $now&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>export now&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;--force --grace-period 0&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>No arquivo &lt;code>~/.vimrc&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>set autoindent expandtab tabstop&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span> shiftwidth&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>ou&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>set autoindent
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>set expandtab
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>set tabstop&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>set shiftwidth&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Neste artigo &lt;a href="https://linuxhandbook.com/vim-indentation-tab-spaces/" target="_blank" rel="noopener">Set Indentation Width to 2 or 4 Spaces (or Tab) in Vim&lt;/a>
+tem uma explicação direta e objetiva sobre essas configurações.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

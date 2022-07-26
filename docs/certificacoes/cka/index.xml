@@ -999,13 +999,13 @@ Fonte.: &lt;a href="https://github.com/kodekloudhub/certified-kubernetes-adminis
 &lt;li>&lt;a href="https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/" target="_blank" rel="noopener">Doc K8S - Tarefas - Acessando aplicações no Cluster - Configurando um Ingress no Minikube com o NGINX Ingress Controller&lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;/blockquote></description></item><item><title>Docs: Dicas</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/10_dicas/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/10_dicas/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Dicas</title><link>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/10_dicas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/certificacoes/cka/10_dicas/</guid><description>
 &lt;p>Segue abaixo um compilado de várias dicas que pegamos durante a preparação para a prova que acredito vá ajudar a todos.&lt;/p>
 &lt;ol>
 &lt;li>Pratique, pratique e pratique&amp;hellip; e depois volte e pratique mais um pouco.
 &lt;ul>
-&lt;li>No nosso &lt;a href="../../cka/">guia de estudos&lt;/a>
-você encontrará em cada tópico &lt;code>Link's úteis&lt;/code> e sempre que possível teremos um link direto para &lt;code>Doc K8S - Tarefas&lt;/code> específica, vá lá e faça o exercício.&lt;/li>
+&lt;li>Nesta nossa &lt;a href="../../cka/">trilha de estudos&lt;/a>
+encontraremos em cada tópico &lt;code>Link's úteis&lt;/code> e sempre que possível teremos um link direto para &lt;code>Doc K8S - Tarefas&lt;/code> específica, vá lá e faça o exercício.&lt;/li>
 &lt;li>Na &lt;a href="https://kubernetes.io/docs/tasks/" target="_blank" rel="noopener">documentação oficial do Kubernetes&lt;/a>
 tem disponível muitos exercícios, veja os que estão relacionados ao &lt;a href="https://github.com/cncf/curriculum" target="_blank" rel="noopener">curriculo da certificação&lt;/a>
 e faça-os também.&lt;/li>

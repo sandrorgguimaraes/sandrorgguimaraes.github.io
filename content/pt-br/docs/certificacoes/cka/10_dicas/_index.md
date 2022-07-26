@@ -11,7 +11,7 @@ resources:
 Segue abaixo um compilado de várias dicas que pegamos durante a preparação para a prova que acredito vá ajudar a todos.
 
 1. Pratique, pratique e pratique... e depois volte e pratique mais um pouco.
-   - No nosso [guia de estudos](../../cka/) você encontrará em cada tópico `Link's úteis` e sempre que possível teremos um link direto para `Doc K8S - Tarefas` específica, vá lá e faça o exercício.
+   - Nesta nossa [trilha de estudos](../../cka/) encontraremos em cada tópico `Link's úteis` e sempre que possível teremos um link direto para `Doc K8S - Tarefas` específica, vá lá e faça o exercício.
    - Na [documentação oficial do Kubernetes](https://kubernetes.io/docs/tasks/) tem disponível muitos exercícios, veja os que estão relacionados ao [curriculo da certificação](https://github.com/cncf/curriculum) e faça-os também.
    - [KillerCoda - CKA](https://killercoda.com/killer-shell-cka) é um ambiente interativo com vários exercícios.
    - Repositório [K8s Practice Training](https://github.com/StenlyTU/K8s-training-official) cotém alguns exercícios.

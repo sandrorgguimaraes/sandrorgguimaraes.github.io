@@ -1,6 +1,6 @@
 ---
 title: Dicas
-date: 2022-07-20
+# date: 2022-07-20
 weight: 100
 description: Dicas para a preparação e para o dia da prova.
 resources:

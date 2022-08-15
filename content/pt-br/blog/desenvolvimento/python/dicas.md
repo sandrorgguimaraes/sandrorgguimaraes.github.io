@@ -27,7 +27,7 @@ keywords:
     - more_itertools
     - sympy
     - simulacoes
-slug: dicas-python
+slug: dicas
 ---
 
 ---

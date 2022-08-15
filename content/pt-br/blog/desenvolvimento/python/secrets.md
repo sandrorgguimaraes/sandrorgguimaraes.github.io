@@ -12,7 +12,7 @@ description: Entenda o funcionamento do modulo Secrets do Python e veja como pro
 keywords:
     - secrets
     - python
-slug: secrets-module-python
+slug: secrets-module
 ---
 
 {{% pageinfo %}}

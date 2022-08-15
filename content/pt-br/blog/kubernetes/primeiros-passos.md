@@ -1,6 +1,6 @@
 ---
 title: Primeiros passos
-date: 2022-03-25
+date: 2022-06-03
 weight: 10
 categories:
     - kubernetes
@@ -10,6 +10,7 @@ autores:
     - Mukul Attavania
     - Onur Cil
     - Bibin Wilson
+    - Bilgin Ibryam
 description: O primeiro contato com o Kubernetes, conceitos, sua história, etc..
 keywords: []
 slug: primeiros-passos
@@ -42,5 +43,17 @@ Explore as melhores práticas do Kubernetes e o que ele deve incluir, além de e
 ## [Kubernetes Tutorials For Beginners: 30 Comprehensive Guides](https://devopscube.com/kubernetes-tutorials-beginners/)
 
 por [**Bibin Wilson**](/autores/bibin-wilson/) em 16/03/2021.
+
+---
+
+## [O Efeito Kubernetes](https://www.infoq.com/br/articles/kubernetes-effect/?itm_source=infoq_en&itm_medium=link_on_en_item&itm_campaign=item_in_other_langs)
+
+por [**Bilgin Ibryam**](/autores/bilgin-ibryam/) em 30/08/2018.
+
+Neste artigo o autor aborda as questões abaixo relacionadas ao desenvolvimento de aplicações em container:
+
+- Abstrações e primitivas distribuídos;
+- Princípios e padrões de desing;
+- Práticas e técnicas recomendadas;
 
 ---

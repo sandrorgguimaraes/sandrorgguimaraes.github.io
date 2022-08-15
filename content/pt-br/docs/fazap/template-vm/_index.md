@@ -28,7 +28,7 @@ resources:
 > ***Observações / informações iniciais:***
 >
 > - Os procedimentos abaixo foram aplicados em um computador com o `Ubuntu 20.04.4 LTS`.
-> - Utilizamos como fonte de estudo os artigos listados na seção [Vivendo e Aprendendo -> Linux -> KVM / libvirt](/blog/linux/kvm-libvirt/).
+> - Utilizamos como fonte de estudo os artigos listados na seção [Vivendo & Aprendendo -> Linux -> KVM / libvirt](/blog/linux/kvm-libvirt/).
 
 ## Entendendo os conceitos
 
@@ -406,6 +406,7 @@ E agora vamos remover a configuração da máquina virtual com o comando abaixo:
 ```bash
 sudo virsh undefine centos8
 ```
+
 Pronto! Procedimento concluído, agora podemos clonar a nossa máquina virtual nos próximos artigos.
 
 Espero que tenha gostado, deixe seu Feedback abaixo e sinta-se à vontade para colaborar usando o menu da direita.

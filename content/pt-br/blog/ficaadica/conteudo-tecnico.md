@@ -1,6 +1,6 @@
 ---
 title: Conteúdo Técnico
-date: 2022-04-02
+date: 2022-05-26
 categories:
     - ficaadica
 tags:
@@ -26,5 +26,6 @@ slug: conteudo-tecnico
 | [System Design Interview Preparation Series](https://www.codekarle.com/) | [codeKarle](/autores/codekarle/) | Design de Sistemas, com diagramas e vídeos. |
 | [GuiaFoca Linux](https://guiafoca.org/) | [Gleydson Maziolli](/autores/gleydson-maziolli/) | Do básico ao avançado sobre GNU/Linux. |
 | [DevOpsCube](https://devopscube.com/) | [Bibin Wilson](/autores/bibin-wilson/) | Kubernetes, Jenkins e Containers. |
+| [Julia Evans](https://jvns.ca/) | [Julia Evans](/autores/julia-evans/) | Kubernetes, Linux, dentre muitos outros assuntos. |
 
 ---

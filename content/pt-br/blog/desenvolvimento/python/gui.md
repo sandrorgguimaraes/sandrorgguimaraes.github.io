@@ -14,7 +14,7 @@ keywords:
     - python
     - gui
     - dearpygui
-slug: gui-python
+slug: gui
 ---
 
 {{% pageinfo %}}

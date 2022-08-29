@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Monitoração</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/monitoracao/</link><description>Recent content in Monitoração on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/monitoracao/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Observabilidade</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/monitoracao/observabilidade/</link><pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/monitoracao/observabilidade/</guid><description>
+&lt;hr>
+&lt;h2 id="monitoring-microservices---part-1-observabilityhttpsmediumcomgeekculturemonitoring-microservices-part-1-observability-b2b44fa3e67e">&lt;a href="https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e" target="_blank" rel="noopener">Monitoring Microservices - Part 1: Observability&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/anderson-carvalho/">&lt;strong>Anderson Carvalho&lt;/strong>&lt;/a>
+em 10/08/2021.&lt;/p>
+&lt;p>A dor é um indicador claro de que algo não está bem. Às vezes, as doenças silenciosas vem muito antes da dor. É por isso que visitamos um médico de vez em quando: para conhecer nosso estado de saúde.&lt;/p>
+&lt;ul>
+&lt;li>Mas como sabemos se nosso aplicativo está saudável?&lt;/li>
+&lt;li>Como podemos ter certeza de que está funcionando conforme o esperado, fazendo o que deveria ser feito e não desperdiçando recursos?&lt;/li>
+&lt;li>Como podemos evitar possíveis incidentes antes que eles aconteçam?&lt;/li>
+&lt;/ul>
+&lt;p>Neste post, o autor explorará um conceito fundamental quando se trata de monitoramento: &lt;code>Observabilidade&lt;/code>.&lt;/p>
+&lt;hr></description></item><item><title>Docs: Grafana</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/monitoracao/grafana/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/monitoracao/grafana/</guid><description>
+&lt;hr>
+&lt;h2 id="grafana-as-codehttpsmediumcomtarantoolgrafana-as-code-b642cac9ae75">&lt;a href="https://medium.com/@tarantool/grafana-as-code-b642cac9ae75" target="_blank" rel="noopener">Grafana as code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/georgy-moiseev/">&lt;strong>Georgy Moiseev&lt;/strong>&lt;/a>
+em 03/11/2021.&lt;/p>
+&lt;p>Veja como um problema para configurar o monitoramento de um projeto, foi resolvido com o &lt;a href="https://grafana.github.io/grafonnet-lib/" target="_blank" rel="noopener">Grafonnet&lt;/a>
+, uma biblioteca que permite escrever dashboards &lt;a href="https://grafana.com/" target="_blank" rel="noopener">Grafana&lt;/a>
+em uma linguagem chamada &lt;a href="https://jsonnet.org/" target="_blank" rel="noopener">Jsonnet&lt;/a>
+.&lt;/p>
+&lt;p>Na primeira parte, será explicado como começaram com o &lt;a href="https://grafana.github.io/grafonnet-lib/" target="_blank" rel="noopener">Grafonnet&lt;/a>
+, por que escolheram essa ferramenta e quais problemas ela resolveu.&lt;/p>
+&lt;p>A segunda parte é um tutorial sobre como escrever um painel simples do &lt;a href="https://prometheus.io/" target="_blank" rel="noopener">Prometheus&lt;/a>
+com &lt;a href="https://grafana.github.io/grafonnet-lib/" target="_blank" rel="noopener">Grafonnet&lt;/a>
+.&lt;/p>
+&lt;hr></description></item></channel></rss>

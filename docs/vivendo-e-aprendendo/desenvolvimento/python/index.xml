@@ -1,0 +1,216 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Python</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/</link><description>Recent content in Python on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Descriptors</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/descriptors/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/descriptors/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Descriptors&lt;/strong> é uma forma elegante de controlar o acesso (pesquisa, armazenamento, exclusão, etc.) ao atributo de um objeto.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="if-you-havent-heard-of-descriptors-you-dont-know-pythonhttpsmediumcomflorianriegerif-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2">&lt;a href="https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2" target="_blank" rel="noopener">If you haven‘t heard of descriptors, you don‘t know Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/florian-rieger/">&lt;strong>Florian Rieger&lt;/strong>&lt;/a>
+em 01/12/2021.&lt;/p>
+&lt;hr>
+&lt;h2 id="descriptor-howto-guidehttpsdocspythonorg3howtodescriptorhtml">&lt;a href="https://docs.python.org/3/howto/descriptor.html" target="_blank" rel="noopener">Descriptor HowTo Guide&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/raymond-hettinger/">&lt;strong>Raymond Hettinger&lt;/strong>&lt;/a>
+.&lt;/p>
+&lt;p>Documentação oficial do Python.&lt;/p>
+&lt;hr></description></item><item><title>Docs: Dicas Python</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/dicas/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/dicas/</guid><description>
+&lt;hr>
+&lt;h2 id="run-python-in-your-htmlhttpspyscriptnet">&lt;a href="https://pyscript.net/" target="_blank" rel="noopener">Run Python in Your HTML&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/projeto-anaconda/">&lt;strong>Projeto Anaconda&lt;/strong>&lt;/a>
+em 2022.&lt;/p>
+&lt;p>&lt;code>PyScript&lt;/code> é uma estrutura que permite aos usuários criar aplicativos Python ricos no navegador usando a interface do HTML. O PyScript visa fornecer aos usuários uma linguagem de programação de primeira classe que tenha regras de estilo consistentes, seja mais expressiva e mais fácil de aprender&lt;/p>
+&lt;p>E &lt;a href="https://github.com/pyscript/pyscript/blob/main/GETTING-STARTED.md" target="_blank" rel="noopener">esta página o guiará pelos primeiros passos com o PyScript&lt;/a>
+.&lt;/p>
+&lt;hr>
+&lt;h2 id="diagrams---diagram-as-codehttpsdiagramsmingrammercom">&lt;a href="https://diagrams.mingrammer.com/" target="_blank" rel="noopener">Diagrams - Diagram as Code&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/minjae-kwon/">&lt;strong>MinJae Kwon&lt;/strong>&lt;/a>
+em 2022.&lt;/p>
+&lt;p>&lt;code>Diagrams&lt;/code> permite desenhar a arquitetura do sistema em nuvem em código Python.&lt;/p>
+&lt;p>Ele nasceu para prototipar uma nova arquitetura de sistema sem nenhuma ferramenta de design.&lt;/p>
+&lt;p>&lt;code>Diagram as Code&lt;/code> permite rastrear as alterações do diagrama de arquitetura em qualquer sistema de controle de versão.&lt;/p>
+&lt;hr>
+&lt;h2 id="3-cool-python-libraries-that-will-save-you-time-and-efforthttpssamuel-vidovichmediumcom3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5">&lt;a href="https://samuel-vidovich.medium.com/3-cool-python-libraries-that-will-save-you-time-and-effort-27fcdc6762d5" target="_blank" rel="noopener">3 Cool Python Libraries that will Save You Time and Effort&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/sam-vidovich/">&lt;strong>Sam Vidovich&lt;/strong>&lt;/a>
+em 30/08/2021.&lt;/p>
+&lt;p>Veja 3 bibliotecas Python que prometem salvar nosso precioso tempo, segundo o autor.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jmespath/jmespath.py" target="_blank" rel="noopener">JMESPath&lt;/a>
+permite especificar declarativamente como extrair elementos de um documento JSON.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jpvanhal/inflection" target="_blank" rel="noopener">Inflection&lt;/a>
+é uma biblioteca de transformação de string.&lt;/li>
+&lt;li>&lt;a href="https://more-itertools.readthedocs.io/en/stable/index.html#" target="_blank" rel="noopener">more-itertools&lt;/a>
+é uma coleção de blocos, receitas e rotinas adicionais para trabalhar com Python iterables.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-chaotic-python-features-to-avoidhttpsbetterprogrammingpub3-chaotic-python-features-to-avoid-9c609908bc13">&lt;a href="https://betterprogramming.pub/3-chaotic-python-features-to-avoid-9c609908bc13" target="_blank" rel="noopener">3 Chaotic Python Features To Avoid&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yong-cui/">&lt;strong>Yong Cui&lt;/strong>&lt;/a>
+em 19/07/2021.&lt;/p>
+&lt;p>Neste artigo, é discutido alguns recursos do Python que podem ser confusos — principalmente para iniciantes.&lt;/p>
+&lt;ul>
+&lt;li>A cláusula &lt;code>else&lt;/code> em loops &lt;code>for/while&lt;/code>;&lt;/li>
+&lt;li>Use um valor padrão com &lt;code>setdefault&lt;/code>;&lt;/li>
+&lt;li>Passos negativos com &lt;code>Slicing&lt;/code>;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-useful-python-f-string-tricks-you-probably-dont-knowhttpsbetterprogrammingpub3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5">&lt;a href="https://betterprogramming.pub/3-useful-python-f-string-tricks-you-probably-dont-know-f908f7ed6cf5" target="_blank" rel="noopener">3 Useful Python f-string Tricks You Probably Don’t Know&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/jerry-ng/">&lt;strong>Jerry Ng&lt;/strong>&lt;/a>
+em 06/07/2021.&lt;/p>
+&lt;p>Coisas que você precisa saber sobre formatação de String do Python usando &lt;a href="https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals" target="_blank" rel="noopener">f-string&lt;/a>
+.&lt;/p>
+&lt;ul>
+&lt;li>Usando &lt;code>f-string&lt;/code> para melhor depuração;&lt;/li>
+&lt;li>Formate casas decimais com &lt;code>float&lt;/code>, moedas, objetos &lt;code>datetime&lt;/code> e preenchimento com &lt;code>f-string&lt;/code>;&lt;/li>
+&lt;li>Usando &lt;code>f-string&lt;/code> para conversões (ASCII e &lt;code>repr()&lt;/code>);&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="python-hidden-features-that-you-probably-never-heard-ofhttpspythonplainenglishiohidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2">&lt;a href="https://python.plainenglish.io/hidden-features-of-python-that-you-have-probably-never-heard-of-47af1e8abee2" target="_blank" rel="noopener">Python Hidden Features That You Probably Never Heard Of&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/haider-imtiaz/">&lt;strong>Haider Imtiaz&lt;/strong>&lt;/a>
+em 24/06/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>Get() Method;&lt;/li>
+&lt;li>List Step;&lt;/li>
+&lt;li>Value Swapping (the short way);&lt;/li>
+&lt;li>Ellipsis;&lt;/li>
+&lt;li>Reverse (the short way);&lt;/li>
+&lt;li>String slicing;&lt;/li>
+&lt;li>The Zen of Python;&lt;/li>
+&lt;li>Easter Eggs in Python;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="simulate-real-life-events-in-python-using-simpyhttpstowardsdatasciencecomsimulate-real-life-events-in-python-using-simpy-e6d9152a102f">&lt;a href="https://towardsdatascience.com/simulate-real-life-events-in-python-using-simpy-e6d9152a102f" target="_blank" rel="noopener">Simulate Real-life Events in Python Using SimPy&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 16/05/2021.&lt;/p>
+&lt;p>Simule um restaurante com clientes famintos e uma oferta limitada de alimentos. &lt;a href="https://simpy.readthedocs.io/en/latest/contents.html" target="_blank" rel="noopener">SimPy&lt;/a>
+é uma biblioteca Python que permite simular eventos da vida real, ela pode modelar componentes ativos, como clientes, veículos ou agentes.&lt;/p>
+&lt;hr>
+&lt;h2 id="seven-tips-to-clean-code-with-pythonhttpsmediumcomanalytics-vidhyaseven-tips-to-clean-code-with-python-24930d35927f">&lt;a href="https://medium.com/analytics-vidhya/seven-tips-to-clean-code-with-python-24930d35927f" target="_blank" rel="noopener">Seven Tips To Clean Code With Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/louis-de-bruijn/">&lt;strong>Louis de Bruijn&lt;/strong>&lt;/a>
+em 27/01/2021.&lt;/p>
+&lt;p>Neste artigo, é apresentado alguns recursos interessantes do Python.&lt;/p>
+&lt;ul>
+&lt;li>String formatting with f-strings;&lt;/li>
+&lt;li>Platform-independent directory delimiters;&lt;/li>
+&lt;li>Variable unpacking;&lt;/li>
+&lt;li>&lt;code>.get&lt;/code> instead of &lt;code>[key]&lt;/code> for dictionary iterations;&lt;/li>
+&lt;li>Loop two iterators with the zip function;&lt;/li>
+&lt;li>List comprehensions;&lt;/li>
+&lt;li>Multiple assignment with &lt;code>*&lt;/code> and &lt;code>**&lt;/code>;&lt;/li>
+&lt;li>Putting it all together;&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Docs: Paralelismo</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/paralelismo/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/paralelismo/</guid><description>
+&lt;hr>
+&lt;h2 id="how-to-choose-the-right-gunicorn-worker-type-for-productionhttpsluis-senamediumcomgunicorn-worker-types-youre-probably-using-them-wrong-381239e13594">&lt;a href="https://luis-sena.medium.com/gunicorn-worker-types-youre-probably-using-them-wrong-381239e13594" target="_blank" rel="noopener">How to choose the right Gunicorn Worker Type for production&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/luis-sena/">&lt;strong>Luis Sena&lt;/strong>&lt;/a>
+em 25/01/2021.&lt;/p>
+&lt;p>Como escolher o tipo de &lt;code>worker&lt;/code> certo para escalar seu projeto &lt;a href="https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface" target="_blank" rel="noopener">WSGI (&lt;em>Web Server Gateway Interface&lt;/em>)&lt;/a>
+para o próximo nível, aproveitando tudo o que o &lt;a href="https://gunicorn.org/" target="_blank" rel="noopener">Gunicorn&lt;/a>
+tem a oferecer.&lt;/p>
+&lt;hr></description></item><item><title>Docs: Abstract Base Class</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/abstract-class/</link><pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/abstract-class/</guid><description>
+&lt;hr>
+&lt;h2 id="abstract-base-classes-in-python-fundamentals-for-data-scientistshttpstowardsdatasciencecomabstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b">&lt;a href="https://towardsdatascience.com/abstract-base-classes-in-python-fundamentals-for-data-scientists-3c164803224b" target="_blank" rel="noopener">Abstract Base Classes in Python: Fundamentals for Data Scientists&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/erdem-isbilen/">&lt;strong>Erdem Isbilen&lt;/strong>&lt;/a>
+em 08/09/2021.&lt;/p>
+&lt;hr>
+&lt;h2 id="abc-in-python-abstract-base-classhttpsrnijanthanmechmediumcomabc-in-python-abstract-base-class-6a74972a0119">&lt;a href="https://rnijanthanmech.medium.com/abc-in-python-abstract-base-class-6a74972a0119" target="_blank" rel="noopener">ABC in Python (Abstract Base Class)&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/nijanthan/">&lt;strong>nijanthan&lt;/strong>&lt;/a>
+em 19/02/2021.&lt;/p>
+&lt;hr></description></item><item><title>Docs: Decorators</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/decorators/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/decorators/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Decorators&lt;/strong> permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="7-levels-of-using-decorators-in-pythonhttpsmediumcomtechtofreedom7-levels-of-using-decorators-in-python-370473fcbe76">&lt;a href="https://medium.com/techtofreedom/7-levels-of-using-decorators-in-python-370473fcbe76" target="_blank" rel="noopener">7 Levels of Using Decorators in Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/yang-zhou/">&lt;strong>Yang Zhou&lt;/strong>&lt;/a>
+em 13/01/2021.&lt;/p>
+&lt;p>Este artigo apresenta de forma simples e objetiva os principais conceitos, técnicas e usos dos decorators Python ao longo de 7 níveis.&lt;/p>
+&lt;p>Palavras do autor:&lt;/p>
+&lt;blockquote>
+&lt;p>Se você entender metade desses níveis, será fácil ler programas Python contendo decorators.&lt;/p>
+&lt;p>Se você entender todos eles, projetar e escrever decorators em Python será muito fácil.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="6-advanced-python-decorator-patternshttpsbetterprogrammingpubsix-advanced-decorator-patterns-5ffe67552691">&lt;a href="https://betterprogramming.pub/six-advanced-decorator-patterns-5ffe67552691" target="_blank" rel="noopener">6 Advanced Python Decorator Patterns&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bruce-h.-cottman/">&lt;strong>Bruce H. Cottam&lt;/strong>&lt;/a>
+em 01/06/2021.&lt;/p>
+&lt;p>Neste artigo o autor explica com exemplos de código o funcionamento dos decorators através do desenvolvimento de templates.&lt;/p>
+&lt;hr>
+&lt;h2 id="the-single-most-useful-python-decorator-cachehttpsmediumcomdev-todaythe-single-most-useful-python-decorator-cache-88086c07417e">&lt;a href="https://medium.com/dev-today/the-single-most-useful-python-decorator-cache-88086c07417e" target="_blank" rel="noopener">The single most useful Python Decorator @cache&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/felipe-florencio-garcia/">&lt;strong>Felipe Florencio Garcia&lt;/strong>&lt;/a>
+em 10/11/2021.&lt;/p>
+&lt;hr></description></item><item><title>Docs: Graphical User Interface</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/gui/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/gui/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Interface Gráfica do Usuário mais conhecida como GUI (&lt;em>Graphical User Interface&lt;/em>) é um tipo de interface que permite a interação com dispositivos digitais por meio de elementos gráficos como ícones e outros indicadores visuais.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Graphical_user_interface&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="this-new-python-package-builds-awesome-guishttpspreetthemanmediumcomthis-new-python-package-builds-awesome-guis-150defda7915">&lt;a href="https://preettheman.medium.com/this-new-python-package-builds-awesome-guis-150defda7915" target="_blank" rel="noopener">This new Python package builds awesome GUI’s!&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/manpreet-singh/">&lt;strong>Manpreet Singh&lt;/strong>&lt;/a>
+em 13/10/2021.&lt;/p>
+&lt;p>Conheça o pacote &lt;a href="https://github.com/hoffstadt/DearPyGui" target="_blank" rel="noopener">Dear PyGui&lt;/a>
+e alguns &lt;a href="https://github.com/hoffstadt/DearPyGui/wiki/Dear-PyGui-Showcase" target="_blank" rel="noopener">exemplos de uso&lt;/a>
+.&lt;/p>
+&lt;hr></description></item><item><title>Docs: CLI com Python</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/cli/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/cli/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Uma Interface de Linha de Comandos (ILC), em inglês &lt;em>Command-Line Interface&lt;/em> (CLI), é um meio de interagir com um programa de computador, onde o utilizador emite comandos para o programa sob a forma de sucessivas linhas de texto (linhas de comando).&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/" target="_blank" rel="noopener">https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos/&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="make-your-python-cli-tools-pop-with-richhttpshackadaycom20220119make-your-python-cli-tools-pop-with-rich">&lt;a href="https://hackaday.com/2022/01/19/make-your-python-cli-tools-pop-with-rich/" target="_blank" rel="noopener">Make Your Python CLI Tools Pop With Rich&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/matthew-carlson/">&lt;strong>Matthew Carlson&lt;/strong>&lt;/a>
+em 19/01/2022.&lt;/p>
+&lt;p>Apresentação da biblioteca &lt;code>Rich&lt;/code> para dar um &amp;lsquo;up&amp;rsquo; nas ferramentas de linha de comando.&lt;/p>
+&lt;p>&lt;a href="https://github.com/Textualize/rich/blob/master/README.pt-br.md" target="_blank" rel="noopener">Repositório do projeto Rich&lt;/a>
+&lt;/p>
+&lt;p>&lt;a href="https://rich.readthedocs.io/en/latest/index.html#" target="_blank" rel="noopener">Documentação da biblioteca Rich&lt;/a>
+&lt;/p>
+&lt;hr></description></item><item><title>Docs: Debug in Python</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/debug/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/debug/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Na programação de computadores e desenvolvimento de software, debugging ou depuração em portugues, é o processo de encontrar e resolver bugs (defeitos ou problemas que impedem a operação correta) em programas de computador, software ou sistemas.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/Debugging/" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Debugging/&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="debugging-your-code-in-python--pdb-vs-rpdbhttpsitnextiodebugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3">&lt;a href="https://itnext.io/debugging-your-code-in-python-pdb-vs-rpdb-e7bb918a8ac3" target="_blank" rel="noopener">Debugging your code in Python — pdb vs. rpdb&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/fernando-diaz/">&lt;strong>Fernando Diaz&lt;/strong>&lt;/a>
+em 08/09/2021.&lt;/p>
+&lt;p>Veja a diferença entre o &lt;code>pdb&lt;/code> e o &lt;code>rpdb&lt;/code> e como usa-los na prática.&lt;/p>
+&lt;hr>
+&lt;h2 id="stop-using-print-to-debug-in-python-use-icecream-insteadhttpstowardsdatasciencecomstop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc">&lt;a href="https://towardsdatascience.com/stop-using-print-to-debug-in-python-use-icecream-instead-79e17b963fcc" target="_blank" rel="noopener">Stop Using Print to Debug in Python. Use Icecream Instead&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/khuyen-tran/">&lt;strong>Khuyen Tran&lt;/strong>&lt;/a>
+em 13/01/2021.&lt;/p>
+&lt;p>&lt;a href="https://github.com/gruns/icecream" target="_blank" rel="noopener">Icecream&lt;/a>
+é uma biblioteca Python que torna a depuração de impressão mais legível com o mínimo de código.&lt;/p>
+&lt;hr></description></item><item><title>Docs: Secrets Module</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/secrets-module/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/secrets-module/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>O modulo Secrets é usado para gerar números aleatórios criptograficamente fortes adequados para gerenciar dados como senhas, autenticação de conta, tokens de segurança e segredos relacionados.&lt;/p>
+&lt;p>Fonte.: &lt;a href="https://docs.python.org/3/library/secrets.html/" target="_blank" rel="noopener">https://docs.python.org/3/library/secrets.html/&lt;/a>
+&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="the-secrets-module-of-pythonhttpsmediumcompythoneersthe-secrets-module-of-python-150af4c9f300">&lt;a href="https://medium.com/pythoneers/the-secrets-module-of-python-150af4c9f300" target="_blank" rel="noopener">The Secrets Module of Python&lt;/a>
+&lt;/h2>
+&lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/swathi-arun/">&lt;strong>Swathi Arun&lt;/strong>&lt;/a>
+em 08/09/2021.&lt;/p>
+&lt;p>Veja através de alguns exemplos como utilizar este módulo.&lt;/p>
+&lt;hr></description></item></channel></rss>

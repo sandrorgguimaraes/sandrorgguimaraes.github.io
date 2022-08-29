@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Daniele Polencic</title><link>https://sandrorgguimaraes.github.io/autores/daniele-polencic/</link><description>Recent content in Daniele Polencic on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/daniele-polencic/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Daniele Polencic</title><link>https://sandrorgguimaraes.github.io/autores/daniele-polencic/</link><description>Recent content in Daniele Polencic on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/daniele-polencic/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Docker</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/container/containers-docker/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/container/containers-docker/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-run-multiple-containers-with-docker-composehttpswwwfreecodecamporgnewsrun-multiple-containers-with-docker-compose">&lt;a href="https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/" target="_blank" rel="noopener">How to Run Multiple Containers with Docker Compose&lt;/a>
 &lt;/h2>
@@ -46,7 +46,7 @@ em 04/2019.&lt;/p>
 &lt;p>&lt;strong>Dockerized&lt;/strong> retorna mais de 150 comandos definidos em &lt;a href="https://github.com/jessfraz/dockerfiles" target="_blank" rel="noopener">jessfraz/dockerfiles&lt;/a>
 .&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Guias Visuais</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/</guid><description>
+&lt;hr></description></item><item><title>Docs: Guias Visuais</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/ficaadica/guias-visuais/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/ficaadica/guias-visuais/</guid><description>
 &lt;table>
 &lt;thead>
 &lt;tr>

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – codeKarle</title><link>https://sandrorgguimaraes.github.io/autores/codekarle/</link><description>Recent content in codeKarle on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/codekarle/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/ficaadica/conteudo-tecnico/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – codeKarle</title><link>https://sandrorgguimaraes.github.io/autores/codekarle/</link><description>Recent content in codeKarle on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/codekarle/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Conteúdo Técnico</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/ficaadica/conteudo-tecnico/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/ficaadica/conteudo-tecnico/</guid><description>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -66,7 +66,7 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;hr></description></item><item><title>Blog: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</guid><description>
+&lt;hr></description></item><item><title>Docs: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/sistema-notificacao/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/sistema-notificacao/</guid><description>
 &lt;hr>
 &lt;h2 id="notification-system-designhttpscloudificationzonecom20210813notification-system-design">&lt;a href="https://cloudificationzone.com/2021/08/13/notification-system-design/" target="_blank" rel="noopener">Notification System Design&lt;/a>
 &lt;/h2>

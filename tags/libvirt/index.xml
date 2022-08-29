@@ -1,9 +1,9 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – libvirt</title><link>https://sandrorgguimaraes.github.io/tags/libvirt/</link><description>Recent content in libvirt on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/libvirt/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Template de VM's</title><link>https://sandrorgguimaraes.github.io/docs/fazap/template-vm/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/fazap/template-vm/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – libvirt</title><link>https://sandrorgguimaraes.github.io/tags/libvirt/</link><description>Recent content in libvirt on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/libvirt/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Template de VM's</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/</guid><description>
 &lt;blockquote>
 &lt;p>&lt;em>&lt;strong>Observações / informações iniciais:&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>Os procedimentos abaixo foram aplicados em um computador com o &lt;code>Ubuntu 20.04.4 LTS&lt;/code>.&lt;/li>
-&lt;li>Utilizamos como fonte de estudo os artigos listados na seção &lt;a href="https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/">Vivendo &amp;amp; Aprendendo -&amp;gt; Linux -&amp;gt; KVM / libvirt&lt;/a>
+&lt;li>Utilizamos como fonte de estudo os artigos listados na seção &lt;a href="https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/linux/kvm-libvirt/">Vivendo &amp;amp; Aprendendo -&amp;gt; Linux -&amp;gt; KVM / libvirt&lt;/a>
 .&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -49,7 +49,7 @@ e é usado por &lt;a href="https://libvirt.org/apps.html" target="_blank" rel="n
 &lt;/div>
 &lt;p>A imagem abaixo ilustra de forma simples a relação entre o hardware físico (CPU, memória, discos, placa de rede, etc.) o Hypervisor e as máquinas virtuais.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 611px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/fazap/template-vm/exemplo-vm_hua1d768c0155465d5bfde8bb1582d873f_100216_601x355_fill_box_smart1_3.png" width="601" height="355">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/exemplo-vm_hua1d768c0155465d5bfde8bb1582d873f_100216_601x355_fill_box_smart1_3.png" width="601" height="355">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: www.revistaespacios.com/a16v37n27/16372721.html
@@ -127,7 +127,7 @@ habilitado, conforme diagrama abaixo.&lt;/p>
 &lt;p>Maiores detalhes sobre a configuração padrão e dos outros modos disponíveis podem ser obtidos na &lt;a href="https://wiki.libvirt.org/page/VirtualNetworking" target="_blank" rel="noopener">documentação sobre VirtualNetworking do libvirt&lt;/a>
 .&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 712px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/fazap/template-vm/libvirt_virtual_network_default_huf1b4c09426728259192ba928ea6a59c7_77903_702x513_fill_q75_box_smart1.jpg" width="702" height="513">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/libvirt_virtual_network_default_huf1b4c09426728259192ba928ea6a59c7_77903_702x513_fill_q75_box_smart1.jpg" width="702" height="513">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: wiki.libvirt.org/page/File:Virtual_network_default_network_overview.jpg
@@ -240,7 +240,7 @@ configura o sistema de arquivos raiz para contêineres baseados em libvirt.&lt;/
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>virt-viewer centos8
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Deverá aparecer a tela abaixo, de boas vindas à instalação do CentOS Stream 8, onde a primeira coisa é escolher o idioma a ser utilizado no processo de instalação.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 712px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/fazap/template-vm/welcome-centos-stream-8_hufbcefd3c0e93f87e9ba98fc5032c30ba_141814_702x513_fill_box_smart1_3.png" width="702" height="513">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/welcome-centos-stream-8_hufbcefd3c0e93f87e9ba98fc5032c30ba_141814_702x513_fill_box_smart1_3.png" width="702" height="513">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text"> &lt;/p>
 &lt;/div>
@@ -334,7 +334,7 @@ que tem a função de redefinir, desconfigurar ou personalizar uma máquina virt
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo virsh undefine centos8
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pronto! Procedimento concluído, agora podemos clonar a nossa máquina virtual nos próximos artigos.&lt;/p>
 &lt;p>Espero que tenha gostado, deixe seu Feedback abaixo e sinta-se à vontade para colaborar usando o menu da direita.&lt;/p>
-&lt;p>Até breve!&lt;/p></description></item><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/linux/kvm-libvirt/</guid><description>
+&lt;p>Até breve!&lt;/p></description></item><item><title>Docs: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/linux/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/linux/kvm-libvirt/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>O &lt;strong>KVM&lt;/strong> (&lt;em>&lt;strong>K&lt;/strong>ernel-based &lt;strong>V&lt;/strong>irtual &lt;strong>M&lt;/strong>achine&lt;/em>) é um módulo de virtualização no kernel do Linux que permite que o kernel funcione como um &lt;a href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank" rel="noopener">hypervisor&lt;/a>
 . Ele foi incorporado ao kernel Linux principal na versão 2.6.20, que foi lançada em 5 de fevereiro de 2007.&lt;/p>
@@ -379,7 +379,7 @@ em 13/01/2021.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/karim-buzdar/">&lt;strong>Karim Buzdar&lt;/strong>&lt;/a>
 em 30/09/2021.&lt;/p>
 &lt;p>Aprenda como criar um modelo / template de uma máquina virtual para ser utilizado na criação de várias instâncias da mesma.&lt;/p>
-&lt;hr></description></item><item><title>Blog: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/blog/terraform/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/terraform/kvm-libvirt/</guid><description>
+&lt;hr></description></item><item><title>Docs: KVM / libvirt</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/terraform/kvm-libvirt/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/terraform/kvm-libvirt/</guid><description>
 &lt;hr>
 &lt;h2 id="kvm-terraform-and-cloud-init-to-create-local-kvm-resourceshttpsfabianleeorg20200222kvm-terraform-and-cloud-init-to-create-local-kvm-resources">&lt;a href="https://fabianlee.org/2020/02/22/kvm-terraform-and-cloud-init-to-create-local-kvm-resources/" target="_blank" rel="noopener">KVM: Terraform and cloud-init to create local KVM resources&lt;/a>
 &lt;/h2>

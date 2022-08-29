@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Colocando em prática</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/</link><description>Recent content in Colocando em prática on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Fazendo e aprendendo</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/</link><pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/</guid><description/></item><item><title>Docs: Trilha de Estudos</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/</guid><description/></item><item><title>Docs: Partiu Certificação!</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/certificacoes/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/certificacoes/</guid><description/></item><item><title>Docs: TODO: A fazer</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/todo/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/todo/</guid><description>
+&lt;h2 id="container-network">Container Network&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://learnk8s.io/kubernetes-network-packets" target="_blank" rel="noopener">https://learnk8s.io/kubernetes-network-packets&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://iximiuz.com/en/posts/container-networking-is-simple/" target="_blank" rel="noopener">https://iximiuz.com/en/posts/container-networking-is-simple/&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking" target="_blank" rel="noopener">https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://jvns.ca/blog/2016/12/22/container-networking/" target="_blank" rel="noopener">https://jvns.ca/blog/2016/12/22/container-networking/&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://blog.mbrt.dev/posts/container-network/" target="_blank" rel="noopener">https://blog.mbrt.dev/posts/container-network/&lt;/a>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

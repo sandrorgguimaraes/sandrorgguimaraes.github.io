@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – design pattern</title><link>https://sandrorgguimaraes.github.io/categories/design-pattern/</link><description>Recent content in design pattern on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/design-pattern/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Descriptors</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/descriptors/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/descriptors/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – design pattern</title><link>https://sandrorgguimaraes.github.io/categories/design-pattern/</link><description>Recent content in design pattern on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/design-pattern/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Descriptors</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/descriptors/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/descriptors/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>&lt;strong>Descriptors&lt;/strong> é uma forma elegante de controlar o acesso (pesquisa, armazenamento, exclusão, etc.) ao atributo de um objeto.&lt;/p>
 &lt;/div>
@@ -13,7 +13,7 @@ em 01/12/2021.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/raymond-hettinger/">&lt;strong>Raymond Hettinger&lt;/strong>&lt;/a>
 .&lt;/p>
 &lt;p>Documentação oficial do Python.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Decorators</title><link>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/desenvolvimento/python/decorators/</guid><description>
+&lt;hr></description></item><item><title>Docs: Decorators</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/decorators/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/desenvolvimento/python/decorators/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>&lt;strong>Decorators&lt;/strong> permite ao usuário adicionar novas funcionalidades a um objeto existente sem modificar sua estrutura.&lt;/p>
 &lt;/div>

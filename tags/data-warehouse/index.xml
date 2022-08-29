@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – data warehouse</title><link>https://sandrorgguimaraes.github.io/tags/data-warehouse/</link><description>Recent content in data warehouse on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/data-warehouse/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Visão geral</title><link>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – data warehouse</title><link>https://sandrorgguimaraes.github.io/tags/data-warehouse/</link><description>Recent content in data warehouse on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/tags/data-warehouse/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Visão geral</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Em resumo um &lt;strong>DW&lt;/strong> (&lt;em>Data Warehouse&lt;/em>) pode ser definido como um banco de dados especializado, que integra e gerencia o fluxo de informações a partir de bancos de dados corporativos e fonte de dados externas à organização.&lt;/p>
 &lt;/div>
@@ -32,7 +32,7 @@
 &lt;/ul>
 &lt;p>Ou seja, com este sistema os gestores têm condições de tomar decisões não apenas na intuição.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/sad_hu19d7a0a3c2d049f58696b53bf7272272_31439_400x286_fill_box_smart1_3.png" width="400" height="286">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/sad_hu19d7a0a3c2d049f58696b53bf7272272_31439_400x286_fill_box_smart1_3.png" width="400" height="286">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;/p>
@@ -56,7 +56,7 @@ Acesso em: 13 de mar. 2012.&lt;/li>
 &lt;p>Atualmente, pode-se sintetizar &lt;strong>BI&lt;/strong> como um conjunto de ferramentas, conceitos e metodologias que se utiliza da Tecnologia da Informação (TI) para coletar &lt;em>&lt;strong>dados&lt;/strong>&lt;/em>, analisá-los e transformá-los em &lt;em>&lt;strong>informação&lt;/strong>&lt;/em>.&lt;/p>
 &lt;p>Com isso, os sistemas de BI concedem às organizações &lt;em>&lt;strong>conhecimento&lt;/strong>&lt;/em> sobre seus negócios, contribuindo para que os gestores optem pela &lt;em>&lt;strong>decisão&lt;/strong>&lt;/em> mais acertada.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/bi_hu1048601311bcd4210662b61a5e7dacc8_39851_400x306_fill_box_smart1_3.png" width="400" height="306">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/bi_hu1048601311bcd4210662b61a5e7dacc8_39851_400x306_fill_box_smart1_3.png" width="400" height="306">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;/p>
@@ -108,7 +108,7 @@ acesso em: 14 de mar. 2012.&lt;/p>
 &lt;p>A construção deste armazém pode acontecer de duas formas, cada abordagem têm seus prós e contras. As circunstâncias e particularidades de cada projeto é que determinarão qual utilizar.&lt;/p>
 &lt;p>Na abordagem &lt;em>Top-Down&lt;/em> primeiro se monta o DW (corporativo) para num segundo momento criar os DM (departamentais).&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-top-down_hu88d4ce438ecc4d795768fc220673a3fb_46682_400x212_fill_box_smart1_3.png" width="400" height="212">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-top-down_hu88d4ce438ecc4d795768fc220673a3fb_46682_400x212_fill_box_smart1_3.png" width="400" height="212">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://www.dataprix.net/pt-pt/24-data-mart
@@ -117,7 +117,7 @@ Fonte: http://www.dataprix.net/pt-pt/24-data-mart
 &lt;/div>
 &lt;p>Ou utilizar a abordagem &lt;em>Bottom-UP&lt;/em> onde primeiro é criado os DM´s para em seguida montar o DW da organização.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-bottom-up_hu3c1d801b1926d9fc92083ca09c0c89b9_50750_400x213_fill_box_smart1_3.png" width="400" height="213">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-bottom-up_hu3c1d801b1926d9fc92083ca09c0c89b9_50750_400x213_fill_box_smart1_3.png" width="400" height="213">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://www.dataprix.net/pt-pt/24-data-mart
@@ -133,7 +133,7 @@ na modelagem, são os dados primitivos ou dados operacionais segundo &lt;a href=
 &lt;p>Na busca por eficiência das consultas, os dados armazenados no DW ou DM´s, normalmente são desnormalizados e utilizam esquemas multi dimensionais, são os dados derivados ou dados &lt;strong>SAD&lt;/strong> segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
 .&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/olap-oltp_hu70183390894a2306c83d4ad889956479_31862_400x213_fill_box_smart1_3.png" width="400" height="213">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/olap-oltp_hu70183390894a2306c83d4ad889956479_31862_400x213_fill_box_smart1_3.png" width="400" height="213">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html

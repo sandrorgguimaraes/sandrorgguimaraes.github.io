@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – arquitetura de sistemas</title><link>https://sandrorgguimaraes.github.io/categories/arquitetura-de-sistemas/</link><description>Recent content in arquitetura de sistemas on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/arquitetura-de-sistemas/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Desenvolvimento de API´s</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</link><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/api/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – arquitetura de sistemas</title><link>https://sandrorgguimaraes.github.io/categories/arquitetura-de-sistemas/</link><description>Recent content in arquitetura de sistemas on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/arquitetura-de-sistemas/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Desenvolvimento de API´s</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/api/</link><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/api/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Uma API (&lt;em>Application Programming Interface&lt;/em>) ou Interface de Programação de Aplicativos é uma conexão entre computadores ou entre programas de computador. É um tipo de interface de software, oferecendo um serviço a outros softwares.&lt;/p>
 &lt;p>Fonte.: &lt;a href="https://en.wikipedia.org/wiki/API" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/API&lt;/a>
@@ -28,7 +28,7 @@ em 04/05/2022.&lt;/p>
 &lt;blockquote>
 &lt;p>Fornecer exemplos simples ajuda a entender o conceito em si sem muita complexidade, mas na prática as coisas nem sempre são tão simples. Tenho certeza que você sabe do que estou falando 😁&lt;/p>
 &lt;p>É por isso que eu decidi escrever este tutorial. Juntei todos esses aprendizados (bons e ruins) em um artigo digerível, fornecendo um exemplo prático que pode ser seguido. No final, construiremos uma API completa enquanto implementamos uma prática recomendada após a outra.&lt;/p>
-&lt;/blockquote></description></item><item><title>Blog: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/sistema-notificacao/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Sistema de Notificação</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/sistema-notificacao/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/sistema-notificacao/</guid><description>
 &lt;hr>
 &lt;h2 id="notification-system-designhttpscloudificationzonecom20210813notification-system-design">&lt;a href="https://cloudificationzone.com/2021/08/13/notification-system-design/" target="_blank" rel="noopener">Notification System Design&lt;/a>
 &lt;/h2>
@@ -43,7 +43,7 @@ em 13/08/2021.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/codekarle/">&lt;strong>codeKarle&lt;/strong>&lt;/a>
 .&lt;/p>
 &lt;p>Não importa que tipo de sistema você esteja construindo, seja um sistema de comércio eletrônico ou uma plataforma de compartilhamento de conteúdo, você sempre terá um serviço de notificação através do qual notificará seus clientes sobre qualquer novo desenvolvimento. Mas como você construirá tal sistema?&lt;/p>
-&lt;hr></description></item><item><title>Blog: Autenticação</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/autenticacao/</guid><description>
+&lt;hr></description></item><item><title>Docs: Autenticação</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/autenticacao/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/autenticacao/</guid><description>
 &lt;hr>
 &lt;h2 id="you-dont-need-jwt-anymorehttpsmediumcombytesbayyou-dont-need-jwt-anymore-974aa6196976">&lt;a href="https://medium.com/@bytesbay/you-dont-need-jwt-anymore-974aa6196976" target="_blank" rel="noopener">You don’t need JWT anymore&lt;/a>
 &lt;/h2>
@@ -53,7 +53,7 @@ em 02/10/2021.&lt;/p>
 usando mensagens assinadas, utilizando o módulo &lt;a href="https://github.com/bytesbay/web3-token" target="_blank" rel="noopener">web3-token&lt;/a>
 baseado no login do &lt;a href="https://pt.wikipedia.org/wiki/Ethereum" target="_blank" rel="noopener">Ethereum&lt;/a>
 .&lt;/p>
-&lt;hr></description></item><item><title>Blog: Clean Architecture</title><link>https://sandrorgguimaraes.github.io/blog/arquitetura/clean-architecture/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/arquitetura/clean-architecture/</guid><description>
+&lt;hr></description></item><item><title>Docs: Clean Architecture</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/clean-architecture/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/arquitetura/clean-architecture/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Clean Architecture é uma arquitetura de software proposta por &lt;a href="https://sandrorgguimaraes.github.io/autores/uncle-bob/">Robert Cecil Martin (ou Uncle Bob, como é mais conhecido)&lt;/a>
 que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.&lt;/p>

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Bibin Wilson</title><link>https://sandrorgguimaraes.github.io/autores/bibin-wilson/</link><description>Recent content in Bibin Wilson on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/primeiros-passos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Bibin Wilson</title><link>https://sandrorgguimaraes.github.io/autores/bibin-wilson/</link><description>Recent content in Bibin Wilson on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Primeiros passos</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/kubernetes/primeiros-passos/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/kubernetes/primeiros-passos/</guid><description>
 &lt;hr>
 &lt;h2 id="a-kubernetes-documentary-shares-googles-open-source-storyhttpsthenewstackioa-kubernetes-documentary-shares-googles-open-source-story">&lt;a href="https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/" target="_blank" rel="noopener">A Kubernetes Documentary Shares Google’s Open Source Story&lt;/a>
 &lt;/h2>
@@ -32,7 +32,7 @@ em 30/08/2018.&lt;/p>
 &lt;li>Princípios e padrões de desing;&lt;/li>
 &lt;li>Práticas e técnicas recomendadas;&lt;/li>
 &lt;/ul>
-&lt;hr></description></item><item><title>Blog: Conceitos</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-conceitos/</guid><description>
+&lt;hr></description></item><item><title>Docs: Conceitos</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/container/containers-conceitos/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/container/containers-conceitos/</guid><description>
 &lt;hr>
 &lt;h2 id="the-differences-between-docker-containerd-cri-o-and-runchttpswwwtutorialworkscomdifference-docker-containerd-runc-crio-oci">&lt;a href="https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/" target="_blank" rel="noopener">The differences between Docker, containerd, CRI-O and runc&lt;/a>
 &lt;/h2>
@@ -56,7 +56,7 @@ em 14/11/2021.&lt;/p>
 &lt;blockquote>
 &lt;p>Este artigo não é uma tentativa de explicar os contêineres de uma só vez. Em vez disso, é a primeira página do meu estudo de vários anos sobre o domínio. Ele descreve o referido caminho de aprendizado e, em seguida, orienta você, apontando para artigos mais aprofundados neste mesmo blog.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Docker</title><link>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/container/containers-docker/</guid><description>
+&lt;hr></description></item><item><title>Docs: Docker</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/container/containers-docker/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/container/containers-docker/</guid><description>
 &lt;hr>
 &lt;h2 id="how-to-run-multiple-containers-with-docker-composehttpswwwfreecodecamporgnewsrun-multiple-containers-with-docker-compose">&lt;a href="https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/" target="_blank" rel="noopener">How to Run Multiple Containers with Docker Compose&lt;/a>
 &lt;/h2>
@@ -104,7 +104,7 @@ em 04/2019.&lt;/p>
 &lt;p>&lt;strong>Dockerized&lt;/strong> retorna mais de 150 comandos definidos em &lt;a href="https://github.com/jessfraz/dockerfiles" target="_blank" rel="noopener">jessfraz/dockerfiles&lt;/a>
 .&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>Blog: Ingress</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/ingress/</guid><description>
+&lt;hr></description></item><item><title>Docs: Ingress</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/kubernetes/ingress/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/kubernetes/ingress/</guid><description>
 &lt;hr>
 &lt;h2 id="kubernetes-ingress-tutorial-for-beginnershttpsdevopscubecomkubernetes-ingress-tutorial">&lt;a href="https://devopscube.com/kubernetes-ingress-tutorial/" target="_blank" rel="noopener">Kubernetes Ingress Tutorial For Beginners&lt;/a>
 &lt;/h2>
@@ -124,7 +124,7 @@ em 03/03/2022.&lt;/p>
 &lt;p>por &lt;a href="https://sandrorgguimaraes.github.io/autores/bibin-wilson/">&lt;strong>Bibin Wilson&lt;/strong>&lt;/a>
 em 16/03/2022.&lt;/p>
 &lt;p>Este artigo é baseado em uma demonstração real usando DNS público e seu certificado autoassinado.&lt;/p>
-&lt;hr></description></item><item><title>Blog: Certificações</title><link>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/kubernetes/certificacoes/</guid><description>
+&lt;hr></description></item><item><title>Docs: Certificações</title><link>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/kubernetes/certificacoes/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/kubernetes/certificacoes/</guid><description>
 &lt;hr>
 &lt;h2 id="cka-exam-study-guide-a-complete-resource-for-cka-aspirantshttpsdevopscubecomcka-exam-study-guide">&lt;a href="https://devopscube.com/cka-exam-study-guide/" target="_blank" rel="noopener">CKA Exam Study Guide: A Complete Resource For CKA Aspirants&lt;/a>
 &lt;/h2>

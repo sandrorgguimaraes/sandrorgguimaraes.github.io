@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – data warehouse</title><link>https://sandrorgguimaraes.github.io/categories/data-warehouse/</link><description>Recent content in data warehouse on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/data-warehouse/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Visão geral</title><link>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – data warehouse</title><link>https://sandrorgguimaraes.github.io/categories/data-warehouse/</link><description>Recent content in data warehouse on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/categories/data-warehouse/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Visão geral</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/</link><pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>Em resumo um &lt;strong>DW&lt;/strong> (&lt;em>Data Warehouse&lt;/em>) pode ser definido como um banco de dados especializado, que integra e gerencia o fluxo de informações a partir de bancos de dados corporativos e fonte de dados externas à organização.&lt;/p>
 &lt;/div>
@@ -32,7 +32,7 @@
 &lt;/ul>
 &lt;p>Ou seja, com este sistema os gestores têm condições de tomar decisões não apenas na intuição.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/sad_hu19d7a0a3c2d049f58696b53bf7272272_31439_400x286_fill_box_smart1_3.png" width="400" height="286">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/sad_hu19d7a0a3c2d049f58696b53bf7272272_31439_400x286_fill_box_smart1_3.png" width="400" height="286">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;/p>
@@ -56,7 +56,7 @@ Acesso em: 13 de mar. 2012.&lt;/li>
 &lt;p>Atualmente, pode-se sintetizar &lt;strong>BI&lt;/strong> como um conjunto de ferramentas, conceitos e metodologias que se utiliza da Tecnologia da Informação (TI) para coletar &lt;em>&lt;strong>dados&lt;/strong>&lt;/em>, analisá-los e transformá-los em &lt;em>&lt;strong>informação&lt;/strong>&lt;/em>.&lt;/p>
 &lt;p>Com isso, os sistemas de BI concedem às organizações &lt;em>&lt;strong>conhecimento&lt;/strong>&lt;/em> sobre seus negócios, contribuindo para que os gestores optem pela &lt;em>&lt;strong>decisão&lt;/strong>&lt;/em> mais acertada.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/bi_hu1048601311bcd4210662b61a5e7dacc8_39851_400x306_fill_box_smart1_3.png" width="400" height="306">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/bi_hu1048601311bcd4210662b61a5e7dacc8_39851_400x306_fill_box_smart1_3.png" width="400" height="306">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;/p>
@@ -108,7 +108,7 @@ acesso em: 14 de mar. 2012.&lt;/p>
 &lt;p>A construção deste armazém pode acontecer de duas formas, cada abordagem têm seus prós e contras. As circunstâncias e particularidades de cada projeto é que determinarão qual utilizar.&lt;/p>
 &lt;p>Na abordagem &lt;em>Top-Down&lt;/em> primeiro se monta o DW (corporativo) para num segundo momento criar os DM (departamentais).&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-top-down_hu88d4ce438ecc4d795768fc220673a3fb_46682_400x212_fill_box_smart1_3.png" width="400" height="212">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-top-down_hu88d4ce438ecc4d795768fc220673a3fb_46682_400x212_fill_box_smart1_3.png" width="400" height="212">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://www.dataprix.net/pt-pt/24-data-mart
@@ -117,7 +117,7 @@ Fonte: http://www.dataprix.net/pt-pt/24-data-mart
 &lt;/div>
 &lt;p>Ou utilizar a abordagem &lt;em>Bottom-UP&lt;/em> onde primeiro é criado os DM´s para em seguida montar o DW da organização.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-bottom-up_hu3c1d801b1926d9fc92083ca09c0c89b9_50750_400x213_fill_box_smart1_3.png" width="400" height="213">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/data-mart-bottom-up_hu3c1d801b1926d9fc92083ca09c0c89b9_50750_400x213_fill_box_smart1_3.png" width="400" height="213">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://www.dataprix.net/pt-pt/24-data-mart
@@ -133,7 +133,7 @@ na modelagem, são os dados primitivos ou dados operacionais segundo &lt;a href=
 &lt;p>Na busca por eficiência das consultas, os dados armazenados no DW ou DM´s, normalmente são desnormalizados e utilizam esquemas multi dimensionais, são os dados derivados ou dados &lt;strong>SAD&lt;/strong> segundo &lt;a href="https://en.wikipedia.org/wiki/Bill_Inmon" target="_blank" rel="noopener">W. H. Inmon&lt;/a>
 .&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/olap-oltp_hu70183390894a2306c83d4ad889956479_31862_400x213_fill_box_smart1_3.png" width="400" height="213">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/visao-geral/olap-oltp_hu70183390894a2306c83d4ad889956479_31862_400x213_fill_box_smart1_3.png" width="400" height="213">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://datawarehouse4u.info/OLTP-vs-OLAP.html
@@ -289,13 +289,13 @@ apresenta algumas diferenças conceituais entre os dados primitivos e os dados d
 &lt;p>É possível prever os picos de utilização por conta da sazonalidade, por exemplo, no natal o sistema das operadoras de cartão de crédito têm um pico de utilização.&lt;/p>
 &lt;p>Em contrapartida um sistema &lt;strong>DW / SAD&lt;/strong> terá picos de utilização do hardware apenas quando houver solicitações de &lt;strong>ETL&lt;/strong> e / ou consultas &lt;strong>OLAP&lt;/strong> dos usuários e logo em seguida o hardware voltará a ficar ocioso.&lt;/p>
 &lt;p>Neste cenário consegue-se prever o ritmo de crescimento da base de dados, porém o consumo de CPU / memória RAM e espaço para dados temporários já fica mais complicado.&lt;/p>
-&lt;p>Ou seja, a configuração / ajuste fino do hardware que vai atender às demandas dos sistemas legados (&lt;strong>OLTP&lt;/strong>) é totalmente diferente das necessidades / especificações dos sistemas que irão atender às demandas dos sistemas &lt;strong>DW / OLAP&lt;/strong>.&lt;/p></description></item><item><title>Docs: Modelagem Multidimensional</title><link>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/</guid><description>
+&lt;p>Ou seja, a configuração / ajuste fino do hardware que vai atender às demandas dos sistemas legados (&lt;strong>OLTP&lt;/strong>) é totalmente diferente das necessidades / especificações dos sistemas que irão atender às demandas dos sistemas &lt;strong>DW / OLAP&lt;/strong>.&lt;/p></description></item><item><title>Docs: Modelagem Multidimensional</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/</guid><description>
 &lt;h2 id="cubo-de-dados">Cubo de Dados&lt;/h2>
 &lt;p>Um &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#datawarehouse-dw--data-mart-dm">&lt;strong>DW&lt;/strong>&lt;/a>
 tem como principal objetivo servir de repositório para a analise de grandes massas de dados através de consultas &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#oltp--olap">&lt;strong>OLAP&lt;/strong>&lt;/a>
 , neste cenário observa-se dados centrais (os fatos ou métricas) que serão consultados sob diversas perspectivas (as dimensões ou parâmetros) criando a abstração do cubo de dados, conforme figura abaixo:&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 515px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/cubo_huca529dfab1b93f0e98f87087bbaf60a9_18075_505x317_fill_q75_box_smart1.jpg" width="505" height="317">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/cubo_huca529dfab1b93f0e98f87087bbaf60a9_18075_505x317_fill_q75_box_smart1.jpg" width="505" height="317">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://www.devmedia.com.br/parceiros/fig02.jpg
@@ -305,7 +305,7 @@ Fonte: http://www.devmedia.com.br/parceiros/fig02.jpg
 &lt;p>Conceitualmente uma base de dados multidimensional é representada pelo cubo de dados; mas partindo para o modelo lógico e físico a forma mais simples de representar uma base de dados multidimensional é a figura abaixo:&lt;/p>
 &lt;h2 id="modelo-estrela--floco-de-neve">Modelo Estrela | Floco de Neve&lt;/h2>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 515px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/estrutura-modelo-estrela_hu4b783ad7c0e0a8c4e3c84b5f6cc2e852_11856_505x317_fill_box_smart1_3.png" width="505" height="317">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/estrutura-modelo-estrela_hu4b783ad7c0e0a8c4e3c84b5f6cc2e852_11856_505x317_fill_box_smart1_3.png" width="505" height="317">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://www.ime.usp.br/~jef/apostila.pdf
@@ -335,7 +335,7 @@ e &lt;a href="https://pt.wikipedia.org/wiki/Ralph_Kimball" target="_blank" rel="
 &lt;p>Durante o desenho da solução o analista de &lt;a href="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/visao-geral/#sad-sistema-de-apoio-%c3%a0-decis%c3%a3o">&lt;strong>SAD&lt;/strong>&lt;/a>
 define quais métricas serão armazenadas nas tabelas fatos e quais parametros serão armazenados nas tabelas dimensões, observe a figura abaixo.&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 446px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/modelo-dimensional_hufaf8da8b85f00f88d81b9b1912e5c77f_33611_436x217_fill_box_smart1_3.png" width="436" height="217">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/modelo-dimensional_hufaf8da8b85f00f88d81b9b1912e5c77f_33611_436x217_fill_box_smart1_3.png" width="436" height="217">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: http://hub05.neogrid.com.br/Docs/help/pt_BR/release_notes.htm
@@ -366,7 +366,7 @@ Fonte: http://hub05.neogrid.com.br/Docs/help/pt_BR/release_notes.htm
 &lt;p>Abaixo alguns exemplos de atributos que podem ser utilizados para ajudar a detalhar uma chave facilitando na definição dos parametros da consulta &lt;strong>OLAP&lt;/strong>.&lt;/p>
 &lt;p>&lt;strong>Atributos estruturais para relacionamentos pai-filho;&lt;/strong>&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 516px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/atributos-estruturais_hud3a2b7ae5021858728979b6c9b55e5d1_17283_506x302_fill_box_smart1_3.png" width="506" height="302">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/atributos-estruturais_hud3a2b7ae5021858728979b6c9b55e5d1_17283_506x302_fill_box_smart1_3.png" width="506" height="302">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 362 p.
@@ -375,7 +375,7 @@ Fonte: HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 
 &lt;/div>
 &lt;p>&lt;strong>Atributos para definição de nível;&lt;/strong>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 307px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/atributos-nivel_huc1e3fa069c2cf20085f60789a6e2e408_5577_297x203_fill_box_smart1_3.png" width="297" height="203">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/atributos-nivel_huc1e3fa069c2cf20085f60789a6e2e408_5577_297x203_fill_box_smart1_3.png" width="297" height="203">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 362 p.
@@ -384,7 +384,7 @@ Fonte: HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 
 &lt;/div>&lt;/p>
 &lt;p>&lt;strong>Atributos tipo &amp;ldquo;flag&amp;rdquo; de resolução e/ou de seqüência;&lt;/strong>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 439px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/atributos-flag-resolucao-sequencia_hub9c292590af1e390da556a42d5408469_9249_429x196_fill_box_smart1_3.png" width="429" height="196">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/atributos-flag-resolucao-sequencia_hub9c292590af1e390da556a42d5408469_9249_429x196_fill_box_smart1_3.png" width="429" height="196">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Fonte: HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 362 p.
@@ -404,7 +404,7 @@ Fonte: HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 
 &lt;p>Normalmente na tabela fato a chave primária (&lt;strong>PK&lt;/strong>) é composta, sendo que cada elemento é uma chave estrangeira (&lt;strong>FK&lt;/strong>) vinculada à uma tabela dimensão, sendo que a dimensão tempo sempre faz parte deste conjunto.&lt;/p>
 &lt;p>Em alguns casos podemos ter uma tabela sem fato, onde apenas a relação entre as dimensões já é o suficiente para a área de negócios, conforme o exemplo:&lt;/p>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 529px">
-&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/trilhadeestudo/diario-de-bordo-v1/modelagem/tabela-sem-fato_hu333bd08d2784cdc2113d0b0a1b107dd4_79229_519x369_fill_box_smart1_3.png" width="519" height="369">
+&lt;img class="card-img-top" src="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/trilhadeestudo/diario-de-bordo-v1/modelagem/tabela-sem-fato_hu333bd08d2784cdc2113d0b0a1b107dd4_79229_519x369_fill_box_smart1_3.png" width="519" height="369">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 &lt;/p>

@@ -28,7 +28,7 @@ resources:
 > ***Observações / informações iniciais:***
 >
 > - Os procedimentos abaixo foram aplicados em um computador com o `Ubuntu 20.04.4 LTS`.
-> - Utilizamos como fonte de estudo os artigos listados na seção [Vivendo & Aprendendo -> Linux -> KVM / libvirt](/blog/linux/kvm-libvirt/).
+> - Utilizamos como fonte de estudo os artigos listados na seção [Vivendo & Aprendendo -> Linux -> KVM / libvirt](/docs/vivendo-e-aprendendo/linux/kvm-libvirt/).
 
 ## Entendendo os conceitos
 

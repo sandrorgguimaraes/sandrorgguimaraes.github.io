@@ -31,9 +31,9 @@ Além dos materiais citados acima estou realizando o curso [*Certified Kubernete
 
 Temos também um compilado de materiais sobre os mais diversos aspectos relacionados à certificação nos link's abaixo:
 
-- [Vivendo & Aprendendo -> Linux -> Container Network](../../../blog/linux/container-networking/)
-- [Vivendo & Aprendendo -> Containers](../../../blog/container/)
-- [Vivendo & Aprendendo -> Kubernetes](../../../blog/kubernetes/)
-- [Vivendo & Aprendendo -> #FicaaDica](../../../blog/ficaadica/)
+- [Vivendo & Aprendendo -> Linux -> Container Network](../../../vivendo-e-aprendendo/linux/container-networking/)
+- [Vivendo & Aprendendo -> Containers](../../../vivendo-e-aprendendo/container/)
+- [Vivendo & Aprendendo -> Kubernetes](../../../vivendo-e-aprendendo/kubernetes/)
+- [Vivendo & Aprendendo -> #FicaaDica](../../../vivendo-e-aprendendo/ficaadica/)
 
 Bons estudos para todos nós!

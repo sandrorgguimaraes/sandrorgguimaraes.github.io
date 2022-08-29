@@ -25,7 +25,7 @@ Abaixo alguns tópicos básicos para direcionar o entendimento sobre o funcionam
 
 > Link's úteis:
 >
-> - [Vivendo & Aprendendo - Linux - Container Networking](/blog/linux/container-networking/)
+> - [Vivendo & Aprendendo - Linux - Container Networking](/docs/vivendo-e-aprendendo/linux/container-networking/)
 
 ### Kubernetes
 
@@ -46,7 +46,7 @@ A rede é uma parte central do Kubernetes, e pode ser um desafio entender exatam
 >
 > - [Doc K8S - Conceitos - Estendendo Kubernetes - Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 > - [Doc K8S - Conceitos - Services, Load Balancing, and Networking # O modelo de rede do Kubernetes](https://kubernetes.io/docs/concepts/services-networking/#the-kubernetes-network-model)
-> - [Vivendo & Aprendendo - Kubernetes - Network](/blog/kubernetes/network/)
+> - [Vivendo & Aprendendo - Kubernetes - Network](/docs/vivendo-e-aprendendo/kubernetes/network/)
 
 ## Pod Networking
 

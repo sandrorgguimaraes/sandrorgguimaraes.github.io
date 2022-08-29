@@ -21,7 +21,7 @@ slug: multicluster
 ---
 
 {{% pageinfo %}}
-Kind (***K**ubernetes **in** **D**ocker*) é uma ferramenta para executar clusters locais do Kubernetes usando contêineres do Docker como nodes do Kubernetes, foi projetado principalmente para testar o próprio Kubernetes, mas pode ser usado para desenvolvimento local ou [CI (*Continuous Integration*)](/blog/devops/ci-cd/).
+Kind (***K**ubernetes **in** **D**ocker*) é uma ferramenta para executar clusters locais do Kubernetes usando contêineres do Docker como nodes do Kubernetes, foi projetado principalmente para testar o próprio Kubernetes, mas pode ser usado para desenvolvimento local ou [CI (*Continuous Integration*)](/docs/vivendo-e-aprendendo/devops/ci-cd/).
 {{% /pageinfo %}}
 
 ---

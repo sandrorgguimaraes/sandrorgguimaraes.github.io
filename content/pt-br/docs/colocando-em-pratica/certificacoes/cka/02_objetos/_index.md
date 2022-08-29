@@ -23,7 +23,7 @@ Fonte.: [Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Explore seu apl
 >
 > - [Doc K8S - Conceitos - Cargas de trabalho - Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
 > - [Doc K8S - Tutoriais - Aprenda o básico do Kubernetes - Explore seu aplicativo - Visualizando Pods e Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
-> - [Vivendo & Aprendendo - Kubernetes - Pod's](../../../../blog/kubernetes/pods/)
+> - [Vivendo & Aprendendo - Kubernetes - Pod's](../../../../vivendo-e-aprendendo/kubernetes/pods/)
 
 ## ReplicaSets
 

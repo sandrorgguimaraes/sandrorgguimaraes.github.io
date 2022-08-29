@@ -77,7 +77,7 @@ Os fatores levados em consideração para as decisões de agendamento incluem:
 >
 > - [Doc K8S - Conceitos - Agendamento, Preempção e Despejo - Agendador do Kubernetes](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
 > - [Doc K8S - Referência - Ferramentas de componentes - kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/)
-> - [Vivendo & Aprendendo - Kubernetes - Scheduler](../../../../blog/kubernetes/scheduler/)
+> - [Vivendo & Aprendendo - Kubernetes - Scheduler](../../../../vivendo-e-aprendendo/kubernetes/scheduler/)
 
 ## Componentes dos Worker Nodes
 

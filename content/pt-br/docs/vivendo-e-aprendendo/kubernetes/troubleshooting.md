@@ -15,7 +15,7 @@ slug: troubleshooting
 
 ---
 
-## [Compilado de Guias Visuais para auxiliar na resolução dos problemas](https://sandrorgguimaraes.github.io/blog/ficaadica/guias-visuais/)
+## [Compilado de Guias Visuais para auxiliar na resolução dos problemas](https://sandrorgguimaraes.github.io/docs/vivendo-e-aprendendo/ficaadica/guias-visuais/)
 
 ---
 

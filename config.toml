@@ -102,7 +102,19 @@ enable = true
 
 [menu]
 [[menu.main]]
+  identifier = 'vivendo-e-aprendendo'
+  name = 'Vivendo & Aprendendo'
+  url = '/docs/vivendo-e-aprendendo/'
+  # pre = "<i class='fas fa-blog'></i>"
+  weight = 10
+[[menu.main]]
+  identifier = 'colocando-em-pratica'
+  name = 'Colocando em prática'
+  url = '/docs/colocando-em-pratica/'
+  # pre = "<i class='fas fa-book'></i>"
+  weight = 20
+[[menu.main]]
   identifier = '#FicaaDica'
   name = '#FicaaDica'
-  url = '/blog/ficaadica/'
-  weight = 10
+  url = '/docs/vivendo-e-aprendendo/ficaadica/'
+  weight = 30

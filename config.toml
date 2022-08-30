@@ -114,7 +114,7 @@ enable = true
   # pre = "<i class='fas fa-book'></i>"
   weight = 20
 [[menu.main]]
-  identifier = '#FicaaDica'
-  name = '#FicaaDica'
-  url = '/docs/vivendo-e-aprendendo/ficaadica/'
+  identifier = 'hashtags'
+  name = 'HashTags'
+  url = '/docs/hashtags/'
   weight = 30

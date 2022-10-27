@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Sandro Rogério</title><link>https://sandrorgguimaraes.github.io/autores/sandro-rog%C3%A9rio/</link><description>Recent content in Sandro Rogério on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/sandro-rog%C3%A9rio/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Template de VM's</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diário de Bordo – Sandro Rogério</title><link>https://sandrorgguimaraes.github.io/autores/sandro-rog%C3%A9rio/</link><description>Recent content in Sandro Rogério on Diário de Bordo</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandrorgguimaraes.github.io/autores/sandro-rog%C3%A9rio/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Template de VM's</title><link>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/fazap/template-vm/</guid><description>
 &lt;blockquote>
 &lt;p>&lt;em>&lt;strong>Observações / informações iniciais:&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
@@ -745,4 +745,66 @@ Fonte: HARRISON, Thomas H. Intranet Data Warehouse. São Paulo, Berkeley, 1998. 
 &lt;p class="card-text">
 &lt;/p>
 &lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;/div></description></item><item><title>Blog: Outubro 2022</title><link>https://sandrorgguimaraes.github.io/blog/novidades/novidades-2022-10/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate><guid>https://sandrorgguimaraes.github.io/blog/novidades/novidades-2022-10/</guid><description>
+&lt;p>Olá! Após um longo período sem atualizações por conta dos estudos para a certificação CKA estamos retomando os trabalhos aqui no Diário de Bordo e já implementando algumas mudanças, como por exemplo, esse post com as novidades. Bom! vamos ver então o que temos de novo:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#mudan%c3%a7a-estrutural">Mudança estrutural&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#formato-das-postagens">Formato das postagens&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#destaque-para-as-hashtags">Destaque para as &lt;code>HashTags&lt;/code>&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#cria%c3%a7%c3%a3o-da-se%c3%a7%c3%a3o-novidades">Criação da seção &lt;code>Novidades&lt;/code>&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#certifica%c3%a7%c3%b5es">Certificações&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#artigos-publicados">Artigos publicados&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#ambientes-interativos">Ambientes interativos&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="mudança-estrutural">Mudança estrutural&lt;/h2>
+&lt;h3 id="formato-das-postagens">Formato das postagens&lt;/h3>
+&lt;p>Nós utilizamos o gerador de sites estáticos &lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a>
+com o tema &lt;a href="https://www.docsy.dev/" target="_blank" rel="noopener">Docsy&lt;/a>
+para criar este Diário de Bordo, e o &lt;a href="https://www.docsy.dev/" target="_blank" rel="noopener">Docsy&lt;/a>
+oferece 2 estruturas básicas de publicações, uma usa o formato de Blog e a outra usa o formato de Documentação.&lt;/p>
+&lt;p>Inicialmente estavamos usando o formato de blog na seção &lt;code>Vivendo &amp;amp; Aprendendo&lt;/code> e o formato de documentação na seção &lt;code>Colocando em prática&lt;/code>, só que percebemos que à medida que a seção &lt;code>Vivendo &amp;amp; Aprendendo&lt;/code> crescia não estava fazendo sentido manter a estrutura de blog, então decidimos muda-la para o formato de documentação, ainda precisamos fazer alguns ajustes e configurações para melhorar a navegação.&lt;/p>
+&lt;h3 id="destaque-para-as-hashtags">Destaque para as &lt;code>HashTags&lt;/code>&lt;/h3>
+&lt;p>Sentimos a necessidade de dar um destaque maior para a seção &lt;code>HashTags&lt;/code>, que antes ficava dentro de &lt;code>Vivendo &amp;amp; Aprendendo&lt;/code>.&lt;/p>
+&lt;p>Em breve adicionaremos novas hashtags e divulgaremos aqui.&lt;/p>
+&lt;h3 id="criação-da-seção-novidades">Criação da seção &lt;code>Novidades&lt;/code>&lt;/h3>
+&lt;p>E para mantermos um histórico da evolução do Diário de Bordo criamos esta seção &lt;code>Novidades&lt;/code> utilizando o formato de blog com este primeiro post, e a ideia é mensalmente postarmos o que tenho feito, criado, lido, etc.&lt;/p>
+&lt;p>Então vamos às novidades&amp;hellip;&lt;/p>
+&lt;h2 id="certificações">Certificações&lt;/h2>
+&lt;p>O esforço e dedicação deu resultado, fui aprovado na &lt;a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/3d51e6c1-b569-4bae-9b0b-10cd4078a484-sandro-rogrio-galvo-guimares-98b858c4-531e-4a61-8800-09ec2685b5e5-certificate.pdf" target="_blank" rel="noopener">Certified Kubernetes Administrator (CKA)&lt;/a>
+, maiores detalhes sobre o processo, trilha de estudos, dicas, etc. dê uma olhada aqui &lt;a href="https://sandrorgguimaraes.github.io/docs/colocando-em-pratica/certificacoes/cka/">Colocando em prática -&amp;gt; Partiu Certificação -&amp;gt; Certified Kubernetes Administrator (CKA)&lt;/a>
+.&lt;/p>
+&lt;h2 id="artigos-publicados">Artigos publicados&lt;/h2>
+&lt;p>No mês de setembro iniciamos a publicação de artigos no &lt;a href="https://sandrorgguimaraes.medium.com/" target="_blank" rel="noopener">Medium&lt;/a>
+e para conhecer o sistema optei por republicar posts do &lt;a href="https://sandrorgguimaraes.blogspot.com/" target="_blank" rel="noopener">Diário de Bordo original no Blogger&lt;/a>
+de 2012, resultando nos 2 artigos abaixo.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://sandrorgguimaraes.medium.com/vis%C3%A3o-geral-de-um-dw-data-warehouse-e-seus-componentes-56bd123ca9f4" target="_blank" rel="noopener">Visão geral de um Data Warehouse e seus componentes&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://sandrorgguimaraes.medium.com/modelagem-multidimensional-ac7d8a69d8b3" target="_blank" rel="noopener">Modelagem Multidimensional&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;p>E para inaugurar essa nova etapa, com conteúdo novo, publicamos o artigo:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://sandrorgguimaraes.medium.com/ssh-contato-imeditato-de-primeiro-grau-96849af3dcc3" target="_blank" rel="noopener">SSH! Contato imeditato de primeiro grau…&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;p>Para nos apoiar dêem uma lida nos artigos, se gostar do conteúdo dê um like / bata palmas e me siga no Medium.&lt;/p>
+&lt;h2 id="ambientes-interativos">Ambientes interativos&lt;/h2>
+&lt;p>Junto com os artigos, decidimos também iniciar o uso do &lt;a href="https://killercoda.com/sandrorgguimaraes" target="_blank" rel="noopener">Killercoda&lt;/a>
+, este site nos permite criar e disponibilizar gratuitamente ambientes interativos no navegador com cenários de estudo / treino, e o nosso primeiro foi:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://killercoda.com/sandrorgguimaraes/course/linux/ssh" target="_blank" rel="noopener">SSH - Contato imediato de primeiro grau&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;p>Por enquanto é isso, obrigado pela atenção.&lt;/p>
+&lt;p>Gostou de algo? Compartilhe!&lt;/p>
+&lt;p>Até a próxima.&lt;/p></description></item></channel></rss>

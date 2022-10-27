@@ -1,3 +1,3 @@
 ---
-title: Novidades
+title: Diário de Bordo
 ---

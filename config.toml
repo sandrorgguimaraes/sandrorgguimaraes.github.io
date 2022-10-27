@@ -92,6 +92,14 @@ enable = true
   name = "GitHub"
   url = "https://github.com/sandrorgguimaraes/"
   icon = "fab fa-github-square"
+[[params.links.user]]
+  name = "Medium"
+  url = "https://sandrorgguimaraes.medium.com/"
+  icon = "fab fa-medium"
+# [[params.links.user]]
+#   name = "Killercoda"
+#   url = "https://killercoda.com/sandrorgguimaraes/"
+#   icon = "fab fa-console"
 
 [frontmatter]
   date = ['lastmod', 'date', 'publishDate']
@@ -102,19 +110,26 @@ enable = true
 
 [menu]
 [[menu.main]]
+  identifier = 'novidades'
+  name = 'Novidades!'
+  url = '/blog/'
+  pre = "<i class='fas fa-blog'></i>"
+  weight = 10
+[[menu.main]]
   identifier = 'vivendo-e-aprendendo'
   name = 'Vivendo & Aprendendo'
   url = '/docs/vivendo-e-aprendendo/'
-  # pre = "<i class='fas fa-blog'></i>"
-  weight = 10
+  pre = "<i class='fas fa-book'></i>"
+  weight = 20
 [[menu.main]]
   identifier = 'colocando-em-pratica'
   name = 'Colocando em prática'
   url = '/docs/colocando-em-pratica/'
-  # pre = "<i class='fas fa-book'></i>"
-  weight = 20
+  pre = "<i class='fas fa-book'></i>"
+  weight = 30
 [[menu.main]]
   identifier = 'hashtags'
   name = 'HashTags'
   url = '/docs/hashtags/'
-  weight = 30
+  pre = "<i class='fas fa-hashtag'></i>"
+  weight = 40
